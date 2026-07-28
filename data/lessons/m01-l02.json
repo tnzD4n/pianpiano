@@ -1,0 +1,262 @@
+{
+  "id": "m01-l02",
+  "module": "m01",
+  "title": "El alfabeto y los sonidos",
+  "goal": "Al final de esta lección sabrás leer en voz alta cualquier palabra italiana: el alfabeto, los grupos ce/ci y che/chi, ge/gi y ghe/ghi, y los sonidos gli, gn, sc y z.",
+  "vocab": [
+    {
+      "it": "alfabeto",
+      "es": "el alfabeto",
+      "gender": "m",
+      "plural": "alfabeti",
+      "note": null
+    },
+    {
+      "it": "lettera",
+      "es": "la letra",
+      "gender": "f",
+      "plural": "lettere",
+      "note": "También significa «la carta» que se echa al buzón."
+    },
+    {
+      "it": "parola",
+      "es": "la palabra",
+      "gender": "f",
+      "plural": "parole",
+      "note": null
+    },
+    {
+      "it": "cena",
+      "es": "la cena",
+      "gender": "f",
+      "plural": "cene",
+      "note": "Se lee /CHE-na/: *ce* suena como «che» en español."
+    },
+    {
+      "it": "cinema",
+      "es": "el cine",
+      "gender": "m",
+      "plural": "cinema",
+      "note": "Se lee /CHI-ne-ma/. Invariable: *un cinema, due cinema*."
+    },
+    {
+      "it": "chiave",
+      "es": "la llave",
+      "gender": "f",
+      "plural": "chiavi",
+      "note": "Se lee /QUIA-ve/: la *h* endurece la *c*."
+    },
+    {
+      "it": "gelato",
+      "es": "el helado",
+      "gender": "m",
+      "plural": "gelati",
+      "note": "La *ge* suena como la *j* inglesa de *jeans*."
+    },
+    {
+      "it": "ghiaccio",
+      "es": "el hielo",
+      "gender": "m",
+      "plural": "ghiacci",
+      "note": "Se lee /GUIA-cho/: *ghi* = «gui»."
+    },
+    {
+      "it": "famiglia",
+      "es": "la familia",
+      "gender": "f",
+      "plural": "famiglie",
+      "note": "El grupo *gli* es un sonido propio del italiano: se parece a la «ll» pero con la lengua plana contra el paladar."
+    },
+    {
+      "it": "bagno",
+      "es": "el baño",
+      "gender": "m",
+      "plural": "bagni",
+      "note": "*gn* suena exactamente como la «ñ» española."
+    },
+    {
+      "it": "sciarpa",
+      "es": "la bufanda",
+      "gender": "f",
+      "plural": "sciarpe",
+      "note": "*sci* suena «shi», como en el inglés *she*."
+    },
+    {
+      "it": "scuola",
+      "es": "la escuela",
+      "gender": "f",
+      "plural": "scuole",
+      "note": "Con *a, o, u* el grupo *sc* suena «sk»."
+    },
+    {
+      "it": "zaino",
+      "es": "la mochila",
+      "gender": "m",
+      "plural": "zaini",
+      "note": "La *z* inicial suena «ds». Lleva el artículo *lo*: *lo zaino*."
+    },
+    {
+      "it": "pizza",
+      "es": "la pizza",
+      "gender": "f",
+      "plural": "pizze",
+      "note": "La *zz* suena «ts», nunca como la «z» del español de España."
+    },
+    {
+      "it": "acqua",
+      "es": "el agua",
+      "gender": "f",
+      "plural": "acque",
+      "note": "El grupo *cqu* se escribe siempre así y se pronuncia doble: /AC-cua/."
+    },
+    {
+      "it": "gente",
+      "es": "la gente",
+      "gender": "f",
+      "plural": null,
+      "note": "Se lee /YEN-te/, con la *g* blanda."
+    }
+  ],
+  "grammar": [
+    {
+      "heading": "El alfabeto italiano tiene 21 letras",
+      "body": "Faltan cinco letras respecto al español: **j, k, w, x, y** solo aparecen en palabras extranjeras (*jazz, koala, weekend, taxi, yogurt*). Tampoco existe la **ñ**, porque ese sonido se escribe *gn*.\n\nLa **h** no se pronuncia nunca. La **v** y la **b** sí se distinguen al hablar, cosa que en español no pasa. Y la **s** entre vocales suele sonar sonora, como un zumbido: *casa* se lee /CA-sa/ con la *s* vibrando.",
+      "table": {
+        "headers": ["Letra", "Se llama", "Letra", "Se llama"],
+        "rows": [
+          ["a", "a", "n", "enne"],
+          ["b", "bi", "o", "o"],
+          ["c", "ci", "p", "pi"],
+          ["d", "di", "q", "cu"],
+          ["e", "e", "r", "erre"],
+          ["f", "effe", "s", "esse"],
+          ["g", "gi", "t", "ti"],
+          ["h", "acca", "u", "u"],
+          ["i", "i", "v", "vu"],
+          ["l", "elle", "z", "zeta"],
+          ["m", "emme", "", ""]
+        ]
+      }
+    },
+    {
+      "heading": "La c y la g: duras y blandas",
+      "body": "Aquí está el 90 % de los errores de un hispanohablante. La regla es un espejo de la española, pero con sonidos distintos: delante de **e** y de **i**, la *c* y la *g* se ablandan; la **h** las vuelve duras.\n\nMerece la pena aprenderla de memoria, porque no falla nunca.",
+      "table": {
+        "headers": ["Se escribe", "Suena", "Ejemplo"],
+        "rows": [
+          ["ca, co, cu", "ka, ko, ku", "casa, come, cuore"],
+          ["ce, ci", "«che», «chi» del español", "cena, cinema"],
+          ["che, chi", "«que», «qui»", "che, chiave, perché"],
+          ["ga, go, gu", "ga, go, gu", "gatto, gonna, gusto"],
+          ["ge, gi", "como la j inglesa de «jeans»", "gelato, giorno"],
+          ["ghe, ghi", "«gue», «gui»", "spaghetti, ghiaccio"]
+        ]
+      }
+    },
+    {
+      "heading": "Cuatro sonidos que el español no tiene (o escribe de otra manera)",
+      "body": "Estos grupos son los que delatan a un principiante. *Gn* es fácil, porque es nuestra «ñ». *Gli* cuesta más: la punta de la lengua no toca los dientes, se apoya toda la lengua contra el paladar. *Sc* y *z* cambian de sonido según la letra que venga detrás.\n\nUn truco para la *z*: si la palabra viene del latín y en español lleva «c» o «z», suele sonar «ts» (*grazie*, *pizza*); si empieza la palabra, suele sonar «ds» (*zaino*, *zero*).",
+      "table": {
+        "headers": ["Grupo", "Suena", "Ejemplos"],
+        "rows": [
+          ["gli", "como una «ll» con la lengua plana", "famiglia, figlio, moglie"],
+          ["gn", "como la «ñ» española", "bagno, signora, gnocchi"],
+          ["sce, sci", "como «sh» en inglés", "pesce, sciarpa"],
+          ["sca, sco, scu, sche, schi", "«sk»", "scuola, scherzo, schiena"],
+          ["z, zz", "«ts» o «ds», nunca la «z» de «zapato»", "grazie, pizza, zaino"]
+        ]
+      }
+    }
+  ],
+  "phrases": [
+    {
+      "it": "Come si scrive?",
+      "es": "¿Cómo se escribe?",
+      "note": null
+    },
+    {
+      "it": "Si scrive con la doppia c.",
+      "es": "Se escribe con doble c.",
+      "note": "Las consonantes dobles son el tema de la lección siguiente."
+    },
+    {
+      "it": "Come si pronuncia questa parola?",
+      "es": "¿Cómo se pronuncia esta palabra?",
+      "note": null
+    },
+    {
+      "it": "Puoi ripetere, per favore?",
+      "es": "¿Puedes repetir, por favor?",
+      "note": "Formal: *Può ripetere, per favore?*"
+    },
+    {
+      "it": "Non capisco.",
+      "es": "No entiendo.",
+      "note": "Con *scusi, non capisco* sales de casi cualquier apuro."
+    },
+    {
+      "it": "Che cosa significa?",
+      "es": "¿Qué significa?",
+      "note": "En el habla se acorta a *cosa significa?*"
+    },
+    {
+      "it": "Parla più lentamente, per favore.",
+      "es": "Habla más despacio, por favor.",
+      "note": "De usted: *Parli più lentamente, per favore.*"
+    }
+  ],
+  "ojo": [
+    {
+      "title": "La z y la c italianas no son las españolas",
+      "body": "Hay dos costumbres que conviene desactivar. La primera: la **c** de *cena* o de *cinema* no se pronuncia con la lengua entre los dientes ni como una «s». Suena como la *ch* de «chocolate»: /CHE-na/, /CHI-ne-ma/.\n\nLa segunda: la **z** italiana no es la «z» de «zapato» ni la «s» del seseo. Es *ts* en *grazie* y en *pizza*, y *ds* en *zaino*. Si dices «grasie» o «grazie» a la española, se entiende, pero suena inmediatamente a extranjero."
+    },
+    {
+      "title": "La h no suena, pero lo cambia todo",
+      "body": "La **h** italiana no se pronuncia jamás. Aparece sola en cuatro formas del verbo *avere* (*ho, hai, ha, hanno*) y, sobre todo, entre una *c* o una *g* y una *e* o una *i*, donde funciona como interruptor: convierte el sonido blando en duro.\n\nCompáralo: *cena* se lee /CHE-na/, pero *che* se lee /que/. *Gelato* se lee con la *g* blanda, pero *ghiaccio* se lee /GUIA-cho/. Escribir *perche* en lugar de *perché* no cambia el sonido de la *ch*, pero sí es una falta de ortografía: el acento final es obligatorio."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "multiple-choice",
+      "prompt": "¿Cómo se pronuncia «chiave»?",
+      "options": ["/CHIA-ve/, como «chico»", "/QUIA-ve/, como «quiso»", "/SHIA-ve/, como «show»"],
+      "answer": 1,
+      "explain": "El grupo *ch* delante de *e* o *i* suena siempre «qu»: *chiave, che, perché*."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "«Familia» en italiano se escribe: la fami___a",
+      "answer": ["gli"],
+      "explain": "El grupo *gli* representa un sonido propio del italiano: *famiglia, figlio, moglie*."
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        ["la chiave", "la llave"],
+        ["il bagno", "el baño"],
+        ["la sciarpa", "la bufanda"],
+        ["lo zaino", "la mochila"],
+        ["il ghiaccio", "el hielo"],
+        ["la scuola", "la escuela"]
+      ]
+    },
+    {
+      "type": "word-order",
+      "words": ["Come", "si", "pronuncia", "questa", "parola", "?"],
+      "answer": "Come si pronuncia questa parola?",
+      "explain": "*Si pronuncia* es la forma impersonal, como el «se pronuncia» español."
+    },
+    {
+      "type": "translation",
+      "prompt": "¿Qué significa?",
+      "answer": ["Che cosa significa?", "Cosa significa?", "Che significa?"],
+      "explain": "Las tres formas existen. *Che cosa significa?* es la completa; en el habla se oye mucho *cosa significa?*"
+    },
+    {
+      "type": "listening",
+      "audio": "La chiave è nello zaino.",
+      "answer": ["La chiave è nello zaino."],
+      "explain": "«La llave está en la mochila». Fíjate en la *è* con acento: es el verbo, no la conjunción *e* («y»)."
+    }
+  ]
+}

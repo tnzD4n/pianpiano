@@ -1,0 +1,320 @@
+{
+  "id": "m02-l01",
+  "module": "m02",
+  "title": "El género de los nombres",
+  "goal": "Al final de esta lección sabrás deducir si un nombre italiano es masculino o femenino por su terminación, y conocerás las palabras que cambian de género respecto al español.",
+  "vocab": [
+    {
+      "it": "libro",
+      "es": "el libro",
+      "gender": "m",
+      "plural": "libri",
+      "note": "El modelo perfecto: acaba en -o y es masculino."
+    },
+    {
+      "it": "casa",
+      "es": "la casa",
+      "gender": "f",
+      "plural": "case",
+      "note": "El otro modelo: acaba en -a y es femenino."
+    },
+    {
+      "it": "latte",
+      "es": "la leche",
+      "gender": "m",
+      "plural": null,
+      "note": "Masculino: *il latte*. En español es femenino, así que hay que reeducar el oído."
+    },
+    {
+      "it": "sangue",
+      "es": "la sangre",
+      "gender": "m",
+      "plural": null,
+      "note": "Masculino: *il sangue*."
+    },
+    {
+      "it": "naso",
+      "es": "la nariz",
+      "gender": "m",
+      "plural": "nasi",
+      "note": "Masculino: *il naso*."
+    },
+    {
+      "it": "fiore",
+      "es": "la flor",
+      "gender": "m",
+      "plural": "fiori",
+      "note": "Masculino: *il fiore*, aunque acabe en -e y en español sea femenino."
+    },
+    {
+      "it": "sale",
+      "es": "la sal",
+      "gender": "m",
+      "plural": null,
+      "note": "Masculino: *il sale*. En la mesa, *il sale e il pepe*: la sal y la pimienta."
+    },
+    {
+      "it": "miele",
+      "es": "la miel",
+      "gender": "m",
+      "plural": null,
+      "note": "Masculino: *il miele*."
+    },
+    {
+      "it": "mano",
+      "es": "la mano",
+      "gender": "f",
+      "plural": "mani",
+      "note": "Femenino aunque acabe en -o, igual que en español. El plural es *mani*."
+    },
+    {
+      "it": "moto",
+      "es": "la moto",
+      "gender": "f",
+      "plural": "moto",
+      "note": "Femenino e invariable: es la forma corta de *motocicletta*. Igual *la foto* y *l'auto*."
+    },
+    {
+      "it": "problema",
+      "es": "el problema",
+      "gender": "m",
+      "plural": "problemi",
+      "note": "Masculino aunque acabe en -a, exactamente como en español."
+    },
+    {
+      "it": "albero",
+      "es": "el árbol",
+      "gender": "m",
+      "plural": "alberi",
+      "note": "Masculino, y el artículo se apostrofa: *l'albero*."
+    },
+    {
+      "it": "coppia",
+      "es": "la pareja",
+      "gender": "f",
+      "plural": "coppie",
+      "note": "«El par» de zapatos es otra palabra: *un paio*."
+    },
+    {
+      "it": "giornale",
+      "es": "el periódico",
+      "gender": "m",
+      "plural": "giornali",
+      "note": "La terminación -e no dice nada del género: *il giornale* es masculino y *la chiave* femenino."
+    },
+    {
+      "it": "stazione",
+      "es": "la estación",
+      "gender": "f",
+      "plural": "stazioni",
+      "note": "Todas las palabras en *-zione* son femeninas, como las españolas en «-ción»."
+    }
+  ],
+  "grammar": [
+    {
+      "heading": "Las tres terminaciones",
+      "body": "En italiano no hay género neutro y casi todo se deduce de la última letra. Lo único que hay que memorizar de verdad son las palabras en **-e**, porque pueden ser de los dos géneros.",
+      "table": {
+        "headers": ["Termina en", "Género", "Ejemplos"],
+        "rows": [
+          ["-o", "masculino casi siempre", "il libro, il naso, il vino"],
+          ["-a", "femenino casi siempre", "la casa, la penna, la birra"],
+          ["-e", "puede ser los dos: se aprende con la palabra", "il fiore (m), la chiave (f)"],
+          ["-zione, -sione", "siempre femenino", "la stazione, la lezione"],
+          ["-ore", "casi siempre masculino", "il colore, il dolore"],
+          ["-tà", "siempre femenino", "la città, la libertà"]
+        ]
+      }
+    },
+    {
+      "heading": "Cuando el italiano y el español no se ponen de acuerdo",
+      "body": "Son pocas, pero salen todos los días. Aprenderlas con el artículo pegado (*il latte*, no *latte*) es la única manera de que no se olviden.",
+      "table": {
+        "headers": ["Italiano", "Español"],
+        "rows": [
+          ["il latte (m)", "la leche (f)"],
+          ["il sangue (m)", "la sangre (f)"],
+          ["il naso (m)", "la nariz (f)"],
+          ["il fiore (m)", "la flor (f)"],
+          ["il sale (m)", "la sal (f)"],
+          ["il miele (m)", "la miel (f)"],
+          ["l'auto (f)", "el coche (m)"],
+          ["la valle (f)", "el valle (m)"],
+          ["l'origine (f)", "el origen (m)"]
+        ]
+      }
+    },
+    {
+      "heading": "Acaban en -a y son masculinos",
+      "body": "Aquí no hay sorpresa, porque el español hace lo mismo: *el problema*, *el tema*, *el sistema*. Vienen todas del griego. Lo único que cambia es el plural, que es **-i**.",
+      "table": {
+        "headers": ["Singular", "Plural", "Español"],
+        "rows": [
+          ["il problema", "i problemi", "el problema"],
+          ["il tema", "i temi", "el tema"],
+          ["il programma", "i programmi", "el programa"],
+          ["il sistema", "i sistemi", "el sistema"],
+          ["il clima", "i climi", "el clima"],
+          ["il cinema", "i cinema", "el cine (invariable)"]
+        ]
+      }
+    }
+  ],
+  "phrases": [
+    {
+      "it": "Come si dice «flor» in italiano?",
+      "es": "¿Cómo se dice «flor» en italiano?",
+      "note": null
+    },
+    {
+      "it": "Si dice «fiore», ed è maschile.",
+      "es": "Se dice «fiore», y es masculino.",
+      "note": "*E* se convierte en *ed* delante de vocal, como el español «y» → «e»."
+    },
+    {
+      "it": "«Mano» è maschile o femminile?",
+      "es": "¿«Mano» es masculino o femenino?",
+      "note": "*Femminile* con dos emes."
+    },
+    {
+      "it": "È femminile: la mano, le mani.",
+      "es": "Es femenino: la mano, las manos.",
+      "note": null
+    },
+    {
+      "it": "Non è «la latte», è «il latte».",
+      "es": "No es «la latte», es «il latte».",
+      "note": null
+    },
+    {
+      "it": "Anche «problema» è maschile, come in spagnolo.",
+      "es": "«Problema» también es masculino, como en español.",
+      "note": "*Anche* va delante de la palabra a la que se refiere."
+    },
+    {
+      "it": "Questo è un albero, non un fiore.",
+      "es": "Esto es un árbol, no una flor.",
+      "note": null
+    },
+    {
+      "it": "Un caffè e un bicchiere d'acqua, per favore.",
+      "es": "Un café y un vaso de agua, por favor.",
+      "note": "En Italia el vaso de agua con el café lo dan sin pedirlo en media península."
+    },
+    {
+      "it": "Ecco il sale.",
+      "es": "Aquí tienes la sal.",
+      "note": "*Ecco* significa «aquí está», «aquí tienes», «toma». No se traduce con un verbo."
+    }
+  ],
+  "ojo": [
+    {
+      "title": "El género no se traduce",
+      "body": "Un hispanohablante da por hecho que si «la leche» es femenina en español, *latte* será femenino en italiano. No lo es, y el error se oye enseguida porque arrastra el artículo.\n\n❌ *la latte* · ✓ *il latte*\n\n❌ *la sangue* · ✓ *il sangue*\n\n❌ *la fiore* · ✓ *il fiore*\n\n❌ *il auto* · ✓ *l'auto* (femenino, como *la moto*)\n\nLa solución práctica: no aprendas nunca un nombre suelto. Aprende *il latte*, *la stazione*, *il fiore*, con el artículo pegado delante, como si fuera una sola palabra."
+    },
+    {
+      "title": "«-o» no siempre es masculino, «-a» no siempre es femenino",
+      "body": "Las terminaciones aciertan el noventa por ciento de las veces, pero hay dos grupos que se salen:\n\n**Femeninas acabadas en -o**: *la mano*, *la moto*, *la foto*, *la radio*, *l'auto*. Casi todas son palabras acortadas (*motocicletta*, *fotografia*, *automobile*), y por eso conservan el género del original.\n\n**Masculinos acabados en -a**: *il problema*, *il tema*, *il programma*, *il sistema*, *il cinema*, *il papa* (el papa; *la papa* no existe, la patata es *la patata*).\n\nEn los dos casos el español hace exactamente lo mismo, así que ya te sabes la lista sin haberla estudiado."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "multiple-choice",
+      "prompt": "«La leche» en italiano se dice…",
+      "options": ["la latte", "il latte", "la latta"],
+      "answer": 1,
+      "explain": "*Latte* es masculino en italiano, aunque «leche» sea femenino en español."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "¿Cuál de estas tres palabras es femenina?",
+      "options": ["il fiore", "la mano", "il problema"],
+      "answer": 1,
+      "explain": "*Mano* es femenino aunque acabe en -o, igual que en español. *Fiore* y *problema* son masculinos."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Una palabra acabada en -zione es…",
+      "options": ["siempre masculina", "siempre femenina", "puede ser las dos"],
+      "answer": 1,
+      "explain": "*La stazione*, *la lezione*, *la colazione*: todas femeninas, como las españolas en «-ción»."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Escribe el artículo correcto: ___ sangue",
+      "answer": ["il"],
+      "explain": "*Il sangue*, masculino."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Escribe el artículo correcto: ___ mano",
+      "answer": ["la"],
+      "explain": "*La mano*, femenino a pesar de la -o."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Escribe el artículo correcto: ___ problema",
+      "answer": ["il"],
+      "explain": "*Il problema*, masculino a pesar de la -a."
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        ["il latte", "la leche"],
+        ["il sangue", "la sangre"],
+        ["il naso", "la nariz"],
+        ["il fiore", "la flor"],
+        ["il sale", "la sal"],
+        ["il miele", "la miel"]
+      ],
+      "explain": "Las seis cambian de género respecto al español: en italiano son todas masculinas."
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        ["il giornale", "el periódico"],
+        ["la stazione", "la estación"],
+        ["la coppia", "la pareja"],
+        ["l'albero", "el árbol"],
+        ["la chiave", "la llave"],
+        ["il bicchiere", "el vaso"]
+      ]
+    },
+    {
+      "type": "word-order",
+      "words": ["Questo", "è", "un", "albero", "non", "un", "fiore"],
+      "answer": "Questo è un albero, non un fiore.",
+      "explain": "*Questo è* para el masculino; para el femenino, *questa è*."
+    },
+    {
+      "type": "word-order",
+      "words": ["Si", "dice", "«fiore»", "ed", "è", "maschile"],
+      "answer": "Si dice «fiore», ed è maschile.",
+      "explain": "*Ed* en lugar de *e* delante de vocal, para que no choquen dos vocales."
+    },
+    {
+      "type": "translation",
+      "prompt": "La leche y la sal.",
+      "answer": ["Il latte e il sale."],
+      "explain": "Las dos son masculinas en italiano."
+    },
+    {
+      "type": "translation",
+      "prompt": "«Problema» también es masculino.",
+      "answer": ["Anche «problema» è maschile.", "Anche problema è maschile"],
+      "explain": "*Anche* se coloca delante de la palabra a la que afecta."
+    },
+    {
+      "type": "listening",
+      "audio": "Il fiore è maschile, la mano è femminile.",
+      "answer": ["Il fiore è maschile, la mano è femminile."],
+      "explain": "Dos irregularidades en una frase: *fiore* masculino en -e, *mano* femenino en -o."
+    },
+    {
+      "type": "listening",
+      "audio": "Ecco il sale e il miele.",
+      "answer": ["Ecco il sale e il miele."],
+      "explain": "«Aquí tienes la sal y la miel». Las dos con artículo masculino."
+    }
+  ]
+}

@@ -1,0 +1,304 @@
+{
+  "id": "m02-l04",
+  "module": "m02",
+  "title": "Artículos indeterminados",
+  "goal": "Al final de esta lección sabrás elegir entre un, uno, una y un', y sabrás por qué el apóstrofo es lo único que distingue «un amigo» de «una amiga».",
+  "vocab": [
+    {
+      "it": "panino",
+      "es": "el bocadillo",
+      "gender": "m",
+      "plural": "panini",
+      "note": "*Un panino* es el bocadillo entero. En español «panini» ya se usa mal: es plural."
+    },
+    {
+      "it": "cornetto",
+      "es": "el cruasán",
+      "gender": "m",
+      "plural": "cornetti",
+      "note": "En el norte de Italia se dice *brioche*, en el sur y en el centro *cornetto*."
+    },
+    {
+      "it": "bottiglia",
+      "es": "la botella",
+      "gender": "f",
+      "plural": "bottiglie",
+      "note": "Con el grupo *gli* en medio: /bot-TI-lla/ aproximadamente."
+    },
+    {
+      "it": "ombrello",
+      "es": "el paraguas",
+      "gender": "m",
+      "plural": "ombrelli",
+      "note": "*Un ombrello*, sin apóstrofo, porque es masculino."
+    },
+    {
+      "it": "idea",
+      "es": "la idea",
+      "gender": "f",
+      "plural": "idee",
+      "note": "*Un'idea*, con apóstrofo. Plural *idee*, con dos ees."
+    },
+    {
+      "it": "ora",
+      "es": "la hora",
+      "gender": "f",
+      "plural": "ore",
+      "note": "*Un'ora*, con apóstrofo. Sin hache, al contrario que en español."
+    },
+    {
+      "it": "errore",
+      "es": "el error",
+      "gender": "m",
+      "plural": "errori",
+      "note": "*Un errore*, sin apóstrofo."
+    },
+    {
+      "it": "sbaglio",
+      "es": "el fallo, la equivocación",
+      "gender": "m",
+      "plural": "sbagli",
+      "note": "*Uno sbaglio*, por la s + consonante. Es más coloquial que *errore*."
+    },
+    {
+      "it": "spuntino",
+      "es": "el tentempié",
+      "gender": "m",
+      "plural": "spuntini",
+      "note": "*Uno spuntino*: lo que se come entre horas."
+    },
+    {
+      "it": "momento",
+      "es": "el momento",
+      "gender": "m",
+      "plural": "momenti",
+      "note": "*Un momento!* es la palabra que más se grita en Italia. También *un attimo!*"
+    },
+    {
+      "it": "sedia",
+      "es": "la silla",
+      "gender": "f",
+      "plural": "sedie",
+      "note": "*Una sedia*. El sillón es *una poltrona*."
+    },
+    {
+      "it": "tavolo",
+      "es": "la mesa",
+      "gender": "m",
+      "plural": "tavoli",
+      "note": "*Il tavolo* es el mueble; *la tavola* es la mesa puesta, con mantel y comida."
+    },
+    {
+      "it": "finestra",
+      "es": "la ventana",
+      "gender": "f",
+      "plural": "finestre",
+      "note": "*Una finestra*. El escaparate de una tienda es *una vetrina*."
+    },
+    {
+      "it": "negozio",
+      "es": "la tienda",
+      "gender": "m",
+      "plural": "negozi",
+      "note": "No es «el negocio»: eso es *un affare*."
+    },
+    {
+      "it": "tenda",
+      "es": "la cortina; la tienda de campaña",
+      "gender": "f",
+      "plural": "tende",
+      "note": "Las dos cosas, y ninguna de las dos es la tienda donde se compra."
+    }
+  ],
+  "grammar": [
+    {
+      "heading": "Un, uno, una, un'",
+      "body": "Se eligen con la misma regla que *il / lo / la*: manda el sonido de la palabra que viene detrás. La única novedad respecto al artículo determinado es que en **masculino delante de vocal no hay apóstrofo**.",
+      "table": {
+        "headers": ["Género", "Forma", "Delante de", "Ejemplo"],
+        "rows": [
+          ["Masculino", "un", "consonante normal y también vocal", "un panino, un errore, un ombrello"],
+          ["Masculino", "uno", "s+consonante, z, ps, gn, x, y", "uno sbaglio, uno zaino, uno spuntino"],
+          ["Femenino", "una", "consonante", "una sedia, una bottiglia"],
+          ["Femenino", "un'", "vocal", "un'idea, un'ora, un'amica"]
+        ]
+      }
+    },
+    {
+      "heading": "El apóstrofo es la marca del femenino",
+      "body": "*Un amico* y *un'amica* se pronuncian casi igual. Al escribir, el apóstrofo es lo único que dice de quién estás hablando.\n\nTruco para no dudar: piensa qué artículo pondrías si la palabra empezara por consonante. Si dirías *una*, entonces lleva apóstrofo.",
+      "table": {
+        "headers": ["Masculino (sin apóstrofo)", "Femenino (con apóstrofo)"],
+        "rows": [
+          ["un amico", "un'amica"],
+          ["un anno", "un'ora"],
+          ["un errore", "un'idea"],
+          ["un ombrello", "un'estate"],
+          ["un albergo", "un'arancia"]
+        ]
+      }
+    },
+    {
+      "heading": "«Unos» y «unas» no existen",
+      "body": "El italiano no tiene plural del artículo indeterminado. Para decir «unos amigos» o «unas sillas» hay tres caminos:\n\n**dei, degli, delle** — el partitivo, que verás en el módulo de la comida: *delle sedie*.\n\n**alcuni, alcune** — «algunos», «algunas»: *alcune sedie*.\n\n**nada** — muchas veces basta con el nombre solo: *sedie e tavoli*, «sillas y mesas»."
+    }
+  ],
+  "phrases": [
+    {
+      "it": "Un panino e una birra, per favore.",
+      "es": "Un bocadillo y una cerveza, por favor.",
+      "note": null
+    },
+    {
+      "it": "Un cornetto e un caffè, per favore.",
+      "es": "Un cruasán y un café, por favor.",
+      "note": "El desayuno italiano estándar, de pie en la barra y en tres minutos."
+    },
+    {
+      "it": "Un tavolo per due, per favore.",
+      "es": "Una mesa para dos, por favor.",
+      "note": "Lo primero que se dice al entrar en un restaurante."
+    },
+    {
+      "it": "Una bottiglia d'acqua, per favore.",
+      "es": "Una botella de agua, por favor.",
+      "note": "*Di acqua* → *d'acqua*, siempre con apóstrofo."
+    },
+    {
+      "it": "Un momento, per favore!",
+      "es": "¡Un momento, por favor!",
+      "note": "También *un attimo!*, todavía más frecuente."
+    },
+    {
+      "it": "È un errore o uno sbaglio?",
+      "es": "¿Es un error o una equivocación?",
+      "note": "*Sbaglio* se usa más para los fallos propios; *errore* es más neutro."
+    },
+    {
+      "it": "Un'ora, non di più.",
+      "es": "Una hora, no más.",
+      "note": "*Un'ora* con apóstrofo, porque *ora* es femenino."
+    },
+    {
+      "it": "Non è un negozio, è un bar.",
+      "es": "No es una tienda, es un bar.",
+      "note": "*Bar* no cambia en plural: *due bar*."
+    }
+  ],
+  "ojo": [
+    {
+      "title": "«Un amico» sin apóstrofo, «un'amica» con él",
+      "body": "El masculino *un* ya acaba en consonante, así que no tiene ninguna vocal que perder: delante de vocal se queda igual. El femenino *una* sí la pierde, y ahí aparece el apóstrofo.\n\n❌ *un'amico* · ✓ *un amico*\n\n❌ *una amica* · ✓ *un'amica*\n\n❌ *un'ombrello* · ✓ *un ombrello*\n\n❌ *una ora* · ✓ *un'ora*\n\nEs una falta pequeña de escribir y grande de leer: quien lo lee entiende otro género."
+    },
+    {
+      "title": "«Tenda» no es una tienda",
+      "body": "Tercer falso amigo de la serie, y de los que hacen gracia solo la primera vez.\n\n**Il negozio** es la tienda donde compras. **La tenda** es la cortina de la ventana, y también la tienda de campaña.\n\n❌ *una tenda di scarpe* → una tienda de campaña de zapatos · ✓ *un negozio di scarpe* → una zapatería\n\nY *negozio* tampoco significa «negocio»: un negocio, en el sentido de asunto o trato, es *un affare*."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "multiple-choice",
+      "prompt": "«Una amiga» en italiano se escribe…",
+      "options": ["una amica", "un'amica", "un amica"],
+      "answer": 1,
+      "explain": "*Una* pierde la vocal delante de otra vocal y se apostrofa: *un'amica*."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "«Un amigo» en italiano se escribe…",
+      "options": ["un'amico", "un amico", "uno amico"],
+      "answer": 1,
+      "explain": "El masculino *un* no se apostrofa nunca: no tiene vocal que perder."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "«Sbaglio» empieza por s + consonante. ¿Qué artículo indeterminado lleva?",
+      "options": ["un", "uno", "un'"],
+      "answer": 1,
+      "explain": "Igual que *lo sbaglio* con el determinado: *uno sbaglio*."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Escribe el artículo: ___ ombrello",
+      "answer": ["un"],
+      "explain": "Masculino delante de vocal: *un ombrello*, sin apóstrofo."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Escribe el artículo: ___ idea",
+      "answer": ["un'"],
+      "explain": "Femenino delante de vocal: *un'idea*, con apóstrofo."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Escribe el artículo: ___ spuntino",
+      "answer": ["uno"],
+      "explain": "s + consonante: *uno spuntino*."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Escribe el artículo: ___ sedia",
+      "answer": ["una"],
+      "explain": "Femenino delante de consonante: *una sedia*."
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        ["un panino", "un bocadillo"],
+        ["un cornetto", "un cruasán"],
+        ["una bottiglia", "una botella"],
+        ["un ombrello", "un paraguas"],
+        ["una tenda", "una cortina"],
+        ["un negozio", "una tienda"]
+      ]
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        ["uno sbaglio", "una equivocación"],
+        ["uno spuntino", "un tentempié"],
+        ["un'ora", "una hora"],
+        ["un'idea", "una idea"],
+        ["una finestra", "una ventana"],
+        ["un tavolo", "una mesa"]
+      ],
+      "explain": "Dos con *uno*, dos con *un'*, dos normales."
+    },
+    {
+      "type": "word-order",
+      "words": ["Un", "tavolo", "per", "due", "per", "favore"],
+      "answer": "Un tavolo per due, per favore.",
+      "explain": "La frase de entrada a cualquier restaurante italiano."
+    },
+    {
+      "type": "word-order",
+      "words": ["Una", "bottiglia", "d'acqua", "per", "favore"],
+      "answer": "Una bottiglia d'acqua, per favore.",
+      "explain": "*Bottiglia* empieza por consonante: *una*, sin apóstrofo."
+    },
+    {
+      "type": "translation",
+      "prompt": "Un bocadillo y una cerveza, por favor.",
+      "answer": ["Un panino e una birra, per favore.", "Un panino e una birra per favore"],
+      "explain": "*Birra* con consonante: *una birra*."
+    },
+    {
+      "type": "translation",
+      "prompt": "Una hora, no más.",
+      "answer": ["Un'ora, non di più.", "Un'ora non di più"],
+      "explain": "*Un'ora* con apóstrofo. Y *più* siempre con acento."
+    },
+    {
+      "type": "listening",
+      "audio": "Un cornetto e un caffè, per favore.",
+      "answer": ["Un cornetto e un caffè, per favore."],
+      "explain": "Los dos masculinos: *un cornetto*, *un caffè*."
+    },
+    {
+      "type": "listening",
+      "audio": "Un momento, per favore!",
+      "answer": ["Un momento, per favore!"],
+      "explain": "Sin signo de apertura: el italiano no escribe «¡»."
+    }
+  ]
+}

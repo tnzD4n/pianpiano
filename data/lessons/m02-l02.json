@@ -1,0 +1,322 @@
+{
+  "id": "m02-l02",
+  "module": "m02",
+  "title": "El plural",
+  "goal": "Al final de esta lección sabrás poner en plural cualquier nombre italiano cambiando la vocal final, y sabrás cuándo hace falta meter una h o dejar la palabra tal cual.",
+  "vocab": [
+    {
+      "it": "ragazzo",
+      "es": "el chico",
+      "gender": "m",
+      "plural": "ragazzi",
+      "note": "También «el novio», según el contexto: *il ragazzo di Giulia*."
+    },
+    {
+      "it": "ragazza",
+      "es": "la chica",
+      "gender": "f",
+      "plural": "ragazze",
+      "note": null
+    },
+    {
+      "it": "uomo",
+      "es": "el hombre",
+      "gender": "m",
+      "plural": "uomini",
+      "note": "Plural totalmente irregular: *gli uomini*, con dos cambios."
+    },
+    {
+      "it": "donna",
+      "es": "la mujer",
+      "gender": "f",
+      "plural": "donne",
+      "note": "*Donna* también se usa como tratamiento antiguo, pero hoy es simplemente «mujer»."
+    },
+    {
+      "it": "bambino",
+      "es": "el niño",
+      "gender": "m",
+      "plural": "bambini",
+      "note": "Femenino *bambina*. *I bambini* sirve para un grupo mixto."
+    },
+    {
+      "it": "banca",
+      "es": "el banco (la entidad)",
+      "gender": "f",
+      "plural": "banche",
+      "note": "Plural con h: *le banche*. El banco de sentarse es *la panchina*."
+    },
+    {
+      "it": "medico",
+      "es": "el médico",
+      "gender": "m",
+      "plural": "medici",
+      "note": "Plural sin h: *i medici*, y suena /MÉ-di-chi/."
+    },
+    {
+      "it": "albergo",
+      "es": "el hotel",
+      "gender": "m",
+      "plural": "alberghi",
+      "note": "Plural con h: *gli alberghi*. También se dice *hotel*, invariable."
+    },
+    {
+      "it": "parco",
+      "es": "el parque",
+      "gender": "m",
+      "plural": "parchi",
+      "note": "Plural con h: *i parchi*."
+    },
+    {
+      "it": "biglietto",
+      "es": "el billete, la entrada",
+      "gender": "m",
+      "plural": "biglietti",
+      "note": "Vale para el tren, el autobús, el cine y el museo."
+    },
+    {
+      "it": "valigia",
+      "es": "la maleta",
+      "gender": "f",
+      "plural": "valigie",
+      "note": "Vocal antes de *-gia* → plural *-gie*: *valigie*."
+    },
+    {
+      "it": "arancia",
+      "es": "la naranja",
+      "gender": "f",
+      "plural": "arance",
+      "note": "Consonante antes de *-cia* → plural *-ce*: *arance*. El color es *arancione*."
+    },
+    {
+      "it": "uovo",
+      "es": "el huevo",
+      "gender": "m",
+      "plural": null,
+      "note": "Singular masculino, plural femenino: *l'uovo* → *le uova*. Es de las poquísimas palabras que hacen esto."
+    },
+    {
+      "it": "euro",
+      "es": "el euro",
+      "gender": "m",
+      "plural": "euro",
+      "note": "Invariable: *dieci euro*, nunca *euri*."
+    },
+    {
+      "it": "bar",
+      "es": "el bar",
+      "gender": "m",
+      "plural": "bar",
+      "note": "Las palabras acabadas en consonante no cambian: *due bar*, *tre film*, *gli sport*."
+    }
+  ],
+  "grammar": [
+    {
+      "heading": "El plural cambia la vocal final. Nunca añade -s",
+      "body": "Esta es toda la regla. El italiano no conoce la -s del plural: mueve la última vocal y ya está. Fíjate en que el masculino y el femenino acaban distinto, y en que las palabras en **-e** van las dos al mismo sitio.",
+      "table": {
+        "headers": ["Singular", "Plural", "Ejemplo"],
+        "rows": [
+          ["-o (masculino)", "-i", "il libro → i libri"],
+          ["-a (femenino)", "-e", "la casa → le case"],
+          ["-e (masculino)", "-i", "il fiore → i fiori"],
+          ["-e (femenino)", "-i", "la chiave → le chiavi"],
+          ["-a (masculino)", "-i", "il problema → i problemi"],
+          ["-io", "-i (una sola i)", "il negozio → i negozi"]
+        ]
+      }
+    },
+    {
+      "heading": "Los plurales que necesitan una h",
+      "body": "El italiano escribe lo que suena. Si *banca* hiciera el plural en *-ce*, sonaría «banche» a la española, es decir /BAN-che/ con la c blanda. Para conservar el sonido k se mete una **h**.\n\nLa excepción son los masculinos acabados en **-ico**: ahí la c sí se ablanda y el plural se escribe **-ici**.",
+      "table": {
+        "headers": ["Singular", "Plural", "Por qué"],
+        "rows": [
+          ["la banca", "le ban**ch**e", "la h mantiene el sonido k"],
+          ["l'amica", "le ami**ch**e", "igual"],
+          ["il parco", "i par**ch**i", "igual"],
+          ["l'albergo", "gli alber**gh**i", "igual, con la g"],
+          ["l'amico", "gli ami**c**i", "excepción: suena /a-MI-chi/"],
+          ["il medico", "i medi**c**i", "excepción: suena /MÉ-di-chi/"]
+        ]
+      }
+    },
+    {
+      "heading": "Los que no cambian nunca",
+      "body": "Un grupo se queda igual en plural. Se reconoce a simple vista: o acaba en acento, o es una palabra corta traída de fuera, o es una abreviatura. Lo que sí cambia es el artículo, y ahí es donde se ve el plural.",
+      "table": {
+        "headers": ["Tipo", "Singular", "Plural"],
+        "rows": [
+          ["Acabados en vocal con acento", "il caffè, la città", "i caffè, le città"],
+          ["Palabras de fuera", "il bar, lo sport, il film", "i bar, gli sport, i film"],
+          ["Abreviaturas", "la moto, la foto, il cinema", "le moto, le foto, i cinema"],
+          ["Irregulares de verdad", "l'uomo, l'uovo, la mano", "gli uomini, le uova, le mani"]
+        ]
+      }
+    }
+  ],
+  "phrases": [
+    {
+      "it": "Due caffè, per favore.",
+      "es": "Dos cafés, por favor.",
+      "note": "*Caffè* no cambia en plural: lo que cuenta es el *due*."
+    },
+    {
+      "it": "Tre biglietti, per favore.",
+      "es": "Tres entradas, por favor.",
+      "note": "Sirve igual en la taquilla del cine y en la del museo."
+    },
+    {
+      "it": "Un chilo di arance, per favore.",
+      "es": "Un kilo de naranjas, por favor.",
+      "note": "Así se pide en la frutería: *un chilo di…*, *mezzo chilo di…*"
+    },
+    {
+      "it": "Come si dice «libros» in italiano?",
+      "es": "¿Cómo se dice «libros» en italiano?",
+      "note": null
+    },
+    {
+      "it": "Si dice «libri», senza esse.",
+      "es": "Se dice «libri», sin ese.",
+      "note": null
+    },
+    {
+      "it": "Ecco le chiavi.",
+      "es": "Aquí tienes las llaves.",
+      "note": "*Chiave* → *chiavi*: femenino en -e, plural en -i."
+    },
+    {
+      "it": "Due birre e un'acqua, per favore.",
+      "es": "Dos cervezas y un agua, por favor.",
+      "note": "*Un'acqua* con apóstrofo, porque *acqua* es femenino."
+    },
+    {
+      "it": "Non è «due amicos», è «due amici».",
+      "es": "No es «due amicos», es «due amici».",
+      "note": null
+    }
+  ],
+  "ojo": [
+    {
+      "title": "El plural italiano no lleva -s. Nunca",
+      "body": "Es el error que más rápido delata a un hispanohablante, porque la -s se escapa sola al hablar deprisa. En italiano no existe: la palabra cambia de vocal final y ahí acaba la historia.\n\n❌ *due libros* · ✓ *due libri*\n\n❌ *due birras* · ✓ *due birre*\n\n❌ *tre caffès* · ✓ *tre caffè*\n\n❌ *le chiaves* · ✓ *le chiavi*\n\nY cuidado con el caso contrario: hay palabras que ya acaban en -i o en consonante en singular. *Il bar* son *i bar*, y *la crisi* son *le crisi*."
+    },
+    {
+      "title": "«Le uova»: plurales que cambian de género",
+      "body": "Un puñado de masculinos en **-o** hacen el plural en **-a** y se vuelven femeninos. Son partes del cuerpo y cosas que van por pares o en grupo, y hay que aprenderlos de memoria porque son pocos:\n\n*l'uovo* → **le uova** (el huevo, los huevos)\n\n*il dito* → **le dita** (el dedo, los dedos)\n\n*il braccio* → **le braccia** (el brazo, los brazos)\n\n*il ginocchio* → **le ginocchia** (la rodilla, las rodillas)\n\n❌ *i uovi* · ✓ *le uova*\n\nY no confundir con *la mano*, que es femenino ya en singular y hace *le mani*."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "multiple-choice",
+      "prompt": "El plural de «la banca» es…",
+      "options": ["le bance", "le banche", "le banchi"],
+      "answer": 1,
+      "explain": "La h conserva el sonido k. Sin ella, *bance* sonaría con la c blanda."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "El plural de «l'amico» es…",
+      "options": ["gli amichi", "gli amici", "gli amicos"],
+      "answer": 1,
+      "explain": "Los masculinos en *-ico* pierden la h: *amici*, que suena /a-MI-chi/."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "«Diez euros» en italiano es…",
+      "options": ["dieci euros", "dieci euro", "dieci euri"],
+      "answer": 1,
+      "explain": "*Euro* es invariable en italiano: el plural lo marca el número."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "un libro → due ___",
+      "answer": ["libri"],
+      "explain": "Masculino en -o → plural en -i."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "una casa → due ___",
+      "answer": ["case"],
+      "explain": "Femenino en -a → plural en -e."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "una chiave → due ___",
+      "answer": ["chiavi"],
+      "explain": "Femenino en -e → plural en -i, igual que el masculino."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "un uomo → due ___",
+      "answer": ["uomini"],
+      "explain": "Irregular puro: *uomo* → *uomini*."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "un uovo → due ___",
+      "answer": ["uova"],
+      "explain": "Plural femenino: *le uova*."
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        ["i ragazzi", "los chicos"],
+        ["le ragazze", "las chicas"],
+        ["gli uomini", "los hombres"],
+        ["le donne", "las mujeres"],
+        ["i bambini", "los niños"],
+        ["le uova", "los huevos"]
+      ]
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        ["le banche", "los bancos"],
+        ["i parchi", "los parques"],
+        ["gli alberghi", "los hoteles"],
+        ["i medici", "los médicos"],
+        ["le valigie", "las maletas"],
+        ["le arance", "las naranjas"]
+      ],
+      "explain": "Fíjate en cuáles llevan h y cuáles no."
+    },
+    {
+      "type": "word-order",
+      "words": ["Due", "birre", "e", "un'acqua", "per", "favore"],
+      "answer": "Due birre e un'acqua, per favore.",
+      "explain": "*Birra* → *birre*, femenino en -a."
+    },
+    {
+      "type": "word-order",
+      "words": ["Si", "dice", "«libri»", "senza", "esse"],
+      "answer": "Si dice «libri», senza esse.",
+      "explain": "*Senza* significa «sin». *Esse* es el nombre de la letra s."
+    },
+    {
+      "type": "translation",
+      "prompt": "Dos cafés, por favor.",
+      "answer": ["Due caffè, per favore.", "Due caffè per favore"],
+      "explain": "*Caffè* es invariable: nunca *caffès*."
+    },
+    {
+      "type": "translation",
+      "prompt": "Tres entradas, por favor.",
+      "answer": ["Tre biglietti, per favore.", "Tre biglietti per favore"],
+      "explain": "*Biglietto* → *biglietti*."
+    },
+    {
+      "type": "listening",
+      "audio": "Un chilo di arance, per favore.",
+      "answer": ["Un chilo di arance, per favore."],
+      "explain": "*Arancia* → *arance*, sin la i, porque delante de *-cia* hay consonante."
+    },
+    {
+      "type": "listening",
+      "audio": "Tre biglietti per il cinema.",
+      "answer": ["Tre biglietti per il cinema."],
+      "explain": "*Cinema* no cambia en plural, pero aquí va en singular: es el sitio."
+    }
+  ]
+}

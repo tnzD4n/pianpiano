@@ -1,0 +1,398 @@
+{
+  "schemaVersion": 1,
+  "meta": {
+    "title": "Pian piano",
+    "subtitle": "Italiano desde cero",
+    "uiLanguage": "es",
+    "targetLanguage": "it",
+    "level": "A1",
+    "storageNamespace": "pianpiano.v1"
+  },
+  "modules": [
+    {
+      "id": "m01",
+      "title": "Primeros pasos",
+      "goal": "Saludar, pronunciar y presentarse.",
+      "lessons": [
+        {
+          "id": "m01-l01",
+          "title": "Ciao! Saludar y despedirse",
+          "file": "data/lessons/m01-l01.json",
+          "grammar": "Fórmulas de saludo; tú (tu) frente a usted (Lei)",
+          "ojo": "«Ciao» sirve para llegar y para irse; «buongiorno / buonasera» son la forma neutra con desconocidos"
+        },
+        {
+          "id": "m01-l02",
+          "title": "El alfabeto y los sonidos",
+          "file": "data/lessons/m01-l02.json",
+          "grammar": "ci/ce/chi/che, gi/ge/ghi/ghe, gli, gn, sc/sch, z",
+          "ojo": "La «c» y la «z» italianas no se pronuncian nunca como en castellano peninsular; «gli» no es «li»"
+        },
+        {
+          "id": "m01-l03",
+          "title": "Las consonantes dobles",
+          "file": "data/lessons/m01-l03.json",
+          "grammar": "Consonantes geminadas: pala/palla, nono/nonno, casa/cassa, sete/sette",
+          "ojo": "El español no tiene dobles: es el error número uno de un hispanohablante, y cambia el significado"
+        },
+        {
+          "id": "m01-l04",
+          "title": "Presentarse: nombre y origen",
+          "file": "data/lessons/m01-l04.json",
+          "grammar": "Come ti chiami? Mi chiamo… / Di dove sei? Sono di…",
+          "ojo": "«Sono spagnola» sin artículo; el acento tónico de «chiamo» está en la «a»"
+        }
+      ]
+    },
+    {
+      "id": "m02",
+      "title": "Nombres y artículos",
+      "goal": "Reconocer el género y el número, y poner el artículo correcto.",
+      "lessons": [
+        {
+          "id": "m02-l01",
+          "title": "El género de los nombres",
+          "file": "data/lessons/m02-l01.json",
+          "grammar": "Terminaciones -o (masc.), -a (fem.), -e (ambos)",
+          "ojo": "Género distinto al español: il latte, il sangue, il naso, l'albero, il fiore, la coppia"
+        },
+        {
+          "id": "m02-l02",
+          "title": "El plural",
+          "file": "data/lessons/m02-l02.json",
+          "grammar": "-o → -i, -a → -e, -e → -i; plurales en -chi/-ghi/-ci/-gi",
+          "ojo": "El italiano no forma el plural con -s: «due libri», nunca «due libros»"
+        },
+        {
+          "id": "m02-l03",
+          "title": "Artículos determinados",
+          "file": "data/lessons/m02-l03.json",
+          "grammar": "il, lo, l', la / i, gli, le",
+          "ojo": "«lo/gli» delante de s+consonante, z, ps, gn, y, x: lo studente, gli zaini"
+        },
+        {
+          "id": "m02-l04",
+          "title": "Artículos indeterminados",
+          "file": "data/lessons/m02-l04.json",
+          "grammar": "un, uno, una, un'",
+          "ojo": "«un'amica» con apóstrofo solo en femenino; «un amico» sin él"
+        }
+      ]
+    },
+    {
+      "id": "m03",
+      "title": "Essere y avere",
+      "goal": "Describirse y describir a los demás.",
+      "lessons": [
+        {
+          "id": "m03-l01",
+          "title": "Los pronombres personales",
+          "file": "data/lessons/m03-l01.json",
+          "grammar": "io, tu, lui/lei, noi, voi, loro; sujeto omitido",
+          "ojo": "«Lei» con mayúscula es el usted italiano, y va con la 3ª persona, como en español"
+        },
+        {
+          "id": "m03-l02",
+          "title": "El verbo essere",
+          "file": "data/lessons/m03-l02.json",
+          "grammar": "Presente de essere; usos",
+          "ojo": "No existe la pareja ser/estar: «sono stanca», «sono a casa», «sono spagnola» — todo con essere"
+        },
+        {
+          "id": "m03-l03",
+          "title": "El verbo avere",
+          "file": "data/lessons/m03-l03.json",
+          "grammar": "Presente de avere; avere fame, sete, freddo, caldo, sonno, ragione, … anni",
+          "ojo": "La «h» de ho, hai, ha, hanno es muda pero obligatoria; «ho vent'anni», no «sono venti anni»"
+        },
+        {
+          "id": "m03-l04",
+          "title": "Adjetivos y nacionalidades",
+          "file": "data/lessons/m03-l04.json",
+          "grammar": "Adjetivos en -o/-a/-i/-e y en -e/-i; concordancia; posición",
+          "ojo": "Nacionalidades en minúscula: italiano, spagnola. «Simpatico» no significa «simpático» sin más"
+        }
+      ]
+    },
+    {
+      "id": "m04",
+      "title": "Números, hora y calendario",
+      "goal": "Contar, decir la hora y hablar del tiempo.",
+      "lessons": [
+        {
+          "id": "m04-l01",
+          "title": "Los números del 0 al 100",
+          "file": "data/lessons/m04-l01.json",
+          "grammar": "Cardinales; ventuno, ventotto (elisión)",
+          "ojo": "«Mille» → plural irregular «duemila»; los números se escriben juntos: quarantatré"
+        },
+        {
+          "id": "m04-l02",
+          "title": "¿Qué hora es?",
+          "file": "data/lessons/m04-l02.json",
+          "grammar": "Che ora è? / Che ore sono? — sono le…, è l'una, è mezzogiorno",
+          "ojo": "«Sono le tre» en plural; solo «è l'una», «è mezzogiorno», «è mezzanotte» van en singular"
+        },
+        {
+          "id": "m04-l03",
+          "title": "Días, meses y fechas",
+          "file": "data/lessons/m04-l03.json",
+          "grammar": "Días, meses, estaciones; il 12 marzo; il primo maggio",
+          "ojo": "Días y meses en minúscula; «il lunedì» = todos los lunes, «lunedì» = este lunes"
+        },
+        {
+          "id": "m04-l04",
+          "title": "El tiempo que hace",
+          "file": "data/lessons/m04-l04.json",
+          "grammar": "Che tempo fa? Fa caldo, fa freddo, piove, nevica, c'è il sole",
+          "ojo": "«Fa caldo» con fare, no con hacer→«fare» se usa igual, pero «hay sol» → «c'è il sole»"
+        }
+      ]
+    },
+    {
+      "id": "m05",
+      "title": "El presente de indicativo",
+      "goal": "Hablar de lo que se hace habitualmente.",
+      "lessons": [
+        {
+          "id": "m05-l01",
+          "title": "Verbos regulares en -are",
+          "file": "data/lessons/m05-l01.json",
+          "grammar": "parlare, abitare, lavorare, mangiare, guardare",
+          "ojo": "«Guardare» es mirar, no guardar; «salire» es subir, no salir; «burro» es mantequilla"
+        },
+        {
+          "id": "m05-l02",
+          "title": "Verbos regulares en -ere y en -ire",
+          "file": "data/lessons/m05-l02.json",
+          "grammar": "prendere, scrivere, leggere / dormire, aprire, partire",
+          "ojo": "La 1ª persona plural termina siempre en -iamo: parliamo, prendiamo, dormiamo"
+        },
+        {
+          "id": "m05-l03",
+          "title": "Los verbos en -isco",
+          "file": "data/lessons/m05-l03.json",
+          "grammar": "capire, finire, preferire, pulire, spedire",
+          "ojo": "El infixo -isc- no existe en español: capisco, capisci, capisce, capiamo, capite, capiscono"
+        },
+        {
+          "id": "m05-l04",
+          "title": "Irregulares frecuentes",
+          "file": "data/lessons/m05-l04.json",
+          "grammar": "andare, fare, stare, venire, dare, uscire",
+          "ojo": "«Stare» no es estar: se usa para la salud (sto bene) y el gerundio, no para la ubicación"
+        }
+      ]
+    },
+    {
+      "id": "m06",
+      "title": "Preguntar y negar",
+      "goal": "Hacer preguntas, negar y expresar necesidad o ganas.",
+      "lessons": [
+        {
+          "id": "m06-l01",
+          "title": "Potere, volere, dovere",
+          "file": "data/lessons/m06-l01.json",
+          "grammar": "Presente + infinitivo",
+          "ojo": "«Vorrei» es la forma cortés para pedir; «voglio» suena brusco en una tienda o un bar"
+        },
+        {
+          "id": "m06-l02",
+          "title": "Las palabras interrogativas",
+          "file": "data/lessons/m06-l02.json",
+          "grammar": "chi, che cosa, dove, quando, come, perché, quanto, quale",
+          "ojo": "No hay signo de apertura «¿»; «perché» sirve a la vez para preguntar y para responder"
+        },
+        {
+          "id": "m06-l03",
+          "title": "La negación",
+          "file": "data/lessons/m06-l03.json",
+          "grammar": "non + verbo; non… mai, niente, nessuno, più",
+          "ojo": "Doble negación como en español: «non mangio niente», «non vedo nessuno»"
+        },
+        {
+          "id": "m06-l04",
+          "title": "C'è y ci sono",
+          "file": "data/lessons/m06-l04.json",
+          "grammar": "c'è / ci sono / c'era; existencia y ubicación",
+          "ojo": "El español usa «hay» invariable; el italiano concuerda: c'è un libro / ci sono due libri"
+        }
+      ]
+    },
+    {
+      "id": "m07",
+      "title": "La casa y la ciudad",
+      "goal": "Describir dónde se vive y orientarse fuera.",
+      "lessons": [
+        {
+          "id": "m07-l01",
+          "title": "La casa y los muebles",
+          "file": "data/lessons/m07-l01.json",
+          "grammar": "Léxico de la vivienda; descripción con essere y avere",
+          "ojo": "«Stanza» y «camera» no son lo mismo; «salir de casa» → «uscire di casa»"
+        },
+        {
+          "id": "m07-l02",
+          "title": "Preposiciones simples",
+          "file": "data/lessons/m07-l02.json",
+          "grammar": "di, a, da, in, con, su, per, tra/fra",
+          "ojo": "«Da» no tiene equivalente único: vengo da Madrid, vado dal medico, da tre anni"
+        },
+        {
+          "id": "m07-l03",
+          "title": "Preposiciones articuladas",
+          "file": "data/lessons/m07-l03.json",
+          "grammar": "del, al, dal, nel, sul, … tabla completa",
+          "ojo": "El italiano contrae mucho más que el español, que solo tiene «al» y «del»"
+        },
+        {
+          "id": "m07-l04",
+          "title": "En la ciudad: pedir indicaciones",
+          "file": "data/lessons/m07-l04.json",
+          "grammar": "Scusi, dov'è…? Vada dritto, giri a destra, a sinistra",
+          "ojo": "«Sinistra» es izquierda, no siniestra; «Scusi» (usted) frente a «Scusa» (tú)"
+        }
+      ]
+    },
+    {
+      "id": "m08",
+      "title": "Comer y comprar",
+      "goal": "Pedir en un bar o restaurante y hacer la compra.",
+      "lessons": [
+        {
+          "id": "m08-l01",
+          "title": "La comida y las comidas del día",
+          "file": "data/lessons/m08-l01.json",
+          "grammar": "colazione, pranzo, cena; léxico básico",
+          "ojo": "«Aceto» es vinagre, no aceite (aceite = olio); «panna» es nata"
+        },
+        {
+          "id": "m08-l02",
+          "title": "En el restaurante",
+          "file": "data/lessons/m08-l02.json",
+          "grammar": "Vorrei…, per me…, il conto, per favore",
+          "ojo": "«Il primo / il secondo» son platos, no el primero y el segundo de la fila; «coperto» existe"
+        },
+        {
+          "id": "m08-l03",
+          "title": "El partitivo y las cantidades",
+          "file": "data/lessons/m08-l03.json",
+          "grammar": "del, della, dei, delle; un po' di, molto, troppo, un chilo di",
+          "ojo": "El español dice «quiero pan»; el italiano prefiere «vorrei del pane»"
+        },
+        {
+          "id": "m08-l04",
+          "title": "Hacer la compra",
+          "file": "data/lessons/m08-l04.json",
+          "grammar": "Tiendas, precios, quanto costa / quanto costano",
+          "ojo": "«Negozio» es tienda, no negocio; «tienda» de campaña se dice «tenda»"
+        }
+      ]
+    },
+    {
+      "id": "m09",
+      "title": "La vida diaria",
+      "goal": "Contar la rutina, los gustos y la familia.",
+      "lessons": [
+        {
+          "id": "m09-l01",
+          "title": "Los verbos reflexivos",
+          "file": "data/lessons/m09-l01.json",
+          "grammar": "svegliarsi, alzarsi, lavarsi, vestirsi, chiamarsi",
+          "ojo": "El pronombre va delante del verbo conjugado, como en español, pero se pega al infinitivo: alzarsi"
+        },
+        {
+          "id": "m09-l02",
+          "title": "El verbo piacere",
+          "file": "data/lessons/m09-l02.json",
+          "grammar": "mi piace / mi piacciono; a me piace; non mi piace",
+          "ojo": "Funciona igual que «gustar» en español: es la buena noticia de esta lección"
+        },
+        {
+          "id": "m09-l03",
+          "title": "La familia y los posesivos",
+          "file": "data/lessons/m09-l03.json",
+          "grammar": "mio, tuo, suo, nostro, vostro, loro + artículo",
+          "ojo": "El posesivo lleva artículo (il mio libro), salvo con familiares en singular: mia sorella"
+        },
+        {
+          "id": "m09-l04",
+          "title": "El cuerpo y estar bien o mal",
+          "file": "data/lessons/m09-l04.json",
+          "grammar": "Come stai? Sto bene / male; mi fa male…",
+          "ojo": "«Mi fa male la testa»: el verbo concuerda con la parte del cuerpo, no con la persona"
+        }
+      ]
+    },
+    {
+      "id": "m10",
+      "title": "Hablar del pasado",
+      "goal": "Contar lo que se ha hecho.",
+      "lessons": [
+        {
+          "id": "m10-l01",
+          "title": "Passato prossimo con avere",
+          "file": "data/lessons/m10-l01.json",
+          "grammar": "avere + participio; -ato, -uto, -ito",
+          "ojo": "Se usa mucho más que el pretérito perfecto español: cubre también «comí ayer»"
+        },
+        {
+          "id": "m10-l02",
+          "title": "Passato prossimo con essere",
+          "file": "data/lessons/m10-l02.json",
+          "grammar": "Verbos de movimiento y de estado; concordancia del participio",
+          "ojo": "El español usa siempre «haber»; aquí «sono andata» concuerda en género y número"
+        },
+        {
+          "id": "m10-l03",
+          "title": "Participios irregulares",
+          "file": "data/lessons/m10-l03.json",
+          "grammar": "fatto, detto, letto, scritto, preso, visto, aperto, chiuso, messo, venuto",
+          "ojo": "Lista corta que hay que memorizar: entra directamente en el repaso espaciado"
+        },
+        {
+          "id": "m10-l04",
+          "title": "Expresiones de tiempo pasado",
+          "file": "data/lessons/m10-l04.json",
+          "grammar": "ieri, l'altro ieri, la settimana scorsa, fa, già, non ancora",
+          "ojo": "«Fa» va detrás: «due anni fa» = hace dos años"
+        }
+      ]
+    },
+    {
+      "id": "m11",
+      "title": "Comunicar",
+      "goal": "Responder, pedir cosas y cerrar el nivel A1.",
+      "lessons": [
+        {
+          "id": "m11-l01",
+          "title": "Los pronombres de objeto directo",
+          "file": "data/lessons/m11-l01.json",
+          "grammar": "lo, la, li, le, mi, ti, ci, vi",
+          "ojo": "No existe el leísmo: la persona masculina siempre es «lo», nunca «gli» como objeto directo"
+        },
+        {
+          "id": "m11-l02",
+          "title": "El imperativo informal",
+          "file": "data/lessons/m11-l02.json",
+          "grammar": "Imperativo de tú: parla, prendi, dormi; irregulares va', da', fa', di', sta'",
+          "ojo": "El negativo usa el infinitivo: «non parlare», no «non parla»"
+        },
+        {
+          "id": "m11-l03",
+          "title": "Al teléfono y por mensaje",
+          "file": "data/lessons/m11-l03.json",
+          "grammar": "Pronto? Ti passo…, ci sentiamo, a dopo; abreviaturas de chat",
+          "ojo": "«Pronto» al teléfono significa «¿diga?», no «pronto/rápido»"
+        },
+        {
+          "id": "m11-l04",
+          "title": "Repaso final del A1",
+          "file": "data/lessons/m11-l04.json",
+          "grammar": "Sin gramática nueva: prueba de 30 ejercicios mezclados de todos los módulos",
+          "ojo": "Recopilación de los quince falsos amigos más peligrosos vistos en el curso"
+        }
+      ]
+    }
+  ]
+}

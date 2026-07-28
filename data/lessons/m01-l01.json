@@ -1,0 +1,246 @@
+{
+  "id": "m01-l01",
+  "module": "m01",
+  "title": "Ciao! Saludar y despedirse",
+  "goal": "Al final de esta lección sabrás saludar y despedirte en italiano a cualquier hora del día, y sabrás elegir entre tratar de tú (tu) o de usted (Lei).",
+  "vocab": [
+    {
+      "it": "ciao",
+      "es": "hola / adiós",
+      "gender": null,
+      "plural": null,
+      "note": "Informal. Sirve igual al llegar y al irse."
+    },
+    {
+      "it": "salve",
+      "es": "hola",
+      "gender": null,
+      "plural": null,
+      "note": "Neutro: ni tan familiar como *ciao* ni tan formal como *buongiorno*. Muy útil cuando no sabes qué tratamiento usar."
+    },
+    {
+      "it": "buongiorno",
+      "es": "buenos días",
+      "gender": null,
+      "plural": null,
+      "note": "Desde la mañana hasta media tarde."
+    },
+    {
+      "it": "buonasera",
+      "es": "buenas tardes / buenas noches",
+      "gender": null,
+      "plural": null,
+      "note": "Desde media tarde en adelante, al llegar."
+    },
+    {
+      "it": "buonanotte",
+      "es": "buenas noches",
+      "gender": null,
+      "plural": null,
+      "note": "Solo para despedirse, antes de irse a dormir."
+    },
+    {
+      "it": "arrivederci",
+      "es": "hasta luego / adiós",
+      "gender": null,
+      "plural": null,
+      "note": "Neutro: vale con cualquiera."
+    },
+    {
+      "it": "arrivederLa",
+      "es": "hasta luego (usted)",
+      "gender": null,
+      "plural": null,
+      "note": "Versión formal de *arrivederci*, con una sola persona a la que tratas de usted."
+    },
+    {
+      "it": "grazie",
+      "es": "gracias",
+      "gender": null,
+      "plural": null,
+      "note": "Se pronuncia con la *z* italiana: /GRA-tsie/."
+    },
+    {
+      "it": "prego",
+      "es": "de nada / adelante",
+      "gender": null,
+      "plural": null,
+      "note": "La respuesta normal a *grazie*."
+    },
+    {
+      "it": "per favore",
+      "es": "por favor",
+      "gender": null,
+      "plural": null,
+      "note": "También se oye *per piacere*."
+    },
+    {
+      "it": "scusa",
+      "es": "perdona",
+      "gender": null,
+      "plural": null,
+      "note": "Informal, de tú. Con usted: *scusi*."
+    },
+    {
+      "it": "saluto",
+      "es": "el saludo",
+      "gender": "m",
+      "plural": "saluti",
+      "note": "*Saluti* al final de un correo equivale a «un saludo»."
+    },
+    {
+      "it": "giorno",
+      "es": "el día",
+      "gender": "m",
+      "plural": "giorni",
+      "note": null
+    },
+    {
+      "it": "sera",
+      "es": "la tarde-noche",
+      "gender": "f",
+      "plural": "sere",
+      "note": "Empieza más o menos a las cinco de la tarde: no tiene un equivalente exacto en español."
+    },
+    {
+      "it": "notte",
+      "es": "la noche",
+      "gender": "f",
+      "plural": "notti",
+      "note": "La noche de dormir, no la de salir."
+    },
+    {
+      "it": "amica",
+      "es": "la amiga",
+      "gender": "f",
+      "plural": "amiche",
+      "note": "El masculino es *amico*, plural *amici*."
+    }
+  ],
+  "grammar": [
+    {
+      "heading": "Tú (tu) y usted (Lei)",
+      "body": "El italiano distingue dos tratamientos, igual que el español. El informal es **tu** y se usa con amigos, familia, compañeros y gente joven. El formal es **Lei**, que se escribe con mayúscula cuando significa «usted».\n\nLa sorpresa es gramatical: *Lei* es literalmente «ella», así que el verbo va en **tercera persona del singular**, aunque hables con un hombre. Por eso se dice *Lei come sta?* y no *Lei come stai?*. Es la misma lógica del español «usted está», que también usa la tercera persona.\n\nRegla práctica: con *tu* saludas con *ciao*; con *Lei*, con *buongiorno* o *buonasera*. Decir *ciao* a un desconocido mayor suena demasiado familiar.",
+      "table": {
+        "headers": ["Situación", "Informal (tu)", "Formal (Lei)"],
+        "rows": [
+          ["Saludar", "Ciao!", "Buongiorno!"],
+          ["Preguntar cómo está", "Come stai?", "Come sta?"],
+          ["Despedirse", "Ciao! / A presto!", "Arrivederci! / ArrivederLa!"],
+          ["Pedir perdón o llamar la atención", "Scusa", "Scusi"],
+          ["Mucho gusto", "Piacere di conoscerti", "Piacere di conoscerLa"]
+        ]
+      }
+    },
+    {
+      "heading": "¿A qué hora se dice cada saludo?",
+      "body": "El día italiano se parte en dos: *giorno* y *sera*. **Buongiorno** vale desde que te levantas hasta media tarde; a partir de las cuatro o las cinco se pasa a **buonasera**. El cambio no está cronometrado: en algunas regiones se saluda con *buonasera* ya después de comer.\n\n**Buonanotte** es distinto: solo se usa para despedirse cuando alguien se va a dormir. Si entras en un bar a las once de la noche y dices *buonanotte*, estás diciendo «me voy a la cama».\n\nAl despedirse por la mañana o por la tarde se puede añadir *buona giornata!* («que tengas buen día») o *buona serata!*.",
+      "table": {
+        "headers": ["Momento", "Italiano", "Español"],
+        "rows": [
+          ["De la mañana a media tarde", "Buongiorno", "Buenos días"],
+          ["De media tarde en adelante, al llegar", "Buonasera", "Buenas tardes / buenas noches"],
+          ["Al despedirse antes de dormir", "Buonanotte", "Buenas noches"],
+          ["A cualquier hora, informal", "Ciao", "Hola / adiós"],
+          ["A cualquier hora, neutro", "Salve", "Hola"]
+        ]
+      }
+    }
+  ],
+  "phrases": [
+    {
+      "it": "Come stai?",
+      "es": "¿Cómo estás?",
+      "note": "Informal, de tú."
+    },
+    {
+      "it": "Come sta?",
+      "es": "¿Cómo está usted?",
+      "note": "Formal. El verbo va en tercera persona."
+    },
+    {
+      "it": "Sto bene, grazie. E tu?",
+      "es": "Estoy bien, gracias. ¿Y tú?",
+      "note": "Con usted: *E Lei?*"
+    },
+    {
+      "it": "Piacere di conoscerti.",
+      "es": "Mucho gusto, encantado de conocerte.",
+      "note": "También basta con decir *piacere!*"
+    },
+    {
+      "it": "Ci vediamo domani!",
+      "es": "¡Nos vemos mañana!",
+      "note": null
+    },
+    {
+      "it": "A più tardi.",
+      "es": "Hasta luego.",
+      "note": "Literalmente «hasta más tarde». También existe *a presto* («hasta pronto»)."
+    },
+    {
+      "it": "Buona giornata!",
+      "es": "¡Que tengas un buen día!",
+      "note": "Se dice al despedirse, nunca al llegar."
+    },
+    {
+      "it": "Come va?",
+      "es": "¿Qué tal?",
+      "note": "Muy informal. Se responde *tutto bene* («todo bien»)."
+    }
+  ],
+  "ojo": [
+    {
+      "title": "¿Por qué «Pian piano»?",
+      "body": "*Pian piano* significa **poco a poco**, *despacito*. Viene de *piano*, que en italiano no es solo el instrumento: quiere decir **despacio** y también **en voz baja**. Repetido, insiste: muy despacio, sin prisa. Los italianos lo usan a todas horas: *pian piano ci arriviamo*, «poco a poco llegamos».\n\nEste curso se llama así porque aprender un idioma va exactamente de eso: un rato cada día, sin agobios. Aquí no se pierden vidas ni corazones: si te equivocas, vuelves a intentarlo y ya está."
+    },
+    {
+      "title": "«Prego» no significa «te lo ruego»",
+      "body": "*Prego* es, sobre todo, la respuesta a *grazie*: equivale a **de nada**. Pero hace muchas más cosas. Un camarero que te invita a pasar dice *prego*; quien te cede el paso dice *prego*; quien te da permiso para algo dice *prego*. Y si no has entendido lo que te acaban de decir, *prego?* significa **¿cómo dice?**.\n\nEs una de esas palabras que no se traducen: se aprenden usándolas."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "multiple-choice",
+      "prompt": "Son las nueve de la mañana y entras en una panadería. ¿Cómo saludas?",
+      "options": ["Buonasera", "Buongiorno", "Buonanotte"],
+      "answer": 1,
+      "explain": "*Buongiorno* va desde la mañana hasta media tarde. *Buonanotte* solo sirve para despedirse antes de dormir."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Hablas con una señora que no conoces: «Buongiorno, come ___?»",
+      "answer": ["sta"],
+      "explain": "Con *Lei* (usted) el verbo va en tercera persona: *come sta?* Con un amigo sería *come stai?*"
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        ["ciao", "hola / adiós"],
+        ["grazie", "gracias"],
+        ["prego", "de nada"],
+        ["arrivederci", "hasta luego"],
+        ["scusa", "perdona"],
+        ["per favore", "por favor"]
+      ]
+    },
+    {
+      "type": "word-order",
+      "words": ["Piacere", "di", "conoscerti", "!"],
+      "answer": "Piacere di conoscerti!",
+      "explain": "El orden es el mismo que en español: «encantado de conocerte»."
+    },
+    {
+      "type": "translation",
+      "prompt": "¿Cómo está usted?",
+      "answer": ["Come sta?", "Lei come sta?"],
+      "explain": "El pronombre *Lei* se puede omitir, igual que en español se omite «usted» cuando se sobreentiende."
+    },
+    {
+      "type": "listening",
+      "audio": "Buonasera, come sta?",
+      "answer": ["Buonasera, come sta?"],
+      "explain": "«Buenas tardes, ¿cómo está usted?». *Buonasera* se escribe todo junto."
+    }
+  ]
+}

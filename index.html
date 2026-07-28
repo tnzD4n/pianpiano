@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="color-scheme" content="light dark">
+  <title>Pian piano · Italiano desde cero</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%230f7b5c'/%3E%3Ctext x='16' y='23' font-size='17' font-family='Georgia,serif' text-anchor='middle' fill='%23ffffff'%3Epp%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Saltar al contenido</a>
+
+  <header class="site-header">
+    <a class="brand" href="#/">
+      <span class="brand-title">Pian piano</span>
+      <span class="brand-sub">italiano desde cero</span>
+    </a>
+    <nav class="site-nav" aria-label="Navegación principal">
+      <a href="#/" data-nav="home">Inicio</a>
+      <a href="#/repaso" data-nav="review">Repaso <span class="badge" id="nav-due" hidden>0</span></a>
+    </nav>
+  </header>
+
+  <main id="main" class="app" tabindex="-1">
+    <p class="loading">Cargando…</p>
+  </main>
+
+  <footer class="site-footer">
+    <p>Pian piano · italiano desde cero · nivel A1</p>
+    <p class="fine-print">Tus progresos se guardan solo en este navegador: no se sincronizan entre dispositivos.</p>
+  </footer>
+
+  <noscript>
+    <p class="notice">Esta web necesita JavaScript para funcionar. Actívalo y vuelve a cargar la página.</p>
+  </noscript>
+
+  <!-- Avviso per chi apre il file direttamente da disco: i moduli ES e fetch()
+       richiedono il protocollo http, quindi serve un piccolo server locale. -->
+  <script>
+    if (location.protocol === 'file:') {
+      document.addEventListener('DOMContentLoaded', function () {
+        document.getElementById('main').innerHTML =
+          '<div class="card notice">' +
+          '<h2>Hace falta un servidor local</h2>' +
+          '<p>Has abierto el archivo directamente desde el disco. Los navegadores bloquean la carga de módulos y de datos con el protocolo <code>file://</code>.</p>' +
+          '<p>Abre una terminal en esta carpeta y ejecuta uno de estos comandos:</p>' +
+          '<pre><code>python -m http.server 8000</code></pre>' +
+          '<pre><code>npx serve .</code></pre>' +
+          '<p>Después entra en <code>http://localhost:8000/</code>. Publicado en GitHub Pages no hace falta nada de esto.</p>' +
+          '</div>';
+      });
+    }
+  </script>
+
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>

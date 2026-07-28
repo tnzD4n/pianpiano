@@ -1,0 +1,316 @@
+{
+  "id": "m01-l03",
+  "module": "m01",
+  "title": "Las consonantes dobles",
+  "goal": "Al final de esta lección sabrás oír y pronunciar la diferencia entre una consonante y dos, que en italiano distingue palabras enteras: pala y palla, nono y nonno, casa y cassa.",
+  "vocab": [
+    {
+      "it": "nonno",
+      "es": "el abuelo",
+      "gender": "m",
+      "plural": "nonni",
+      "note": "En plural, *i nonni* son «los abuelos», los dos juntos. La abuela es *la nonna*."
+    },
+    {
+      "it": "anno",
+      "es": "el año",
+      "gender": "m",
+      "plural": "anni",
+      "note": "Con dos enes. Con una sola, *ano*, significa exactamente lo que parece."
+    },
+    {
+      "it": "palla",
+      "es": "la pelota",
+      "gender": "f",
+      "plural": "palle",
+      "note": "*La pala* con una ele es «la pala» de cavar."
+    },
+    {
+      "it": "cassa",
+      "es": "la caja (donde se paga)",
+      "gender": "f",
+      "plural": "casse",
+      "note": "En una tienda: *pago alla cassa*. Con una sola ese, *casa*, es «la casa»."
+    },
+    {
+      "it": "sette",
+      "es": "siete",
+      "gender": null,
+      "plural": null,
+      "note": "Con una sola te, *sete*, es «la sed»."
+    },
+    {
+      "it": "sete",
+      "es": "la sed",
+      "gender": "f",
+      "plural": null,
+      "note": "No tiene plural, como en español."
+    },
+    {
+      "it": "cappello",
+      "es": "el sombrero",
+      "gender": "m",
+      "plural": "cappelli",
+      "note": "Con una sola pe, *capello*, es «un pelo»."
+    },
+    {
+      "it": "capello",
+      "es": "el pelo (un cabello)",
+      "gender": "m",
+      "plural": "capelli",
+      "note": "El pelo de la cabeza va siempre en plural: *i capelli*."
+    },
+    {
+      "it": "penna",
+      "es": "el bolígrafo",
+      "gender": "f",
+      "plural": "penne",
+      "note": "*Le penne* son también un tipo de pasta."
+    },
+    {
+      "it": "birra",
+      "es": "la cerveza",
+      "gender": "f",
+      "plural": "birre",
+      "note": "*Una birra media* es la de medio litro."
+    },
+    {
+      "it": "caffè",
+      "es": "el café",
+      "gender": "m",
+      "plural": "caffè",
+      "note": "Acento obligatorio en la e. En plural no cambia: *due caffè*."
+    },
+    {
+      "it": "città",
+      "es": "la ciudad",
+      "gender": "f",
+      "plural": "città",
+      "note": "Acento obligatorio. Invariable en plural: *due città*."
+    },
+    {
+      "it": "bicchiere",
+      "es": "el vaso",
+      "gender": "m",
+      "plural": "bicchieri",
+      "note": "Dos ces y no una: /bik-KIE-re/."
+    },
+    {
+      "it": "gatto",
+      "es": "el gato",
+      "gender": "m",
+      "plural": "gatti",
+      "note": "Femenino *la gatta*."
+    },
+    {
+      "it": "mamma",
+      "es": "la mamá",
+      "gender": "f",
+      "plural": "mamme",
+      "note": "Se usa muchísimo más que «madre», igual que en español."
+    }
+  ],
+  "grammar": [
+    {
+      "heading": "Una consonante o dos: son dos palabras distintas",
+      "body": "En español la longitud de una consonante no significa nada. En italiano sí, y cambia el diccionario. Estas parejas se escriben casi igual y no tienen nada que ver:",
+      "table": {
+        "headers": ["Una sola", "Significa", "Doble", "Significa"],
+        "rows": [
+          ["pala", "la pala", "pa**ll**a", "la pelota"],
+          ["nono", "noveno", "no**nn**o", "el abuelo"],
+          ["casa", "la casa", "ca**ss**a", "la caja"],
+          ["sete", "la sed", "se**tt**e", "siete"],
+          ["ano", "el ano", "a**nn**o", "el año"],
+          ["capello", "un pelo", "ca**pp**ello", "el sombrero"],
+          ["camino", "la chimenea", "ca**mm**ino", "el camino"],
+          ["sono", "soy, son", "so**nn**o", "el sueño"],
+          ["note", "las notas", "no**tt**e", "la noche"]
+        ]
+      }
+    },
+    {
+      "heading": "Cómo se pronuncia una consonante doble",
+      "body": "No es una consonante «más fuerte»: es una consonante **más larga**. La lengua se queda parada un instante antes de soltarla, y la vocal de delante se acorta.\n\nYa sabes hacerlo, aunque no te lo hayan dicho nunca: en español pronuncias dos consonantes seguidas cuando una palabra acaba con la misma letra con la que empieza la siguiente. Parte la palabra italiana igual que partirías esas dos.",
+      "table": {
+        "headers": ["Italiano", "Pártelo así", "Como en español"],
+        "rows": [
+          ["anno", "an-no", "si**n n**ada"],
+          ["bello", "bel-lo", "e**l l**ibro"],
+          ["cassa", "cas-sa", "la**s s**illas"],
+          ["mamma", "mam-ma", "álbu**m m**usical"],
+          ["gatto", "gat-to", "no hay equivalente: retén la t"],
+          ["cappello", "cap-pel-lo", "no hay equivalente: retén la p"]
+        ]
+      }
+    },
+    {
+      "heading": "Español sencillo, italiano doble (y al revés)",
+      "body": "Muchas palabras que conoces existen en italiano con una consonante de más. Como el español nunca dobla, el error es sistemático: se escribe *profesore* en lugar de *professore*. Y en sentido contrario, la terminación española **-ción** pasa a **-zione**, con **una sola z**.",
+      "table": {
+        "headers": ["Español", "Italiano", "Ojo"],
+        "rows": [
+          ["profesor", "profe**ss**ore", "doble ese"],
+          ["posible", "po**ss**ibile", "doble ese"],
+          ["efecto", "e**ff**e**tt**o", "doble efe y doble te"],
+          ["público", "pu**bb**lico", "doble be"],
+          ["aceptar", "a**cc**e**tt**are", "doble ce y doble te"],
+          ["inteligente", "inte**ll**igente", "doble ele"],
+          ["lección", "lezione", "una sola zeta"],
+          ["comunicación", "comunicazione", "una sola zeta"]
+        ]
+      }
+    }
+  ],
+  "phrases": [
+    {
+      "it": "Come si dice «pelota» in italiano?",
+      "es": "¿Cómo se dice «pelota» en italiano?",
+      "note": "La pregunta que más vas a usar este año."
+    },
+    {
+      "it": "Si dice «palla», con due elle.",
+      "es": "Se dice «palla», con dos eles.",
+      "note": "Las letras se nombran así: *due elle*, *due esse*, *due enne*."
+    },
+    {
+      "it": "Come si scrive: con una t o con due?",
+      "es": "¿Cómo se escribe: con una t o con dos?",
+      "note": null
+    },
+    {
+      "it": "Si scrive con la doppia enne.",
+      "es": "Se escribe con doble ene.",
+      "note": "*La doppia* a secas ya significa «la consonante doble»."
+    },
+    {
+      "it": "Un caffè, per favore.",
+      "es": "Un café, por favor.",
+      "note": "En un bar italiano *un caffè* es siempre un espresso. Si quieres otra cosa, hay que pedirla por su nombre."
+    },
+    {
+      "it": "Un bicchiere d'acqua, per favore.",
+      "es": "Un vaso de agua, por favor.",
+      "note": "*Di acqua* se apostrofa siempre: *d'acqua*."
+    },
+    {
+      "it": "Grazie mille!",
+      "es": "¡Muchísimas gracias!",
+      "note": "Literalmente «mil gracias». Con dos eles."
+    },
+    {
+      "it": "Ci vediamo, nonna!",
+      "es": "¡Hasta luego, abuela!",
+      "note": null
+    },
+    {
+      "it": "Scusa, non capisco: puoi ripetere?",
+      "es": "Perdona, no entiendo: ¿puedes repetir?",
+      "note": "Con usted: *Scusi, non capisco: può ripetere?*"
+    }
+  ],
+  "ojo": [
+    {
+      "title": "Una consonante de más, y ya es otra palabra",
+      "body": "Este es **el error número uno** de un hispanohablante en italiano, y no es una cuestión de acento extranjero: son palabras distintas y el otro entiende la que dices, no la que querías decir.\n\n❌ *la pala* → la pala de cavar · ✓ *la palla* → la pelota\n\n❌ *il nono* → el noveno · ✓ *il nonno* → el abuelo\n\n❌ *sete* → la sed · ✓ *sette* → siete\n\nEl caso más incómodo es *anno* / *ano*: con una sola ene no estás hablando del año. Merece la pena dedicarle diez segundos.\n\nY funciona en las dos direcciones: doblar donde no toca también cambia la palabra. *Casa* con dos eses es la caja de la tienda."
+    },
+    {
+      "title": "«Caffè» y «città» llevan acento, y no es decorativo",
+      "body": "El italiano solo escribe el acento cuando cae en la **última** sílaba: *caffè*, *città*, *perché*, *più*, *già*, *lunedì*, *papà*. Sin ese acento la palabra está mal escrita, igual que «cafe» en español.\n\nY hay un caso que cuesta caro: **è** con acento es el verbo («es», «está»); **e** sin acento es «y».\n\n❌ *Il caffe e freddo* · ✓ *Il caffè è freddo*\n\nEn el teclado español la è no está a mano: se saca con la tecla de acento grave (la del `¡`) seguida de la vocal, o manteniendo pulsada la e en el móvil."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "multiple-choice",
+      "prompt": "¿Cuál de estas palabras significa «el abuelo»?",
+      "options": ["nono", "nonno", "nonna"],
+      "answer": 1,
+      "explain": "*Nono* con una ene es «noveno», y *nonna* es la abuela."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Estás en un bar y quieres pedir un vaso de agua. ¿Qué dices?",
+      "options": ["Un bicchiere d'acqua, per favore.", "Un biccere d'acqua, per favore.", "Un bichiere d'aqua, per favore."],
+      "answer": 0,
+      "explain": "*Bicchiere* lleva doble ce, y *acqua* lleva el grupo cqu. Las dos son consonantes largas."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "«Sete» significa…",
+      "options": ["siete", "la sed", "el sueño"],
+      "answer": 1,
+      "explain": "*Sete* con una te es «sed»; *sette* con dos es el número siete."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "«El año» se escribe con dos enes: l'a___o",
+      "answer": ["nn"],
+      "explain": "*Anno* = año. *Ano*, con una sola ene, es otra cosa."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "«La caja» de la tienda: la ca___a",
+      "answer": ["ss"],
+      "explain": "*Cassa* = caja. *Casa*, con una sola ese, es la casa."
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        ["il nonno", "el abuelo"],
+        ["la palla", "la pelota"],
+        ["la cassa", "la caja"],
+        ["il cappello", "el sombrero"],
+        ["la penna", "el bolígrafo"],
+        ["il bicchiere", "el vaso"]
+      ]
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        ["la pala", "la pala de cavar"],
+        ["il capello", "un pelo"],
+        ["la sete", "la sed"],
+        ["il nono", "el noveno"],
+        ["il camino", "la chimenea"],
+        ["le note", "las notas"]
+      ],
+      "explain": "Estas son las versiones con una sola consonante: fíjate en cuánto cambia el significado."
+    },
+    {
+      "type": "word-order",
+      "words": ["Un", "bicchiere", "d'acqua", "per", "favore"],
+      "answer": "Un bicchiere d'acqua, per favore.",
+      "explain": "*Di acqua* se contrae siempre en *d'acqua*, con apóstrofo y sin espacio."
+    },
+    {
+      "type": "word-order",
+      "words": ["Si", "scrive", "con", "la", "doppia", "enne"],
+      "answer": "Si scrive con la doppia enne.",
+      "explain": "*Si scrive* es la forma impersonal: «se escribe»."
+    },
+    {
+      "type": "translation",
+      "prompt": "Un café, por favor.",
+      "answer": ["Un caffè, per favore.", "Un caffè per favore"],
+      "explain": "*Caffè* con doble efe y acento en la e final."
+    },
+    {
+      "type": "translation",
+      "prompt": "¡Hasta luego, abuela!",
+      "answer": ["Ci vediamo, nonna!", "Ci vediamo nonna", "Arrivederci, nonna!"],
+      "explain": "*Nonna* con dos enes. Con una sola, *nona*, no significa nada útil."
+    },
+    {
+      "type": "listening",
+      "audio": "Sette penne e un cappello.",
+      "answer": ["Sette penne e un cappello."],
+      "explain": "«Siete bolígrafos y un sombrero». Tres dobles seguidas: tt, nn, pp."
+    },
+    {
+      "type": "listening",
+      "audio": "Il nonno è in città.",
+      "answer": ["Il nonno è in città."],
+      "explain": "«El abuelo está en la ciudad». *È* con acento es el verbo; *città* también lleva acento."
+    }
+  ]
+}

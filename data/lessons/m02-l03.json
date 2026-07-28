@@ -1,0 +1,310 @@
+{
+  "id": "m02-l03",
+  "module": "m02",
+  "title": "Artículos determinados",
+  "goal": "Al final de esta lección sabrás elegir entre il, lo, l', la, i, gli y le sin pensarlo, porque la elección depende solo del sonido con el que empieza la palabra siguiente.",
+  "vocab": [
+    {
+      "it": "treno",
+      "es": "el tren",
+      "gender": "m",
+      "plural": "treni",
+      "note": "*Il treno*: consonante normal, artículo normal."
+    },
+    {
+      "it": "sport",
+      "es": "el deporte",
+      "gender": "m",
+      "plural": "sport",
+      "note": "*Lo sport*, *gli sport*: empieza por s + consonante y es invariable."
+    },
+    {
+      "it": "zucchero",
+      "es": "el azúcar",
+      "gender": "m",
+      "plural": null,
+      "note": "*Lo zucchero*, porque empieza por z."
+    },
+    {
+      "it": "specchio",
+      "es": "el espejo",
+      "gender": "m",
+      "plural": "specchi",
+      "note": "*Lo specchio*, *gli specchi*."
+    },
+    {
+      "it": "straniero",
+      "es": "el extranjero",
+      "gender": "m",
+      "plural": "stranieri",
+      "note": "*Lo straniero*. Femenino *la straniera*."
+    },
+    {
+      "it": "psicologo",
+      "es": "el psicólogo",
+      "gender": "m",
+      "plural": "psicologi",
+      "note": "*Lo psicologo*: el grupo ps también pide *lo*."
+    },
+    {
+      "it": "gnocco",
+      "es": "el ñoqui",
+      "gender": "m",
+      "plural": "gnocchi",
+      "note": "Casi siempre en plural: *gli gnocchi*, con el artículo más raro del italiano."
+    },
+    {
+      "it": "yogurt",
+      "es": "el yogur",
+      "gender": "m",
+      "plural": "yogurt",
+      "note": "*Lo yogurt*: la y extranjera también pide *lo*."
+    },
+    {
+      "it": "zio",
+      "es": "el tío",
+      "gender": "m",
+      "plural": "zii",
+      "note": "*Lo zio*, *gli zii*. Femenino *la zia*, plural *le zie*."
+    },
+    {
+      "it": "orologio",
+      "es": "el reloj",
+      "gender": "m",
+      "plural": "orologi",
+      "note": "*L'orologio* en singular, *gli orologi* en plural: el apóstrofo desaparece."
+    },
+    {
+      "it": "ospedale",
+      "es": "el hospital",
+      "gender": "m",
+      "plural": "ospedali",
+      "note": "*L'ospedale*, *gli ospedali*."
+    },
+    {
+      "it": "isola",
+      "es": "la isla",
+      "gender": "f",
+      "plural": "isole",
+      "note": "*L'isola*, *le isole*: en femenino el apóstrofo también se pierde en plural."
+    },
+    {
+      "it": "estate",
+      "es": "el verano",
+      "gender": "f",
+      "plural": "estati",
+      "note": "Femenino: *l'estate*. En español es masculino, así que ojo."
+    },
+    {
+      "it": "macchina",
+      "es": "el coche",
+      "gender": "f",
+      "plural": "macchine",
+      "note": "*La macchina* es el coche de todos los días; también significa «máquina»."
+    },
+    {
+      "it": "borsa",
+      "es": "el bolso",
+      "gender": "f",
+      "plural": "borse",
+      "note": "*La borsa* con una sola s. También es la Bolsa, la de la economía."
+    }
+  ],
+  "grammar": [
+    {
+      "heading": "Siete artículos, una sola regla",
+      "body": "El español tiene dos artículos determinados y el italiano siete. Suena a mucho, pero no hay nada que decidir: **manda el sonido con el que empieza la palabra que va detrás**, no el significado.",
+      "table": {
+        "headers": ["Género", "Singular", "Plural", "Delante de"],
+        "rows": [
+          ["Masculino", "il", "i", "consonante normal: il treno → i treni"],
+          ["Masculino", "lo", "gli", "s+consonante, z, ps, pn, gn, x, y: lo sport → gli sport"],
+          ["Masculino", "l'", "gli", "vocal: l'orologio → gli orologi"],
+          ["Femenino", "la", "le", "consonante: la borsa → le borse"],
+          ["Femenino", "l'", "le", "vocal: l'isola → le isole"]
+        ]
+      }
+    },
+    {
+      "heading": "Cuándo toca «lo» (y su plural «gli»)",
+      "body": "Prueba a decir en voz alta *il sport*, *il zucchero*, *il gnocco*: la lengua se atasca. Por eso el italiano inventó *lo*, que mete una vocal de más y deja pasar el grupo difícil. La lista es corta y no tiene excepciones.",
+      "table": {
+        "headers": ["Empieza por", "Artículo", "Ejemplo"],
+        "rows": [
+          ["s + consonante", "lo / gli", "lo studente, gli sport"],
+          ["z", "lo / gli", "lo zaino, gli zii"],
+          ["ps, pn", "lo / gli", "lo psicologo, lo pneumatico"],
+          ["gn", "lo / gli", "lo gnocco, gli gnocchi"],
+          ["x, y", "lo / gli", "lo yogurt, lo xilofono"],
+          ["vocal", "l' / gli", "l'ospedale, gli ospedali"]
+        ]
+      }
+    },
+    {
+      "heading": "El apóstrofo solo en singular",
+      "body": "El apóstrofo aparece cuando el artículo pierde su vocal delante de otra vocal, y eso solo pasa en singular: *l'orologio*, *l'isola*.\n\nEn plural no se apostrofa nunca. El masculino usa **gli** entero (*gli orologi*) y el femenino **le** entero (*le isole*).\n\n❌ *gl'orologi* · ✓ *gli orologi*\n\n❌ *l'isole* · ✓ *le isole*"
+    }
+  ],
+  "phrases": [
+    {
+      "it": "Un caffè con lo zucchero, per favore.",
+      "es": "Un café con azúcar, por favor.",
+      "note": "El italiano pone el artículo donde el español no lo pone."
+    },
+    {
+      "it": "Un caffè senza zucchero, per favore.",
+      "es": "Un café sin azúcar, por favor.",
+      "note": "Detrás de *senza* el artículo desaparece."
+    },
+    {
+      "it": "Gli gnocchi, per favore.",
+      "es": "Los ñoquis, por favor.",
+      "note": "En un restaurante se pide así, con artículo, señalando la carta."
+    },
+    {
+      "it": "Ecco i biglietti per il treno.",
+      "es": "Aquí tienes los billetes del tren.",
+      "note": null
+    },
+    {
+      "it": "Come si dice «el hospital» in italiano?",
+      "es": "¿Cómo se dice «el hospital» en italiano?",
+      "note": null
+    },
+    {
+      "it": "Si dice «l'ospedale», con l'apostrofo.",
+      "es": "Se dice «l'ospedale», con apóstrofo.",
+      "note": "*Apostrofo* con una sola s y acento en la o: /a-PÓS-tro-fo/."
+    },
+    {
+      "it": "Non è «il studente», è «lo studente».",
+      "es": "No es «il studente», es «lo studente».",
+      "note": null
+    },
+    {
+      "it": "Le isole: la Sicilia, la Sardegna e l'Elba.",
+      "es": "Las islas: Sicilia, Cerdeña y Elba.",
+      "note": "Los nombres de islas, regiones y países llevan artículo en italiano: *la Toscana*, *l'Italia*."
+    }
+  ],
+  "ojo": [
+    {
+      "title": "«Lo» y «gli»: dos artículos que el español no tiene",
+      "body": "El español dice *el* delante de todo: el estudiante, el deporte, el azúcar. El italiano no puede, porque *il* delante de s+consonante o de z no se pronuncia bien. Este es el error que más se repite en las primeras semanas.\n\n❌ *il studente* · ✓ *lo studente*\n\n❌ *il zaino* · ✓ *lo zaino*\n\n❌ *i studenti* · ✓ *gli studenti*\n\n❌ *i zii* · ✓ *gli zii*\n\nEl truco es puramente sonoro: si detrás viene un grupo que te obliga a frenar, usa *lo* en singular y *gli* en plural."
+    },
+    {
+      "title": "«Gli» no se lee «gli»",
+      "body": "*Gli* se pronuncia con el sonido que ya viste en *famiglia* y *figlio*: la lengua plana contra el paladar, nada que ver con una g seguida de l.\n\n❌ /gli stu-DEN-ti/ leído a la española · ✓ *gli studenti*, algo parecido a /lli-stu-DEN-ti/\n\nY delante de vocal se enlaza sin pausa: *gli uomini* suena casi como una sola palabra."
+    },
+    {
+      "title": "«L'estate» es femenino",
+      "body": "Aquí hay un cambio de género que pilla a todo el mundo, porque el apóstrofo lo esconde: *estate* es **femenino**, aunque «el verano» en español sea masculino.\n\n❌ *il estate* · ✓ *l'estate*\n\nLas otras tres estaciones son fáciles: *la primavera*, *l'autunno* (masculino), *l'inverno* (masculino)."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "multiple-choice",
+      "prompt": "¿Qué artículo lleva «studente»?",
+      "options": ["il", "lo", "l'"],
+      "answer": 1,
+      "explain": "Empieza por s + consonante, así que le toca *lo*: *lo studente*."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "El plural de «lo zaino» es…",
+      "options": ["i zaini", "gli zaini", "le zaini"],
+      "answer": 1,
+      "explain": "El plural de *lo* es siempre *gli*."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "«Ospedale» empieza por vocal. ¿Qué artículo lleva en singular?",
+      "options": ["il", "lo", "l'"],
+      "answer": 2,
+      "explain": "Delante de vocal el masculino se apostrofa: *l'ospedale*. En plural, *gli ospedali*."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Escribe el artículo: ___ sport",
+      "answer": ["lo"],
+      "explain": "s + consonante → *lo sport*."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Escribe el artículo: ___ gnocchi",
+      "answer": ["gli"],
+      "explain": "El grupo gn pide *lo* en singular y *gli* en plural."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Escribe el artículo: ___ macchine",
+      "answer": ["le"],
+      "explain": "Femenino plural: siempre *le*."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Escribe el artículo: ___ estate",
+      "answer": ["l'"],
+      "explain": "*Estate* es femenino y empieza por vocal: *l'estate*."
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        ["lo zucchero", "el azúcar"],
+        ["l'orologio", "el reloj"],
+        ["l'ospedale", "el hospital"],
+        ["la borsa", "el bolso"],
+        ["il treno", "el tren"],
+        ["lo specchio", "el espejo"]
+      ]
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        ["gli sport", "los deportes"],
+        ["gli zii", "los tíos"],
+        ["le isole", "las islas"],
+        ["gli ospedali", "los hospitales"],
+        ["le macchine", "los coches"],
+        ["i treni", "los trenes"]
+      ],
+      "explain": "Cuatro plurales masculinos y dos femeninos: fíjate en cuáles piden *gli* y cuáles *i*."
+    },
+    {
+      "type": "word-order",
+      "words": ["Un", "caffè", "con", "lo", "zucchero", "per", "favore"],
+      "answer": "Un caffè con lo zucchero, per favore.",
+      "explain": "*Zucchero* empieza por z, así que el artículo es *lo*."
+    },
+    {
+      "type": "word-order",
+      "words": ["Ecco", "i", "biglietti", "per", "il", "treno"],
+      "answer": "Ecco i biglietti per il treno.",
+      "explain": "*Biglietti* y *treno* empiezan por consonante normal: *i* y *il*."
+    },
+    {
+      "type": "translation",
+      "prompt": "El azúcar, por favor.",
+      "answer": ["Lo zucchero, per favore.", "Lo zucchero per favore"],
+      "explain": "Nunca *il zucchero*."
+    },
+    {
+      "type": "translation",
+      "prompt": "Un café sin azúcar, por favor.",
+      "answer": ["Un caffè senza zucchero, per favore.", "Un caffè senza zucchero per favore"],
+      "explain": "Detrás de *senza* no hay artículo, así que aquí no aparece el *lo*."
+    },
+    {
+      "type": "listening",
+      "audio": "Ecco lo specchio e l'orologio.",
+      "answer": ["Ecco lo specchio e l'orologio."],
+      "explain": "*Lo specchio* por la s impura, *l'orologio* por la vocal."
+    },
+    {
+      "type": "listening",
+      "audio": "Ecco lo yogurt, lo zucchero e il caffè.",
+      "answer": ["Ecco lo yogurt, lo zucchero e il caffè."],
+      "explain": "Dos veces *lo* (por la y y por la z) y una vez *il*, delante de consonante normal."
+    }
+  ]
+}

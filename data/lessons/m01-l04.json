@@ -1,0 +1,299 @@
+{
+  "id": "m01-l04",
+  "module": "m01",
+  "title": "Presentarse: nombre y origen",
+  "goal": "Al final de esta lección sabrás decir cómo te llamas, de dónde eres y de qué país vienes, y sabrás presentar a otra persona tratándola de tú o de usted.",
+  "vocab": [
+    {
+      "it": "nome",
+      "es": "el nombre",
+      "gender": "m",
+      "plural": "nomi",
+      "note": "*Nome di battesimo* es el nombre de pila."
+    },
+    {
+      "it": "cognome",
+      "es": "el apellido",
+      "gender": "m",
+      "plural": "cognomi",
+      "note": "No es un apodo. Y se lee con la gn española: /ko-ÑO-me/."
+    },
+    {
+      "it": "paese",
+      "es": "el país; el pueblo",
+      "gender": "m",
+      "plural": "paesi",
+      "note": "Las dos cosas, según el contexto: *un paese europeo* es un país, *un paese di mille abitanti* es un pueblo."
+    },
+    {
+      "it": "lingua",
+      "es": "el idioma, la lengua",
+      "gender": "f",
+      "plural": "lingue",
+      "note": "También la de la boca, igual que en español."
+    },
+    {
+      "it": "amico",
+      "es": "el amigo",
+      "gender": "m",
+      "plural": "amici",
+      "note": "Femenino *amica*, plural *amiche*. Fíjate: *amici* suena «amichi» y *amiche* suena «amique»."
+    },
+    {
+      "it": "signore",
+      "es": "el señor",
+      "gender": "m",
+      "plural": "signori",
+      "note": "Delante del apellido pierde la -e: *il signor Rossi*."
+    },
+    {
+      "it": "signora",
+      "es": "la señora",
+      "gender": "f",
+      "plural": "signore",
+      "note": "*Signora* es también la forma de dirigirse a una mujer adulta que no conoces."
+    },
+    {
+      "it": "studente",
+      "es": "el estudiante",
+      "gender": "m",
+      "plural": "studenti",
+      "note": "Femenino *studentessa*. Lleva el artículo *lo*, porque empieza por s + consonante."
+    },
+    {
+      "it": "numero",
+      "es": "el número",
+      "gender": "m",
+      "plural": "numeri",
+      "note": "*Il numero di telefono*, el número de teléfono."
+    },
+    {
+      "it": "telefono",
+      "es": "el teléfono",
+      "gender": "m",
+      "plural": "telefoni",
+      "note": "El acento va en la e: /te-LÉ-fo-no/, igual que en español."
+    },
+    {
+      "it": "via",
+      "es": "la calle",
+      "gender": "f",
+      "plural": "vie",
+      "note": "En las direcciones va sin artículo y sin «número»: *via Garibaldi 12*."
+    },
+    {
+      "it": "carta",
+      "es": "el papel",
+      "gender": "f",
+      "plural": "carte",
+      "note": "No es una carta de correo: eso es *una lettera*."
+    },
+    {
+      "it": "piacere",
+      "es": "el gusto, el placer",
+      "gender": "m",
+      "plural": "piaceri",
+      "note": "*Piacere!* a secas es «¡mucho gusto!» al conocer a alguien."
+    },
+    {
+      "it": "spagnolo",
+      "es": "español",
+      "gender": null,
+      "plural": null,
+      "note": "Femenino *spagnola*. Siempre en minúscula, también el idioma."
+    },
+    {
+      "it": "italiano",
+      "es": "italiano",
+      "gender": null,
+      "plural": null,
+      "note": "Femenino *italiana*. En minúscula, siempre."
+    }
+  ],
+  "grammar": [
+    {
+      "heading": "Cómo te llamas: chiamarsi",
+      "body": "Funciona igual que el español *llamarse*: el pronombre va delante del verbo y cambia con la persona. La pregunta informal es *Come ti chiami?*; la formal, *Come si chiama?*, que es la misma forma que usarías para «él» o «ella».\n\nPara responder, *Mi chiamo Giulia*. O más corto todavía, que es lo que dice casi todo el mundo: *Sono Giulia*.",
+      "table": {
+        "headers": ["Persona", "Italiano", "Español"],
+        "rows": [
+          ["io", "mi chiamo", "me llamo"],
+          ["tu", "ti chiami", "te llamas"],
+          ["lui / lei", "si chiama", "se llama"],
+          ["Lei (usted)", "si chiama", "se llama usted"]
+        ]
+      }
+    },
+    {
+      "heading": "De dónde eres: essere di",
+      "body": "Para la ciudad de origen se usa **sono di** + ciudad: *sono di Siviglia*, *sono di Napoli*. Para el país se usa el adjetivo, **sin artículo y en minúscula**: *sono spagnola*, *sono italiano*.\n\nY fíjate en el apóstrofo de la pregunta formal: *di dove è* se contrae siempre en **di dov'è**.",
+      "table": {
+        "headers": ["", "Pregunta", "Respuesta"],
+        "rows": [
+          ["Tú", "Di dove sei?", "Sono di Madrid."],
+          ["Usted", "Di dov'è?", "Sono di Palermo."],
+          ["Tú", "Sei spagnola?", "Sì, sono spagnola."],
+          ["Usted", "È italiano?", "No, sono spagnolo."]
+        ]
+      }
+    },
+    {
+      "heading": "Presentar a otra persona",
+      "body": "Basta con **questo è** para un hombre y **questa è** para una mujer: *Questo è Marco, un amico. Questa è Anna.* La otra persona contesta *piacere* y ya está: no hay más ceremonia.\n\nSi quieres saber quién es alguien, la pregunta es *Chi è?* Y para señalar algo, *Che cos'è?* («¿qué es esto?»), otro apóstrofo obligatorio."
+    }
+  ],
+  "phrases": [
+    {
+      "it": "Come ti chiami?",
+      "es": "¿Cómo te llamas?",
+      "note": "Informal. Con un desconocido: *Come si chiama?*"
+    },
+    {
+      "it": "Mi chiamo Giulia. E tu?",
+      "es": "Me llamo Giulia. ¿Y tú?",
+      "note": null
+    },
+    {
+      "it": "Come si chiama, scusi?",
+      "es": "¿Cómo se llama usted, perdone?",
+      "note": "*Scusi* abre casi cualquier pregunta a un desconocido."
+    },
+    {
+      "it": "Di dove sei?",
+      "es": "¿De dónde eres?",
+      "note": "Formal: *Di dov'è?*"
+    },
+    {
+      "it": "Sono di Siviglia.",
+      "es": "Soy de Sevilla.",
+      "note": "Las ciudades españolas se dicen en italiano cuando tienen forma propia: *Siviglia*, *Saragozza*, *Barcellona*."
+    },
+    {
+      "it": "Non sono italiana, sono spagnola.",
+      "es": "No soy italiana, soy española.",
+      "note": "Sin artículo y en minúscula: nunca *una spagnola*."
+    },
+    {
+      "it": "Piacere, io sono Marco.",
+      "es": "Mucho gusto, yo soy Marco.",
+      "note": null
+    },
+    {
+      "it": "Questa è Anna, un'amica.",
+      "es": "Esta es Anna, una amiga.",
+      "note": "*Un'amica* con apóstrofo porque es femenino. En masculino, *un amico*, sin él."
+    },
+    {
+      "it": "Puoi ripetere il nome, per favore?",
+      "es": "¿Puedes repetir el nombre, por favor?",
+      "note": "Con usted: *Può ripetere il nome, per favore?*"
+    },
+    {
+      "it": "Come si scrive il cognome?",
+      "es": "¿Cómo se escribe el apellido?",
+      "note": "Pregunta de ventanilla, de hotel y de médico."
+    }
+  ],
+  "ojo": [
+    {
+      "title": "«Sono spagnola», nunca «sono una spagnola»",
+      "body": "Aquí el español y el italiano coinciden, y por eso conviene no complicarlo: las nacionalidades y las profesiones van **sin artículo** detrás del verbo.\n\n❌ *Sono una spagnola* · ✓ *Sono spagnola*\n\n❌ *Sono una studentessa* · ✓ *Sono studentessa*\n\nLo segundo que cambia respecto al español escrito: las nacionalidades y los idiomas van **en minúscula**. Escribir *Spagnola* o *Italiano* con mayúscula es una falta de ortografía, aunque en inglés se haga.\n\n❌ *Sono Spagnola* · ✓ *Sono spagnola*"
+    },
+    {
+      "title": "El acento tónico de «chiamo» está en la a",
+      "body": "*Mi chiamo* se dice **CHIA**-mo, con la fuerza en la primera sílaba. El oído español tira hacia el final, porque «llamó» acabado en o suena a pasado, y sale /kia-MÓ/.\n\n❌ /mi kia-MÓ/ · ✓ /mi KIA-mo/\n\nLa regla general te ayuda: casi todas las palabras italianas llevan el acento en la penúltima sílaba, como en español, y las que no lo llevan ahí suelen escribirlo (*città*, *caffè*, *perché*). Si no ves acento escrito, no lo pongas al final."
+    },
+    {
+      "title": "«Carta» es papel, la carta es «lettera»",
+      "body": "Primer falso amigo de la serie, y de los que salen enseguida: **carta** en italiano es **papel**.\n\n❌ *una carta per la nonna* → una hoja de papel para la abuela · ✓ *una lettera per la nonna* → una carta para la abuela\n\n*Lettera* es a la vez «letra» del alfabeto y «carta» de correo, así que el contexto decide. Y la carta del restaurante no es ninguna de las dos: es *il menù*, con acento en la u."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "multiple-choice",
+      "prompt": "Estás en la consulta del médico y te preguntan el nombre. ¿Qué esperas oír?",
+      "options": ["Come ti chiami?", "Come si chiama?", "Chi è?"],
+      "answer": 1,
+      "explain": "Con un desconocido, y más en un contexto formal, se usa *Lei*: *Come si chiama?*"
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "«Cognome» significa…",
+      "options": ["apodo", "apellido", "nombre de pila"],
+      "answer": 1,
+      "explain": "El nombre de pila es *il nome*; el apellido, *il cognome*."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "¿Cuál de estas frases está bien escrita?",
+      "options": ["Sono una Spagnola.", "Sono Spagnola.", "Sono spagnola."],
+      "answer": 2,
+      "explain": "Sin artículo y en minúscula. Las nacionalidades italianas nunca van en mayúscula."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "— Di dove sei? — ___ di Madrid.",
+      "answer": ["Sono"],
+      "explain": "*Sono di* + ciudad. Con el país se usa el adjetivo: *sono spagnola*."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Presentas a una amiga: «Questa ___ Anna».",
+      "answer": ["è"],
+      "explain": "*È* con acento es el verbo. Sin acento, *e*, significa «y»."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Preguntas a una señora que no conoces: «Come ___ chiama, scusi?»",
+      "answer": ["si"],
+      "explain": "Con *Lei* (usted) el pronombre es *si*, el mismo de «él» y «ella»."
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        ["il nome", "el nombre"],
+        ["il cognome", "el apellido"],
+        ["il paese", "el país"],
+        ["la lingua", "el idioma"],
+        ["la via", "la calle"],
+        ["la carta", "el papel"]
+      ]
+    },
+    {
+      "type": "word-order",
+      "words": ["Mi", "chiamo", "Giulia", "e", "sono", "spagnola"],
+      "answer": "Mi chiamo Giulia e sono spagnola.",
+      "explain": "El orden es idéntico al español: «me llamo Giulia y soy española»."
+    },
+    {
+      "type": "word-order",
+      "words": ["Come", "si", "scrive", "il", "cognome", "?"],
+      "answer": "Come si scrive il cognome?",
+      "explain": "*Si scrive* es la forma impersonal, la misma de *si dice* y *si pronuncia*."
+    },
+    {
+      "type": "translation",
+      "prompt": "¿De dónde eres?",
+      "answer": ["Di dove sei?", "Di dove sei"],
+      "explain": "Formal: *Di dov'è?*, con apóstrofo obligatorio."
+    },
+    {
+      "type": "translation",
+      "prompt": "Esta es Anna, una amiga.",
+      "answer": ["Questa è Anna, un'amica.", "Questa è Anna un'amica"],
+      "explain": "*Un'amica* lleva apóstrofo por ser femenino; *un amico* no lo lleva."
+    },
+    {
+      "type": "listening",
+      "audio": "Mi chiamo Anna e sono di Napoli.",
+      "answer": ["Mi chiamo Anna e sono di Napoli."],
+      "explain": "«Me llamo Anna y soy de Nápoles». Fíjate en la doble ene de *Anna*."
+    },
+    {
+      "type": "listening",
+      "audio": "Questo è il signor Rossi.",
+      "answer": ["Questo è il signor Rossi."],
+      "explain": "«Este es el señor Rossi». Delante del apellido, *signore* pierde la -e."
+    }
+  ]
+}
