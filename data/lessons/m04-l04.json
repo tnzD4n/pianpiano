@@ -1,0 +1,322 @@
+{
+  "id": "m04-l04",
+  "module": "m04",
+  "title": "El tiempo que hace",
+  "goal": "Al final de esta lección sabrás preguntar y decir qué tiempo hace, y sabrás repartir entre «fa», «c'è» y los verbos sin sujeto lo que en español se dice todo con «hace».",
+  "vocab": [
+    {
+      "it": "sole",
+      "es": "el sol",
+      "gender": "m",
+      "plural": "soli",
+      "note": "*C'è il sole*: hay sol. Con artículo, siempre."
+    },
+    {
+      "it": "pioggia",
+      "es": "la lluvia",
+      "gender": "f",
+      "plural": "piogge",
+      "note": "El verbo es *piovere*: *piove*, llueve."
+    },
+    {
+      "it": "neve",
+      "es": "la nieve",
+      "gender": "f",
+      "plural": "nevi",
+      "note": "El verbo es *nevicare*: *nevica*, nieva."
+    },
+    {
+      "it": "vento",
+      "es": "el viento",
+      "gender": "m",
+      "plural": "venti",
+      "note": "El plural coincide con *venti*, «veinte». El contexto manda."
+    },
+    {
+      "it": "nuvola",
+      "es": "la nube",
+      "gender": "f",
+      "plural": "nuvole",
+      "note": "*È nuvoloso*: está nublado."
+    },
+    {
+      "it": "nebbia",
+      "es": "la niebla",
+      "gender": "f",
+      "plural": "nebbie",
+      "note": "Con dos bes. En el valle del Po es un clásico de noviembre."
+    },
+    {
+      "it": "cielo",
+      "es": "el cielo",
+      "gender": "m",
+      "plural": "cieli",
+      "note": "*Il cielo è sereno*: el cielo está despejado."
+    },
+    {
+      "it": "temporale",
+      "es": "la tormenta",
+      "gender": "m",
+      "plural": "temporali",
+      "note": "Como nombre significa «tormenta», no «temporal»."
+    },
+    {
+      "it": "giacca",
+      "es": "la chaqueta",
+      "gender": "f",
+      "plural": "giacche",
+      "note": "Plural con h: *le giacche*."
+    },
+    {
+      "it": "cappotto",
+      "es": "el abrigo",
+      "gender": "m",
+      "plural": "cappotti",
+      "note": "Dos pes y dos tes. El de invierno, largo."
+    },
+    {
+      "it": "sciarpa",
+      "es": "la bufanda",
+      "gender": "f",
+      "plural": "sciarpe",
+      "note": "*Sci* suena como la «sh» inglesa: /SHÁR-pa/."
+    },
+    {
+      "it": "occhiali",
+      "es": "las gafas",
+      "gender": null,
+      "plural": null,
+      "note": "Siempre en plural y masculino: *gli occhiali*. Las de sol, *gli occhiali da sole*."
+    },
+    {
+      "it": "umido",
+      "es": "húmedo",
+      "gender": null,
+      "plural": null,
+      "note": "Acento en la u: /Ú-mi-do/. *È umido*: hay humedad."
+    },
+    {
+      "it": "fresco",
+      "es": "fresco",
+      "gender": null,
+      "plural": null,
+      "note": "Femenino *fresca*, plurales *freschi* / *fresche*."
+    },
+    {
+      "it": "bagnato",
+      "es": "mojado",
+      "gender": null,
+      "plural": null,
+      "note": "Femenino *bagnata*. Lo contrario es *asciutto*, seco."
+    }
+  ],
+  "grammar": [
+    {
+      "heading": "Che tempo fa?",
+      "body": "La pregunta es *Che tempo fa?*, literalmente «¿qué tiempo hace?». El verbo es *fare*, y aquí solo hace falta la tercera persona: **fa**. El verbo entero llega en el módulo 5.\n\n*Fa* se usa para la **temperatura**: lo que se siente en la piel.",
+      "table": {
+        "headers": ["Italiano", "Español"],
+        "rows": [
+          ["Fa caldo", "Hace calor"],
+          ["Fa freddo", "Hace frío"],
+          ["Fa fresco", "Hace fresco"],
+          ["Fa bel tempo", "Hace buen tiempo"],
+          ["Fa brutto tempo", "Hace mal tiempo"]
+        ]
+      }
+    },
+    {
+      "heading": "Los verbos que no tienen sujeto",
+      "body": "*Piove* y *nevica* funcionan exactamente como «llueve» y «nieva»: no tienen sujeto y solo existen en tercera persona del singular.\n\n❌ *fa piove* · ✓ *piove*\n\nEl acento de *nevica* va en la primera sílaba: /NÉ-vi-ca/, no /ne-VÍ-ca/.",
+      "table": {
+        "headers": ["Italiano", "Español"],
+        "rows": [
+          ["Piove", "Llueve"],
+          ["Nevica", "Nieva"],
+          ["È nuvoloso", "Está nublado"],
+          ["È sereno", "Está despejado"],
+          ["È umido", "Hay humedad"]
+        ]
+      }
+    },
+    {
+      "heading": "Cuando hay algo: c'è",
+      "body": "Para decir que **hay** algo se usa *c'è* en singular y *ci sono* en plural. Con el tiempo casi siempre va en singular.\n\nA diferencia del español «hay», que no cambia nunca, el italiano concuerda con lo que viene detrás. El módulo 6 lo explica entero; aquí basta con aprender estas cuatro.",
+      "table": {
+        "headers": ["Italiano", "Español"],
+        "rows": [
+          ["C'è il sole", "Hay sol"],
+          ["C'è vento", "Hace viento"],
+          ["C'è nebbia", "Hay niebla"],
+          ["Ci sono le nuvole", "Hay nubes"]
+        ]
+      }
+    }
+  ],
+  "phrases": [
+    {
+      "it": "Che tempo fa oggi?",
+      "es": "¿Qué tiempo hace hoy?",
+      "note": null
+    },
+    {
+      "it": "Fa caldo, ho sete.",
+      "es": "Hace calor, tengo sed.",
+      "note": "*Fa* para el tiempo, *ho* para la persona."
+    },
+    {
+      "it": "Piove, ho bisogno di un ombrello.",
+      "es": "Llueve, necesito un paraguas.",
+      "note": null
+    },
+    {
+      "it": "C'è il sole!",
+      "es": "¡Hay sol!",
+      "note": "Con artículo: *il sole*, no *sole* a secas."
+    },
+    {
+      "it": "Fa freddo, ho bisogno di un cappotto.",
+      "es": "Hace frío, necesito un abrigo.",
+      "note": null
+    },
+    {
+      "it": "Domani nevica.",
+      "es": "Mañana nieva.",
+      "note": "El presente vale para el futuro cercano, igual que en español."
+    },
+    {
+      "it": "Non fa caldo, fa fresco.",
+      "es": "No hace calor, hace fresco.",
+      "note": null
+    },
+    {
+      "it": "C'è nebbia, siamo in ritardo.",
+      "es": "Hay niebla, llegamos tarde.",
+      "note": null
+    },
+    {
+      "it": "Che bella giornata!",
+      "es": "¡Qué día tan bonito!",
+      "note": "*Giornata* es el día entero, de la mañana a la noche."
+    }
+  ],
+  "ojo": [
+    {
+      "title": "«Fa caldo» pero «c'è il sole»",
+      "body": "El español lo dice todo con «hace»: hace calor, hace frío, hace sol, hace viento, hace niebla. El italiano lo reparte entre dos fórmulas y no hay ninguna lógica que ayude: se aprende la pareja.\n\n**fa** + temperatura, lo que se siente:\n\n✓ *fa caldo*, *fa freddo*, *fa fresco*\n\n**c'è** + cosa que se ve o se nota:\n\n✓ *c'è il sole*, *c'è vento*, *c'è nebbia*\n\n❌ *fa nebbia* · ✓ *c'è nebbia*\n\n❌ *c'è caldo* · ✓ *fa caldo*\n\nCon el sol, *c'è il sole* es lo que se dice siempre, con artículo. *Fa sole* existe, pero se oye poco."
+    },
+    {
+      "title": "«Ho caldo» y «fa caldo» no son lo mismo",
+      "body": "Una es la persona, la otra es el tiempo. La palabra es la misma y el verbo cambia todo.\n\n✓ *Ho caldo* → tengo calor (yo)\n\n✓ *Fa caldo* → hace calor (el tiempo)\n\n✓ *Ho freddo* → tengo frío\n\n✓ *Fa freddo* → hace frío\n\nY nunca con *essere*: *sono caldo* no significa «tengo calor», significa que estás caliente, con el mismo doble sentido que en español."
+    },
+    {
+      "title": "«Buen tiempo» es «bel tempo», no «buon tempo»",
+      "body": "*Buono* se usa para lo que se come y para las personas; *bello* para lo que se ve, incluido el tiempo y el paisaje.\n\n❌ *fa buon tempo* · ✓ *fa bel tempo*\n\n✓ *che bella giornata!* — ¡qué buen día!\n\n✓ *un caffè buono* — un café rico\n\n✓ *una bella città* — una ciudad bonita\n\nY *bello* delante del nombre se comporta como el artículo: *bel tempo*, *bella giornata*, *begli occhiali*."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "multiple-choice",
+      "prompt": "«Hace calor» en italiano es…",
+      "options": ["C'è caldo", "Fa caldo", "Ha caldo"],
+      "answer": 1,
+      "explain": "La temperatura va con *fa*."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "«Hay sol» en italiano es…",
+      "options": ["Fa il sole", "C'è il sole", "È sole"],
+      "answer": 1,
+      "explain": "Lo que se ve va con *c'è*, y *sole* lleva artículo."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "«Tengo frío» en italiano es…",
+      "options": ["Fa freddo", "Ho freddo", "Sono freddo"],
+      "answer": 1,
+      "explain": "*Fa freddo* es el tiempo; *ho freddo* soy yo."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Llueve: ___",
+      "answer": ["Piove"],
+      "explain": "Sin sujeto, como en español."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Nieva: ___",
+      "answer": ["Nevica"],
+      "explain": "Acento en la primera sílaba: /NÉ-vi-ca/."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Hay niebla: ___ nebbia.",
+      "answer": ["c'è"],
+      "explain": "*C'è* + nombre singular."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Hace buen tiempo: fa ___ tempo.",
+      "answer": ["bel"],
+      "explain": "*Bel tempo*, nunca *buon tempo*."
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        ["il sole", "el sol"],
+        ["la pioggia", "la lluvia"],
+        ["la neve", "la nieve"],
+        ["il vento", "el viento"],
+        ["la nebbia", "la niebla"],
+        ["la nuvola", "la nube"]
+      ]
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        ["la giacca", "la chaqueta"],
+        ["il cappotto", "el abrigo"],
+        ["la sciarpa", "la bufanda"],
+        ["gli occhiali", "las gafas"],
+        ["bagnato", "mojado"],
+        ["umido", "húmedo"]
+      ]
+    },
+    {
+      "type": "word-order",
+      "words": ["Piove", "ho", "bisogno", "di", "un", "ombrello"],
+      "answer": "Piove, ho bisogno di un ombrello.",
+      "explain": "*Un ombrello* sin apóstrofo: es masculino."
+    },
+    {
+      "type": "word-order",
+      "words": ["Non", "fa", "caldo", "fa", "fresco"],
+      "answer": "Non fa caldo, fa fresco.",
+      "explain": "*Non* delante del verbo."
+    },
+    {
+      "type": "translation",
+      "prompt": "¿Qué tiempo hace hoy?",
+      "answer": ["Che tempo fa oggi?", "Che tempo fa oggi"],
+      "explain": "*Che tempo fa?* a secas también vale."
+    },
+    {
+      "type": "translation",
+      "prompt": "Hace frío y hay niebla.",
+      "answer": ["Fa freddo e c'è nebbia."],
+      "explain": "Dos fórmulas distintas en la misma frase: *fa* y *c'è*."
+    },
+    {
+      "type": "listening",
+      "audio": "C'è il sole, che bella giornata!",
+      "answer": ["C'è il sole, che bella giornata!"],
+      "explain": "*C'è* con apóstrofo, y *bella* delante del nombre."
+    },
+    {
+      "type": "listening",
+      "audio": "Fa freddo e c'è vento.",
+      "answer": ["Fa freddo e c'è vento."],
+      "explain": "*Fa* para el frío, *c'è* para el viento."
+    }
+  ]
+}

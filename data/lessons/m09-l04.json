@@ -1,0 +1,335 @@
+{
+  "id": "m09-l04",
+  "module": "m09",
+  "title": "El cuerpo y estar bien o mal",
+  "goal": "Al final de esta lección sabrás decir qué te duele y cómo te encuentras, con un verbo que concuerda con la parte del cuerpo y no contigo.",
+  "vocab": [
+    {
+      "it": "testa",
+      "es": "la cabeza",
+      "gender": "f",
+      "plural": "teste",
+      "note": "*Mal di testa*: dolor de cabeza."
+    },
+    {
+      "it": "gamba",
+      "es": "la pierna",
+      "gender": "f",
+      "plural": "gambe",
+      "note": "No es «la gamba» de comer: el marisco es *il gambero*."
+    },
+    {
+      "it": "braccio",
+      "es": "el brazo",
+      "gender": "m",
+      "plural": null,
+      "note": "Plural femenino irregular: *le braccia*."
+    },
+    {
+      "it": "piede",
+      "es": "el pie",
+      "gender": "m",
+      "plural": "piedi",
+      "note": "*A piedi*: a pie, andando."
+    },
+    {
+      "it": "occhio",
+      "es": "el ojo",
+      "gender": "m",
+      "plural": "occhi",
+      "note": "*Occhio!* solo significa «¡cuidado!». De ahí el nombre de estos bloques."
+    },
+    {
+      "it": "bocca",
+      "es": "la boca",
+      "gender": "f",
+      "plural": "bocche",
+      "note": "Plural con h. *In bocca al lupo!* es «¡mucha suerte!»."
+    },
+    {
+      "it": "schiena",
+      "es": "la espalda",
+      "gender": "f",
+      "plural": "schiene",
+      "note": "*Mal di schiena*: dolor de espalda."
+    },
+    {
+      "it": "stomaco",
+      "es": "el estómago",
+      "gender": "m",
+      "plural": "stomaci",
+      "note": "*Lo stomaco*, por la s impura."
+    },
+    {
+      "it": "gola",
+      "es": "la garganta",
+      "gender": "f",
+      "plural": "gole",
+      "note": "*Mal di gola*: dolor de garganta."
+    },
+    {
+      "it": "dente",
+      "es": "el diente",
+      "gender": "m",
+      "plural": "denti",
+      "note": "*Al dente* es esto mismo: la pasta que se nota al morder."
+    },
+    {
+      "it": "osso",
+      "es": "el hueso",
+      "gender": "m",
+      "plural": null,
+      "note": "Plural femenino *le ossa*. No es el oso: el animal es *l'orso*."
+    },
+    {
+      "it": "febbre",
+      "es": "la fiebre",
+      "gender": "f",
+      "plural": "febbri",
+      "note": "*Ho la febbre*, con artículo. Con dos bes."
+    },
+    {
+      "it": "raffreddore",
+      "es": "el resfriado",
+      "gender": "m",
+      "plural": "raffreddori",
+      "note": "*Ho il raffreddore*: estoy resfriada. Dos efes y dos des."
+    },
+    {
+      "it": "dolore",
+      "es": "el dolor",
+      "gender": "m",
+      "plural": "dolori",
+      "note": "Masculino, como en español."
+    },
+    {
+      "it": "medicina",
+      "es": "la medicina",
+      "gender": "f",
+      "plural": "medicine",
+      "note": "También *il farmaco*. Se compran en *farmacia*."
+    }
+  ],
+  "grammar": [
+    {
+      "heading": "Cómo estás",
+      "body": "Aquí *stare* sí es el verbo correcto: la salud es su terreno, como viste en el módulo 5. Para todo lo demás sigue siendo *essere*.\n\nY las enfermedades van con **avere + artículo**: *ho la febbre*, *ho il raffreddore*.",
+      "table": {
+        "headers": ["Italiano", "Español"],
+        "rows": [
+          ["Come stai?", "¿Qué tal estás?"],
+          ["Come si sente?", "¿Cómo se encuentra?"],
+          ["Sto bene", "Estoy bien"],
+          ["Sto male", "Estoy mal"],
+          ["Non mi sento bene", "No me encuentro bien"],
+          ["Ho la febbre", "Tengo fiebre"],
+          ["Ho il raffreddore", "Estoy resfriada"],
+          ["Sto meglio", "Estoy mejor"]
+        ]
+      }
+    },
+    {
+      "heading": "«Mi fa male…»",
+      "body": "Funciona como *piacere*: **el sujeto es la parte del cuerpo**, no tú.\n\n**mi fa male** + una parte\n\n**mi fanno male** + varias partes\n\nY la parte del cuerpo lleva **artículo**, no posesivo, igual que en español.\n\n❌ *mi fa male la mia testa* · ✓ *mi fa male la testa*",
+      "table": {
+        "headers": ["Italiano", "Español"],
+        "rows": [
+          ["Mi fa male la testa", "Me duele la cabeza"],
+          ["Mi fa male la gola", "Me duele la garganta"],
+          ["Mi fanno male i piedi", "Me duelen los pies"],
+          ["Ti fa male?", "¿Te duele?"],
+          ["Le fa male la schiena", "A ella le duele la espalda"],
+          ["Ho mal di testa", "Tengo dolor de cabeza"]
+        ]
+      }
+    },
+    {
+      "heading": "Los plurales raros del cuerpo",
+      "body": "Ya los viste en el módulo 2 con *l'uovo* → *le uova*: un grupo de masculinos en *-o* que hacen el plural en *-a* y se vuelven femeninos. Casi todos son partes del cuerpo que van por pares.\n\nY *la mano* es la de siempre: femenina en singular a pesar de la -o, y *le mani* en plural.",
+      "table": {
+        "headers": ["Singular", "Plural", "Español"],
+        "rows": [
+          ["il braccio", "le braccia", "el brazo, los brazos"],
+          ["il ginocchio", "le ginocchia", "la rodilla, las rodillas"],
+          ["il dito", "le dita", "el dedo, los dedos"],
+          ["l'osso", "le ossa", "el hueso, los huesos"],
+          ["l'orecchio", "le orecchie", "la oreja, las orejas"],
+          ["la mano", "le mani", "la mano, las manos"]
+        ]
+      }
+    }
+  ],
+  "phrases": [
+    {
+      "it": "Come stai? — Non mi sento bene.",
+      "es": "¿Qué tal estás? — No me encuentro bien.",
+      "note": null
+    },
+    {
+      "it": "Mi fa male la testa.",
+      "es": "Me duele la cabeza.",
+      "note": "Con artículo, nunca con posesivo."
+    },
+    {
+      "it": "Ho la febbre e mal di gola.",
+      "es": "Tengo fiebre y dolor de garganta.",
+      "note": "*Ho la febbre* con artículo, *mal di gola* sin él."
+    },
+    {
+      "it": "Mi fanno male i piedi.",
+      "es": "Me duelen los pies.",
+      "note": "*Fanno* en plural, porque son dos pies."
+    },
+    {
+      "it": "Devo andare dal medico.",
+      "es": "Tengo que ir al médico.",
+      "note": "*Dal medico*, con *da*."
+    },
+    {
+      "it": "Vorrei qualcosa per il mal di testa.",
+      "es": "Querría algo para el dolor de cabeza.",
+      "note": "La frase de la farmacia."
+    },
+    {
+      "it": "Ti fa male?",
+      "es": "¿Te duele?",
+      "note": "De usted: *le fa male?*"
+    },
+    {
+      "it": "Sto meglio, grazie.",
+      "es": "Estoy mejor, gracias.",
+      "note": "*Meglio* es «mejor» de adverbio."
+    },
+    {
+      "it": "Non è niente di grave.",
+      "es": "No es nada grave.",
+      "note": "*Niente di* + adjetivo masculino singular."
+    }
+  ],
+  "ojo": [
+    {
+      "title": "«Mi fa male la testa»: el verbo concuerda con la parte del cuerpo",
+      "body": "Funciona como *piacere*: el sujeto no eres tú.\n\n❌ *Io faccio male la testa* · ✓ *Mi fa male la testa*\n\n❌ *Mi fa male i piedi* · ✓ *Mi fanno male i piedi*\n\nY la parte del cuerpo lleva **artículo**, nunca posesivo:\n\n❌ *mi fa male la mia testa* · ✓ *mi fa male la testa*\n\nEl español hace exactamente lo mismo — «me duele la cabeza», no «me duele mi cabeza» — así que basta con traducir literalmente y no complicarlo.\n\nLa alternativa corta es *ho mal di…*, sin artículo y sin concordancia: *ho mal di testa*, *ho mal di gola*, *ho mal di schiena*, *ho mal di pancia*."
+    },
+    {
+      "title": "«La gamba» es la pierna",
+      "body": "**La gamba** es **la pierna**. El marisco que en España se llama gamba es **il gambero**.\n\n✓ *mi fa male una gamba* → me duele una pierna\n\n✓ *un piatto di gamberi* → un plato de gambas\n\n❌ *vorrei delle gambe* · ✓ *vorrei dei gamberi*\n\nY hay una expresión que oirás y que conviene entender bien: *essere in gamba* significa **ser espabilado, valer mucho**. *È una persona in gamba* es un elogio grande, no un comentario sobre sus piernas."
+    },
+    {
+      "title": "«L'osso» es el hueso, no el oso",
+      "body": "**L'osso** es **el hueso**. El oso es **l'orso**.\n\n✓ *mi fa male un osso* → me duele un hueso\n\n✓ *l'orso bruno* → el oso pardo\n\nUna letra bailada y dos cosas completamente distintas.\n\nY el plural de *osso* es de los raros que acabas de ver: **le ossa**, femenino, cuando se habla del esqueleto de alguien. *Gli ossi*, masculino, son los huesos sueltos: los del caldo, los que se le dan al perro."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "multiple-choice",
+      "prompt": "«Me duelen los pies» en italiano es…",
+      "options": ["Mi fa male i piedi", "Mi fanno male i piedi", "Io faccio male i piedi"],
+      "answer": 1,
+      "explain": "El verbo concuerda con la parte del cuerpo: *piedi* es plural."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "«La gamba» es…",
+      "options": ["la gamba (marisco)", "la pierna", "el brazo"],
+      "answer": 1,
+      "explain": "El marisco es *il gambero*."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "«L'osso» es…",
+      "options": ["el oso", "el hueso", "el hombro"],
+      "answer": 1,
+      "explain": "El oso es *l'orso*."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "«Estoy en Milán y estoy resfriada». ¿Qué verbos usas?",
+      "options": ["sto / sto", "sono / ho", "sono / sto"],
+      "answer": 1,
+      "explain": "*Sono a Milano* para el lugar, *ho il raffreddore* para la enfermedad."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Mi ___ male la testa.",
+      "answer": ["fa"],
+      "explain": "Una sola parte: singular."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Mi ___ male le gambe.",
+      "answer": ["fanno"],
+      "explain": "Dos piernas: plural."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Tengo fiebre: ho ___ febbre.",
+      "answer": ["la"],
+      "explain": "Las enfermedades van con artículo detrás de *avere*."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "El plural de «il braccio» es le ___",
+      "answer": ["braccia"],
+      "explain": "Plural femenino irregular, como *le uova*."
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        ["la testa", "la cabeza"],
+        ["la gamba", "la pierna"],
+        ["il braccio", "el brazo"],
+        ["la schiena", "la espalda"],
+        ["la gola", "la garganta"],
+        ["lo stomaco", "el estómago"]
+      ]
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        ["ho la febbre", "tengo fiebre"],
+        ["ho il raffreddore", "estoy resfriada"],
+        ["mi fa male la testa", "me duele la cabeza"],
+        ["sto meglio", "estoy mejor"],
+        ["non mi sento bene", "no me encuentro bien"],
+        ["ho mal di gola", "tengo dolor de garganta"]
+      ]
+    },
+    {
+      "type": "word-order",
+      "words": ["Mi", "fanno", "male", "i", "piedi"],
+      "answer": "Mi fanno male i piedi.",
+      "explain": "*Fanno* concuerda con *piedi*."
+    },
+    {
+      "type": "word-order",
+      "words": ["Ho", "la", "febbre", "e", "mal", "di", "gola"],
+      "answer": "Ho la febbre e mal di gola.",
+      "explain": "*La febbre* con artículo, *mal di gola* sin él."
+    },
+    {
+      "type": "translation",
+      "prompt": "Me duele la cabeza.",
+      "answer": ["Mi fa male la testa.", "Ho mal di testa."],
+      "explain": "Las dos formas valen y las dos se usan."
+    },
+    {
+      "type": "translation",
+      "prompt": "Tengo que ir al médico.",
+      "answer": ["Devo andare dal medico."],
+      "explain": "*Dal medico*, con *da*, no con *a*."
+    },
+    {
+      "type": "listening",
+      "audio": "Non mi sento bene, mi fa male la gola.",
+      "answer": ["Non mi sento bene, mi fa male la gola."],
+      "explain": "Reflexivo y *fare male* en la misma frase."
+    },
+    {
+      "type": "listening",
+      "audio": "Vorrei qualcosa per il mal di testa.",
+      "answer": ["Vorrei qualcosa per il mal di testa."],
+      "explain": "*Vorrei* para pedir, también en la farmacia."
+    }
+  ]
+}

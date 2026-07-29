@@ -1,0 +1,335 @@
+{
+  "id": "m07-l02",
+  "module": "m07",
+  "title": "Preposiciones simples",
+  "goal": "Al final de esta lección tendrás las ocho preposiciones italianas, sabrás cuándo va «a» y cuándo va «in», y habrás domado «da», que es la que no se parece a nada del español.",
+  "vocab": [
+    {
+      "it": "di",
+      "es": "de",
+      "gender": null,
+      "plural": null,
+      "note": "Posesión, materia y origen: *il libro di Marco*, *sono di Madrid*."
+    },
+    {
+      "it": "a",
+      "es": "a, en",
+      "gender": null,
+      "plural": null,
+      "note": "Ciudades y horas: *a Roma*, *alle otto*."
+    },
+    {
+      "it": "da",
+      "es": "de, desde, a casa de",
+      "gender": null,
+      "plural": null,
+      "note": "La más difícil. No tiene una sola traducción."
+    },
+    {
+      "it": "in",
+      "es": "en, a",
+      "gender": null,
+      "plural": null,
+      "note": "Países y medios de transporte: *in Italia*, *in treno*."
+    },
+    {
+      "it": "con",
+      "es": "con",
+      "gender": null,
+      "plural": null,
+      "note": "No se funde con el artículo, salvo el coloquial *col*."
+    },
+    {
+      "it": "su",
+      "es": "sobre, en",
+      "gender": null,
+      "plural": null,
+      "note": "*Sul tavolo*: encima de la mesa."
+    },
+    {
+      "it": "per",
+      "es": "para, por",
+      "gender": null,
+      "plural": null,
+      "note": "Cubre las dos españolas. *Parto per Roma*, *è per Anna*."
+    },
+    {
+      "it": "tra",
+      "es": "entre; dentro de",
+      "gender": null,
+      "plural": null,
+      "note": "*Fra* significa exactamente lo mismo: se elige por el sonido."
+    },
+    {
+      "it": "ufficio",
+      "es": "la oficina",
+      "gender": "m",
+      "plural": "uffici",
+      "note": "*In ufficio*, sin artículo."
+    },
+    {
+      "it": "lavoro",
+      "es": "el trabajo",
+      "gender": "m",
+      "plural": "lavori",
+      "note": "*Al lavoro*: en el trabajo. De *lavorare*."
+    },
+    {
+      "it": "autobus",
+      "es": "el autobús",
+      "gender": "m",
+      "plural": "autobus",
+      "note": "Invariable. Todo el mundo dice *il bus*."
+    },
+    {
+      "it": "aereo",
+      "es": "el avión",
+      "gender": "m",
+      "plural": "aerei",
+      "note": "*In aereo*: en avión."
+    },
+    {
+      "it": "bicicletta",
+      "es": "la bicicleta",
+      "gender": "f",
+      "plural": "biciclette",
+      "note": "*In bici* es la forma corta, y la que se usa."
+    },
+    {
+      "it": "viaggio",
+      "es": "el viaje",
+      "gender": "m",
+      "plural": "viaggi",
+      "note": "*Buon viaggio!*: ¡buen viaje!"
+    },
+    {
+      "it": "estero",
+      "es": "el extranjero (el exterior)",
+      "gender": "m",
+      "plural": null,
+      "note": "*All'estero*: en el extranjero. La persona extranjera es *lo straniero*."
+    }
+  ],
+  "grammar": [
+    {
+      "heading": "Las ocho preposiciones",
+      "body": "*Tra* y *fra* significan exactamente lo mismo. Se elige la que suene mejor, evitando repetir consonantes con la palabra siguiente: se dice *fra tre giorni*, no *tra tre giorni*.",
+      "table": {
+        "headers": ["Italiano", "Sentidos", "Ejemplo"],
+        "rows": [
+          ["di", "de: posesión, materia, origen", "il libro di Marco"],
+          ["a", "a, en: ciudad, hora", "vado a Roma · alle otto"],
+          ["da", "de, desde, a casa de", "vengo da Madrid · vado dal medico"],
+          ["in", "en, a: país, transporte", "in Italia · in macchina"],
+          ["con", "con", "con Marco"],
+          ["su", "sobre, en", "sul tavolo"],
+          ["per", "para, por", "per Anna · parto per Roma"],
+          ["tra / fra", "entre; dentro de (tiempo)", "tra amici · fra due ore"]
+        ]
+      }
+    },
+    {
+      "heading": "«A» o «in»: la que más se falla",
+      "body": "No hay lógica. Hay que aprender el par palabra + preposición, igual que se aprende el género de un nombre.\n\n❌ *vado a Italia* · ✓ *vado in Italia*\n\n❌ *vado in Roma* · ✓ *vado a Roma*",
+      "table": {
+        "headers": ["Preposición", "Con", "Ejemplos"],
+        "rows": [
+          ["a", "ciudades", "a Roma, a Milano, a Madrid"],
+          ["in", "países y regiones", "in Italia, in Spagna, in Toscana"],
+          ["a", "casa, scuola, letto, teatro", "a casa, a scuola, a letto"],
+          ["in", "muchos locales y espacios", "in centro, in piazza, in ufficio, in banca"],
+          ["in", "medios de transporte", "in macchina, in treno, in aereo, in bici"],
+          ["a", "a pie", "a piedi"]
+        ]
+      }
+    },
+    {
+      "heading": "«Da», la preposición sin traducción única",
+      "body": "Es la que más cuesta, porque el español la reparte entre «de», «desde», «a», «en casa de» y «para». No la traduzcas: aprende los bloques enteros.",
+      "table": {
+        "headers": ["Italiano", "Español", "Sentido"],
+        "rows": [
+          ["vengo da Madrid", "vengo de Madrid", "procedencia"],
+          ["vado dal medico", "voy al médico", "al sitio de alguien"],
+          ["sono da Marco", "estoy en casa de Marco", "en casa de alguien"],
+          ["abito qui da tre anni", "vivo aquí desde hace tres años", "tiempo transcurrido"],
+          ["una tazza da caffè", "una taza de café", "para qué sirve"],
+          ["gli occhiali da sole", "las gafas de sol", "para qué sirven"]
+        ]
+      }
+    }
+  ],
+  "phrases": [
+    {
+      "it": "Vado in Italia in aereo.",
+      "es": "Voy a Italia en avión.",
+      "note": "*In* dos veces: para el país y para el transporte."
+    },
+    {
+      "it": "Vengo da Madrid.",
+      "es": "Vengo de Madrid.",
+      "note": "*Da* para la procedencia; *di* para el origen: *sono di Madrid*."
+    },
+    {
+      "it": "Vado dal medico alle tre.",
+      "es": "Voy al médico a las tres.",
+      "note": "*Dal medico*, no *al medico*."
+    },
+    {
+      "it": "Abito qui da tre anni.",
+      "es": "Vivo aquí desde hace tres años.",
+      "note": "*Da* + tiempo, con el verbo en presente."
+    },
+    {
+      "it": "Vado in ufficio in bicicletta.",
+      "es": "Voy a la oficina en bici.",
+      "note": "*In ufficio*, sin artículo."
+    },
+    {
+      "it": "Stasera sono da Marco.",
+      "es": "Esta noche estoy en casa de Marco.",
+      "note": "*Da* + persona: en su casa."
+    },
+    {
+      "it": "Questo è per Anna.",
+      "es": "Esto es para Anna.",
+      "note": "*Per* cubre «para» y «por»."
+    },
+    {
+      "it": "Ci vediamo fra due ore.",
+      "es": "Nos vemos dentro de dos horas.",
+      "note": "*Tra* y *fra* valen las dos; aquí *fra* suena mejor."
+    },
+    {
+      "it": "Gli occhiali da sole sono in macchina.",
+      "es": "Las gafas de sol están en el coche.",
+      "note": "*Da sole* dice para qué sirven; *in macchina*, dónde están."
+    }
+  ],
+  "ojo": [
+    {
+      "title": "«Da» no tiene una sola traducción",
+      "body": "Es la preposición que más errores produce, porque el español la reparte en cinco.\n\n❌ *vengo di Madrid* · ✓ *vengo da Madrid*\n\n❌ *vado al medico* · ✓ *vado dal medico*\n\n❌ *sono a casa di Marco* → correcto, pero se dice *sono da Marco*\n\n❌ *abito qui per tre anni* · ✓ *abito qui da tre anni*\n\nEse último es el más traicionero: **da + tiempo con el verbo en presente** significa «desde hace», y expresa algo que empezó antes y sigue pasando. El español usa un pasado o un giro; el italiano se queda en presente.\n\n✓ *Studio italiano da sei mesi* → llevo seis meses estudiando italiano"
+    },
+    {
+      "title": "«A» con ciudades, «in» con países",
+      "body": "Es la regla más rentable de toda la lección, porque cubre el noventa por ciento de los casos de viaje.\n\n✓ *a Roma*, *a Milano*, *a Napoli*, *a Madrid*\n\n✓ *in Italia*, *in Spagna*, *in Francia*, *in Toscana*\n\n❌ *vado a Italia* · ✓ *vado in Italia*\n\nY para los transportes, **in** con casi todos: *in treno*, *in macchina*, *in aereo*, *in autobus*, *in bici*. La excepción es ir andando: *a piedi*.\n\nLa preposición no cambia según vayas o estés: *vado a Roma* y *sono a Roma*, las dos con *a*."
+    },
+    {
+      "title": "«L'autista» es el conductor",
+      "body": "**L'autista** es **el conductor**: el que lleva un autobús, un taxi o el coche de otro. No tiene nada que ver con «el artista», que es *l'artista*.\n\n✓ *l'autista dell'autobus* → el conductor del autobús\n\nY de paso, una regla útil: las palabras en **-ista** valen para hombre y para mujer sin cambiar. Lo que cambia es el artículo y el plural:\n\n*l'autista* → *il turista* / *la turista*, *il dentista* / *la dentista*\n\nPlural masculino en *-isti*, femenino en *-iste*: *gli autisti*, *le autiste*."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "multiple-choice",
+      "prompt": "«Voy a Italia» en italiano es…",
+      "options": ["Vado a Italia", "Vado in Italia", "Vado all'Italia"],
+      "answer": 1,
+      "explain": "*In* con los países."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "«Voy al médico» en italiano es…",
+      "options": ["Vado al medico", "Vado dal medico", "Vado in medico"],
+      "answer": 1,
+      "explain": "*Da* + persona: al sitio donde está esa persona."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "«Abito qui da tre anni» significa…",
+      "options": ["vivo aquí durante tres años", "vivo aquí desde hace tres años", "viví aquí tres años"],
+      "answer": 1,
+      "explain": "*Da* + tiempo con presente: empezó antes y sigue."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "«L'autista» es…",
+      "options": ["el artista", "el conductor", "el autor"],
+      "answer": 1,
+      "explain": "El que conduce. Vale para hombre y para mujer."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Vado ___ Roma domani.",
+      "answer": ["a"],
+      "explain": "*A* con las ciudades."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Andiamo ___ macchina.",
+      "answer": ["in"],
+      "explain": "*In* con los medios de transporte."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Vengo ___ Madrid.",
+      "answer": ["da"],
+      "explain": "*Da* para la procedencia."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ci vediamo ___ due ore.",
+      "answer": ["fra", "tra"],
+      "explain": "*Tra* y *fra* valen las dos."
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        ["in Italia", "a Italia"],
+        ["in treno", "en tren"],
+        ["a piedi", "a pie"],
+        ["dal medico", "al médico"],
+        ["da Marco", "en casa de Marco"],
+        ["da tre anni", "desde hace tres años"]
+      ]
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        ["l'ufficio", "la oficina"],
+        ["il lavoro", "el trabajo"],
+        ["l'autobus", "el autobús"],
+        ["l'aereo", "el avión"],
+        ["il viaggio", "el viaje"],
+        ["all'estero", "en el extranjero"]
+      ]
+    },
+    {
+      "type": "word-order",
+      "words": ["Vado", "in", "Italia", "in", "aereo"],
+      "answer": "Vado in Italia in aereo.",
+      "explain": "*In* para el país y para el transporte."
+    },
+    {
+      "type": "word-order",
+      "words": ["Abito", "qui", "da", "tre", "anni"],
+      "answer": "Abito qui da tre anni.",
+      "explain": "Presente + *da* + tiempo."
+    },
+    {
+      "type": "translation",
+      "prompt": "Voy a la oficina en bici.",
+      "answer": ["Vado in ufficio in bicicletta.", "Vado in ufficio in bici."],
+      "explain": "*In ufficio* sin artículo, *in bici* para el transporte."
+    },
+    {
+      "type": "translation",
+      "prompt": "Esta noche estoy en casa de Marco.",
+      "answer": ["Stasera sono da Marco."],
+      "explain": "*Da* + nombre de persona."
+    },
+    {
+      "type": "listening",
+      "audio": "Vengo da Madrid, ma abito a Roma da tre anni.",
+      "answer": ["Vengo da Madrid, ma abito a Roma da tre anni."],
+      "explain": "Dos *da* con sentidos distintos, y un *a* de ciudad."
+    },
+    {
+      "type": "listening",
+      "audio": "Gli occhiali da sole sono in macchina.",
+      "answer": ["Gli occhiali da sole sono in macchina."],
+      "explain": "*Da sole* para la finalidad, *in macchina* para el lugar."
+    }
+  ]
+}

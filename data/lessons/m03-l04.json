@@ -1,0 +1,325 @@
+{
+  "id": "m03-l04",
+  "module": "m03",
+  "title": "Adjetivos y nacionalidades",
+  "goal": "Al final de esta lección sabrás hacer concordar cualquier adjetivo italiano con el nombre, colocarlo en su sitio y decir de qué país es alguien.",
+  "vocab": [
+    {
+      "it": "bello",
+      "es": "bonito, guapo",
+      "gender": null,
+      "plural": null,
+      "note": "Femenino *bella*, plurales *belli* / *belle*. *Che bello!* es «¡qué bien!»."
+    },
+    {
+      "it": "grande",
+      "es": "grande",
+      "gender": null,
+      "plural": null,
+      "note": "Invariable en género. Plural *grandi*."
+    },
+    {
+      "it": "piccolo",
+      "es": "pequeño",
+      "gender": null,
+      "plural": null,
+      "note": "Femenino *piccola*. Con dos ces."
+    },
+    {
+      "it": "buono",
+      "es": "bueno, rico (de sabor)",
+      "gender": null,
+      "plural": null,
+      "note": "Femenino *buona*. Para la comida se usa más que *bello*: *è buonissimo!*"
+    },
+    {
+      "it": "simpatico",
+      "es": "majo, agradable",
+      "gender": null,
+      "plural": null,
+      "note": "Femenino *simpatica*. Plurales *simpatici* (sin h) y *simpatiche* (con h)."
+    },
+    {
+      "it": "antipatico",
+      "es": "borde, desagradable",
+      "gender": null,
+      "plural": null,
+      "note": "Femenino *antipatica*. Se usa mucho más que en español."
+    },
+    {
+      "it": "giovane",
+      "es": "joven",
+      "gender": null,
+      "plural": null,
+      "note": "Invariable. Plural *giovani*, que también significa «los jóvenes»."
+    },
+    {
+      "it": "vecchio",
+      "es": "viejo",
+      "gender": null,
+      "plural": null,
+      "note": "Femenino *vecchia*, plurales *vecchi* / *vecchie*."
+    },
+    {
+      "it": "largo",
+      "es": "ancho",
+      "gender": null,
+      "plural": null,
+      "note": "No significa «largo». Femenino *larga*, plurales *larghi* / *larghe*."
+    },
+    {
+      "it": "lungo",
+      "es": "largo",
+      "gender": null,
+      "plural": null,
+      "note": "Femenino *lunga*, plurales *lunghi* / *lunghe*."
+    },
+    {
+      "it": "difficile",
+      "es": "difícil",
+      "gender": null,
+      "plural": null,
+      "note": "Invariable. Sin acento escrito: /dif-FÍ-chi-le/."
+    },
+    {
+      "it": "facile",
+      "es": "fácil",
+      "gender": null,
+      "plural": null,
+      "note": "Invariable y sin acento escrito: /FÁ-chi-le/."
+    },
+    {
+      "it": "francese",
+      "es": "francés",
+      "gender": null,
+      "plural": null,
+      "note": "Invariable en género: *un ragazzo francese*, *una ragazza francese*."
+    },
+    {
+      "it": "inglese",
+      "es": "inglés",
+      "gender": null,
+      "plural": null,
+      "note": "Invariable en género. Plural *inglesi*."
+    },
+    {
+      "it": "tedesco",
+      "es": "alemán",
+      "gender": null,
+      "plural": null,
+      "note": "Femenino *tedesca*, plurales *tedeschi* / *tedesche*."
+    }
+  ],
+  "grammar": [
+    {
+      "heading": "Dos clases de adjetivos, y no hay más",
+      "body": "Los adjetivos en **-o** tienen cuatro formas, como en español. Los adjetivos en **-e** tienen solo dos: la misma para masculino y femenino.\n\nLos acabados en *-co* y *-go* siguen la regla de la h que ya viste en los plurales.",
+      "table": {
+        "headers": ["Clase", "Masc. sing.", "Fem. sing.", "Masc. pl.", "Fem. pl."],
+        "rows": [
+          ["En -o", "italiano", "italiana", "italiani", "italiane"],
+          ["En -e", "francese", "francese", "francesi", "francesi"],
+          ["En -co", "simpatico", "simpatica", "simpatici", "simpatiche"],
+          ["En -go", "lungo", "lunga", "lunghi", "lunghe"],
+          ["En -io", "vecchio", "vecchia", "vecchi", "vecchie"]
+        ]
+      }
+    },
+    {
+      "heading": "Dónde se coloca",
+      "body": "Detrás del nombre, como en español: *una ragazza simpatica*, *un caffè caldo*, *una città grande*.\n\nDelante van los cortos y muy usados — *bello, buono, grande, piccolo, giovane, vecchio* — y algunos cambian de matiz al moverse, exactamente igual que «un gran hombre» y «un hombre grande».",
+      "table": {
+        "headers": ["Italiano", "Español"],
+        "rows": [
+          ["una ragazza simpatica", "una chica maja"],
+          ["un caffè caldo", "un café caliente"],
+          ["una bella città", "una ciudad bonita"],
+          ["un vecchio amico", "un viejo amigo"],
+          ["un amico vecchio", "un amigo viejo (de edad)"]
+        ]
+      }
+    },
+    {
+      "heading": "Nacionalidades",
+      "body": "Van **detrás** del nombre y **en minúscula**. El país sí lleva mayúscula y casi siempre artículo: *l'Italia*, *la Spagna*.\n\nLa misma palabra sirve para el idioma, y entonces va en masculino con artículo: *l'italiano*, *lo spagnolo*, *il tedesco*.",
+      "table": {
+        "headers": ["País", "Adjetivo (m / f)", "Plural (m / f)"],
+        "rows": [
+          ["l'Italia", "italiano / italiana", "italiani / italiane"],
+          ["la Spagna", "spagnolo / spagnola", "spagnoli / spagnole"],
+          ["la Francia", "francese", "francesi"],
+          ["l'Inghilterra", "inglese", "inglesi"],
+          ["la Germania", "tedesco / tedesca", "tedeschi / tedesche"]
+        ]
+      }
+    }
+  ],
+  "phrases": [
+    {
+      "it": "Che bella città!",
+      "es": "¡Qué ciudad tan bonita!",
+      "note": "*Che* + adjetivo + nombre. Sin artículo y sin verbo."
+    },
+    {
+      "it": "Una birra piccola, per favore.",
+      "es": "Una cerveza pequeña, por favor.",
+      "note": "En el bar: *piccola* es la de 0,2; *media* la de 0,4."
+    },
+    {
+      "it": "Gli amici di Marco sono simpatici.",
+      "es": "Los amigos de Marco son majos.",
+      "note": "*Simpatici* sin h, aunque el singular sea *simpatico*."
+    },
+    {
+      "it": "Una ragazza francese e un ragazzo tedesco.",
+      "es": "Una chica francesa y un chico alemán.",
+      "note": "*Francese* no cambia en femenino; *tedesco* sí."
+    },
+    {
+      "it": "L'italiano è facile, il tedesco è difficile.",
+      "es": "El italiano es fácil, el alemán es difícil.",
+      "note": "Los idiomas llevan artículo y van en masculino."
+    },
+    {
+      "it": "Non è largo, è lungo.",
+      "es": "No es ancho, es largo.",
+      "note": "El falso amigo más peligroso de la lección."
+    },
+    {
+      "it": "Che bello!",
+      "es": "¡Qué bien! / ¡Qué bonito!",
+      "note": "Se dice a todas horas y para casi todo."
+    },
+    {
+      "it": "Sono stanca, ma è una bella giornata.",
+      "es": "Estoy cansada, pero es un buen día.",
+      "note": "*Giornata* es el día como duración, de la mañana a la noche."
+    }
+  ],
+  "ojo": [
+    {
+      "title": "Las nacionalidades van en minúscula",
+      "body": "El país lleva mayúscula; el adjetivo de nacionalidad y el idioma, no. En español pasa lo mismo, pero el inglés ha contagiado la mayúscula a mucha gente.\n\n❌ *Sono Spagnola* · ✓ *Sono spagnola*\n\n❌ *L'Italiano è facile* · ✓ *L'italiano è facile*\n\n✓ *l'Italia*, *la Spagna*, *la Francia* — el país sí lleva mayúscula\n\nY recuerda lo de la primera lección: detrás de *essere* la nacionalidad va **sin artículo**. Nunca *sono una spagnola*."
+    },
+    {
+      "title": "«Simpatico» es «majo», no exactamente «simpático»",
+      "body": "*Simpatico* se usa muchísimo más que el «simpático» español y es más ancho: significa **majo, agradable, con gracia, que cae bien**. Se dice de una persona, de un restaurante, de una cena o de un perro.\n\n*un ristorante simpatico* → un restaurante con encanto\n\n*che tipo simpatico!* → ¡qué tío más majo!\n\nSu contrario, *antipatico*, se usa igual de a menudo: en español diríamos «borde» o «no me cae bien».\n\nY cuidado con el plural masculino, que pierde la h:\n\n❌ *simpatichi* · ✓ *simpatici*\n\nEl femenino sí la lleva: *simpatiche*."
+    },
+    {
+      "title": "«Largo» significa ancho",
+      "body": "**Largo** en italiano es **ancho**. El «largo» español es **lungo**.\n\n❌ *un viaggio largo* → un viaje ancho · ✓ *un viaggio lungo* → un viaje largo\n\n✓ *una strada larga* → una calle ancha\n\n✓ *i capelli lunghi* → el pelo largo\n\nY si en un mapa de Roma lees *Largo Argentina*, no es una calle larga: *un largo* es una placita, un ensanchamiento de la calle."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "multiple-choice",
+      "prompt": "«Una chica maja» en italiano es…",
+      "options": ["una ragazza simpatico", "una ragazza simpatica", "una ragazza simpatiche"],
+      "answer": 1,
+      "explain": "El adjetivo concuerda: femenino singular, *simpatica*."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "«Un viaje largo» en italiano es…",
+      "options": ["un viaggio largo", "un viaggio lungo", "un viaggio grande"],
+      "answer": 1,
+      "explain": "*Largo* significa «ancho». «Largo» es *lungo*."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "El plural masculino de «simpatico» es…",
+      "options": ["simpatichi", "simpatici", "simpaticos"],
+      "answer": 1,
+      "explain": "Los masculinos en *-ico* pierden la h: *simpatici*, como *amici* y *medici*."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "¿Cómo se escribe «soy española»?",
+      "options": ["Sono Spagnola.", "Sono spagnola.", "Sono una spagnola."],
+      "answer": 1,
+      "explain": "Minúscula y sin artículo."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Le ragazze sono italian___",
+      "answer": ["e"],
+      "explain": "Femenino plural de un adjetivo en -o: *italiane*."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "I ragazzi sono simpatic___",
+      "answer": ["i"],
+      "explain": "Masculino plural sin h: *simpatici*."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Le amiche sono simpatic___",
+      "answer": ["he"],
+      "explain": "Femenino plural con h: *simpatiche*, para conservar el sonido k."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Una ragazza frances___",
+      "answer": ["e"],
+      "explain": "Los adjetivos en -e no cambian en femenino: *francese*."
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        ["piccolo", "pequeño"],
+        ["vecchio", "viejo"],
+        ["giovane", "joven"],
+        ["largo", "ancho"],
+        ["lungo", "largo"],
+        ["facile", "fácil"]
+      ]
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        ["francese", "francés"],
+        ["inglese", "inglés"],
+        ["tedesco", "alemán"],
+        ["spagnola", "española"],
+        ["simpatico", "majo"],
+        ["antipatico", "borde"]
+      ]
+    },
+    {
+      "type": "word-order",
+      "words": ["Una", "ragazza", "francese", "e", "un", "ragazzo", "tedesco"],
+      "answer": "Una ragazza francese e un ragazzo tedesco.",
+      "explain": "El adjetivo va detrás del nombre en los dos casos."
+    },
+    {
+      "type": "word-order",
+      "words": ["L'italiano", "è", "facile", "il", "tedesco", "è", "difficile"],
+      "answer": "L'italiano è facile, il tedesco è difficile.",
+      "explain": "Los idiomas llevan artículo: *l'italiano*, *il tedesco*."
+    },
+    {
+      "type": "translation",
+      "prompt": "Una cerveza pequeña, por favor.",
+      "answer": ["Una birra piccola, per favore.", "Una birra piccola per favore"],
+      "explain": "*Birra* es femenino, así que *piccola*."
+    },
+    {
+      "type": "translation",
+      "prompt": "No es ancho, es largo.",
+      "answer": ["Non è largo, è lungo."],
+      "explain": "Justo al revés de lo que pide el oído español."
+    },
+    {
+      "type": "listening",
+      "audio": "Che bella città!",
+      "answer": ["Che bella città!"],
+      "explain": "*Bella* delante del nombre, y *città* con acento."
+    },
+    {
+      "type": "listening",
+      "audio": "Gli amici di Marco sono simpatici.",
+      "answer": ["Gli amici di Marco sono simpatici."],
+      "explain": "Dos plurales masculinos en *-ici*, los dos sin h."
+    }
+  ]
+}

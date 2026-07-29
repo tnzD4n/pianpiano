@@ -1,0 +1,323 @@
+{
+  "id": "m05-l04",
+  "module": "m05",
+  "title": "Irregulares frecuentes",
+  "goal": "Al final de esta lección tendrás los seis verbos irregulares que más se usan en italiano, y sabrás por qué «stare» no sirve para decir dónde estás.",
+  "vocab": [
+    {
+      "it": "andare",
+      "es": "ir",
+      "gender": null,
+      "plural": null,
+      "note": "Irregular del todo: *vado*, *vai*, *va*. Pero *noi andiamo*, regular."
+    },
+    {
+      "it": "fare",
+      "es": "hacer",
+      "gender": null,
+      "plural": null,
+      "note": "Ya lo conoces en *che tempo fa?* Sirve para media vida cotidiana."
+    },
+    {
+      "it": "stare",
+      "es": "estar (de salud), quedarse",
+      "gender": null,
+      "plural": null,
+      "note": "Ya lo conoces en *come stai?* No es el «estar» de ubicación."
+    },
+    {
+      "it": "venire",
+      "es": "venir",
+      "gender": null,
+      "plural": null,
+      "note": "*Vengo*, *vieni*, *viene*. Con la g solo en la primera y en la tercera del plural."
+    },
+    {
+      "it": "dare",
+      "es": "dar",
+      "gender": null,
+      "plural": null,
+      "note": "*Dà* con acento, para distinguirlo de *da*, la preposición."
+    },
+    {
+      "it": "uscire",
+      "es": "salir",
+      "gender": null,
+      "plural": null,
+      "note": "Este es el «salir» español. *Salire* es subir."
+    },
+    {
+      "it": "bere",
+      "es": "beber",
+      "gender": null,
+      "plural": null,
+      "note": "Irregular escondido: *bevo*, *bevi*, *beve*, del latín *bevere*."
+    },
+    {
+      "it": "dire",
+      "es": "decir",
+      "gender": null,
+      "plural": null,
+      "note": "*Dico*, *dici*, *dice*. Ya lo conoces en *come si dice?*"
+    },
+    {
+      "it": "sapere",
+      "es": "saber",
+      "gender": null,
+      "plural": null,
+      "note": "*So*, *sai*, *sa*. *Non so* es «no sé»."
+    },
+    {
+      "it": "festa",
+      "es": "la fiesta",
+      "gender": "f",
+      "plural": "feste",
+      "note": "*Fare una festa*: dar una fiesta. También el día festivo."
+    },
+    {
+      "it": "piazza",
+      "es": "la plaza",
+      "gender": "f",
+      "plural": "piazze",
+      "note": "Con dos zetas. *In piazza*, sin artículo."
+    },
+    {
+      "it": "spesa",
+      "es": "la compra",
+      "gender": "f",
+      "plural": "spese",
+      "note": "*Fare la spesa*: hacer la compra de comida."
+    },
+    {
+      "it": "passeggiata",
+      "es": "el paseo",
+      "gender": "f",
+      "plural": "passeggiate",
+      "note": "*Fare una passeggiata*: dar un paseo. Dos eses y dos ges."
+    },
+    {
+      "it": "colazione",
+      "es": "el desayuno",
+      "gender": "f",
+      "plural": "colazioni",
+      "note": "*Fare colazione*: desayunar, sin artículo."
+    },
+    {
+      "it": "doccia",
+      "es": "la ducha",
+      "gender": "f",
+      "plural": "docce",
+      "note": "*Fare la doccia*: ducharse. Plural *docce*, sin la i."
+    }
+  ],
+  "grammar": [
+    {
+      "heading": "Andare, venire, uscire",
+      "body": "Los tres son irregulares en el singular y en la tercera del plural, y **regulares en noi y voi**. Esto vale para casi todos los irregulares italianos: si dudas de la forma de *noi*, acaba en *-iamo* y suele ser regular.",
+      "table": {
+        "headers": ["Persona", "andare", "venire", "uscire"],
+        "rows": [
+          ["io", "vado", "vengo", "esco"],
+          ["tu", "vai", "vieni", "esci"],
+          ["lui, lei, Lei", "va", "viene", "esce"],
+          ["noi", "andiamo", "veniamo", "usciamo"],
+          ["voi", "andate", "venite", "uscite"],
+          ["loro", "vanno", "vengono", "escono"]
+        ]
+      }
+    },
+    {
+      "heading": "Fare, stare, dare",
+      "body": "Los tres se parecen entre sí, y los tres tienen la tercera del plural en *-anno*, igual que *hanno*.\n\n*Dà* lleva acento para no confundirlo con *da*, la preposición. *Fa* ya lo conoces de *che tempo fa*.",
+      "table": {
+        "headers": ["Persona", "fare", "stare", "dare"],
+        "rows": [
+          ["io", "faccio", "sto", "do"],
+          ["tu", "fai", "stai", "dai"],
+          ["lui, lei, Lei", "fa", "sta", "dà"],
+          ["noi", "facciamo", "stiamo", "diamo"],
+          ["voi", "fate", "state", "date"],
+          ["loro", "fanno", "stanno", "danno"]
+        ]
+      }
+    },
+    {
+      "heading": "«Fare» sirve para media vida cotidiana",
+      "body": "Muchas cosas que en español tienen un verbo propio, en italiano son *fare* + un nombre. Vale la pena aprenderlas de golpe, porque salen todos los días.",
+      "table": {
+        "headers": ["Italiano", "Español"],
+        "rows": [
+          ["fare colazione", "desayunar"],
+          ["fare la spesa", "hacer la compra"],
+          ["fare la doccia", "ducharse"],
+          ["fare una passeggiata", "dar un paseo"],
+          ["fare una domanda", "hacer una pregunta"],
+          ["fare una foto", "hacer una foto"],
+          ["fare tardi", "llegar tarde"]
+        ]
+      }
+    }
+  ],
+  "phrases": [
+    {
+      "it": "Dove vai?",
+      "es": "¿Adónde vas?",
+      "note": "El italiano no distingue «dónde» y «adónde»: *dove* para las dos."
+    },
+    {
+      "it": "Vado a casa.",
+      "es": "Me voy a casa.",
+      "note": "*A casa* sin artículo, como en español."
+    },
+    {
+      "it": "Vieni anche tu?",
+      "es": "¿Vienes tú también?",
+      "note": "*Anche* delante de la palabra a la que se refiere."
+    },
+    {
+      "it": "Esco alle otto.",
+      "es": "Salgo a las ocho.",
+      "note": "*Uscire*, no *salire*."
+    },
+    {
+      "it": "Come stai? — Sto bene, grazie.",
+      "es": "¿Qué tal estás? — Estoy bien, gracias.",
+      "note": "Aquí *stare* es el verbo correcto: se trata de salud."
+    },
+    {
+      "it": "Facciamo colazione insieme?",
+      "es": "¿Desayunamos juntos?",
+      "note": "*Fare colazione*, sin artículo."
+    },
+    {
+      "it": "Andiamo in piazza.",
+      "es": "Vamos a la plaza.",
+      "note": "*In piazza*, sin artículo. El italiano lo hace con muchos sitios."
+    },
+    {
+      "it": "Cosa fai domani?",
+      "es": "¿Qué haces mañana?",
+      "note": "*Cosa fai?* es la pregunta más frecuente del italiano hablado."
+    },
+    {
+      "it": "Non so.",
+      "es": "No sé.",
+      "note": "*So* es la primera persona de *sapere*. Una sola sílaba."
+    }
+  ],
+  "ojo": [
+    {
+      "title": "«Stare» no sirve para decir dónde estás",
+      "body": "Ya lo viste en el módulo 3: el «estar» español es *essere*. *Stare* sirve para otras tres cosas, y solo para esas:\n\n**La salud** — *come stai?*, *sto bene*, *sta male*\n\n**Quedarse** — *stasera sto a casa* → esta noche me quedo en casa\n\n**El gerundio** — *sto mangiando* → estoy comiendo (lo verás más adelante)\n\n❌ *Sto a Milano* para decir «estoy en Milán» · ✓ *Sono a Milano*\n\nLa trampa es que *sto a Milano* también es correcto: significa «me quedo en Milán», que es otra cosa. Nadie te va a corregir, y estarás diciendo algo que no querías decir."
+    },
+    {
+      "title": "«Andare» pide preposición, y no siempre la misma",
+      "body": "En español vas «a» todas partes. En italiano depende del destino, y la elección no es negociable.\n\n**a** + ciudad y algunos sitios: *a Roma*, *a casa*, *a scuola*, *al bar*\n\n**in** + país, región y muchos lugares: *in Italia*, *in piazza*, *in centro*, *in ufficio*\n\n❌ *vado a Italia* · ✓ *vado in Italia*\n\n❌ *vado in Roma* · ✓ *vado a Roma*\n\nRegla práctica de andar por casa: si es una ciudad, *a*; si es un país o una región, *in*. El módulo 7 explica el resto."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "multiple-choice",
+      "prompt": "«Estoy en Milán» en italiano es…",
+      "options": ["Sto a Milano", "Sono a Milano", "Vado a Milano"],
+      "answer": 1,
+      "explain": "*Sto a Milano* significa «me quedo en Milán». Para la ubicación, *essere*."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "«Voy a Italia» en italiano es…",
+      "options": ["Vado a Italia", "Vado in Italia", "Vado all'Italia"],
+      "answer": 1,
+      "explain": "*In* con los países; *a* con las ciudades."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "«Yo hago» en italiano es…",
+      "options": ["fo", "faccio", "faco"],
+      "answer": 1,
+      "explain": "*Faccio*, con dos ces."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Loro ___ a casa. (andare)",
+      "answer": ["vanno"],
+      "explain": "*Vanno*, como *hanno* y *stanno*."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Noi ___ colazione insieme. (fare)",
+      "answer": ["facciamo"],
+      "explain": "*Noi* vuelve a ser regular: *-iamo*."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Io ___ alle otto. (uscire)",
+      "answer": ["esco"],
+      "explain": "*Esco*, no *salgo*: *salire* es subir."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Tu ___ anche domani? (venire)",
+      "answer": ["vieni"],
+      "explain": "*Vieni*, sin la g de *vengo*."
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        ["andare", "ir"],
+        ["venire", "venir"],
+        ["uscire", "salir"],
+        ["fare", "hacer"],
+        ["dare", "dar"],
+        ["bere", "beber"]
+      ]
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        ["fare colazione", "desayunar"],
+        ["fare la spesa", "hacer la compra"],
+        ["fare la doccia", "ducharse"],
+        ["fare una passeggiata", "dar un paseo"],
+        ["fare una domanda", "hacer una pregunta"],
+        ["fare tardi", "llegar tarde"]
+      ]
+    },
+    {
+      "type": "word-order",
+      "words": ["Facciamo", "colazione", "insieme", "?"],
+      "answer": "Facciamo colazione insieme?",
+      "explain": "*Fare colazione* va sin artículo."
+    },
+    {
+      "type": "word-order",
+      "words": ["Esco", "di", "casa", "alle", "otto"],
+      "answer": "Esco di casa alle otto.",
+      "explain": "*Uscire di casa*, con *di*."
+    },
+    {
+      "type": "translation",
+      "prompt": "¿Adónde vas?",
+      "answer": ["Dove vai?"],
+      "explain": "*Dove* vale para «dónde» y para «adónde»."
+    },
+    {
+      "type": "translation",
+      "prompt": "No sé.",
+      "answer": ["Non so."],
+      "explain": "*So* es la primera persona de *sapere*."
+    },
+    {
+      "type": "listening",
+      "audio": "Cosa fai domani?",
+      "answer": ["Cosa fai domani?", "Che cosa fai domani?"],
+      "explain": "*Cosa fai?* o *che cosa fai?*: las dos se usan."
+    },
+    {
+      "type": "listening",
+      "audio": "Andiamo in piazza a fare una passeggiata.",
+      "answer": ["Andiamo in piazza a fare una passeggiata."],
+      "explain": "*In piazza* sin artículo, y *a* + infinitivo para el propósito."
+    }
+  ]
+}

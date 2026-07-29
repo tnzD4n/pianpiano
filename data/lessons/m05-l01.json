@@ -1,0 +1,331 @@
+{
+  "id": "m05-l01",
+  "module": "m05",
+  "title": "Verbos regulares en -are",
+  "goal": "Al final de esta lección sabrás conjugar el grupo más numeroso del italiano, y conocerás tres falsos amigos que cambian el sentido de una frase entera: guardare, salire y burro.",
+  "vocab": [
+    {
+      "it": "parlare",
+      "es": "hablar",
+      "gender": null,
+      "plural": null,
+      "note": "*Parlo italiano* o *parlo in italiano*: las dos valen."
+    },
+    {
+      "it": "abitare",
+      "es": "vivir (residir)",
+      "gender": null,
+      "plural": null,
+      "note": "Acento raro: /A-bi-to/, /A-bi-ti/. No en la penúltima."
+    },
+    {
+      "it": "lavorare",
+      "es": "trabajar",
+      "gender": null,
+      "plural": null,
+      "note": "*Il lavoro* es el trabajo."
+    },
+    {
+      "it": "mangiare",
+      "es": "comer",
+      "gender": null,
+      "plural": null,
+      "note": "Pierde la i delante de la e y de la i: *tu mangi*, *noi mangiamo*."
+    },
+    {
+      "it": "guardare",
+      "es": "mirar, ver",
+      "gender": null,
+      "plural": null,
+      "note": "No es «guardar». *Guardo la televisione*: veo la tele."
+    },
+    {
+      "it": "ascoltare",
+      "es": "escuchar",
+      "gender": null,
+      "plural": null,
+      "note": "*Ascolto la musica*, sin preposición delante."
+    },
+    {
+      "it": "comprare",
+      "es": "comprar",
+      "gender": null,
+      "plural": null,
+      "note": null
+    },
+    {
+      "it": "studiare",
+      "es": "estudiar",
+      "gender": null,
+      "plural": null,
+      "note": "Como *mangiare*, pierde la i: *tu studi*, *noi studiamo*."
+    },
+    {
+      "it": "aspettare",
+      "es": "esperar",
+      "gender": null,
+      "plural": null,
+      "note": "Sin preposición: *aspetto un amico*, no *aspetto a un amico*."
+    },
+    {
+      "it": "portare",
+      "es": "llevar, traer",
+      "gender": null,
+      "plural": null,
+      "note": "Vale para las dos cosas. También «llevar puesto»: *porto gli occhiali*."
+    },
+    {
+      "it": "cercare",
+      "es": "buscar",
+      "gender": null,
+      "plural": null,
+      "note": "Mete una h: *tu cerchi*, *noi cerchiamo*."
+    },
+    {
+      "it": "pagare",
+      "es": "pagar",
+      "gender": null,
+      "plural": null,
+      "note": "Mete una h: *tu paghi*, *noi paghiamo*."
+    },
+    {
+      "it": "chiamare",
+      "es": "llamar",
+      "gender": null,
+      "plural": null,
+      "note": "Ya lo conoces en reflexivo: *mi chiamo*."
+    },
+    {
+      "it": "tornare",
+      "es": "volver",
+      "gender": null,
+      "plural": null,
+      "note": "*Torno subito*: vuelvo enseguida. Se lee en la puerta de las tiendas."
+    },
+    {
+      "it": "burro",
+      "es": "la mantequilla",
+      "gender": "m",
+      "plural": null,
+      "note": "No es el animal: el burro es *l'asino*."
+    }
+  ],
+  "grammar": [
+    {
+      "heading": "Los verbos en -are",
+      "body": "Se quita el *-are* y se pegan las terminaciones. Es el grupo más grande del italiano con mucha diferencia: la mayoría de los verbos nuevos que aprendas serán de este.",
+      "table": {
+        "headers": ["Persona", "parlare", "Español"],
+        "rows": [
+          ["io", "parlo", "hablo"],
+          ["tu", "parli", "hablas"],
+          ["lui, lei, Lei", "parla", "habla"],
+          ["noi", "parliamo", "hablamos"],
+          ["voi", "parlate", "habláis"],
+          ["loro", "parlano", "hablan"]
+        ]
+      }
+    },
+    {
+      "heading": "Dónde cae el acento",
+      "body": "La tercera persona del plural es la que más cuesta a un oído español, porque el acento **no** se mueve al final: se queda exactamente donde está en la forma de *io*.\n\n*pàrlo* → *pàrlano* · *lavòro* → *lavòrano* · *aspètto* → *aspèttano*\n\n❌ /par-LA-no/ · ✓ /PAR-la-no/\n\nY lo mismo con *abitare*, que ya lleva el acento muy atrás: *àbito*, *àbitano*.",
+      "table": {
+        "headers": ["Persona", "Terminación", "Ejemplo"],
+        "rows": [
+          ["io", "-o", "lavoro"],
+          ["tu", "-i", "lavori"],
+          ["lui, lei", "-a", "lavora"],
+          ["noi", "-iamo", "lavoriamo"],
+          ["voi", "-ate", "lavorate"],
+          ["loro", "-ano", "lavorano"]
+        ]
+      }
+    },
+    {
+      "heading": "Los que cambian la ortografía",
+      "body": "Los verbos en **-care** y **-gare** meten una **h** delante de la *i*, para conservar el sonido k y g. Es la misma regla de los plurales *banche* y *alberghi*.\n\nLos verbos en **-ciare** y **-giare** hacen lo contrario: **pierden la i**, porque con la e o la i siguiente ya no hace falta.\n\n❌ *tu mangii* · ✓ *tu mangi*",
+      "table": {
+        "headers": ["Tipo", "Verbo", "tu", "noi"],
+        "rows": [
+          ["-care", "cercare", "cerchi", "cerchiamo"],
+          ["-gare", "pagare", "paghi", "paghiamo"],
+          ["-ciare", "cominciare", "cominci", "cominciamo"],
+          ["-giare", "mangiare", "mangi", "mangiamo"]
+        ]
+      }
+    }
+  ],
+  "phrases": [
+    {
+      "it": "Parli italiano?",
+      "es": "¿Hablas italiano?",
+      "note": "De usted: *Parla italiano?*"
+    },
+    {
+      "it": "Parlo un po' d'italiano.",
+      "es": "Hablo un poco de italiano.",
+      "note": "*Un po'* con apóstrofo: es *poco* recortado."
+    },
+    {
+      "it": "Dove abiti?",
+      "es": "¿Dónde vives?",
+      "note": "De usted: *Dove abita?*"
+    },
+    {
+      "it": "Abito a Milano.",
+      "es": "Vivo en Milán.",
+      "note": "*A* + ciudad, siempre."
+    },
+    {
+      "it": "Lavoro in un negozio.",
+      "es": "Trabajo en una tienda.",
+      "note": null
+    },
+    {
+      "it": "Aspetto un amico.",
+      "es": "Espero a un amigo.",
+      "note": "Sin la *a* del español: *aspetto un amico*."
+    },
+    {
+      "it": "Pago io!",
+      "es": "¡Pago yo!",
+      "note": "La frase con la que empieza la pelea por la cuenta en cualquier mesa italiana."
+    },
+    {
+      "it": "Cerco la stazione.",
+      "es": "Busco la estación.",
+      "note": "Sin preposición, igual que en español."
+    },
+    {
+      "it": "Guardiamo un film insieme?",
+      "es": "¿Vemos una película juntos?",
+      "note": "*Guardare* para la tele y el cine; *vedere* también vale."
+    }
+  ],
+  "ojo": [
+    {
+      "title": "«Guardare» es mirar, no guardar",
+      "body": "**Guardare** significa **mirar** o **ver**. No tiene nada que ver con guardar.\n\n✓ *Guardo la televisione* → veo la tele\n\n✓ *Guarda!* → ¡mira!\n\nPara «guardar» en el sentido de conservar, el italiano usa *tenere* o *conservare*; para guardar algo en su sitio, *mettere via*.\n\n❌ *guardo le chiavi in borsa* → miro las llaves dentro del bolso · ✓ *tengo le chiavi in borsa* → guardo las llaves en el bolso\n\n*Guarda!* a secas se usa muchísimo, como el «¡mira!» español para llamar la atención."
+    },
+    {
+      "title": "«Salire» es subir, no salir",
+      "body": "**Salire** significa **subir**. «Salir» es **uscire**, que verás en la última lección de este módulo.\n\n❌ *salgo di casa* · ✓ *esco di casa* → salgo de casa\n\n✓ *salgo le scale* → subo las escaleras\n\n✓ *salgo sul treno* → me subo al tren\n\nEs de los falsos amigos más peligrosos que hay, porque las dos frases tienen sentido. Si dices *salgo*, nadie te corrige: entienden que estás subiendo."
+    },
+    {
+      "title": "«Burro» es mantequilla",
+      "body": "**Il burro** es **la mantequilla**. El animal es **l'asino**.\n\n✓ *pane e burro* → pan con mantequilla\n\n✓ *burro e marmellata* → mantequilla y mermelada, el desayuno de media Italia\n\n❌ *un burro* como animal · ✓ *un asino*\n\nY el insulto funciona igual que en español: llamar *asino* a alguien es llamarle burro, en el sentido de torpe."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "multiple-choice",
+      "prompt": "«Guardare» significa…",
+      "options": ["guardar", "mirar", "llevar"],
+      "answer": 1,
+      "explain": "«Guardar» es *tenere* o *conservare*."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "«Il burro» es…",
+      "options": ["el burro", "la mantequilla", "el queso"],
+      "answer": 1,
+      "explain": "El animal es *l'asino*. El queso es *il formaggio*."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Un italiano dice «salgo». Significa que…",
+      "options": ["sale", "sube", "baja"],
+      "answer": 1,
+      "explain": "*Salire* es subir. «Salir» es *uscire*: *esco*."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "«Tú comes» en italiano es…",
+      "options": ["tu mangii", "tu mangi", "tu manges"],
+      "answer": 1,
+      "explain": "Los verbos en *-giare* pierden la i delante de otra i."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Noi ___ italiano. (parlare)",
+      "answer": ["parliamo"],
+      "explain": "*-iamo* para la primera del plural."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Loro ___ a Roma. (abitare)",
+      "answer": ["abitano"],
+      "explain": "*Abitano*, con el acento en la primera sílaba: /A-bi-ta-no/."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Tu ___ in un negozio? (lavorare)",
+      "answer": ["lavori"],
+      "explain": "Segunda persona del singular: *-i*."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Noi ___ insieme. (pagare)",
+      "answer": ["paghiamo"],
+      "explain": "*Pagare* mete una h para conservar el sonido g."
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        ["parlare", "hablar"],
+        ["abitare", "vivir"],
+        ["guardare", "mirar"],
+        ["aspettare", "esperar"],
+        ["cercare", "buscar"],
+        ["tornare", "volver"]
+      ]
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        ["mangio", "como"],
+        ["compri", "compras"],
+        ["studia", "estudia"],
+        ["portiamo", "llevamos"],
+        ["tornate", "volvéis"],
+        ["chiamano", "llaman"]
+      ]
+    },
+    {
+      "type": "word-order",
+      "words": ["Lavoro", "in", "un", "negozio", "a", "Milano"],
+      "answer": "Lavoro in un negozio a Milano.",
+      "explain": "*In* para el sitio, *a* para la ciudad."
+    },
+    {
+      "type": "word-order",
+      "words": ["Guardiamo", "un", "film", "insieme", "?"],
+      "answer": "Guardiamo un film insieme?",
+      "explain": "Sin signo de apertura: el italiano no lo usa."
+    },
+    {
+      "type": "translation",
+      "prompt": "¿Hablas italiano?",
+      "answer": ["Parli italiano?", "Parli l'italiano?"],
+      "explain": "De usted sería *Parla italiano?*"
+    },
+    {
+      "type": "translation",
+      "prompt": "Vivo en Milán.",
+      "answer": ["Abito a Milano.", "Vivo a Milano."],
+      "explain": "*Abitare* es el verbo normal para residir."
+    },
+    {
+      "type": "listening",
+      "audio": "Parlo un po' d'italiano.",
+      "answer": ["Parlo un po' d'italiano."],
+      "explain": "*Un po'* con apóstrofo, *d'italiano* también."
+    },
+    {
+      "type": "listening",
+      "audio": "Loro lavorano in un negozio.",
+      "answer": ["Loro lavorano in un negozio."],
+      "explain": "*Lavorano* con el acento en la o: /la-VO-ra-no/."
+    }
+  ]
+}

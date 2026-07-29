@@ -1,0 +1,332 @@
+{
+  "id": "m08-l03",
+  "module": "m08",
+  "title": "El partitivo y las cantidades",
+  "goal": "Al final de esta lección sabrás decir «pan» como lo dice un italiano —«del pane»— y sabrás pedir por peso en una charcutería, donde nadie habla de gramos.",
+  "vocab": [
+    {
+      "it": "po'",
+      "es": "poco",
+      "gender": null,
+      "plural": null,
+      "note": "*Un po' di*: un poco de. Con apóstrofo, nunca con acento."
+    },
+    {
+      "it": "molto",
+      "es": "mucho",
+      "gender": null,
+      "plural": null,
+      "note": "Concuerda con el nombre: *molta acqua*, *molti amici*."
+    },
+    {
+      "it": "poco",
+      "es": "poco",
+      "gender": null,
+      "plural": null,
+      "note": "Concuerda: *poca acqua*, *pochi amici*, con h."
+    },
+    {
+      "it": "troppo",
+      "es": "demasiado",
+      "gender": null,
+      "plural": null,
+      "note": "Concuerda: *troppa gente*, *troppi problemi*."
+    },
+    {
+      "it": "abbastanza",
+      "es": "bastante",
+      "gender": null,
+      "plural": null,
+      "note": "Invariable: no concuerda nunca. Con dos bes."
+    },
+    {
+      "it": "qualche",
+      "es": "algún, algunos",
+      "gender": null,
+      "plural": null,
+      "note": "Va siempre con el nombre en singular: *qualche amico*."
+    },
+    {
+      "it": "alcuni",
+      "es": "algunos",
+      "gender": null,
+      "plural": null,
+      "note": "Femenino *alcune*. Este sí va con plural."
+    },
+    {
+      "it": "tutto",
+      "es": "todo",
+      "gender": null,
+      "plural": null,
+      "note": "Pide artículo detrás: *tutto il pane*, *tutta la notte*."
+    },
+    {
+      "it": "etto",
+      "es": "cien gramos",
+      "gender": "m",
+      "plural": "etti",
+      "note": "La unidad de la charcutería italiana. No existe en español."
+    },
+    {
+      "it": "litro",
+      "es": "el litro",
+      "gender": "m",
+      "plural": "litri",
+      "note": "*Mezzo litro*: medio litro."
+    },
+    {
+      "it": "fetta",
+      "es": "la loncha, la rodaja",
+      "gender": "f",
+      "plural": "fette",
+      "note": "*Una fetta di torta*: un trozo de tarta."
+    },
+    {
+      "it": "pezzo",
+      "es": "el trozo",
+      "gender": "m",
+      "plural": "pezzi",
+      "note": "*Un pezzo di pane*. Con dos zetas."
+    },
+    {
+      "it": "scatola",
+      "es": "la caja, la lata",
+      "gender": "f",
+      "plural": "scatole",
+      "note": "Acento en la a: /SCÁ-to-la/."
+    },
+    {
+      "it": "sacchetto",
+      "es": "la bolsa",
+      "gender": "m",
+      "plural": "sacchetti",
+      "note": "La del supermercado. Con dos ces y dos tes."
+    },
+    {
+      "it": "barattolo",
+      "es": "el bote, el tarro",
+      "gender": "m",
+      "plural": "barattoli",
+      "note": "El de cristal, de mermelada o de conserva."
+    }
+  ],
+  "grammar": [
+    {
+      "heading": "El partitivo: del, della, dei, delle",
+      "body": "El italiano usa **di + artículo** para decir «algo de» una cosa, ahí donde el español no pone nada.\n\n*Vorrei del pane* → quería pan\n\n*Compro della frutta* → compro fruta\n\nEs la misma tabla de preposiciones articuladas del módulo 7, usada con otro sentido. Y de paso resuelve una cosa que faltaba: es el plural que *un / una* no tiene. *Un amico* → *degli amici*.",
+      "table": {
+        "headers": ["Singular", "Plural", "Ejemplo"],
+        "rows": [
+          ["del", "dei", "del pane · dei panini"],
+          ["dello", "degli", "dello zucchero · degli spaghetti"],
+          ["dell'", "degli", "dell'olio · degli amici"],
+          ["della", "delle", "della frutta · delle mele"]
+        ]
+      }
+    },
+    {
+      "heading": "Las cantidades",
+      "body": "*Molto*, *poco* y *troppo* **concuerdan** cuando acompañan a un nombre, y **no concuerdan** cuando acompañan a un verbo o a un adjetivo:\n\n✓ *molta acqua* — con nombre, concuerda\n\n✓ *molto bella* — con adjetivo, no concuerda\n\n✓ *mangio molto* — con verbo, no concuerda\n\nY *tutto* pide artículo detrás, al revés que en español: *tutto il pane*, no *tutto pane*.",
+      "table": {
+        "headers": ["Italiano", "Español", "¿Concuerda?"],
+        "rows": [
+          ["un po' di", "un poco de", "no"],
+          ["molto", "mucho", "sí: molta, molti, molte"],
+          ["poco", "poco", "sí: poca, pochi, poche"],
+          ["troppo", "demasiado", "sí: troppa, troppi, troppe"],
+          ["abbastanza", "bastante", "no, nunca"],
+          ["tutto", "todo", "sí, y con artículo detrás"]
+        ]
+      }
+    },
+    {
+      "heading": "Comprar por peso",
+      "body": "**L'etto** son cien gramos, y es la unidad de la charcutería italiana. No existe en español, y es lo único que se oye en una *salumeria*: nadie pide «doscientos gramos», se piden *due etti*.\n\nTodas las cantidades llevan *di* delante del producto: *un etto di prosciutto*, *mezzo chilo di pomodori*, *una fetta di torta*.",
+      "table": {
+        "headers": ["Italiano", "Español"],
+        "rows": [
+          ["un etto", "cien gramos"],
+          ["due etti", "doscientos gramos"],
+          ["mezzo chilo", "medio kilo"],
+          ["un chilo", "un kilo"],
+          ["un litro", "un litro"],
+          ["una fetta", "una loncha, una rodaja"],
+          ["un pezzo", "un trozo"]
+        ]
+      }
+    }
+  ],
+  "phrases": [
+    {
+      "it": "Vorrei del pane, per favore.",
+      "es": "Quería pan, por favor.",
+      "note": "Con partitivo: es lo natural en italiano."
+    },
+    {
+      "it": "Un po' di zucchero?",
+      "es": "¿Un poco de azúcar?",
+      "note": "*Po'* con apóstrofo."
+    },
+    {
+      "it": "Due etti di prosciutto, per favore.",
+      "es": "Doscientos gramos de jamón, por favor.",
+      "note": "Así se pide en la charcutería. Nadie dice «grammi»."
+    },
+    {
+      "it": "C'è troppa gente.",
+      "es": "Hay demasiada gente.",
+      "note": "*Troppa* concuerda con *gente*, femenino singular."
+    },
+    {
+      "it": "Un chilo di mele, per favore.",
+      "es": "Un kilo de manzanas, por favor.",
+      "note": "*Di* delante del producto, siempre."
+    },
+    {
+      "it": "Non ho molto tempo.",
+      "es": "No tengo mucho tiempo.",
+      "note": "*Molto* concuerda con *tempo*, masculino singular."
+    },
+    {
+      "it": "Qualche amico viene a cena.",
+      "es": "Algunos amigos vienen a cenar.",
+      "note": "*Qualche* con nombre y verbo en singular, aunque signifique varios."
+    },
+    {
+      "it": "Una fetta di torta, per favore.",
+      "es": "Un trozo de tarta, por favor.",
+      "note": "*Fetta* para lo que se corta en lonchas o porciones."
+    },
+    {
+      "it": "Basta così, grazie.",
+      "es": "Así está bien, gracias.",
+      "note": "Lo que se dice para que dejen de servir o de cortar."
+    }
+  ],
+  "ojo": [
+    {
+      "title": "El español dice «pan»; el italiano, «del pane»",
+      "body": "Donde el español no pone nada, el italiano pone *di* + artículo. Es la diferencia más visible entre las dos lenguas al comprar y al pedir.\n\n✓ *Vorrei del pane* → quería pan\n\n✓ *Compro della frutta* → compro fruta\n\n✓ *Ci sono dei problemi* → hay problemas\n\nNo es obligatorio: *vorrei pane* se entiende. Pero suena escueto y un poco extranjero, como quien habla por telegrama.\n\nY en negativo desaparece, igual que en español:\n\n❌ *Non voglio del pane* · ✓ *Non voglio pane*"
+    },
+    {
+      "title": "«Qualche» va en singular",
+      "body": "Esta es rara de verdad y no tiene equivalente. *Qualche* significa «algunos», pero se construye con el nombre y el verbo **en singular**.\n\n✓ *qualche amico* → algunos amigos\n\n✓ *qualche volta* → algunas veces\n\n✓ *qualche giorno fa* → hace unos días\n\n❌ *qualche amici* · ✓ *qualche amico*\n\nSi quieres el plural de verdad, usa *alcuni* / *alcune*, que sí concuerda:\n\n✓ *alcuni amici* · ✓ *alcune volte*\n\nLas dos significan lo mismo. *Qualche* es más frecuente al hablar; *alcuni*, al escribir."
+    },
+    {
+      "title": "«Un po'» con apóstrofo, nunca con acento",
+      "body": "*Po'* es *poco* recortado, y por eso lleva **apóstrofo**: marca lo que falta.\n\n❌ *un pò* · ✓ *un po'*\n\nEs uno de los errores de ortografía más extendidos entre los propios italianos, en el mismo club que *qual'è* y *perchè*.\n\nSe usa constantemente, sola o con *di*:\n\n✓ *un po' di pane* → un poco de pan\n\n✓ *aspetta un po'* → espera un poco\n\n✓ *un po' stanca* → un poco cansada\n\n✓ *un po' alla volta* → poco a poco, que es otra manera de decir *pian piano*"
+    }
+  ],
+  "exercises": [
+    {
+      "type": "multiple-choice",
+      "prompt": "«Quería pan» en italiano suena mejor así:",
+      "options": ["Vorrei pane", "Vorrei del pane", "Vorrei il pane"],
+      "answer": 1,
+      "explain": "El partitivo *del* es lo natural. Las otras se entienden, pero suenan raras."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "«Algunos amigos» en italiano es…",
+      "options": ["qualche amici", "qualche amico", "qualchi amici"],
+      "answer": 1,
+      "explain": "*Qualche* va siempre con singular."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "¿Cuál está bien escrito?",
+      "options": ["un pò di pane", "un po' di pane", "un poh di pane"],
+      "answer": 1,
+      "explain": "Apóstrofo, no acento: *po'* viene de *poco*."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "En la charcutería quieres doscientos gramos de jamón. Pides…",
+      "options": ["duecento grammi di prosciutto", "due etti di prosciutto", "due chili di prosciutto"],
+      "answer": 1,
+      "explain": "*L'etto* son cien gramos, y es lo único que se usa."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Compro ___ frutta. (di + la)",
+      "answer": ["della"],
+      "explain": "Partitivo femenino singular."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ci sono ___ problemi. (di + i)",
+      "answer": ["dei"],
+      "explain": "Partitivo masculino plural."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Hay demasiada gente: c'è ___ gente.",
+      "answer": ["troppa"],
+      "explain": "*Troppa* concuerda con *gente*, femenino singular."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Todo el pan: ___ il pane.",
+      "answer": ["tutto"],
+      "explain": "*Tutto* pide artículo detrás."
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        ["del pane", "pan"],
+        ["della frutta", "fruta"],
+        ["dello zucchero", "azúcar"],
+        ["degli amici", "unos amigos"],
+        ["delle mele", "unas manzanas"],
+        ["dell'olio", "aceite"]
+      ]
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        ["un etto", "cien gramos"],
+        ["mezzo chilo", "medio kilo"],
+        ["una fetta", "una loncha"],
+        ["un pezzo", "un trozo"],
+        ["un sacchetto", "una bolsa"],
+        ["un barattolo", "un bote"]
+      ]
+    },
+    {
+      "type": "word-order",
+      "words": ["Vorrei", "del", "pane", "per", "favore"],
+      "answer": "Vorrei del pane, per favore.",
+      "explain": "*Del pane*, con partitivo."
+    },
+    {
+      "type": "word-order",
+      "words": ["Due", "etti", "di", "prosciutto", "per", "favore"],
+      "answer": "Due etti di prosciutto, per favore.",
+      "explain": "*Di* delante del producto."
+    },
+    {
+      "type": "translation",
+      "prompt": "¿Un poco de azúcar?",
+      "answer": ["Un po' di zucchero?"],
+      "explain": "*Po'* con apóstrofo."
+    },
+    {
+      "type": "translation",
+      "prompt": "No tengo mucho tiempo.",
+      "answer": ["Non ho molto tempo."],
+      "explain": "*Molto* concuerda con *tempo*."
+    },
+    {
+      "type": "listening",
+      "audio": "Vorrei del pane e un po' di formaggio.",
+      "answer": ["Vorrei del pane e un po' di formaggio."],
+      "explain": "Partitivo y cantidad en la misma frase."
+    },
+    {
+      "type": "listening",
+      "audio": "Due etti di prosciutto crudo, per favore.",
+      "answer": ["Due etti di prosciutto crudo, per favore."],
+      "explain": "*Crudo* es el jamón curado."
+    }
+  ]
+}

@@ -1,0 +1,333 @@
+{
+  "id": "m11-l02",
+  "module": "m11",
+  "title": "El imperativo informal",
+  "goal": "Al final de esta lección sabrás dar órdenes y ánimos a alguien a quien tuteas, y sabrás que para decir «no hagas» el italiano usa el infinitivo.",
+  "vocab": [
+    {
+      "it": "smettere",
+      "es": "dejar de, parar",
+      "gender": null,
+      "plural": null,
+      "note": "*Smettila!*: ¡para ya! Participio irregular *smesso*."
+    },
+    {
+      "it": "sedersi",
+      "es": "sentarse",
+      "gender": null,
+      "plural": null,
+      "note": "*Siediti!*: ¡siéntate! *Mi siedo*, con la i."
+    },
+    {
+      "it": "muoversi",
+      "es": "moverse, darse prisa",
+      "gender": null,
+      "plural": null,
+      "note": "*Muoviti!* es lo que se grita en el tráfico italiano."
+    },
+    {
+      "it": "zitto",
+      "es": "callado",
+      "gender": null,
+      "plural": null,
+      "note": "*Stai zitto!* o *zitta!*: ¡cállate! Con dos tes."
+    },
+    {
+      "it": "attento",
+      "es": "atento, con cuidado",
+      "gender": null,
+      "plural": null,
+      "note": "*Attento!* o *attenta!* a secas es «¡cuidado!»."
+    },
+    {
+      "it": "calmo",
+      "es": "tranquilo",
+      "gender": null,
+      "plural": null,
+      "note": "*Stai calma!* Femenino *calma*, que también es un nombre."
+    },
+    {
+      "it": "tranquillo",
+      "es": "tranquilo",
+      "gender": null,
+      "plural": null,
+      "note": "*Tranquilla!* como respuesta significa «no te preocupes». Con dos eles."
+    },
+    {
+      "it": "bravo",
+      "es": "bien hecho",
+      "gender": null,
+      "plural": null,
+      "note": "*Brava!* a una mujer. Se dice al aplaudir y al felicitar por algo."
+    },
+    {
+      "it": "forza",
+      "es": "la fuerza; ¡ánimo!",
+      "gender": "f",
+      "plural": "forze",
+      "note": "*Forza!* solo es «¡vamos!», «¡ánimo!». Se grita en el estadio."
+    },
+    {
+      "it": "coraggio",
+      "es": "el valor; ¡ánimo!",
+      "gender": "m",
+      "plural": "coraggi",
+      "note": "*Coraggio!* para dar ánimos a quien lo está pasando mal."
+    },
+    {
+      "it": "dai",
+      "es": "venga, vamos",
+      "gender": null,
+      "plural": null,
+      "note": "Es el imperativo de *dare*, pero se usa como interjección: *Dai!*"
+    },
+    {
+      "it": "peccato",
+      "es": "la lástima; el pecado",
+      "gender": "m",
+      "plural": "peccati",
+      "note": "*Che peccato!*: ¡qué pena! Con dos ces."
+    },
+    {
+      "it": "figurati",
+      "es": "no hay de qué",
+      "gender": null,
+      "plural": null,
+      "note": "Respuesta a *grazie*, más cálida que *prego*. De usted: *si figuri*."
+    },
+    {
+      "it": "auguri",
+      "es": "felicidades",
+      "gender": null,
+      "plural": null,
+      "note": "Siempre en plural: *auguri!* Para cumpleaños, fiestas y bodas."
+    },
+    {
+      "it": "complimenti",
+      "es": "enhorabuena",
+      "gender": null,
+      "plural": null,
+      "note": "Siempre en plural. Para un logro: un examen, un trabajo nuevo."
+    }
+  ],
+  "grammar": [
+    {
+      "heading": "El imperativo de tú",
+      "body": "Los verbos en **-are** hacen el imperativo en **-a**, que es la forma de «él». Los de **-ere** e **-ire** lo hacen en **-i**, que es la forma de «tú».\n\nDicho de otra manera: para *-are* hay que cambiar la vocal; para los otros dos, el imperativo es idéntico al presente de *tu*.\n\n❌ *parli!* — eso ya es de usted · ✓ *parla!*",
+      "table": {
+        "headers": ["Conjugación", "Infinitivo", "Imperativo", "Español"],
+        "rows": [
+          ["-are", "parlare", "parla!", "¡habla!"],
+          ["-ere", "prendere", "prendi!", "¡coge!"],
+          ["-ire", "dormire", "dormi!", "¡duerme!"],
+          ["-ire (-isc)", "finire", "finisci!", "¡termina!"],
+          ["reflexivo", "alzarsi", "alzati!", "¡levántate!"]
+        ]
+      }
+    },
+    {
+      "heading": "Los irregulares",
+      "body": "Cinco verbos tienen una forma corta con apóstrofo, y cuatro de ellos admiten también la forma larga, que coincide con el presente. Las dos valen.\n\n✓ *Va' a casa!* o *Vai a casa!*\n\nY al pegar un pronombre a las formas cortas, **la consonante del pronombre se dobla**: *dimmi*, *fammi*, *dammi*, *dillo*, *fallo*. La única que no dobla es *gli*: *digli*.",
+      "table": {
+        "headers": ["Infinitivo", "Corta", "Larga"],
+        "rows": [
+          ["andare", "va'", "vai"],
+          ["dare", "da'", "dai"],
+          ["fare", "fa'", "fai"],
+          ["stare", "sta'", "stai"],
+          ["dire", "di'", "—"],
+          ["essere", "sii", "—"],
+          ["avere", "abbi", "—"]
+        ]
+      }
+    },
+    {
+      "heading": "El negativo usa el infinitivo",
+      "body": "Esta es la sorpresa de la lección: para decir «no hagas», el italiano usa **non + infinitivo**.\n\n❌ *non parla!* · ✓ *non parlare!*\n\n❌ *non prendi!* · ✓ *non prendere!*\n\nSolo pasa con *tu*. Con *voi* el negativo es normal: *non parlate!*\n\nY el pronombre puede ir delante o pegado al infinitivo: *non mi dire* o *non dirmi*.",
+      "table": {
+        "headers": ["Afirmativo", "Negativo"],
+        "rows": [
+          ["Parla!", "Non parlare!"],
+          ["Prendi!", "Non prendere!"],
+          ["Vai!", "Non andare!"],
+          ["Dimmi!", "Non dirmi!"],
+          ["Alzati!", "Non alzarti!"],
+          ["Preoccupati!", "Non preoccuparti!"]
+        ]
+      }
+    }
+  ],
+  "phrases": [
+    {
+      "it": "Dimmi!",
+      "es": "¡Dime!",
+      "note": "*Di'* + *mi*, con la eme doblada."
+    },
+    {
+      "it": "Aspetta un attimo!",
+      "es": "¡Espera un momento!",
+      "note": "*Aspetta* de *aspettare*: verbo en -are, imperativo en -a."
+    },
+    {
+      "it": "Non dire niente!",
+      "es": "¡No digas nada!",
+      "note": "Negativo con infinitivo, y doble negación."
+    },
+    {
+      "it": "Siediti, per favore.",
+      "es": "Siéntate, por favor.",
+      "note": "Pronombre pegado al imperativo."
+    },
+    {
+      "it": "Muoviti!",
+      "es": "¡Date prisa!",
+      "note": "Literalmente «muévete». Se oye a diario."
+    },
+    {
+      "it": "Stai tranquilla!",
+      "es": "¡Tranquila!",
+      "note": "Con *stare*, no con *essere*."
+    },
+    {
+      "it": "Dai, andiamo!",
+      "es": "¡Venga, vamos!",
+      "note": "*Dai* como interjección, y *andiamo* como imperativo de *noi*."
+    },
+    {
+      "it": "Auguri!",
+      "es": "¡Felicidades!",
+      "note": "Siempre en plural."
+    },
+    {
+      "it": "Grazie mille! — Figurati!",
+      "es": "¡Muchas gracias! — ¡No hay de qué!",
+      "note": "*Figurati* de tú, *si figuri* de usted."
+    }
+  ],
+  "ojo": [
+    {
+      "title": "El negativo usa el infinitivo",
+      "body": "Para decir «no hagas» algo a alguien a quien tuteas, el italiano **no niega el imperativo**: pone *non* delante del infinitivo.\n\n❌ *non parla!* · ✓ *non parlare!*\n\n❌ *non prendi!* · ✓ *non prendere!*\n\n❌ *non ti alzi!* · ✓ *non alzarti!*\n\nEs una construcción que no tiene ningún equivalente en español y que hay que aprender por lo que es: una excepción con nombre y apellidos.\n\nY ojo, **solo pasa con *tu***. Con *voi* todo es normal:\n\n✓ *Non parlate!* → ¡no habléis!\n\n✓ *Non prendete!* → ¡no cojáis!"
+    },
+    {
+      "title": "«Parla!» de tú, «parli!» de usted",
+      "body": "Las terminaciones están cruzadas respecto a lo que pide la intuición.\n\n**Verbos en -are**: *parla!* de tú, *parli!* de usted\n\n**Verbos en -ere e -ire**: *prendi!* de tú, *prenda!* de usted\n\nEs lo mismo que ya viste en el módulo 7 con las indicaciones: *vai dritto* de tú, *vada dritto* de usted.\n\nY hay una salida cómoda si dudas con un desconocido: **no uses imperativo**. Una pregunta con *potere* funciona igual de bien y suena mejor:\n\n✓ *Può ripetere, per favore?* en vez de *ripeta!*\n\n✓ *Mi può aiutare?* en vez de *mi aiuti!*"
+    },
+    {
+      "title": "Los pronombres se pegan detrás",
+      "body": "En el imperativo afirmativo de *tu*, el pronombre va **pegado detrás**, como en español.\n\n✓ *Dimmi!* → ¡dime!\n\n✓ *Siediti!* → ¡siéntate!\n\n✓ *Aiutami!* → ¡ayúdame!\n\n✓ *Salutalo!* → ¡salúdalo!\n\nY con las cinco formas cortas irregulares, **la consonante del pronombre se dobla**:\n\n*da'* + *mi* = **dammi** → dame\n\n*fa'* + *mi* = **fammi** → hazme\n\n*di'* + *mi* = **dimmi** → dime\n\n*di'* + *lo* = **dillo** → dilo\n\n*va'* + *ci* = **vacci** → ve allí\n\nLa única excepción es *gli*, que no dobla: *digli*, no *diggli*."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "multiple-choice",
+      "prompt": "«¡Habla!» a un amigo, en italiano es…",
+      "options": ["Parli!", "Parla!", "Parlare!"],
+      "answer": 1,
+      "explain": "Los verbos en *-are* hacen el imperativo de tú en *-a*."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "«¡No hables!» a un amigo, en italiano es…",
+      "options": ["Non parla!", "Non parlare!", "Non parli!"],
+      "answer": 1,
+      "explain": "El negativo de tú usa el infinitivo."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "«¡Dime!» en italiano es…",
+      "options": ["Dimi!", "Dimmi!", "Di mi!"],
+      "answer": 1,
+      "explain": "*Di'* + *mi*: la consonante se dobla."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Alguien te da las gracias. Respondes «no hay de qué»:",
+      "options": ["Peccato!", "Figurati!", "Auguri!"],
+      "answer": 1,
+      "explain": "*Figurati* de tú, *si figuri* de usted. También vale *prego*."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "El imperativo de tú de «prendere» es ___",
+      "answer": ["prendi"],
+      "explain": "Los verbos en *-ere* hacen *-i*, igual que el presente."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "«¡No cojas!» en italiano: non ___",
+      "answer": ["prendere"],
+      "explain": "Negativo con infinitivo."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "«¡Siéntate!» en italiano: ___",
+      "answer": ["Siediti"],
+      "explain": "Pronombre pegado detrás."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "«¡Dame!» en italiano: ___ (da' + mi)",
+      "answer": ["Dammi"],
+      "explain": "La eme se dobla."
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        ["Parla!", "¡Habla!"],
+        ["Prendi!", "¡Coge!"],
+        ["Dimmi!", "¡Dime!"],
+        ["Siediti!", "¡Siéntate!"],
+        ["Muoviti!", "¡Date prisa!"],
+        ["Non parlare!", "¡No hables!"]
+      ]
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        ["Auguri!", "¡Felicidades!"],
+        ["Complimenti!", "¡Enhorabuena!"],
+        ["Che peccato!", "¡Qué pena!"],
+        ["Figurati!", "¡No hay de qué!"],
+        ["Coraggio!", "¡Ánimo!"],
+        ["Dai!", "¡Venga!"]
+      ]
+    },
+    {
+      "type": "word-order",
+      "words": ["Non", "dire", "niente", "a", "nessuno"],
+      "answer": "Non dire niente a nessuno.",
+      "explain": "Negativo con infinitivo, y doble negación por partida doble."
+    },
+    {
+      "type": "word-order",
+      "words": ["Siediti", "e", "aspetta", "un", "attimo"],
+      "answer": "Siediti e aspetta un attimo.",
+      "explain": "Dos imperativos de tú seguidos."
+    },
+    {
+      "type": "translation",
+      "prompt": "¡Espera un momento!",
+      "answer": ["Aspetta un attimo!", "Aspetta un momento!"],
+      "explain": "*Attimo* se usa más que *momento*."
+    },
+    {
+      "type": "translation",
+      "prompt": "¡No te preocupes!",
+      "answer": ["Non preoccuparti!", "Non ti preoccupare!"],
+      "explain": "Con infinitivo, y el pronombre puede ir delante o pegado."
+    },
+    {
+      "type": "listening",
+      "audio": "Dai, muoviti! Siamo in ritardo.",
+      "answer": ["Dai, muoviti! Siamo in ritardo."],
+      "explain": "*Dai* como interjección y *muoviti* con el pronombre pegado."
+    },
+    {
+      "type": "listening",
+      "audio": "Non dire niente, stai tranquilla.",
+      "answer": ["Non dire niente, stai tranquilla."],
+      "explain": "Negativo con infinitivo y *stare* para el estado de ánimo."
+    }
+  ]
+}

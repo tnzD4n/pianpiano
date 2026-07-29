@@ -1,0 +1,334 @@
+{
+  "id": "m09-l02",
+  "module": "m09",
+  "title": "El verbo piacere",
+  "goal": "Al final de esta lección sabrás decir lo que te gusta y lo que no, con un verbo que funciona exactamente igual que el español «gustar».",
+  "vocab": [
+    {
+      "it": "musica",
+      "es": "la música",
+      "gender": "f",
+      "plural": "musiche",
+      "note": "*La musica classica*, *la musica leggera* (la pop)."
+    },
+    {
+      "it": "calcio",
+      "es": "el fútbol",
+      "gender": "m",
+      "plural": null,
+      "note": "También significa «patada» y «calcio», el mineral."
+    },
+    {
+      "it": "viaggiare",
+      "es": "viajar",
+      "gender": null,
+      "plural": null,
+      "note": "Como *mangiare*, pierde la i: *tu viaggi*."
+    },
+    {
+      "it": "ballare",
+      "es": "bailar",
+      "gender": null,
+      "plural": null,
+      "note": "*Il ballo* es el baile."
+    },
+    {
+      "it": "cantare",
+      "es": "cantar",
+      "gender": null,
+      "plural": null,
+      "note": "*Il cantante* es el cantante, para hombre y para mujer."
+    },
+    {
+      "it": "nuotare",
+      "es": "nadar",
+      "gender": null,
+      "plural": null,
+      "note": "*Il nuoto* es la natación."
+    },
+    {
+      "it": "cucinare",
+      "es": "cocinar",
+      "gender": null,
+      "plural": null,
+      "note": "De *la cucina*, que es la cocina y el arte de cocinar."
+    },
+    {
+      "it": "gelato",
+      "es": "el helado",
+      "gender": "m",
+      "plural": "gelati",
+      "note": "*La gelateria* es la heladería. *Artigianale* significa que es casero."
+    },
+    {
+      "it": "cioccolato",
+      "es": "el chocolate",
+      "gender": "m",
+      "plural": "cioccolati",
+      "note": "*La cioccolata* es el chocolate caliente para beber."
+    },
+    {
+      "it": "animale",
+      "es": "el animal",
+      "gender": "m",
+      "plural": "animali",
+      "note": "*Gli animali*."
+    },
+    {
+      "it": "spettacolo",
+      "es": "el espectáculo",
+      "gender": "m",
+      "plural": "spettacoli",
+      "note": "*Lo spettacolo*, por la s impura. También la sesión de cine."
+    },
+    {
+      "it": "canzone",
+      "es": "la canción",
+      "gender": "f",
+      "plural": "canzoni",
+      "note": "Con una sola zeta."
+    },
+    {
+      "it": "concerto",
+      "es": "el concierto",
+      "gender": "m",
+      "plural": "concerti",
+      "note": null
+    },
+    {
+      "it": "mostra",
+      "es": "la exposición",
+      "gender": "f",
+      "plural": "mostre",
+      "note": "De *mostrare*, mostrar. No es «la muestra» de un producto."
+    },
+    {
+      "it": "rumore",
+      "es": "el ruido",
+      "gender": "m",
+      "plural": "rumori",
+      "note": "No es «el rumor» de un chisme: eso es *una voce*."
+    }
+  ],
+  "grammar": [
+    {
+      "heading": "Piacere funciona como «gustar»",
+      "body": "Buena noticia: funciona **exactamente** igual que el español. El sujeto no eres tú, es la cosa que gusta.\n\nY por eso el verbo concuerda con la cosa, no contigo:\n\n**mi piace** + una cosa o un infinitivo\n\n**mi piacciono** + varias cosas",
+      "table": {
+        "headers": ["Italiano", "Español"],
+        "rows": [
+          ["Mi piace la pizza", "Me gusta la pizza"],
+          ["Mi piacciono i gelati", "Me gustan los helados"],
+          ["Mi piace viaggiare", "Me gusta viajar"],
+          ["Ti piace il calcio?", "¿Te gusta el fútbol?"],
+          ["Non mi piace il rumore", "No me gusta el ruido"],
+          ["Ci piacciono le canzoni italiane", "Nos gustan las canciones italianas"]
+        ]
+      }
+    },
+    {
+      "heading": "Los pronombres",
+      "body": "Casi los mismos del reflexivo, con una diferencia que importa: la tercera persona **no es *si***, sino *gli* (a él) y *le* (a ella).\n\n✓ *A Marco piace il calcio* → *Gli piace il calcio*\n\n✓ *Ad Anna piace la musica* → *Le piace la musica*\n\nY en el italiano de hoy *gli* sirve también para el plural: *gli piace* vale para «les gusta».",
+      "table": {
+        "headers": ["Persona", "Pronombre", "Ejemplo"],
+        "rows": [
+          ["a me", "mi", "mi piace"],
+          ["a te", "ti", "ti piace"],
+          ["a lui", "gli", "gli piace"],
+          ["a lei / a Lei", "le", "le piace"],
+          ["a noi", "ci", "ci piace"],
+          ["a voi", "vi", "vi piace"],
+          ["a loro", "gli", "gli piace"]
+        ]
+      }
+    },
+    {
+      "heading": "Subrayar quién",
+      "body": "Para insistir en quién opina se pone *a me*, *a te*, *a lui* delante. Es exactamente el español «a mí sí me gusta».\n\nY con un nombre propio, *a* + el nombre: *a Marco piace il calcio*.\n\nDos formas cortas que se usan a todas horas: *anche a me* y *neanche a me*.",
+      "table": {
+        "headers": ["Italiano", "Español"],
+        "rows": [
+          ["A me piace", "A mí me gusta"],
+          ["A me non piace", "A mí no me gusta"],
+          ["Anche a me", "A mí también"],
+          ["Neanche a me", "A mí tampoco"],
+          ["A me sì, a lui no", "A mí sí, a él no"],
+          ["A Marco piace il calcio", "A Marco le gusta el fútbol"]
+        ]
+      }
+    }
+  ],
+  "phrases": [
+    {
+      "it": "Mi piace molto l'Italia.",
+      "es": "Me gusta mucho Italia.",
+      "note": "*Molto* detrás del verbo."
+    },
+    {
+      "it": "Ti piace il gelato?",
+      "es": "¿Te gusta el helado?",
+      "note": null
+    },
+    {
+      "it": "Mi piacciono i film italiani.",
+      "es": "Me gustan las películas italianas.",
+      "note": "*Piacciono* en plural, porque son varias películas."
+    },
+    {
+      "it": "Non mi piace il rumore.",
+      "es": "No me gusta el ruido.",
+      "note": "*Non* delante del pronombre."
+    },
+    {
+      "it": "A me piace cucinare.",
+      "es": "A mí me gusta cocinar.",
+      "note": "*A me* para subrayar. Con infinitivo, siempre *piace*."
+    },
+    {
+      "it": "Anche a me!",
+      "es": "¡A mí también!",
+      "note": "La respuesta más rápida que hay."
+    },
+    {
+      "it": "Le piace la musica classica.",
+      "es": "A ella le gusta la música clásica.",
+      "note": "*Le* para «a ella»; *gli* para «a él»."
+    },
+    {
+      "it": "Ci piacciono le canzoni italiane.",
+      "es": "Nos gustan las canciones italianas.",
+      "note": null
+    },
+    {
+      "it": "Che cosa ti piace fare?",
+      "es": "¿Qué te gusta hacer?",
+      "note": "Con infinitivo, *piace* en singular."
+    }
+  ],
+  "ojo": [
+    {
+      "title": "Funciona igual que «gustar»: esta es la buena noticia",
+      "body": "Un angloparlante pelea con este verbo durante meses. Tú no, porque el español hace exactamente lo mismo.\n\nEl sujeto es **la cosa que gusta**, no la persona:\n\n✓ *Mi piace la pizza* — la pizza es el sujeto\n\n✓ *Mi piacciono i gelati* — plural, porque son varios helados\n\n❌ *Io piaccio la pizza* — eso significaría «yo le gusto a la pizza»\n\nLo único que hay que vigilar es la concordancia, y el error se cuela justo ahí:\n\n❌ *mi piace i gelati* · ✓ *mi piacciono i gelati*\n\nCon un infinitivo detrás va siempre en singular, aunque haya varios: *mi piace cantare e ballare*."
+    },
+    {
+      "title": "«Gli» y «le» en la tercera persona",
+      "body": "Aquí sí hay algo nuevo. En los reflexivos la tercera persona era *si*; con *piacere* es otra cosa:\n\n**gli** → a él\n\n**le** → a ella\n\n**Le** con mayúscula → a usted\n\n✓ *Gli piace il calcio* → a él le gusta el fútbol\n\n✓ *Le piace la musica* → a ella le gusta la música\n\nY en el italiano hablado de hoy, *gli* cubre también el plural: *gli piace* = «les gusta». La forma clásica *a loro piace* sigue siendo correcta, pero suena más formal."
+    },
+    {
+      "title": "«Piacere» también es «encantado»",
+      "body": "Es la misma palabra que usaste el primer día, y tiene tres papeles:\n\n✓ *Piacere!* al conocer a alguien → «encantado», «mucho gusto»\n\n✓ *Mi piace* → me gusta\n\n✓ *un piacere* como nombre → un favor o un placer: *mi fai un piacere?*, «¿me haces un favor?»\n\nLa lógica es la misma en los tres: algo que agrada.\n\nY una expresión que oirás mucho: *con piacere!*, «¡con mucho gusto!», que es prima hermana de *volentieri*."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "multiple-choice",
+      "prompt": "«Me gustan los helados» en italiano es…",
+      "options": ["Mi piace i gelati", "Mi piacciono i gelati", "Io piaccio i gelati"],
+      "answer": 1,
+      "explain": "El verbo concuerda con lo que gusta: *gelati* es plural."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "«Me gusta viajar» en italiano es…",
+      "options": ["Mi piace viaggiare", "Mi piacciono viaggiare", "Io piaccio viaggiare"],
+      "answer": 0,
+      "explain": "Con infinitivo detrás, siempre en singular."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "«A ella le gusta la música» en italiano es…",
+      "options": ["Si piace la musica", "Le piace la musica", "Gli piace la musica"],
+      "answer": 1,
+      "explain": "*Le* es «a ella»; *gli*, «a él»."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "«Il rumore» es…",
+      "options": ["el rumor", "el ruido", "el humor"],
+      "answer": 1,
+      "explain": "El rumor de un chisme es *una voce*."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Mi ___ la pizza. (piace / piacciono)",
+      "answer": ["piace"],
+      "explain": "Una sola cosa: singular."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Mi ___ le canzoni italiane. (piace / piacciono)",
+      "answer": ["piacciono"],
+      "explain": "Varias cosas: plural."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "A Marco piace il calcio → ___ piace il calcio.",
+      "answer": ["Gli"],
+      "explain": "*Gli* sustituye a «a Marco»."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "A mí también: anche a ___",
+      "answer": ["me"],
+      "explain": "*Anche a me*, con la forma tónica."
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        ["mi piace", "me gusta"],
+        ["ti piacciono", "te gustan"],
+        ["gli piace", "a él le gusta"],
+        ["le piace", "a ella le gusta"],
+        ["ci piace", "nos gusta"],
+        ["vi piacciono", "os gustan"]
+      ]
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        ["la canzone", "la canción"],
+        ["il concerto", "el concierto"],
+        ["la mostra", "la exposición"],
+        ["lo spettacolo", "el espectáculo"],
+        ["il gelato", "el helado"],
+        ["il rumore", "el ruido"]
+      ]
+    },
+    {
+      "type": "word-order",
+      "words": ["Mi", "piacciono", "i", "film", "italiani"],
+      "answer": "Mi piacciono i film italiani.",
+      "explain": "*Film* es invariable, pero *italiani* delata el plural."
+    },
+    {
+      "type": "word-order",
+      "words": ["A", "me", "non", "piace", "il", "rumore"],
+      "answer": "A me non piace il rumore.",
+      "explain": "*Non* delante del verbo, detrás del *a me*."
+    },
+    {
+      "type": "translation",
+      "prompt": "¿Qué te gusta hacer?",
+      "answer": ["Che cosa ti piace fare?", "Cosa ti piace fare?"],
+      "explain": "Con infinitivo, *piace* en singular."
+    },
+    {
+      "type": "translation",
+      "prompt": "A mí me gusta cocinar.",
+      "answer": ["A me piace cucinare.", "Mi piace cucinare."],
+      "explain": "*A me* subraya; *mi* solo es la forma neutra."
+    },
+    {
+      "type": "listening",
+      "audio": "Mi piace la musica, ma non mi piacciono i concerti.",
+      "answer": ["Mi piace la musica, ma non mi piacciono i concerti."],
+      "explain": "Singular y plural en la misma frase."
+    },
+    {
+      "type": "listening",
+      "audio": "Ti piace il gelato al cioccolato?",
+      "answer": ["Ti piace il gelato al cioccolato?"],
+      "explain": "*Al cioccolato* indica el sabor, como *al pomodoro* la salsa."
+    }
+  ]
+}

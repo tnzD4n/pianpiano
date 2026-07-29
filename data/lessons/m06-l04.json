@@ -1,0 +1,318 @@
+{
+  "id": "m06-l04",
+  "module": "m06",
+  "title": "C'è y ci sono",
+  "goal": "Al final de esta lección sabrás decir que algo hay o no hay, preguntar por alguien y usar la única forma de pasado que necesitas de momento: c'era.",
+  "vocab": [
+    {
+      "it": "posto",
+      "es": "el sitio, el asiento",
+      "gender": "m",
+      "plural": "posti",
+      "note": "*È libero questo posto?* En el tren y en el bar."
+    },
+    {
+      "it": "centro",
+      "es": "el centro",
+      "gender": "m",
+      "plural": "centri",
+      "note": "*In centro*, sin artículo: «en el centro»."
+    },
+    {
+      "it": "supermercato",
+      "es": "el supermercado",
+      "gender": "m",
+      "plural": "supermercati",
+      "note": "También *il super*, en el habla."
+    },
+    {
+      "it": "farmacia",
+      "es": "la farmacia",
+      "gender": "f",
+      "plural": "farmacie",
+      "note": "La cruz italiana es verde, no roja."
+    },
+    {
+      "it": "chiesa",
+      "es": "la iglesia",
+      "gender": "f",
+      "plural": "chiese",
+      "note": "*Chi* suena /ki/: /KIÉ-sa/."
+    },
+    {
+      "it": "museo",
+      "es": "el museo",
+      "gender": "m",
+      "plural": "musei",
+      "note": null
+    },
+    {
+      "it": "mercato",
+      "es": "el mercado",
+      "gender": "m",
+      "plural": "mercati",
+      "note": "El de la comida. *Il mercato del sabato*."
+    },
+    {
+      "it": "parcheggio",
+      "es": "el aparcamiento",
+      "gender": "m",
+      "plural": "parcheggi",
+      "note": "Dos ges. El verbo es *parcheggiare*."
+    },
+    {
+      "it": "bagno",
+      "es": "el baño",
+      "gender": "m",
+      "plural": "bagni",
+      "note": "*Dov'è il bagno?* es la pregunta más necesaria de cualquier viaje."
+    },
+    {
+      "it": "camera",
+      "es": "la habitación",
+      "gender": "f",
+      "plural": "camere",
+      "note": "La de un hotel. No es la cámara de fotos."
+    },
+    {
+      "it": "ascensore",
+      "es": "el ascensor",
+      "gender": "m",
+      "plural": "ascensori",
+      "note": "*L'ascensore*. En los edificios viejos, a menudo no lo hay."
+    },
+    {
+      "it": "scala",
+      "es": "la escalera",
+      "gender": "f",
+      "plural": "scale",
+      "note": "Casi siempre en plural: *le scale*. Femenino, así que *la* y no *lo*."
+    },
+    {
+      "it": "angolo",
+      "es": "la esquina",
+      "gender": "m",
+      "plural": "angoli",
+      "note": "*All'angolo*: en la esquina."
+    },
+    {
+      "it": "vicino",
+      "es": "cerca",
+      "gender": null,
+      "plural": null,
+      "note": "*Qui vicino*: aquí cerca. Como nombre, *il vicino* es el vecino."
+    },
+    {
+      "it": "lontano",
+      "es": "lejos",
+      "gender": null,
+      "plural": null,
+      "note": "*È lontano?*: ¿está lejos?"
+    }
+  ],
+  "grammar": [
+    {
+      "heading": "C'è y ci sono",
+      "body": "*C'è* es *ci* + *è*, con apóstrofo. *Ci sono* no se apostrofa porque no pierde nada.\n\nA diferencia del español «hay», que no cambia jamás, el italiano **concuerda con lo que viene detrás**: una cosa → *c'è*; varias → *ci sono*.",
+      "table": {
+        "headers": ["Italiano", "Español"],
+        "rows": [
+          ["C'è un problema", "Hay un problema"],
+          ["Ci sono due problemi", "Hay dos problemas"],
+          ["C'è una farmacia qui vicino?", "¿Hay una farmacia por aquí cerca?"],
+          ["Ci sono molte persone", "Hay mucha gente"],
+          ["Non c'è nessuno", "No hay nadie"],
+          ["Non ci sono posti", "No hay sitio"]
+        ]
+      }
+    },
+    {
+      "heading": "También sirve para «estar»",
+      "body": "*C'è* cubre dos cosas que el español separa:\n\n**Existencia** — *c'è un problema* → hay un problema\n\n**Presencia de alguien** — *c'è Marco?* → ¿está Marco?\n\nEsa segunda es la de llamar por teléfono o a una puerta. En español dirías «¿está Anna?»; en italiano se dice *c'è Anna?*\n\n❌ *È Anna?* — eso significa «¿es Anna?»\n\n✓ *C'è Anna?* — ¿está Anna?\n\nY para contestar: *Sì, c'è* o *No, non c'è*."
+    },
+    {
+      "heading": "El pasado: c'era, c'erano",
+      "body": "Concuerda igual que el presente, y es la primera forma de pasado que ves. Viene del imperfecto de *essere*, que llega más adelante; de momento basta con estas dos.\n\n✓ *C'era molta gente* → había mucha gente\n\n✓ *Non c'erano posti* → no había sitio\n\nY *c'era una volta…* es «érase una vez», el principio de todos los cuentos italianos.",
+      "table": {
+        "headers": ["Presente", "Pasado", "Español"],
+        "rows": [
+          ["c'è", "c'era", "hay / había (uno)"],
+          ["ci sono", "c'erano", "hay / había (varios)"]
+        ]
+      }
+    }
+  ],
+  "phrases": [
+    {
+      "it": "C'è una farmacia qui vicino?",
+      "es": "¿Hay una farmacia por aquí cerca?",
+      "note": "La fórmula para buscar cualquier cosa por la calle."
+    },
+    {
+      "it": "Scusi, dov'è il bagno?",
+      "es": "Perdone, ¿dónde está el baño?",
+      "note": "*Dov'è* con apóstrofo: *dove* + *è*."
+    },
+    {
+      "it": "Non c'è nessuno.",
+      "es": "No hay nadie.",
+      "note": "Doble negación, como en español."
+    },
+    {
+      "it": "Ci sono due camere libere.",
+      "es": "Hay dos habitaciones libres.",
+      "note": "Plural detrás, así que *ci sono*."
+    },
+    {
+      "it": "Pronto, c'è Anna?",
+      "es": "¿Diga? ¿Está Anna?",
+      "note": "Al teléfono. *C'è*, no *è*."
+    },
+    {
+      "it": "Non ci sono posti.",
+      "es": "No hay sitio.",
+      "note": "En el tren, en el restaurante, en el cine."
+    },
+    {
+      "it": "C'era molta gente.",
+      "es": "Había mucha gente.",
+      "note": "*Gente* es singular, así que *c'era*."
+    },
+    {
+      "it": "È qui vicino, all'angolo.",
+      "es": "Está aquí cerca, en la esquina.",
+      "note": "*All'angolo* es *a* + *l'angolo*."
+    },
+    {
+      "it": "C'era una volta…",
+      "es": "Érase una vez…",
+      "note": "Así empiezan todos los cuentos."
+    }
+  ],
+  "ojo": [
+    {
+      "title": "«Hay» no cambia nunca; «c'è» sí",
+      "body": "El español tiene una sola palabra para todo: hay un libro, hay dos libros, hay mucha gente. El italiano concuerda con lo que viene detrás, y equivocarse suena raro enseguida.\n\n❌ *C'è due problemi* · ✓ *Ci sono due problemi*\n\n❌ *Ci sono un problema* · ✓ *C'è un problema*\n\nRegla: cuenta lo que viene después. Uno → *c'è*. Más de uno → *ci sono*.\n\nCon los nombres que no se cuentan va en singular, igual que en español:\n\n✓ *c'è vento*, *c'è nebbia*, *c'è tempo*, *c'è gente*\n\nY en pasado, exactamente igual: *c'era un problema* / *c'erano due problemi*."
+    },
+    {
+      "title": "«C'è» con apóstrofo, «ci sono» sin él",
+      "body": "Un detalle de ortografía que cuesta al principio y que se ve mucho mal escrito:\n\n✓ **c'è** — con apóstrofo, porque *ci* pierde la i delante de *è*\n\n✓ **ci sono** — sin apóstrofo, porque no pierde nada\n\n❌ *c'sono* · ✓ *ci sono*\n\n❌ *ce* · ✓ *c'è*\n\nY no confundas *c'è* («hay») con *che* («que»): se parecen al oído y no tienen nada que ver. *C'è che…* es una frase perfectamente posible y contiene las dos."
+    },
+    {
+      "title": "«La camera» no es una cámara",
+      "body": "**La camera** es **la habitación**: la palabra de los hoteles.\n\n✓ *una camera doppia* → una habitación doble\n\n✓ *una camera singola* → una habitación individual\n\n✓ *la camera da letto* → el dormitorio\n\nLa cámara de fotos es *la macchina fotografica*, o *la fotocamera* si es digital.\n\n❌ *Ho comprato una camera nuova* si hablas de fotos · ✓ *una macchina fotografica nuova*\n\nY *la stanza* es cualquier habitación de una casa, sin especificar cuál."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "multiple-choice",
+      "prompt": "«Hay dos problemas» en italiano es…",
+      "options": ["C'è due problemi", "Ci sono due problemi", "Ci è due problemi"],
+      "answer": 1,
+      "explain": "Plural detrás, plural delante: *ci sono*."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Llamas por teléfono y quieres saber si Anna está. ¿Qué dices?",
+      "options": ["È Anna?", "C'è Anna?", "Ci sono Anna?"],
+      "answer": 1,
+      "explain": "*È Anna?* significa «¿es Anna?». Para preguntar si está, *c'è*."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "«La camera» significa…",
+      "options": ["la cámara de fotos", "la habitación", "el camarero"],
+      "answer": 1,
+      "explain": "La cámara es *la macchina fotografica*; el camarero, *il cameriere*."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "«Había mucha gente» en italiano es…",
+      "options": ["C'erano molta gente", "C'era molta gente", "Ci sono molta gente"],
+      "answer": 1,
+      "explain": "*Gente* es singular en italiano, igual que en español."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "___ una farmacia qui vicino?",
+      "answer": ["C'è"],
+      "explain": "Singular detrás: *c'è*, con apóstrofo."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "___ due camere libere.",
+      "answer": ["Ci sono"],
+      "explain": "Plural detrás: *ci sono*, sin apóstrofo."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Non ___ posti, mi dispiace.",
+      "answer": ["ci sono"],
+      "explain": "*Posti* es plural."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ayer había mucha gente: ieri ___ molta gente.",
+      "answer": ["c'era"],
+      "explain": "Pasado singular, porque *gente* es singular."
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        ["la farmacia", "la farmacia"],
+        ["la chiesa", "la iglesia"],
+        ["il mercato", "el mercado"],
+        ["il parcheggio", "el aparcamiento"],
+        ["l'ascensore", "el ascensor"],
+        ["le scale", "las escaleras"]
+      ]
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        ["c'è", "hay (uno)"],
+        ["ci sono", "hay (varios)"],
+        ["c'era", "había (uno)"],
+        ["c'erano", "había (varios)"],
+        ["qui vicino", "aquí cerca"],
+        ["all'angolo", "en la esquina"]
+      ]
+    },
+    {
+      "type": "word-order",
+      "words": ["C'è", "una", "farmacia", "qui", "vicino", "?"],
+      "answer": "C'è una farmacia qui vicino?",
+      "explain": "Singular detrás, así que *c'è*."
+    },
+    {
+      "type": "word-order",
+      "words": ["Scusi", "dov'è", "il", "bagno", "?"],
+      "answer": "Scusi, dov'è il bagno?",
+      "explain": "*Dov'è* es *dove* + *è*, con apóstrofo."
+    },
+    {
+      "type": "translation",
+      "prompt": "No hay nadie.",
+      "answer": ["Non c'è nessuno."],
+      "explain": "Doble negación, como en español."
+    },
+    {
+      "type": "translation",
+      "prompt": "¿Hay un supermercado por aquí cerca?",
+      "answer": ["C'è un supermercato qui vicino?"],
+      "explain": "*Qui vicino* junto significa «por aquí cerca»."
+    },
+    {
+      "type": "listening",
+      "audio": "Pronto, c'è Anna?",
+      "answer": ["Pronto, c'è Anna?"],
+      "explain": "*Pronto* al descolgar, y *c'è* para preguntar si está."
+    },
+    {
+      "type": "listening",
+      "audio": "Non ci sono posti, c'era troppa gente.",
+      "answer": ["Non ci sono posti, c'era troppa gente."],
+      "explain": "*Ci sono* en plural y *c'era* en singular, en la misma frase."
+    }
+  ]
+}

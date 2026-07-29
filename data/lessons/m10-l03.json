@@ -1,0 +1,344 @@
+{
+  "id": "m10-l03",
+  "module": "m10",
+  "title": "Participios irregulares",
+  "goal": "Al final de esta lección tendrás la lista de participios irregulares que hace falta saberse de memoria: son pocos, pero son justo los verbos que más se usan.",
+  "vocab": [
+    {
+      "it": "chiedere",
+      "es": "preguntar, pedir",
+      "gender": null,
+      "plural": null,
+      "note": "Participio *chiesto*. Sirve para las dos cosas."
+    },
+    {
+      "it": "rimanere",
+      "es": "quedarse",
+      "gender": null,
+      "plural": null,
+      "note": "Participio *rimasto*. Va con *essere*: *sono rimasta*."
+    },
+    {
+      "it": "vincere",
+      "es": "ganar",
+      "gender": null,
+      "plural": null,
+      "note": "Participio *vinto*. Ganar dinero es *guadagnare*."
+    },
+    {
+      "it": "perdere",
+      "es": "perder",
+      "gender": null,
+      "plural": null,
+      "note": "Participio *perso*. También existe *perduto*, más literario."
+    },
+    {
+      "it": "spegnere",
+      "es": "apagar",
+      "gender": null,
+      "plural": null,
+      "note": "Participio *spento*. Con el grupo gn: /SPÉ-ñe-re/."
+    },
+    {
+      "it": "accendere",
+      "es": "encender",
+      "gender": null,
+      "plural": null,
+      "note": "Participio *acceso*. Con dos ces."
+    },
+    {
+      "it": "rompere",
+      "es": "romper",
+      "gender": null,
+      "plural": null,
+      "note": "Participio *rotto*, igual que el español «roto»."
+    },
+    {
+      "it": "scegliere",
+      "es": "elegir",
+      "gender": null,
+      "plural": null,
+      "note": "Participio *scelto*. Con el grupo gli: /SHÉ-lle-re/."
+    },
+    {
+      "it": "conoscere",
+      "es": "conocer",
+      "gender": null,
+      "plural": null,
+      "note": "Participio *conosciuto*. *Conoscere* es conocer a alguien; *sapere*, saber algo."
+    },
+    {
+      "it": "correre",
+      "es": "correr",
+      "gender": null,
+      "plural": null,
+      "note": "Participio *corso*. Con dos erres."
+    },
+    {
+      "it": "decidere",
+      "es": "decidir",
+      "gender": null,
+      "plural": null,
+      "note": "Participio *deciso*."
+    },
+    {
+      "it": "lista",
+      "es": "la lista",
+      "gender": "f",
+      "plural": "liste",
+      "note": "*La lista della spesa*: la lista de la compra."
+    },
+    {
+      "it": "esperienza",
+      "es": "la experiencia",
+      "gender": "f",
+      "plural": "esperienze",
+      "note": "Sin la x del español: con s."
+    },
+    {
+      "it": "ricordo",
+      "es": "el recuerdo",
+      "gender": "m",
+      "plural": "ricordi",
+      "note": "De *ricordare*. También el souvenir."
+    },
+    {
+      "it": "scelta",
+      "es": "la elección",
+      "gender": "f",
+      "plural": "scelte",
+      "note": "De *scegliere*. La elección política es *le elezioni*."
+    }
+  ],
+  "grammar": [
+    {
+      "heading": "Los diez que hay que saberse",
+      "body": "Son los participios irregulares de los verbos más frecuentes del italiano. Cada uno que aprendas ahora te ahorra un tropiezo cada dos frases.\n\nFíjate en que muchos se agrupan por terminación: **-tto** en *fatto*, *detto*, *letto*, *scritto*, *rotto*; **-so** en *preso*, *chiuso*, *deciso*, *perso*. No es una regla, pero ayuda a memorizarlos por bloques.",
+      "table": {
+        "headers": ["Infinitivo", "Participio", "Español"],
+        "rows": [
+          ["fare", "fatto", "hecho"],
+          ["dire", "detto", "dicho"],
+          ["leggere", "letto", "leído"],
+          ["scrivere", "scritto", "escrito"],
+          ["prendere", "preso", "cogido"],
+          ["vedere", "visto", "visto"],
+          ["aprire", "aperto", "abierto"],
+          ["chiudere", "chiuso", "cerrado"],
+          ["mettere", "messo", "puesto"],
+          ["venire", "venuto", "venido"]
+        ]
+      }
+    },
+    {
+      "heading": "Más irregulares frecuentes",
+      "body": "La segunda tanda. *Essere* tiene el participio más raro de todos: **stato**, que es también el de *stare*.\n\n✓ *Sono stata a Roma* → he estado en Roma",
+      "table": {
+        "headers": ["Infinitivo", "Participio", "Español"],
+        "rows": [
+          ["chiedere", "chiesto", "preguntado"],
+          ["rimanere", "rimasto", "quedado"],
+          ["vincere", "vinto", "ganado"],
+          ["perdere", "perso", "perdido"],
+          ["scegliere", "scelto", "elegido"],
+          ["spegnere", "spento", "apagado"],
+          ["accendere", "acceso", "encendido"],
+          ["rompere", "rotto", "roto"],
+          ["decidere", "deciso", "decidido"],
+          ["correre", "corso", "corrido"],
+          ["bere", "bevuto", "bebido"],
+          ["essere", "stato", "sido, estado"]
+        ]
+      }
+    },
+    {
+      "heading": "Con qué auxiliar",
+      "body": "Los irregulares no cambian nada de lo que ya sabes: la elección del auxiliar sigue las mismas reglas de las dos lecciones anteriores.\n\nY los que van con *essere* concuerdan, también siendo irregulares: *sono rimasta*, *siamo rimasti*, *è stata*.",
+      "table": {
+        "headers": ["Italiano", "Español"],
+        "rows": [
+          ["Ho fatto colazione", "He desayunado"],
+          ["Ho letto il giornale", "He leído el periódico"],
+          ["Ho preso il treno", "He cogido el tren"],
+          ["Ho perso le chiavi", "He perdido las llaves"],
+          ["Sono venuta in macchina", "He venido en coche"],
+          ["Sono rimasta a casa", "Me he quedado en casa"],
+          ["Sono stata a Roma", "He estado en Roma"]
+        ]
+      }
+    }
+  ],
+  "phrases": [
+    {
+      "it": "Ho fatto colazione al bar.",
+      "es": "He desayunado en el bar.",
+      "note": "*Fatto*, de *fare*."
+    },
+    {
+      "it": "Che cosa hai detto?",
+      "es": "¿Qué has dicho?",
+      "note": "*Detto*, de *dire*."
+    },
+    {
+      "it": "Ho letto un bel libro.",
+      "es": "He leído un buen libro.",
+      "note": "*Bel* delante de un masculino que empieza por consonante."
+    },
+    {
+      "it": "Ho preso il treno delle otto.",
+      "es": "He cogido el tren de las ocho.",
+      "note": "*Preso*, de *prendere*."
+    },
+    {
+      "it": "Non ho visto nessuno.",
+      "es": "No he visto a nadie.",
+      "note": "Doble negación, y *visto* de *vedere*."
+    },
+    {
+      "it": "Ho perso le chiavi.",
+      "es": "He perdido las llaves.",
+      "note": "*Perso*, de *perdere*."
+    },
+    {
+      "it": "Sono stata a Roma due volte.",
+      "es": "He estado en Roma dos veces.",
+      "note": "*Stata* concuerda: va con *essere*."
+    },
+    {
+      "it": "Ho chiuso la porta a chiave.",
+      "es": "He cerrado la puerta con llave.",
+      "note": "*A chiave*, con *a*."
+    },
+    {
+      "it": "Abbiamo scelto questo.",
+      "es": "Hemos elegido este.",
+      "note": "*Scelto*, de *scegliere*."
+    }
+  ],
+  "ojo": [
+    {
+      "title": "Es una lista corta, y entra directamente en el repaso",
+      "body": "No hay regla que valga. Son irregulares y hay que aprendérselos de memoria, uno por uno.\n\nLa buena noticia es que son **pocos** y son **los más frecuentes**: con veinte participios cubres casi todo lo que vas a decir en pasado durante el primer año.\n\nY estos entran directamente en el repaso espaciado del sitio: cada vez que abras «Repaso de hoy» irán volviendo hasta que se queden.\n\nEl error típico no es inventarse una forma extraña: es **regularizarla**.\n\n❌ *ho facto* · ✓ *ho fatto*\n\n❌ *ho prenduto* · ✓ *ho preso*\n\n❌ *ho vedduto* · ✓ *ho visto*\n\n❌ *ho scrivuto* · ✓ *ho scritto*"
+    },
+    {
+      "title": "«Stato» sirve para dos verbos",
+      "body": "*Stato* es el participio de **essere** y también de **stare**. Comparten forma, y el contexto los separa sin problema.\n\n✓ *Sono stata a Roma* → he estado en Roma\n\n✓ *Sono stata male* → he estado mala\n\nY concuerda, porque va con *essere*: *sono stata*, *siamo state*, *è stato*.\n\nUna frase que oirás al despedirte de alguien: *è stato un piacere*, «ha sido un placer»."
+    },
+    {
+      "title": "«Il rapporto» es la relación, o el informe",
+      "body": "**Il rapporto** significa **la relación** entre personas y también **el informe** escrito. Nada que ver con «el rapto», que es *il rapimento*.\n\n✓ *un buon rapporto con i colleghi* → una buena relación con los compañeros\n\n✓ *ho scritto un rapporto* → he escrito un informe\n\n✓ *il rapporto qualità-prezzo* → la relación calidad-precio\n\nPara la relación de pareja se usa más *la relazione*, o directamente *stiamo insieme*, «estamos juntos»."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "multiple-choice",
+      "prompt": "El participio de «fare» es…",
+      "options": ["facto", "fatto", "fato"],
+      "answer": 1,
+      "explain": "*Fatto*, con dos tes."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "El participio de «prendere» es…",
+      "options": ["prenduto", "preso", "prendito"],
+      "answer": 1,
+      "explain": "Uno del grupo en *-so*, como *chiuso* y *deciso*."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "«Sono stata a Roma» significa…",
+      "options": ["soy de Roma", "he estado en Roma", "me quedé en Roma"],
+      "answer": 1,
+      "explain": "*Stato* es el participio de *essere* y de *stare*."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "«Il rapporto» es…",
+      "options": ["el rapto", "la relación o el informe", "el reparto"],
+      "answer": 1,
+      "explain": "El rapto es *il rapimento*."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ho ___ il giornale. (leggere)",
+      "answer": ["letto"],
+      "explain": "*Letto*, con dos tes. Igual que la cama."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Che cosa hai ___? (dire)",
+      "answer": ["detto"],
+      "explain": "*Detto*, de *dire*."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ho ___ le chiavi. (perdere)",
+      "answer": ["perso"],
+      "explain": "*Perso*. También vale *perduto*, más literario."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "(Una mujer) sono ___ a casa. (rimanere)",
+      "answer": ["rimasta"],
+      "explain": "*Rimasto* va con *essere*, así que concuerda: *rimasta*."
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        ["fare", "fatto"],
+        ["dire", "detto"],
+        ["scrivere", "scritto"],
+        ["vedere", "visto"],
+        ["aprire", "aperto"],
+        ["mettere", "messo"]
+      ]
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        ["chiedere", "chiesto"],
+        ["scegliere", "scelto"],
+        ["vincere", "vinto"],
+        ["rompere", "rotto"],
+        ["decidere", "deciso"],
+        ["essere", "stato"]
+      ]
+    },
+    {
+      "type": "word-order",
+      "words": ["Ho", "preso", "il", "treno", "delle", "otto"],
+      "answer": "Ho preso il treno delle otto.",
+      "explain": "*Delle otto* es *di* + *le*."
+    },
+    {
+      "type": "word-order",
+      "words": ["Non", "ho", "visto", "nessuno"],
+      "answer": "Non ho visto nessuno.",
+      "explain": "Doble negación con el auxiliar en medio."
+    },
+    {
+      "type": "translation",
+      "prompt": "He perdido las llaves.",
+      "answer": ["Ho perso le chiavi.", "Ho perduto le chiavi."],
+      "explain": "*Perso* es lo normal al hablar."
+    },
+    {
+      "type": "translation",
+      "prompt": "He desayunado en el bar.",
+      "answer": ["Ho fatto colazione al bar."],
+      "explain": "*Fare colazione*, sin artículo."
+    },
+    {
+      "type": "listening",
+      "audio": "Ho letto il giornale e ho scritto due mail.",
+      "answer": ["Ho letto il giornale e ho scritto due mail."],
+      "explain": "Dos irregulares del grupo *-tto*."
+    },
+    {
+      "type": "listening",
+      "audio": "Sono rimasta a casa e ho visto un film.",
+      "answer": ["Sono rimasta a casa e ho visto un film."],
+      "explain": "*Essere* con concordancia y *avere* sin ella, en la misma frase."
+    }
+  ]
+}

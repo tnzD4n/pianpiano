@@ -1,0 +1,326 @@
+{
+  "id": "m05-l02",
+  "module": "m05",
+  "title": "Verbos regulares en -ere y en -ire",
+  "goal": "Al final de esta lección tendrás las tres conjugaciones italianas completas, y verás que -ere y -ire solo se diferencian en una casilla.",
+  "vocab": [
+    {
+      "it": "prendere",
+      "es": "tomar, coger",
+      "gender": null,
+      "plural": null,
+      "note": "Se usa muchísimo: *prendere un caffè*, *prendere il treno*."
+    },
+    {
+      "it": "scrivere",
+      "es": "escribir",
+      "gender": null,
+      "plural": null,
+      "note": "Ya lo conoces en *come si scrive?*"
+    },
+    {
+      "it": "leggere",
+      "es": "leer",
+      "gender": null,
+      "plural": null,
+      "note": "Dos ges: /LÉD-ye-re/. *Leggo* suena /LÉG-go/, con g dura."
+    },
+    {
+      "it": "vedere",
+      "es": "ver",
+      "gender": null,
+      "plural": null,
+      "note": "Ya lo conoces en *ci vediamo!*"
+    },
+    {
+      "it": "chiudere",
+      "es": "cerrar",
+      "gender": null,
+      "plural": null,
+      "note": "De aquí viene *chiuso*, cerrado."
+    },
+    {
+      "it": "mettere",
+      "es": "poner",
+      "gender": null,
+      "plural": null,
+      "note": "Con dos tes."
+    },
+    {
+      "it": "vendere",
+      "es": "vender",
+      "gender": null,
+      "plural": null,
+      "note": null
+    },
+    {
+      "it": "rispondere",
+      "es": "responder, contestar",
+      "gender": null,
+      "plural": null,
+      "note": "*Rispondere al telefono*: coger el teléfono."
+    },
+    {
+      "it": "dormire",
+      "es": "dormir",
+      "gender": null,
+      "plural": null,
+      "note": null
+    },
+    {
+      "it": "aprire",
+      "es": "abrir",
+      "gender": null,
+      "plural": null,
+      "note": "De aquí viene *aperto*, abierto."
+    },
+    {
+      "it": "partire",
+      "es": "irse, salir de viaje",
+      "gender": null,
+      "plural": null,
+      "note": "No es «partir» de dividir. *Il treno parte alle otto*."
+    },
+    {
+      "it": "sentire",
+      "es": "oír, sentir",
+      "gender": null,
+      "plural": null,
+      "note": "*Senti!* es «¡oye!». Escuchar con atención es *ascoltare*."
+    },
+    {
+      "it": "offrire",
+      "es": "invitar, ofrecer",
+      "gender": null,
+      "plural": null,
+      "note": "*Offro io!*: ¡invito yo! Se dice en el bar constantemente."
+    },
+    {
+      "it": "porta",
+      "es": "la puerta",
+      "gender": "f",
+      "plural": "porte",
+      "note": "*Chiudi la porta!* La de la calle es *il portone*."
+    },
+    {
+      "it": "letto",
+      "es": "la cama",
+      "gender": "m",
+      "plural": "letti",
+      "note": "Masculino, con dos tes. *Una camera con due letti*."
+    }
+  ],
+  "grammar": [
+    {
+      "heading": "Los verbos en -ere",
+      "body": "Mismo mecanismo que en *-are*: se quita la terminación del infinitivo y se pegan las nuevas. El acento vuelve a quedarse quieto en la tercera del plural: *prèndo* → *prèndono*.",
+      "table": {
+        "headers": ["Persona", "prendere", "Español"],
+        "rows": [
+          ["io", "prendo", "tomo"],
+          ["tu", "prendi", "tomas"],
+          ["lui, lei, Lei", "prende", "toma"],
+          ["noi", "prendiamo", "tomamos"],
+          ["voi", "prendete", "tomáis"],
+          ["loro", "prendono", "toman"]
+        ]
+      }
+    },
+    {
+      "heading": "Los verbos en -ire",
+      "body": "Casi idénticos a los de *-ere*. Cambian solo en la forma de *voi* — *dormite* en vez de *prendete* — y en el infinitivo.\n\nAtención: una parte grande de los verbos en *-ire* no se conjuga así, sino con *-isc-*. Eso es la próxima lección.",
+      "table": {
+        "headers": ["Persona", "dormire", "Español"],
+        "rows": [
+          ["io", "dormo", "duermo"],
+          ["tu", "dormi", "duermes"],
+          ["lui, lei, Lei", "dorme", "duerme"],
+          ["noi", "dormiamo", "dormimos"],
+          ["voi", "dormite", "dormís"],
+          ["loro", "dormono", "duermen"]
+        ]
+      }
+    },
+    {
+      "heading": "Las tres conjugaciones juntas",
+      "body": "Aquí se ve todo de golpe. Mira la fila de **noi**: *-iamo* en los tres grupos, sin una sola excepción entre los verbos regulares.\n\nY compara *-ere* con *-ire*: la única casilla distinta es la de *voi*.",
+      "table": {
+        "headers": ["Persona", "-are", "-ere", "-ire"],
+        "rows": [
+          ["io", "parlo", "prendo", "dormo"],
+          ["tu", "parli", "prendi", "dormi"],
+          ["lui, lei", "parla", "prende", "dorme"],
+          ["noi", "parl**iamo**", "prend**iamo**", "dorm**iamo**"],
+          ["voi", "parlate", "prendete", "dormite"],
+          ["loro", "parlano", "prendono", "dormono"]
+        ]
+      }
+    }
+  ],
+  "phrases": [
+    {
+      "it": "Prendo un caffè.",
+      "es": "Tomo un café.",
+      "note": "En el bar es la fórmula normal para pedir."
+    },
+    {
+      "it": "Prendiamo il treno delle nove.",
+      "es": "Cogemos el tren de las nueve.",
+      "note": "*Delle nove* es *di* + *le*: «de las nueve»."
+    },
+    {
+      "it": "Offro io!",
+      "es": "¡Invito yo!",
+      "note": "Literalmente «ofrezco yo». La otra frase de la pelea por la cuenta."
+    },
+    {
+      "it": "Leggo il giornale la mattina.",
+      "es": "Leo el periódico por la mañana.",
+      "note": null
+    },
+    {
+      "it": "Dormo poco.",
+      "es": "Duermo poco.",
+      "note": null
+    },
+    {
+      "it": "A che ora apre il negozio?",
+      "es": "¿A qué hora abre la tienda?",
+      "note": null
+    },
+    {
+      "it": "Il treno parte alle otto.",
+      "es": "El tren sale a las ocho.",
+      "note": "Para los trenes y los aviones se usa *partire*, no *uscire*."
+    },
+    {
+      "it": "Senti, ho un'idea.",
+      "es": "Oye, tengo una idea.",
+      "note": "*Senti…* es la manera normal de empezar a decir algo."
+    },
+    {
+      "it": "Chiudi la porta, per favore.",
+      "es": "Cierra la puerta, por favor.",
+      "note": null
+    }
+  ],
+  "ojo": [
+    {
+      "title": "La primera del plural siempre acaba en -iamo",
+      "body": "El español cambia la vocal según el grupo: habl**a**mos, com**e**mos, viv**i**mos. El italiano no cambia nada: **-iamo** para los tres, sin excepciones entre los regulares.\n\n❌ *parlamo* · ✓ *parliamo*\n\n❌ *prendemo* · ✓ *prendiamo*\n\n❌ *dormimo* · ✓ *dormiamo*\n\nY sigue valiendo con los irregulares: *andiamo*, *facciamo*, *veniamo*, *usciamo*. Es la terminación más fiable de todo el italiano: si dudas de una primera persona del plural, acaba en *-iamo*."
+    },
+    {
+      "title": "«Partire» es marcharse, no partir",
+      "body": "**Partire** significa **irse**, **salir de viaje**. Se usa para las personas y para los trenes.\n\n✓ *Parto domani* → me voy mañana\n\n✓ *Il treno parte alle otto* → el tren sale a las ocho\n\nEl «partir» español de dividir es *dividere* o *tagliare*:\n\n❌ *partire il pane* · ✓ *tagliare il pane*\n\nY «salir» de un sitio es *uscire*: *esco di casa*. *Partire* es salir **para** algún lado."
+    },
+    {
+      "title": "«Sentire» es oír; «ascoltare» es escuchar",
+      "body": "La diferencia es la misma que en español: *sentire* es lo que te llega sin buscarlo, *ascoltare* es prestar atención.\n\n✓ *Senti quel rumore?* → ¿oyes ese ruido?\n\n✓ *Ascolto la musica* → escucho música\n\nPero *sentire* en italiano cubre además el olfato y el gusto, cosa que el español no hace:\n\n✓ *Senti che buono!* → ¡huele qué bien! o ¡prueba qué bueno!\n\nY *Senti…* al empezar una frase es simplemente «Oye…»."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "multiple-choice",
+      "prompt": "«Nosotros dormimos» en italiano es…",
+      "options": ["dormimo", "dormiamo", "dormemo"],
+      "answer": 1,
+      "explain": "*-iamo* para los tres grupos."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "«Il treno parte alle otto» significa…",
+      "options": ["el tren parte a las ocho en dos trozos", "el tren sale a las ocho", "el tren llega a las ocho"],
+      "answer": 1,
+      "explain": "*Partire* es irse, salir de viaje."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "¿Cuál es la única casilla en que -ere y -ire se diferencian?",
+      "options": ["io", "noi", "voi"],
+      "answer": 2,
+      "explain": "*Prendete* frente a *dormite*. Todo lo demás es igual."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Noi ___ un caffè. (prendere)",
+      "answer": ["prendiamo"],
+      "explain": "*-iamo*, como siempre."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Voi ___ il giornale? (leggere)",
+      "answer": ["leggete"],
+      "explain": "*Voi* de los verbos en -ere: *-ete*."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Loro ___ alle otto. (partire)",
+      "answer": ["partono"],
+      "explain": "*Partono*, con el acento en la primera sílaba."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Voi ___ presto? (dormire)",
+      "answer": ["dormite"],
+      "explain": "*Voi* de los verbos en -ire: *-ite*."
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        ["prendere", "tomar"],
+        ["scrivere", "escribir"],
+        ["leggere", "leer"],
+        ["chiudere", "cerrar"],
+        ["mettere", "poner"],
+        ["rispondere", "responder"]
+      ]
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        ["dormo", "duermo"],
+        ["apri", "abres"],
+        ["parte", "se va"],
+        ["sentiamo", "oímos"],
+        ["offrite", "invitáis"],
+        ["vendono", "venden"]
+      ]
+    },
+    {
+      "type": "word-order",
+      "words": ["Il", "treno", "parte", "alle", "otto"],
+      "answer": "Il treno parte alle otto.",
+      "explain": "*Alle otto* es *a* + *le otto*."
+    },
+    {
+      "type": "word-order",
+      "words": ["Chiudi", "la", "porta", "per", "favore"],
+      "answer": "Chiudi la porta, per favore.",
+      "explain": "*Chiudi* vale también como orden, sin cambiar nada."
+    },
+    {
+      "type": "translation",
+      "prompt": "Tomo un café.",
+      "answer": ["Prendo un caffè."],
+      "explain": "*Prendere* es el verbo de pedir en el bar."
+    },
+    {
+      "type": "translation",
+      "prompt": "Leo el periódico por la mañana.",
+      "answer": ["Leggo il giornale la mattina.", "Leggo il giornale di mattina."],
+      "explain": "*La mattina* y *di mattina* valen las dos."
+    },
+    {
+      "type": "listening",
+      "audio": "Offro io, prendiamo un caffè.",
+      "answer": ["Offro io, prendiamo un caffè."],
+      "explain": "«Invito yo, tomamos un café»."
+    },
+    {
+      "type": "listening",
+      "audio": "A che ora apre il negozio?",
+      "answer": ["A che ora apre il negozio?"],
+      "explain": "*Apre*, tercera persona de *aprire*."
+    }
+  ]
+}

@@ -1,0 +1,334 @@
+{
+  "id": "m08-l01",
+  "module": "m08",
+  "title": "La comida y las comidas del día",
+  "goal": "Al final de esta lección conocerás las comidas del día italianas, el vocabulario básico de la mesa y los tres falsos amigos que más daño hacen en una cocina: aceto, panna y burro.",
+  "vocab": [
+    {
+      "it": "pranzo",
+      "es": "la comida (del mediodía)",
+      "gender": "m",
+      "plural": "pranzi",
+      "note": "Sobre la una. El verbo es *pranzare*."
+    },
+    {
+      "it": "merenda",
+      "es": "la merienda",
+      "gender": "f",
+      "plural": "merende",
+      "note": "*Fare merenda*: merendar. Cosa sobre todo de niños."
+    },
+    {
+      "it": "pane",
+      "es": "el pan",
+      "gender": "m",
+      "plural": "pani",
+      "note": "Masculino: *il pane*. En el restaurante llega solo, y se paga."
+    },
+    {
+      "it": "olio",
+      "es": "el aceite",
+      "gender": "m",
+      "plural": "oli",
+      "note": "*L'olio d'oliva*. No confundir con *l'aceto*."
+    },
+    {
+      "it": "aceto",
+      "es": "el vinagre",
+      "gender": "m",
+      "plural": "aceti",
+      "note": "No es «aceite». El aceite es *l'olio*."
+    },
+    {
+      "it": "panna",
+      "es": "la nata",
+      "gender": "f",
+      "plural": "panne",
+      "note": "No es «pan». *La panna montata* es la nata montada."
+    },
+    {
+      "it": "prosciutto",
+      "es": "el jamón",
+      "gender": "m",
+      "plural": "prosciutti",
+      "note": "*Crudo* es el curado; *cotto*, el de York."
+    },
+    {
+      "it": "verdura",
+      "es": "la verdura",
+      "gender": "f",
+      "plural": "verdure",
+      "note": "En plural, *le verdure*, cuando se piensa en tipos distintos."
+    },
+    {
+      "it": "frutta",
+      "es": "la fruta",
+      "gender": "f",
+      "plural": null,
+      "note": "Singular colectivo, sin plural. Una pieza suelta es *un frutto*."
+    },
+    {
+      "it": "carne",
+      "es": "la carne",
+      "gender": "f",
+      "plural": "carni",
+      "note": null
+    },
+    {
+      "it": "pesce",
+      "es": "el pescado",
+      "gender": "m",
+      "plural": "pesci",
+      "note": "También el pez vivo: una sola palabra para las dos cosas."
+    },
+    {
+      "it": "riso",
+      "es": "el arroz",
+      "gender": "m",
+      "plural": "risi",
+      "note": "También significa «la risa». De aquí viene *il risotto*."
+    },
+    {
+      "it": "pasta",
+      "es": "la pasta",
+      "gender": "f",
+      "plural": "paste",
+      "note": "Incontable. En plural, *le paste* son los pastelitos."
+    },
+    {
+      "it": "dolce",
+      "es": "el postre, el dulce",
+      "gender": "m",
+      "plural": "dolci",
+      "note": "También adjetivo: *un caffè dolce*."
+    },
+    {
+      "it": "pomodoro",
+      "es": "el tomate",
+      "gender": "m",
+      "plural": "pomodori",
+      "note": "Literalmente «manzana de oro»."
+    }
+  ],
+  "grammar": [
+    {
+      "heading": "Las comidas del día",
+      "body": "Los horarios italianos se parecen a los españoles con dos diferencias: se come antes — a la una, no a las tres — y se cena antes, sobre las ocho.\n\nLos verbos son *fare colazione*, *pranzare* y *cenare*. Solo el desayuno se hace con *fare*.\n\n*L'aperitivo* no es una comida, pero funciona como tal: una copa con algo de picar antes de cenar. En Milán, cuando el picoteo sustituye a la cena, se llama *apericena*.",
+      "table": {
+        "headers": ["Italiano", "Cuándo", "Español"],
+        "rows": [
+          ["la colazione", "7–9", "el desayuno"],
+          ["il pranzo", "13–14", "la comida"],
+          ["la merenda", "16–17", "la merienda"],
+          ["l'aperitivo", "18–20", "el aperitivo"],
+          ["la cena", "20–21", "la cena"]
+        ]
+      }
+    },
+    {
+      "heading": "En la mesa",
+      "body": "El agua se pide siempre con apellido: **naturale** (sin gas) o **frizzante** (con gas). Si no lo dices, te lo van a preguntar.\n\nY el pan llega solo, sin pedirlo, y se paga: forma parte del *coperto*, que verás en la próxima lección.",
+      "table": {
+        "headers": ["Italiano", "Español"],
+        "rows": [
+          ["il pane", "el pan"],
+          ["l'olio", "el aceite"],
+          ["l'aceto", "el vinagre"],
+          ["il sale", "la sal"],
+          ["il pepe", "la pimienta"],
+          ["l'acqua naturale", "el agua sin gas"],
+          ["l'acqua frizzante", "el agua con gas"],
+          ["il vino", "el vino"]
+        ]
+      }
+    },
+    {
+      "heading": "Nombres que van en singular",
+      "body": "*La frutta* es un singular colectivo y no tiene plural: *compro la frutta*. Una pieza suelta es *un frutto*, plural *i frutti*.\n\n*La verdura* funciona igual, aunque *le verdure* sí se usa cuando se piensa en tipos distintos.\n\nY *la pasta* es incontable. En plural, *le paste*, significa otra cosa: los pastelitos de la pastelería.",
+      "table": {
+        "headers": ["Italiano", "Español"],
+        "rows": [
+          ["la frutta", "la fruta (en general)"],
+          ["un frutto", "una pieza de fruta"],
+          ["la verdura", "la verdura"],
+          ["la pasta", "la pasta"],
+          ["le paste", "los pasteles"],
+          ["la carne", "la carne"]
+        ]
+      }
+    }
+  ],
+  "phrases": [
+    {
+      "it": "A che ora è il pranzo?",
+      "es": "¿A qué hora se come?",
+      "note": "En Italia, sobre la una."
+    },
+    {
+      "it": "Facciamo colazione al bar.",
+      "es": "Desayunamos en el bar.",
+      "note": "Lo normal: de pie, en la barra, en tres minutos."
+    },
+    {
+      "it": "Vorrei un panino con il prosciutto.",
+      "es": "Quería un bocadillo de jamón.",
+      "note": "*Con il prosciutto*, con artículo."
+    },
+    {
+      "it": "Acqua naturale o frizzante?",
+      "es": "¿Agua sin gas o con gas?",
+      "note": "La pregunta que te van a hacer siempre."
+    },
+    {
+      "it": "Non mangio carne.",
+      "es": "No como carne.",
+      "note": "Sin partitivo, porque va en negativo."
+    },
+    {
+      "it": "Il pesce è molto buono qui.",
+      "es": "El pescado está muy bueno aquí.",
+      "note": "*Buono* para la comida, no *bello*."
+    },
+    {
+      "it": "L'olio e l'aceto sono sul tavolo.",
+      "es": "El aceite y el vinagre están en la mesa.",
+      "note": "Los dos con apóstrofo, los dos masculinos."
+    },
+    {
+      "it": "Per me la pasta al pomodoro.",
+      "es": "Para mí la pasta con tomate.",
+      "note": "*Al pomodoro*: la salsa se indica con *a* + artículo."
+    },
+    {
+      "it": "Che c'è per cena?",
+      "es": "¿Qué hay para cenar?",
+      "note": null
+    }
+  ],
+  "ojo": [
+    {
+      "title": "«Aceto» es vinagre",
+      "body": "**L'aceto** es **el vinagre**. El aceite es **l'olio**.\n\n❌ *un po' di aceto sull'insalata*, si querías aceite · ✓ *un po' d'olio sull'insalata*\n\n✓ *olio e aceto* → aceite y vinagre\n\nEs el falso amigo que más daño hace de todos, porque los dos están en la mesa, los dos son líquidos, los dos van en la ensalada y el error solo se descubre al probar.\n\n*L'olio d'oliva* es el aceite de oliva. *L'aceto balsamico* es el vinagre balsámico de Módena, que es dulce y no se parece a lo que en España se llama vinagre."
+    },
+    {
+      "title": "«Panna» es nata",
+      "body": "**La panna** es **la nata**. El pan es **il pane**.\n\n✓ *la panna montata* → la nata montada\n\n✓ *pasta alla panna* → pasta con nata\n\n❌ *vorrei della panna*, si querías pan · ✓ *vorrei del pane*\n\nY dos más de la misma familia, que conviene tener juntas en la cabeza:\n\n**il burro** → la mantequilla, no el animal\n\n**le paste** → los pasteles, no la pasta\n\nLas cuatro se aprenden mejor de golpe, porque todas viven en la misma mesa."
+    },
+    {
+      "title": "«Riso» y «pesca»: dos palabras que son dos",
+      "body": "*Il riso* significa **el arroz** y también **la risa**. Son dos palabras distintas que se escriben igual.\n\n✓ *il riso con le verdure* → el arroz con verduras\n\n✓ *un riso contagioso* → una risa contagiosa\n\nY *la pesca* hace lo mismo: es **el melocotón** y es **la pesca**, la de pescar.\n\n✓ *una pesca matura* → un melocotón maduro\n\n✓ *andare a pesca* → ir a pescar\n\nEl contexto las separa siempre, así que no dan problemas de verdad. Pero explican de dónde sale *il risotto*, que es literalmente «arrocito»."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "multiple-choice",
+      "prompt": "«L'aceto» es…",
+      "options": ["el aceite", "el vinagre", "la aceituna"],
+      "answer": 1,
+      "explain": "El aceite es *l'olio*. La aceituna, *l'oliva*."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "«La panna» es…",
+      "options": ["el pan", "la nata", "la mantequilla"],
+      "answer": 1,
+      "explain": "El pan es *il pane*; la mantequilla, *il burro*."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "En un restaurante italiano te preguntan «Naturale o frizzante?». Están preguntando por…",
+      "options": ["el vino", "el agua", "el pan"],
+      "answer": 1,
+      "explain": "Sin gas o con gas. Te lo preguntarán siempre."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "«Le paste» significa…",
+      "options": ["las pastas (comida)", "los pasteles", "las pastillas"],
+      "answer": 1,
+      "explain": "*La pasta* de comer es incontable; en plural significa otra cosa."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "El aceite de oliva: l'___ d'oliva.",
+      "answer": ["olio"],
+      "explain": "*Olio*, no *aceto*."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "La comida del mediodía se llama il ___",
+      "answer": ["pranzo"],
+      "explain": "Sobre la una. El verbo es *pranzare*."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Desayunamos en el bar: ___ colazione al bar.",
+      "answer": ["facciamo"],
+      "explain": "Solo el desayuno usa *fare*."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Una pieza de fruta: un ___",
+      "answer": ["frutto"],
+      "explain": "*La frutta* es el colectivo; *un frutto*, la pieza."
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        ["il pane", "el pan"],
+        ["l'olio", "el aceite"],
+        ["l'aceto", "el vinagre"],
+        ["la panna", "la nata"],
+        ["il burro", "la mantequilla"],
+        ["il pesce", "el pescado"]
+      ]
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        ["la colazione", "el desayuno"],
+        ["il pranzo", "la comida"],
+        ["la merenda", "la merienda"],
+        ["la cena", "la cena"],
+        ["il dolce", "el postre"],
+        ["il pomodoro", "el tomate"]
+      ]
+    },
+    {
+      "type": "word-order",
+      "words": ["Vorrei", "un", "panino", "con", "il", "prosciutto"],
+      "answer": "Vorrei un panino con il prosciutto.",
+      "explain": "*Con il*, sin fundir: *con* no se contrae."
+    },
+    {
+      "type": "word-order",
+      "words": ["L'olio", "e", "l'aceto", "sono", "sul", "tavolo"],
+      "answer": "L'olio e l'aceto sono sul tavolo.",
+      "explain": "*Sul* es *su* + *il*."
+    },
+    {
+      "type": "translation",
+      "prompt": "No como carne.",
+      "answer": ["Non mangio carne."],
+      "explain": "En negativo el partitivo desaparece."
+    },
+    {
+      "type": "translation",
+      "prompt": "¿Qué hay para cenar?",
+      "answer": ["Che c'è per cena?", "Cosa c'è per cena?"],
+      "explain": "*Per cena*, sin artículo."
+    },
+    {
+      "type": "listening",
+      "audio": "Olio, aceto, sale e pepe.",
+      "answer": ["Olio, aceto, sale e pepe."],
+      "explain": "Los cuatro de la mesa. Los cuatro masculinos."
+    },
+    {
+      "type": "listening",
+      "audio": "Per me la pasta al pomodoro, grazie.",
+      "answer": ["Per me la pasta al pomodoro, grazie."],
+      "explain": "*Al pomodoro* indica la salsa."
+    }
+  ]
+}

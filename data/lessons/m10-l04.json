@@ -1,0 +1,336 @@
+{
+  "id": "m10-l04",
+  "module": "m10",
+  "title": "Expresiones de tiempo pasado",
+  "goal": "Al final de esta lección sabrás situar en el tiempo lo que cuentas, y sabrás colocar «fa», «già» y «ancora», que van en sitios donde el español no los pone.",
+  "vocab": [
+    {
+      "it": "fa",
+      "es": "hace (tiempo)",
+      "gender": null,
+      "plural": null,
+      "note": "Va detrás: *due anni fa*. Nunca delante."
+    },
+    {
+      "it": "scorso",
+      "es": "pasado, último",
+      "gender": null,
+      "plural": null,
+      "note": "*La settimana scorsa*, *l'anno scorso*. Concuerda."
+    },
+    {
+      "it": "già",
+      "es": "ya",
+      "gender": null,
+      "plural": null,
+      "note": "Con acento. Va entre el auxiliar y el participio: *ho già mangiato*."
+    },
+    {
+      "it": "appena",
+      "es": "acabar de; apenas",
+      "gender": null,
+      "plural": null,
+      "note": "*Ho appena mangiato*: acabo de comer. Con dos pes y dos enes."
+    },
+    {
+      "it": "poi",
+      "es": "luego, después",
+      "gender": null,
+      "plural": null,
+      "note": "Ya lo viste en las indicaciones: *sempre dritto e poi a destra*."
+    },
+    {
+      "it": "dopo",
+      "es": "después",
+      "gender": null,
+      "plural": null,
+      "note": "*Dopo cena*: después de cenar. *A dopo!*: ¡hasta luego!"
+    },
+    {
+      "it": "prima",
+      "es": "antes",
+      "gender": null,
+      "plural": null,
+      "note": "*Prima di* + infinitivo: *prima di uscire*."
+    },
+    {
+      "it": "mentre",
+      "es": "mientras",
+      "gender": null,
+      "plural": null,
+      "note": "Con una sola erre."
+    },
+    {
+      "it": "finalmente",
+      "es": "por fin",
+      "gender": null,
+      "plural": null,
+      "note": "No sirve para enumerar: eso es *infine*."
+    },
+    {
+      "it": "volta",
+      "es": "la vez",
+      "gender": "f",
+      "plural": "volte",
+      "note": "*Una volta*: una vez. *A volte*: a veces. *C'era una volta*: érase una vez."
+    },
+    {
+      "it": "periodo",
+      "es": "el periodo, la temporada",
+      "gender": "m",
+      "plural": "periodi",
+      "note": "*Un bel periodo*: una buena época."
+    },
+    {
+      "it": "inizio",
+      "es": "el principio",
+      "gender": "m",
+      "plural": "inizi",
+      "note": "*All'inizio*: al principio."
+    },
+    {
+      "it": "fine",
+      "es": "el final",
+      "gender": "f",
+      "plural": "fini",
+      "note": "*La fine* es el final; *il fine*, masculino, es el objetivo."
+    },
+    {
+      "it": "passato",
+      "es": "el pasado",
+      "gender": "m",
+      "plural": "passati",
+      "note": "También el nombre de este tiempo verbal."
+    },
+    {
+      "it": "recente",
+      "es": "reciente",
+      "gender": null,
+      "plural": null,
+      "note": "Invariable en género. *Di recente*: recientemente."
+    }
+  ],
+  "grammar": [
+    {
+      "heading": "Cuándo pasó",
+      "body": "*Scorso* concuerda con el nombre y va normalmente **detrás**: *la settimana scorsa*, *l'anno scorso*. También se oye delante — *la scorsa settimana* — y es igual de correcto.\n\nY *fa* va siempre al final del bloque de tiempo, nunca delante.",
+      "table": {
+        "headers": ["Italiano", "Español"],
+        "rows": [
+          ["ieri", "ayer"],
+          ["l'altro ieri", "anteayer"],
+          ["ieri sera", "ayer por la noche"],
+          ["stamattina", "esta mañana"],
+          ["la settimana scorsa", "la semana pasada"],
+          ["il mese scorso", "el mes pasado"],
+          ["l'anno scorso", "el año pasado"],
+          ["due giorni fa", "hace dos días"],
+          ["molto tempo fa", "hace mucho tiempo"]
+        ]
+      }
+    },
+    {
+      "heading": "«Fa» va detrás",
+      "body": "El español pone «hace» **delante**: *hace dos años*. El italiano pone *fa* **detrás**: *due anni fa*.\n\n❌ *fa due anni* · ✓ *due anni fa*\n\nEs el mismo *fa* de *che tempo fa*, pero aquí no significa nada por sí solo: es solo una marca de tiempo transcurrido, y siempre va al final.",
+      "table": {
+        "headers": ["Italiano", "Español"],
+        "rows": [
+          ["un minuto fa", "hace un minuto"],
+          ["un'ora fa", "hace una hora"],
+          ["tre giorni fa", "hace tres días"],
+          ["una settimana fa", "hace una semana"],
+          ["due anni fa", "hace dos años"],
+          ["poco fa", "hace poco"],
+          ["quanto tempo fa?", "¿cuánto hace?"]
+        ]
+      }
+    },
+    {
+      "heading": "Già, appena, non ancora",
+      "body": "Estos tres se meten **entre el auxiliar y el participio**, que es justo donde el español no los pone.\n\n❌ *Ho mangiato già* · ✓ *Ho già mangiato*\n\nY *appena* es la manera italiana de decir «acabar de»: no existe un verbo para eso.\n\n✓ *Ho appena mangiato* → acabo de comer",
+      "table": {
+        "headers": ["Italiano", "Español"],
+        "rows": [
+          ["Ho già finito", "Ya he terminado"],
+          ["Ho appena finito", "Acabo de terminar"],
+          ["Non ho ancora finito", "Todavía no he terminado"],
+          ["Non ho mai visto", "No he visto nunca"],
+          ["Ho sempre pensato", "Siempre he pensado"]
+        ]
+      }
+    }
+  ],
+  "phrases": [
+    {
+      "it": "Ho conosciuto Marco due anni fa.",
+      "es": "Conocí a Marco hace dos años.",
+      "note": "*Fa* al final, y *conosciuto* sin preposición delante del nombre."
+    },
+    {
+      "it": "Sono arrivata la settimana scorsa.",
+      "es": "Llegué la semana pasada.",
+      "note": "*Scorsa* concuerda con *settimana*."
+    },
+    {
+      "it": "Ho già mangiato, grazie.",
+      "es": "Ya he comido, gracias.",
+      "note": "*Già* en medio."
+    },
+    {
+      "it": "Ho appena finito.",
+      "es": "Acabo de terminar.",
+      "note": "No hay verbo para «acabar de»: se usa *appena*."
+    },
+    {
+      "it": "Non ho ancora deciso.",
+      "es": "Todavía no he decidido.",
+      "note": "*Non… ancora*, con el participio al final."
+    },
+    {
+      "it": "Che cosa hai fatto ieri sera?",
+      "es": "¿Qué hiciste ayer por la noche?",
+      "note": "*Ieri sera*, sin preposición."
+    },
+    {
+      "it": "Poco fa.",
+      "es": "Hace poco.",
+      "note": "Respuesta corta, muy usada."
+    },
+    {
+      "it": "Finalmente!",
+      "es": "¡Por fin!",
+      "note": "Con alivio. No sirve para enumerar."
+    },
+    {
+      "it": "Una volta sono stata a Venezia.",
+      "es": "Una vez estuve en Venecia.",
+      "note": "*Una volta* al principio, como en español."
+    }
+  ],
+  "ojo": [
+    {
+      "title": "«Fa» va detrás",
+      "body": "El español dice «hace dos años» y el italiano lo dice al revés: **due anni fa**.\n\n❌ *fa due anni* · ✓ *due anni fa*\n\n❌ *fa un'ora* · ✓ *un'ora fa*\n\n❌ *fa molto tempo* · ✓ *molto tempo fa*\n\nEs un error muy fácil de cometer, porque el orden español se cuela solo. Y también funciona en la pregunta: *quanto tempo fa?*, «¿cuánto hace?».\n\nCuidado con no confundirlo con el otro *fa*, el de *che tempo fa* o *fa caldo*: ese es el verbo *fare*. Este es una marca de tiempo y va siempre al final."
+    },
+    {
+      "title": "«Già», «appena» y «ancora» van en medio",
+      "body": "El español los pone antes o después del verbo entero. El italiano los mete **entre el auxiliar y el participio**.\n\n❌ *Ho mangiato già* · ✓ *Ho già mangiato*\n\n❌ *Non ho finito ancora* · ✓ *Non ho ancora finito*\n\n❌ *Non ho visto mai* · ✓ *Non ho mai visto*\n\nLo mismo con *sempre*: *ho sempre pensato*.\n\nY *appena* merece un aparte: es la forma italiana de decir «acabar de», porque ese verbo no existe.\n\n✓ *Ho appena mangiato* → acabo de comer\n\n✓ *È appena uscita* → acaba de salir"
+    },
+    {
+      "title": "«Finalmente» no es «finalmente»",
+      "body": "**Finalmente** en italiano significa **por fin**, con alivio. No sirve para enumerar ni para concluir.\n\n✓ *Finalmente!* → ¡por fin!\n\n✓ *Finalmente sono arrivata* → por fin he llegado\n\nEl «finalmente» español de «en último lugar» es **infine**:\n\n❌ *Finalmente, voglio dire che…* · ✓ *Infine, voglio dire che…*\n\nY *alla fine* significa «al final», tanto en el tiempo como en la conclusión: *alla fine è andata bene*, «al final ha salido bien»."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "multiple-choice",
+      "prompt": "«Hace dos años» en italiano es…",
+      "options": ["fa due anni", "due anni fa", "da due anni"],
+      "answer": 1,
+      "explain": "*Fa* va siempre detrás. *Da due anni* significa «desde hace dos años»."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "«Ya he comido» en italiano es…",
+      "options": ["Ho mangiato già", "Ho già mangiato", "Già ho mangiato"],
+      "answer": 1,
+      "explain": "*Già* va entre el auxiliar y el participio."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "«Acabo de comer» en italiano es…",
+      "options": ["Ho finito di mangiare", "Ho appena mangiato", "Ho mangiato adesso"],
+      "answer": 1,
+      "explain": "*Appena* es la manera de decir «acabar de»."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "«Finalmente» en italiano significa…",
+      "options": ["en último lugar", "por fin", "al final"],
+      "answer": 1,
+      "explain": "«En último lugar» es *infine*; «al final», *alla fine*."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Hace una hora: un'ora ___",
+      "answer": ["fa"],
+      "explain": "*Fa* al final del bloque de tiempo."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Todavía no he terminado: non ho ___ finito.",
+      "answer": ["ancora"],
+      "explain": "*Ancora* entre el auxiliar y el participio."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "La semana pasada: la settimana ___",
+      "answer": ["scorsa"],
+      "explain": "*Scorsa* concuerda con *settimana*, femenino."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "No he visto nunca: non ho ___ visto.",
+      "answer": ["mai"],
+      "explain": "*Mai* también va en medio."
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        ["ieri", "ayer"],
+        ["l'altro ieri", "anteayer"],
+        ["la settimana scorsa", "la semana pasada"],
+        ["due giorni fa", "hace dos días"],
+        ["poco fa", "hace poco"],
+        ["una volta", "una vez"]
+      ]
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        ["ho già finito", "ya he terminado"],
+        ["ho appena finito", "acabo de terminar"],
+        ["non ho ancora finito", "todavía no he terminado"],
+        ["non ho mai visto", "no he visto nunca"],
+        ["finalmente", "por fin"],
+        ["infine", "en último lugar"]
+      ]
+    },
+    {
+      "type": "word-order",
+      "words": ["Ho", "conosciuto", "Marco", "due", "anni", "fa"],
+      "answer": "Ho conosciuto Marco due anni fa.",
+      "explain": "*Fa* cierra la frase."
+    },
+    {
+      "type": "word-order",
+      "words": ["Non", "ho", "ancora", "deciso"],
+      "answer": "Non ho ancora deciso.",
+      "explain": "*Ancora* entre el auxiliar y el participio."
+    },
+    {
+      "type": "translation",
+      "prompt": "Llegué la semana pasada.",
+      "answer": ["Sono arrivata la settimana scorsa."],
+      "explain": "*Arrivare* con *essere* y concordancia."
+    },
+    {
+      "type": "translation",
+      "prompt": "Ya he comido, gracias.",
+      "answer": ["Ho già mangiato, grazie."],
+      "explain": "*Già* en medio."
+    },
+    {
+      "type": "listening",
+      "audio": "Ho conosciuto Marco tre anni fa.",
+      "answer": ["Ho conosciuto Marco tre anni fa."],
+      "explain": "*Fa* al final, siempre."
+    },
+    {
+      "type": "listening",
+      "audio": "Non ho ancora mangiato, ma ho appena finito di lavorare.",
+      "answer": ["Non ho ancora mangiato, ma ho appena finito di lavorare."],
+      "explain": "*Ancora* y *appena*, los dos entre auxiliar y participio."
+    }
+  ]
+}

@@ -1,0 +1,317 @@
+{
+  "id": "m03-l02",
+  "module": "m03",
+  "title": "El verbo essere",
+  "goal": "Al final de esta lección sabrás conjugar essere en presente y usarlo para todo lo que en español se dice con ser y con estar, porque en italiano son el mismo verbo.",
+  "vocab": [
+    {
+      "it": "stanco",
+      "es": "cansado",
+      "gender": null,
+      "plural": null,
+      "note": "Femenino *stanca*. *Sono stanca*: estoy cansada."
+    },
+    {
+      "it": "contento",
+      "es": "contento",
+      "gender": null,
+      "plural": null,
+      "note": "Femenino *contenta*. Se usa más que *felice* en el día a día."
+    },
+    {
+      "it": "felice",
+      "es": "feliz",
+      "gender": null,
+      "plural": null,
+      "note": "Invariable en género: *felice* para él y para ella."
+    },
+    {
+      "it": "triste",
+      "es": "triste",
+      "gender": null,
+      "plural": null,
+      "note": "Invariable, como *felice*. Plural *tristi*."
+    },
+    {
+      "it": "pronto",
+      "es": "listo, preparado",
+      "gender": null,
+      "plural": null,
+      "note": "Femenino *pronta*. Al teléfono, *Pronto?* significa «¿diga?»."
+    },
+    {
+      "it": "occupato",
+      "es": "ocupado",
+      "gender": null,
+      "plural": null,
+      "note": "Femenino *occupata*. También lo que pone en la puerta del baño."
+    },
+    {
+      "it": "libero",
+      "es": "libre",
+      "gender": null,
+      "plural": null,
+      "note": "Femenino *libera*. *È libero?* es la pregunta del taxi y del asiento."
+    },
+    {
+      "it": "chiuso",
+      "es": "cerrado",
+      "gender": null,
+      "plural": null,
+      "note": "Femenino *chiusa*. Se lee en la persiana de media Italia a las dos de la tarde."
+    },
+    {
+      "it": "aperto",
+      "es": "abierto",
+      "gender": null,
+      "plural": null,
+      "note": "Femenino *aperta*."
+    },
+    {
+      "it": "sicuro",
+      "es": "seguro",
+      "gender": null,
+      "plural": null,
+      "note": "Femenino *sicura*. *Sei sicura?*: ¿estás segura?"
+    },
+    {
+      "it": "malato",
+      "es": "enfermo",
+      "gender": null,
+      "plural": null,
+      "note": "Femenino *malata*. La enfermedad es *la malattia*."
+    },
+    {
+      "it": "imbarazzato",
+      "es": "avergonzado, incómodo",
+      "gender": null,
+      "plural": null,
+      "note": "Femenino *imbarazzata*. No significa «embarazada»."
+    },
+    {
+      "it": "incinta",
+      "es": "embarazada",
+      "gender": null,
+      "plural": null,
+      "note": "Invariable y solo femenino, por razones evidentes: *è incinta*."
+    },
+    {
+      "it": "d'accordo",
+      "es": "de acuerdo",
+      "gender": null,
+      "plural": null,
+      "note": "Invariable: *sono d'accordo*, *siamo d'accordo*. Siempre con apóstrofo."
+    },
+    {
+      "it": "ritardo",
+      "es": "el retraso",
+      "gender": "m",
+      "plural": "ritardi",
+      "note": "*Essere in ritardo*: llegar tarde. Lo contrario es *essere in anticipo*."
+    }
+  ],
+  "grammar": [
+    {
+      "heading": "Presente de essere",
+      "body": "Seis formas, dos de ellas iguales: *sono* vale para «yo» y para «ellos». No es un problema, porque el contexto y el pronombre lo aclaran todo.\n\nY *è* siempre con acento grave, para no confundirlo con *e*, que significa «y».",
+      "table": {
+        "headers": ["Persona", "Italiano", "Español"],
+        "rows": [
+          ["io", "sono", "soy / estoy"],
+          ["tu", "sei", "eres / estás"],
+          ["lui, lei, Lei", "è", "es / está"],
+          ["noi", "siamo", "somos / estamos"],
+          ["voi", "siete", "sois / estáis"],
+          ["loro", "sono", "son / están"]
+        ]
+      }
+    },
+    {
+      "heading": "Un solo verbo para ser y para estar",
+      "body": "Esta es la mejor noticia que le puede dar el italiano a un hispanohablante: **la pareja ser/estar no existe**. Todo va con *essere*, y no hay que decidir nada.\n\n*Stare* sí existe, pero no es el «estar» español: se usa para la salud (*come stai?*, *sto bene*) y para «quedarse» (*stasera sto a casa*).",
+      "table": {
+        "headers": ["Español", "Italiano"],
+        "rows": [
+          ["Soy española", "Sono spagnola"],
+          ["Estoy cansada", "Sono stanca"],
+          ["Estoy en casa", "Sono a casa"],
+          ["Estoy lista", "Sono pronta"],
+          ["El bar está cerrado", "Il bar è chiuso"],
+          ["¿Está libre?", "È libero?"],
+          ["Estamos de acuerdo", "Siamo d'accordo"]
+        ]
+      }
+    },
+    {
+      "heading": "Negar y preguntar",
+      "body": "Para negar, **non** delante del verbo, en el mismo sitio que el «no» español:\n\n❌ *Sono non stanca* · ✓ *Non sono stanca*\n\nPara preguntar no hay que mover nada: basta la entonación al hablar y el signo de interrogación al escribir. *Sei stanca* y *Sei stanca?* se escriben igual salvo por ese signo.\n\nY recuerda que el italiano no pone el signo de apertura: nunca *¿Sei stanca?*"
+    }
+  ],
+  "phrases": [
+    {
+      "it": "Sono stanca, ma sono contenta.",
+      "es": "Estoy cansada, pero estoy contenta.",
+      "note": "*Ma* significa «pero»."
+    },
+    {
+      "it": "Sei sicura?",
+      "es": "¿Estás segura?",
+      "note": "A un hombre, *sei sicuro?*"
+    },
+    {
+      "it": "Scusi, è libero?",
+      "es": "Perdone, ¿está libre?",
+      "note": "Vale para una silla, una mesa y un taxi."
+    },
+    {
+      "it": "Il negozio è chiuso.",
+      "es": "La tienda está cerrada.",
+      "note": null
+    },
+    {
+      "it": "Siamo in ritardo!",
+      "es": "¡Llegamos tarde!",
+      "note": "Literalmente «estamos en retraso». No existe un verbo «llegar tarde»."
+    },
+    {
+      "it": "Non sono d'accordo.",
+      "es": "No estoy de acuerdo.",
+      "note": null
+    },
+    {
+      "it": "Pronto? Chi è?",
+      "es": "¿Diga? ¿Quién es?",
+      "note": "Así se descuelga el teléfono en Italia, siempre."
+    },
+    {
+      "it": "Siete pronti?",
+      "es": "¿Estáis listos?",
+      "note": "Si el grupo es solo de mujeres, *siete pronte?*"
+    },
+    {
+      "it": "Loro sono italiani, noi siamo spagnoli.",
+      "es": "Ellos son italianos, nosotros somos españoles.",
+      "note": null
+    }
+  ],
+  "ojo": [
+    {
+      "title": "No existe ser/estar: todo es essere",
+      "body": "Un hispanohablante llega al italiano con un problema que aquí no existe, y a veces lo trae puesto igualmente: intenta traducir «estar» por *stare*.\n\n❌ *Sto stanca* · ✓ *Sono stanca*\n\n❌ *Sto contenta* · ✓ *Sono contenta*\n\n❌ *Il bar sta chiuso* · ✓ *Il bar è chiuso*\n\n*Stare* se reserva para la salud y para la idea de quedarse:\n\n✓ *Come stai?* — ¿Qué tal estás?\n\n✓ *Sto bene, grazie.* — Estoy bien, gracias.\n\n✓ *Stasera sto a casa.* — Esta noche me quedo en casa.\n\nRegla práctica: si en español dirías «soy» o «estoy» hablando de cómo eres, cómo te sientes o dónde estás, en italiano es *essere*."
+    },
+    {
+      "title": "«Sono imbarazzata» no significa lo que parece",
+      "body": "**Imbarazzata** significa **avergonzada**, incómoda, apurada. No tiene nada que ver con el embarazo.\n\n❌ *Sono imbarazzata* → Estoy avergonzada\n\n✓ *Sono incinta* → Estoy embarazada\n\nEl nombre es *l'imbarazzo*, el apuro. Y *che imbarazzo!* es «¡qué corte!», «¡qué vergüenza!».\n\nEs probablemente el falso amigo que más caras raras ha provocado en la historia de las conversaciones entre italianos y españoles."
+    },
+    {
+      "title": "«Pronto?» al descolgar el teléfono",
+      "body": "Como adjetivo, *pronto* significa **listo, preparado**: *sono pronta*, «estoy lista». Hasta ahí, ningún problema.\n\nPero al descolgar el teléfono, *Pronto?* es **«¿Diga?»**, y es lo único que se dice. No *ciao*, no *sì*.\n\n❌ *Ciao?* al descolgar · ✓ *Pronto?*\n\nY el «pronto» español de «dentro de poco» es *presto*: *a presto!*, «¡hasta pronto!»."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "multiple-choice",
+      "prompt": "«Estoy cansada» en italiano es…",
+      "options": ["Sto stanca", "Sono stanca", "Ho stanca"],
+      "answer": 1,
+      "explain": "En italiano no hay «estar»: se usa *essere* para todo."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Descuelgas el teléfono en Italia y oyes «Pronto?». Significa…",
+      "options": ["¿Estás listo?", "¿Diga?", "¡Hasta pronto!"],
+      "answer": 1,
+      "explain": "Al teléfono, *pronto?* es la única fórmula. «Hasta pronto» es *a presto*."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "«Sono imbarazzata» significa…",
+      "options": ["estoy embarazada", "estoy avergonzada", "estoy ocupada"],
+      "answer": 1,
+      "explain": "«Embarazada» es *incinta*. *Imbarazzata* es avergonzada."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Noi ___ spagnoli.",
+      "answer": ["siamo"],
+      "explain": "Primera persona del plural de *essere*."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Voi ___ italiani?",
+      "answer": ["siete"],
+      "explain": "Segunda persona del plural: *siete*."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Loro ___ in ritardo.",
+      "answer": ["sono"],
+      "explain": "*Sono* sirve para «yo» y para «ellos»: aquí lo aclara el *loro*."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Tu ___ sicura?",
+      "answer": ["sei"],
+      "explain": "Segunda persona del singular: *sei*."
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        ["Sono stanca", "Estoy cansada"],
+        ["Sono spagnola", "Soy española"],
+        ["È chiuso", "Está cerrado"],
+        ["Siamo in ritardo", "Llegamos tarde"],
+        ["Siete pronti?", "¿Estáis listos?"],
+        ["Non sono d'accordo", "No estoy de acuerdo"]
+      ],
+      "explain": "Fíjate en que «soy» y «estoy» caen las dos en *sono*."
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        ["libero", "libre"],
+        ["chiuso", "cerrado"],
+        ["aperto", "abierto"],
+        ["malato", "enfermo"],
+        ["occupato", "ocupado"],
+        ["imbarazzato", "avergonzado"]
+      ]
+    },
+    {
+      "type": "word-order",
+      "words": ["Loro", "sono", "italiani", "noi", "siamo", "spagnoli"],
+      "answer": "Loro sono italiani, noi siamo spagnoli.",
+      "explain": "Dos veces el verbo, dos pronombres que contrastan."
+    },
+    {
+      "type": "word-order",
+      "words": ["Non", "sono", "stanca", "sono", "contenta"],
+      "answer": "Non sono stanca, sono contenta.",
+      "explain": "*Non* va siempre justo delante del verbo."
+    },
+    {
+      "type": "translation",
+      "prompt": "¿Estáis listos?",
+      "answer": ["Siete pronti?", "Siete pronte?"],
+      "explain": "*Pronti* si el grupo tiene algún hombre; *pronte* si son todas mujeres."
+    },
+    {
+      "type": "translation",
+      "prompt": "No estoy de acuerdo.",
+      "answer": ["Non sono d'accordo."],
+      "explain": "*D'accordo* siempre con apóstrofo y sin cambios."
+    },
+    {
+      "type": "listening",
+      "audio": "Siamo in ritardo!",
+      "answer": ["Siamo in ritardo!"],
+      "explain": "«¡Llegamos tarde!». Literalmente «estamos en retraso»."
+    },
+    {
+      "type": "listening",
+      "audio": "Pronto? Chi è?",
+      "answer": ["Pronto? Chi è?"],
+      "explain": "La fórmula completa para descolgar el teléfono."
+    }
+  ]
+}

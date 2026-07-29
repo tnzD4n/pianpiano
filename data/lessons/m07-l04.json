@@ -1,0 +1,335 @@
+{
+  "id": "m07-l04",
+  "module": "m07",
+  "title": "En la ciudad: pedir indicaciones",
+  "goal": "Al final de esta lección sabrás parar a alguien por la calle, preguntar por un sitio y —lo más difícil— entender la respuesta.",
+  "vocab": [
+    {
+      "it": "destra",
+      "es": "la derecha",
+      "gender": "f",
+      "plural": null,
+      "note": "*A destra*: a la derecha. Sin artículo detrás de *a*."
+    },
+    {
+      "it": "sinistra",
+      "es": "la izquierda",
+      "gender": "f",
+      "plural": null,
+      "note": "*A sinistra*. No significa «siniestra»."
+    },
+    {
+      "it": "dritto",
+      "es": "recto",
+      "gender": null,
+      "plural": null,
+      "note": "*Sempre dritto*: todo recto. También se escribe *diritto*."
+    },
+    {
+      "it": "semaforo",
+      "es": "el semáforo",
+      "gender": "m",
+      "plural": "semafori",
+      "note": "Acento en la a: /se-MÁ-fo-ro/, como en español."
+    },
+    {
+      "it": "incrocio",
+      "es": "el cruce",
+      "gender": "m",
+      "plural": "incroci",
+      "note": "*All'incrocio*: en el cruce."
+    },
+    {
+      "it": "rotonda",
+      "es": "la rotonda",
+      "gender": "f",
+      "plural": "rotonde",
+      "note": null
+    },
+    {
+      "it": "marciapiede",
+      "es": "la acera",
+      "gender": "m",
+      "plural": "marciapiedi",
+      "note": "Masculino, aunque acabe en -e. Literalmente «marcha-pie»."
+    },
+    {
+      "it": "fermata",
+      "es": "la parada",
+      "gender": "f",
+      "plural": "fermate",
+      "note": "*La prossima fermata*: la próxima parada. De *fermare*, parar."
+    },
+    {
+      "it": "isolato",
+      "es": "la manzana (de casas)",
+      "gender": "m",
+      "plural": "isolati",
+      "note": "*Due isolati più avanti*: dos manzanas más allá."
+    },
+    {
+      "it": "cartello",
+      "es": "el cartel, la señal",
+      "gender": "m",
+      "plural": "cartelli",
+      "note": "Con dos eles."
+    },
+    {
+      "it": "metropolitana",
+      "es": "el metro",
+      "gender": "f",
+      "plural": "metropolitane",
+      "note": "Todo el mundo dice *la metro*, y es femenino."
+    },
+    {
+      "it": "taxi",
+      "es": "el taxi",
+      "gender": "m",
+      "plural": "taxi",
+      "note": "Invariable. También se escribe *tassì*."
+    },
+    {
+      "it": "biglietteria",
+      "es": "la taquilla",
+      "gender": "f",
+      "plural": "biglietterie",
+      "note": "De *biglietto*. La de la estación y la del cine."
+    },
+    {
+      "it": "uscita",
+      "es": "la salida",
+      "gender": "f",
+      "plural": "uscite",
+      "note": "De *uscire*. Lo contrario es *l'entrata*."
+    },
+    {
+      "it": "girare",
+      "es": "girar, dar la vuelta",
+      "gender": null,
+      "plural": null,
+      "note": "*Girare a destra*. También «pasear»: *girare per la città*."
+    }
+  ],
+  "grammar": [
+    {
+      "heading": "Preguntar",
+      "body": "*Scusi* de usted, siempre, con un desconocido por la calle. Y *dov'è* con apóstrofo: es *dove* + *è*.\n\nSi la respuesta va demasiado deprisa —y va a ir demasiado deprisa—, tienes dos salvavidas que ya conoces: *Non capisco* y *Può ripetere, per favore?*",
+      "table": {
+        "headers": ["Italiano", "Español"],
+        "rows": [
+          ["Scusi, dov'è la stazione?", "Perdone, ¿dónde está la estación?"],
+          ["Scusi, un'informazione…", "Perdone, una pregunta…"],
+          ["C'è una farmacia qui vicino?", "¿Hay una farmacia por aquí cerca?"],
+          ["È lontano?", "¿Está lejos?"],
+          ["Come si arriva al centro?", "¿Cómo se llega al centro?"],
+          ["Può ripetere, per favore?", "¿Puede repetir, por favor?"]
+        ]
+      }
+    },
+    {
+      "heading": "Entender la respuesta",
+      "body": "*Vada*, *giri*, *prenda*, *attraversi* son el imperativo de usted. No hace falta que los produzcas todavía — el imperativo entero llega más adelante — pero sí que los reconozcas, porque es exactamente lo que vas a oír.\n\nSi te tratan de tú, las formas cambian: *vai sempre dritto*, *gira a destra*, *prendi la prima a destra*.",
+      "table": {
+        "headers": ["De usted", "De tú", "Español"],
+        "rows": [
+          ["Vada sempre dritto", "Vai sempre dritto", "Siga todo recto"],
+          ["Giri a destra", "Gira a destra", "Gire a la derecha"],
+          ["Giri a sinistra", "Gira a sinistra", "Gire a la izquierda"],
+          ["Prenda la prima a destra", "Prendi la prima a destra", "Coja la primera a la derecha"],
+          ["Attraversi la piazza", "Attraversa la piazza", "Cruce la plaza"],
+          ["Continui fino al semaforo", "Continua fino al semaforo", "Siga hasta el semáforo"]
+        ]
+      }
+    },
+    {
+      "heading": "Dónde está",
+      "body": "Casi todas piden una preposición detrás, y casi siempre es *a*, que se funde con el artículo. Las dos excepciones son *lontano*, que pide *da*, y *dietro*, que no pide nada.\n\n✓ *vicino alla stazione* · ✓ *lontano dal centro* · ✓ *dietro la chiesa*",
+      "table": {
+        "headers": ["Italiano", "Español"],
+        "rows": [
+          ["davanti a", "delante de"],
+          ["dietro", "detrás de"],
+          ["di fronte a", "enfrente de"],
+          ["accanto a", "al lado de"],
+          ["vicino a", "cerca de"],
+          ["lontano da", "lejos de"],
+          ["in fondo a", "al fondo de"],
+          ["all'angolo", "en la esquina"]
+        ]
+      }
+    }
+  ],
+  "phrases": [
+    {
+      "it": "Scusi, dov'è la stazione?",
+      "es": "Perdone, ¿dónde está la estación?",
+      "note": "*Scusi* de usted con cualquier desconocido."
+    },
+    {
+      "it": "Sempre dritto e poi a destra.",
+      "es": "Todo recto y luego a la derecha.",
+      "note": "*Poi* es «luego»."
+    },
+    {
+      "it": "È lontano? — No, è qui vicino.",
+      "es": "¿Está lejos? — No, está aquí cerca.",
+      "note": null
+    },
+    {
+      "it": "Giri a sinistra al semaforo.",
+      "es": "Gire a la izquierda en el semáforo.",
+      "note": "*Al semaforo*, no *nel semaforo*."
+    },
+    {
+      "it": "È di fronte alla chiesa.",
+      "es": "Está enfrente de la iglesia.",
+      "note": "*Di fronte a* + artículo contraído."
+    },
+    {
+      "it": "Dov'è la fermata dell'autobus?",
+      "es": "¿Dónde está la parada del autobús?",
+      "note": "*Dell'* es *di* + *l'*."
+    },
+    {
+      "it": "Prendo la metro, è più veloce.",
+      "es": "Cojo el metro, es más rápido.",
+      "note": "*La metro*, femenino, porque viene de *metropolitana*."
+    },
+    {
+      "it": "Un biglietto per il centro, per favore.",
+      "es": "Un billete para el centro, por favor.",
+      "note": "En la *biglietteria* o en el estanco."
+    },
+    {
+      "it": "Scusi, non capisco. Può ripetere?",
+      "es": "Perdone, no entiendo. ¿Puede repetir?",
+      "note": "La frase que salva cualquier conversación en la calle."
+    }
+  ],
+  "ojo": [
+    {
+      "title": "«Sinistra» es izquierda",
+      "body": "**A sinistra** es **a la izquierda**, y es la palabra de todos los días: la que oirás cada vez que preguntes por una calle.\n\n✓ *giri a sinistra* → gire a la izquierda\n\n✓ *la seconda a sinistra* → la segunda a la izquierda\n\n✓ *a destra* → a la derecha\n\nEl parentesco con «siniestro» existe — *sinistro* como adjetivo también significa «siniestro», y *un sinistro* es un accidente en lenguaje de seguros — pero no es lo que se usa hablando.\n\nY en política, *la sinistra* y *la destra* son la izquierda y la derecha, igual que en español."
+    },
+    {
+      "title": "«Scusi» de usted, «scusa» de tú",
+      "body": "Es la primera palabra que le dices a un desconocido, así que conviene no fallarla.\n\n**Scusi** — de usted. Con cualquier desconocido por la calle, en una tienda, en una ventanilla, con alguien mayor.\n\n**Scusa** — de tú. Con gente de tu edad a la que ya tuteas, con amigos, con niños.\n\n❌ *Scusa, dov'è la stazione?* dicho a una señora mayor · ✓ *Scusi, dov'è la stazione?*\n\nEl error no es grave, pero se nota. En la duda, *scusi*: pasarse de formal nunca ofende.\n\nY el resto de las fórmulas van a juego: *può ripetere?* de usted, *puoi ripetere?* de tú."
+    },
+    {
+      "title": "«Prego» sirve para casi todo",
+      "body": "Es la navaja suiza de la cortesía italiana, y cambia de significado según el momento:\n\n**De nada** — *Grazie!* — *Prego!*\n\n**Adelante, pase** — al ceder el paso o abrir una puerta\n\n**Dígame** — lo que dice un camarero o un dependiente al acercarse a ti\n\n**¿Cómo dice?** — con entonación de pregunta, *Prego?*, cuando no has entendido\n\nSi solo te aprendes una palabra de cortesía en italiano, que sea esta. Y su pareja para pasar entre la gente o entrar en una casa es *permesso?*"
+    }
+  ],
+  "exercises": [
+    {
+      "type": "multiple-choice",
+      "prompt": "Paras a una señora mayor por la calle. ¿Cómo empiezas?",
+      "options": ["Scusa, dov'è la stazione?", "Scusi, dov'è la stazione?", "Ciao, dov'è la stazione?"],
+      "answer": 1,
+      "explain": "*Scusi* de usted con cualquier desconocido."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "«Giri a sinistra» significa…",
+      "options": ["gire a la derecha", "gire a la izquierda", "siga recto"],
+      "answer": 1,
+      "explain": "*Sinistra* es izquierda; *destra*, derecha."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Un camarero se acerca y dice «Prego?». Significa…",
+      "options": ["De nada", "Dígame", "Por favor"],
+      "answer": 1,
+      "explain": "*Prego* con entonación de pregunta es «dígame» o «¿cómo dice?»."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "«Está enfrente de la iglesia» en italiano es…",
+      "options": ["È di fronte la chiesa", "È di fronte alla chiesa", "È di fronte della chiesa"],
+      "answer": 1,
+      "explain": "*Di fronte a* + artículo, y la fusión es obligatoria."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Todo recto: sempre ___",
+      "answer": ["dritto", "diritto"],
+      "explain": "Las dos formas son correctas."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Gire a la derecha: giri a ___",
+      "answer": ["destra"],
+      "explain": "Sin artículo detrás de *a*."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Scusi, ___ la stazione? (dove + è)",
+      "answer": ["dov'è"],
+      "explain": "*Dove* pierde la e delante de *è*."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Está lejos del centro: è lontano ___ centro.",
+      "answer": ["dal"],
+      "explain": "*Lontano* pide *da*, que se funde con *il*."
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        ["a destra", "a la derecha"],
+        ["a sinistra", "a la izquierda"],
+        ["sempre dritto", "todo recto"],
+        ["di fronte a", "enfrente de"],
+        ["accanto a", "al lado de"],
+        ["in fondo a", "al fondo de"]
+      ]
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        ["il semaforo", "el semáforo"],
+        ["l'incrocio", "el cruce"],
+        ["la fermata", "la parada"],
+        ["il marciapiede", "la acera"],
+        ["la biglietteria", "la taquilla"],
+        ["l'uscita", "la salida"]
+      ]
+    },
+    {
+      "type": "word-order",
+      "words": ["Scusi", "dov'è", "la", "fermata", "dell'autobus", "?"],
+      "answer": "Scusi, dov'è la fermata dell'autobus?",
+      "explain": "*Dell'* es *di* + *l'*."
+    },
+    {
+      "type": "word-order",
+      "words": ["Sempre", "dritto", "e", "poi", "a", "destra"],
+      "answer": "Sempre dritto e poi a destra.",
+      "explain": "La indicación más frecuente del mundo."
+    },
+    {
+      "type": "translation",
+      "prompt": "¿Está lejos? — No, está aquí cerca.",
+      "answer": ["È lontano? No, è qui vicino.", "È lontano? — No, è qui vicino."],
+      "explain": "*Qui vicino* junto es «por aquí cerca»."
+    },
+    {
+      "type": "translation",
+      "prompt": "Perdone, ¿dónde está el baño?",
+      "answer": ["Scusi, dov'è il bagno?"],
+      "explain": "*Scusi* de usted, y *dov'è* con apóstrofo."
+    },
+    {
+      "type": "listening",
+      "audio": "Vada sempre dritto e giri a sinistra al semaforo.",
+      "answer": ["Vada sempre dritto e giri a sinistra al semaforo."],
+      "explain": "*Vada* y *giri* son el imperativo de usted: lo que te van a decir."
+    },
+    {
+      "type": "listening",
+      "audio": "È di fronte alla chiesa, all'angolo.",
+      "answer": ["È di fronte alla chiesa, all'angolo."],
+      "explain": "Dos contracciones seguidas: *alla* y *all'*."
+    }
+  ]
+}

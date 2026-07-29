@@ -1,0 +1,330 @@
+{
+  "id": "m10-l01",
+  "module": "m10",
+  "title": "Passato prossimo con avere",
+  "goal": "Al final de esta lección sabrás hablar del pasado con el tiempo que los italianos usan para todo: sirve igual para «he comido ahora» y para «comí el año pasado».",
+  "vocab": [
+    {
+      "it": "incontrare",
+      "es": "encontrarse con, quedar con",
+      "gender": null,
+      "plural": null,
+      "note": "*Ho incontrato Marco*. Encontrar un objeto es *trovare*."
+    },
+    {
+      "it": "trovare",
+      "es": "encontrar",
+      "gender": null,
+      "plural": null,
+      "note": "*Ho trovato le chiavi*. También *trovarsi*: encontrarse en un sitio."
+    },
+    {
+      "it": "imparare",
+      "es": "aprender",
+      "gender": null,
+      "plural": null,
+      "note": "*Imparare a* + infinitivo: *imparo a nuotare*."
+    },
+    {
+      "it": "insegnare",
+      "es": "enseñar",
+      "gender": null,
+      "plural": null,
+      "note": "En el sentido de dar clase. Enseñar algo a alguien es *mostrare*."
+    },
+    {
+      "it": "provare",
+      "es": "probar, intentar",
+      "gender": null,
+      "plural": null,
+      "note": "*Ho provato* vale para las dos cosas."
+    },
+    {
+      "it": "usare",
+      "es": "usar",
+      "gender": null,
+      "plural": null,
+      "note": null
+    },
+    {
+      "it": "ripetere",
+      "es": "repetir",
+      "gender": null,
+      "plural": null,
+      "note": "Ya lo conoces: *puoi ripetere?* Participio regular: *ripetuto*."
+    },
+    {
+      "it": "credere",
+      "es": "creer",
+      "gender": null,
+      "plural": null,
+      "note": "Participio regular en -uto: *creduto*."
+    },
+    {
+      "it": "ricevere",
+      "es": "recibir",
+      "gender": null,
+      "plural": null,
+      "note": "Participio *ricevuto*, el modelo perfecto de los -ere."
+    },
+    {
+      "it": "cambiare",
+      "es": "cambiar",
+      "gender": null,
+      "plural": null,
+      "note": "*Cambiare casa*, *cambiare idea*."
+    },
+    {
+      "it": "cominciare",
+      "es": "empezar",
+      "gender": null,
+      "plural": null,
+      "note": "También *iniziare*. Pierde la i: *tu cominci*."
+    },
+    {
+      "it": "notizia",
+      "es": "la noticia",
+      "gender": "f",
+      "plural": "notizie",
+      "note": "*Le notizie* son también el telediario."
+    },
+    {
+      "it": "storia",
+      "es": "la historia",
+      "gender": "f",
+      "plural": "storie",
+      "note": "El relato y la asignatura, como en español."
+    },
+    {
+      "it": "vacanza",
+      "es": "las vacaciones",
+      "gender": "f",
+      "plural": "vacanze",
+      "note": "Casi siempre en plural: *le vacanze*. *In vacanza*: de vacaciones."
+    },
+    {
+      "it": "serata",
+      "es": "la velada, la noche",
+      "gender": "f",
+      "plural": "serate",
+      "note": "La noche como rato que se pasa, igual que *giornata* para el día."
+    }
+  ],
+  "grammar": [
+    {
+      "heading": "Cómo se forma",
+      "body": "**avere** en presente + **participio**. Dos palabras, exactamente como el español «he comido».\n\nEl participio se saca del infinitivo, y hay una terminación para cada conjugación.\n\nCon *avere*, el participio **no cambia nunca**: se queda siempre en *-o*, dé igual quién hable.",
+      "table": {
+        "headers": ["Infinitivo", "Participio", "Ejemplo"],
+        "rows": [
+          ["-are", "-ato", "parlare → parlato"],
+          ["-ere", "-uto", "credere → creduto"],
+          ["-ire", "-ito", "dormire → dormito"]
+        ]
+      }
+    },
+    {
+      "heading": "El paradigma completo",
+      "body": "Fíjate en la columna de la derecha: **cada forma italiana traduce dos españolas**. Eso es lo importante de esta lección, y es el tema del «ojo».\n\nLa negación va donde siempre, delante del auxiliar: *non ho mangiato*.",
+      "table": {
+        "headers": ["Persona", "mangiare", "Español"],
+        "rows": [
+          ["io", "ho mangiato", "he comido / comí"],
+          ["tu", "hai mangiato", "has comido / comiste"],
+          ["lui, lei, Lei", "ha mangiato", "ha comido / comió"],
+          ["noi", "abbiamo mangiato", "hemos comido / comimos"],
+          ["voi", "avete mangiato", "habéis comido / comisteis"],
+          ["loro", "hanno mangiato", "han comido / comieron"]
+        ]
+      }
+    },
+    {
+      "heading": "Qué verbos usan avere",
+      "body": "Casi todos. La regla práctica que resuelve el noventa por ciento de los casos: **si el verbo puede llevar un objeto directo, va con *avere***.\n\nComer *algo*, leer *algo*, comprar *algo*, ver *algo*.\n\nY también van con *avere* algunos que no llevan objeto pero tampoco son de movimiento: *ho dormito*, *ho lavorato*, *ho viaggiato*, *ho parlato*.\n\nLos que usan *essere* son un grupo pequeño y cerrado: son la próxima lección.",
+      "table": {
+        "headers": ["Italiano", "Español"],
+        "rows": [
+          ["Ho mangiato una pizza", "Me he comido una pizza"],
+          ["Hai capito?", "¿Has entendido?"],
+          ["Non ho dormito", "No he dormido"],
+          ["Abbiamo lavorato molto", "Hemos trabajado mucho"],
+          ["Avete finito?", "¿Habéis terminado?"],
+          ["Hanno comprato la casa", "Han comprado la casa"]
+        ]
+      }
+    }
+  ],
+  "phrases": [
+    {
+      "it": "Hai capito?",
+      "es": "¿Has entendido?",
+      "note": "Se dice constantemente. La respuesta es *ho capito*."
+    },
+    {
+      "it": "Ho mangiato molto bene.",
+      "es": "He comido muy bien.",
+      "note": "*Bene* es adverbio y no concuerda."
+    },
+    {
+      "it": "Non ho dormito.",
+      "es": "No he dormido.",
+      "note": "*Non* delante del auxiliar."
+    },
+    {
+      "it": "Ho incontrato Marco al bar.",
+      "es": "Me he encontrado con Marco en el bar.",
+      "note": "*Incontrare* no lleva preposición: *ho incontrato Marco*."
+    },
+    {
+      "it": "Abbiamo lavorato tutto il giorno.",
+      "es": "Hemos trabajado todo el día.",
+      "note": "*Tutto il giorno*, con artículo."
+    },
+    {
+      "it": "Ho imparato l'italiano da sola.",
+      "es": "He aprendido italiano yo sola.",
+      "note": "*Da solo* / *da sola*: por mi cuenta."
+    },
+    {
+      "it": "Che cosa avete comprato?",
+      "es": "¿Qué habéis comprado?",
+      "note": null
+    },
+    {
+      "it": "Ho provato, ma non ha funzionato.",
+      "es": "Lo he intentado, pero no ha funcionado.",
+      "note": "*Provare* es probar e intentar."
+    },
+    {
+      "it": "Ho ricevuto una bella notizia.",
+      "es": "He recibido una buena noticia.",
+      "note": "*Bella* para una noticia, no *buona*."
+    }
+  ],
+  "ojo": [
+    {
+      "title": "Cubre también «comí ayer»",
+      "body": "El español separa dos pasados: «he comido» para lo de hoy y «comí» para lo de ayer. El italiano **no los separa**: el *passato prossimo* cubre los dos.\n\n✓ *Ho mangiato adesso* → he comido ahora mismo\n\n✓ *Ho mangiato ieri* → comí ayer\n\n✓ *Ho comprato la casa dieci anni fa* → compré la casa hace diez años\n\nEl italiano tiene un equivalente del indefinido, *il passato remoto* (*mangiai*, *comprai*), pero al hablar solo se usa en el sur y en la literatura. En Milán o en Bolonia no lo dice nadie.\n\nPara ti esto es una simplificación de las buenas: donde en español tenías que elegir entre dos formas, ahora hay una sola."
+    },
+    {
+      "title": "Con «avere» el participio no cambia",
+      "body": "Se queda **siempre en -o**, pase lo que pase con el sujeto.\n\n❌ *Anna ha mangiata* · ✓ *Anna ha mangiato*\n\n❌ *Le ragazze hanno mangiate* · ✓ *Le ragazze hanno mangiato*\n\nEsto cambia por completo con *essere*, que es la próxima lección, y es la diferencia más importante entre los dos auxiliares. Conviene fijar bien esta mitad antes de pasar a la otra.\n\nHay un caso en que sí concuerda con *avere* — cuando delante hay un pronombre de objeto directo, *l'ho vista* — pero eso llega en el módulo 11."
+    },
+    {
+      "title": "«Subire» es padecer, y «subito» son dos palabras",
+      "body": "**Subire** significa **padecer, sufrir algo**. No es «subir»: subir es *salire*, como viste en el módulo 5.\n\n✓ *subire un intervento* → pasar por una operación\n\n✓ *subire un furto* → sufrir un robo\n\nY aquí hay un cruce curioso, porque su participio se escribe igual que una palabra que ya conoces:\n\n**subito** /SÚ-bi-to/ → enseguida, el adverbio\n\n**subito** /su-BÍ-to/ → padecido, el participio de *subire*\n\nSe escriben igual y suenan distinto: lo único que cambia es dónde cae el acento. El contexto los separa siempre."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "multiple-choice",
+      "prompt": "«Comí ayer» en italiano es…",
+      "options": ["Mangiai ieri", "Ho mangiato ieri", "Mangiavo ieri"],
+      "answer": 1,
+      "explain": "El *passato prossimo* cubre «he comido» y «comí»."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "«Anna ha comido» en italiano es…",
+      "options": ["Anna ha mangiata", "Anna ha mangiato", "Anna è mangiata"],
+      "answer": 1,
+      "explain": "Con *avere* el participio no concuerda con el sujeto."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "El participio de «credere» es…",
+      "options": ["credato", "creduto", "credito"],
+      "answer": 1,
+      "explain": "Los verbos en *-ere* hacen el participio en *-uto*."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Un italiano dice «subito» con el acento en la i. Está diciendo…",
+      "options": ["enseguida", "padecido", "subido"],
+      "answer": 1,
+      "explain": "/SÚ-bi-to/ es «enseguida»; /su-BÍ-to/ es el participio de *subire*."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Noi ___ lavorato molto. (avere)",
+      "answer": ["abbiamo"],
+      "explain": "*Abbiamo*, sin h."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Loro ___ comprato la casa. (avere)",
+      "answer": ["hanno"],
+      "explain": "*Hanno* con h: sin ella sería *anno*, «año»."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "El participio de «dormire» es ___",
+      "answer": ["dormito"],
+      "explain": "Los verbos en *-ire* hacen *-ito*."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ho ___ le chiavi. (trovare)",
+      "answer": ["trovato"],
+      "explain": "Participio regular en *-ato*."
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        ["parlare", "parlato"],
+        ["credere", "creduto"],
+        ["dormire", "dormito"],
+        ["mangiare", "mangiato"],
+        ["ricevere", "ricevuto"],
+        ["capire", "capito"]
+      ]
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        ["ho mangiato", "he comido"],
+        ["hai capito", "has entendido"],
+        ["abbiamo lavorato", "hemos trabajado"],
+        ["avete finito", "habéis terminado"],
+        ["hanno comprato", "han comprado"],
+        ["non ho dormito", "no he dormido"]
+      ]
+    },
+    {
+      "type": "word-order",
+      "words": ["Ho", "incontrato", "Marco", "al", "bar"],
+      "answer": "Ho incontrato Marco al bar.",
+      "explain": "*Incontrare* no lleva preposición delante de la persona."
+    },
+    {
+      "type": "word-order",
+      "words": ["Non", "abbiamo", "capito", "niente"],
+      "answer": "Non abbiamo capito niente.",
+      "explain": "*Non* delante del auxiliar, doble negación con *niente*."
+    },
+    {
+      "type": "translation",
+      "prompt": "¿Has entendido?",
+      "answer": ["Hai capito?"],
+      "explain": "De usted: *ha capito?*"
+    },
+    {
+      "type": "translation",
+      "prompt": "Hemos trabajado todo el día.",
+      "answer": ["Abbiamo lavorato tutto il giorno."],
+      "explain": "*Tutto* con artículo detrás."
+    },
+    {
+      "type": "listening",
+      "audio": "Ieri ho mangiato molto bene.",
+      "answer": ["Ieri ho mangiato molto bene."],
+      "explain": "Con *ieri* y todo, el italiano usa el *passato prossimo*."
+    },
+    {
+      "type": "listening",
+      "audio": "Non ho dormito, ho lavorato tutta la notte.",
+      "answer": ["Non ho dormito, ho lavorato tutta la notte."],
+      "explain": "Los dos con *avere*, aunque no lleven objeto."
+    }
+  ]
+}

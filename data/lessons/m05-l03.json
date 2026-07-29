@@ -1,0 +1,326 @@
+{
+  "id": "m05-l03",
+  "module": "m05",
+  "title": "Los verbos en -isco",
+  "goal": "Al final de esta lección sabrás conjugar capire, finire y preferire, que meten un trozo de más en cuatro personas de seis y que el español no tiene en ningún verbo.",
+  "vocab": [
+    {
+      "it": "capire",
+      "es": "entender",
+      "gender": null,
+      "plural": null,
+      "note": "*Non capisco* ya lo conoces desde la primera semana."
+    },
+    {
+      "it": "finire",
+      "es": "terminar, acabarse",
+      "gender": null,
+      "plural": null,
+      "note": "Vale para las dos cosas: *finisco il libro* y *il film finisce*."
+    },
+    {
+      "it": "preferire",
+      "es": "preferir",
+      "gender": null,
+      "plural": null,
+      "note": "*Preferisco il caffè*. Sin preposición delante del nombre."
+    },
+    {
+      "it": "pulire",
+      "es": "limpiar",
+      "gender": null,
+      "plural": null,
+      "note": "*Pulito* es «limpio»."
+    },
+    {
+      "it": "spedire",
+      "es": "enviar, mandar",
+      "gender": null,
+      "plural": null,
+      "note": "*Spedire una lettera*, *spedire un pacco*."
+    },
+    {
+      "it": "costruire",
+      "es": "construir",
+      "gender": null,
+      "plural": null,
+      "note": "*Costruisco*, con el -isc- y sin la n del español."
+    },
+    {
+      "it": "restituire",
+      "es": "devolver",
+      "gender": null,
+      "plural": null,
+      "note": "*Restituisco il libro*. En el habla también se dice *ridare*."
+    },
+    {
+      "it": "guarire",
+      "es": "curarse, sanar",
+      "gender": null,
+      "plural": null,
+      "note": "*Guarisco*. También «curar a alguien»."
+    },
+    {
+      "it": "pacco",
+      "es": "el paquete",
+      "gender": "m",
+      "plural": "pacchi",
+      "note": "Plural con h: *i pacchi*."
+    },
+    {
+      "it": "posta",
+      "es": "el correo",
+      "gender": "f",
+      "plural": "poste",
+      "note": "*L'ufficio postale* es la oficina de correos. *Le Poste* es la empresa."
+    },
+    {
+      "it": "regalo",
+      "es": "el regalo",
+      "gender": "m",
+      "plural": "regali",
+      "note": "*Fare un regalo*: hacer un regalo."
+    },
+    {
+      "it": "film",
+      "es": "la película",
+      "gender": "m",
+      "plural": "film",
+      "note": "Masculino e invariable: *due film*."
+    },
+    {
+      "it": "lezione",
+      "es": "la clase",
+      "gender": "f",
+      "plural": "lezioni",
+      "note": "Con una sola zeta, aunque el español tenga dos ces."
+    },
+    {
+      "it": "domanda",
+      "es": "la pregunta",
+      "gender": "f",
+      "plural": "domande",
+      "note": "*Fare una domanda*: hacer una pregunta."
+    },
+    {
+      "it": "risposta",
+      "es": "la respuesta",
+      "gender": "f",
+      "plural": "risposte",
+      "note": "De *rispondere*."
+    }
+  ],
+  "grammar": [
+    {
+      "heading": "Qué es el -isc-",
+      "body": "Un grupo grande de verbos en *-ire* mete **-isc-** entre la raíz y la terminación. No significa nada y no hay manera de deducirlo: es solo un trozo que se cuela.\n\nY no se cuela en todas las personas: **noi** y **voi** se quedan limpias. Ese es el detalle que hay que memorizar.\n\nOjo a la pronunciación: *capisco* suena /ca-PÍS-co/ con c dura, pero *capisci* suena /ca-PÍ-shi/ y *capisce* suena /ca-PÍ-she/, con el sonido de *sci*.",
+      "table": {
+        "headers": ["Persona", "capire", "Español"],
+        "rows": [
+          ["io", "cap**isc**o", "entiendo"],
+          ["tu", "cap**isc**i", "entiendes"],
+          ["lui, lei, Lei", "cap**isc**e", "entiende"],
+          ["noi", "capiamo", "entendemos"],
+          ["voi", "capite", "entendéis"],
+          ["loro", "cap**isc**ono", "entienden"]
+        ]
+      }
+    },
+    {
+      "heading": "Cuáles lo llevan y cuáles no",
+      "body": "No hay regla que valga: son dos listas. La buena noticia es que la de la derecha es corta — unos veinte verbos — y ya conoces cinco de la lección anterior.\n\nEn la duda, apuesta por el *-isc-*: la mayoría de los verbos en *-ire* lo llevan.",
+      "table": {
+        "headers": ["Con -isc-", "Sin -isc-"],
+        "rows": [
+          ["capire → capisco", "dormire → dormo"],
+          ["finire → finisco", "aprire → apro"],
+          ["preferire → preferisco", "partire → parto"],
+          ["pulire → pulisco", "sentire → sento"],
+          ["spedire → spedisco", "offrire → offro"],
+          ["costruire → costruisco", "seguire → seguo"]
+        ]
+      }
+    },
+    {
+      "heading": "Cómo se pronuncia sc",
+      "body": "Esta conjugación es el mejor sitio para repasar la regla del módulo 1, porque el mismo verbo suena de dos maneras según la vocal que venga detrás.\n\n*capisco* con c dura · *capisci* con «sh» · *capiscono* otra vez con c dura",
+      "table": {
+        "headers": ["Escrito", "Suena", "Ejemplo"],
+        "rows": [
+          ["sca, sco, scu", "como en español", "capisco, scuola"],
+          ["sce, sci", "como la «sh» inglesa", "capisce, capisci"],
+          ["sche, schi", "con k", "schema, dischi"]
+        ]
+      }
+    }
+  ],
+  "phrases": [
+    {
+      "it": "Non capisco, puoi ripetere?",
+      "es": "No entiendo, ¿puedes repetir?",
+      "note": "La frase más útil de todo el curso."
+    },
+    {
+      "it": "Capisci l'italiano?",
+      "es": "¿Entiendes el italiano?",
+      "note": "De usted: *Capisce l'italiano?*"
+    },
+    {
+      "it": "Preferisco il caffè.",
+      "es": "Prefiero el café.",
+      "note": null
+    },
+    {
+      "it": "Preferisci il tè o il caffè?",
+      "es": "¿Prefieres el té o el café?",
+      "note": "*Tè* con acento, para no confundirlo con *te*, «ti»."
+    },
+    {
+      "it": "Finisco alle sei.",
+      "es": "Termino a las seis.",
+      "note": "Se sobreentiende el trabajo o la clase."
+    },
+    {
+      "it": "Il sabato pulisco la casa.",
+      "es": "Los sábados limpio la casa.",
+      "note": "*Il sabato* con artículo: todos los sábados."
+    },
+    {
+      "it": "Spedisco un pacco alla posta.",
+      "es": "Envío un paquete en correos.",
+      "note": "*Alla* es *a* + *la*."
+    },
+    {
+      "it": "Capiamo tutto.",
+      "es": "Lo entendemos todo.",
+      "note": "*Capiamo*, sin -isc-: es la forma de *noi*."
+    },
+    {
+      "it": "Loro non capiscono lo spagnolo.",
+      "es": "Ellos no entienden el español.",
+      "note": "*Capiscono*, con -isc- y acento en la i."
+    }
+  ],
+  "ojo": [
+    {
+      "title": "El -isc- no existe en español, y hay que ponerlo",
+      "body": "Un hispanohablante conjuga *capire* como si fuera regular y le sale *capo*, que en italiano existe pero significa «jefe». Hay que meter el trozo.\n\n❌ *io capo* · ✓ *io capisco*\n\n❌ *loro capono* · ✓ *loro capiscono*\n\n❌ *lui prefere* · ✓ *lui preferisce*\n\nY luego hay que **quitarlo** en las dos personas del plural, que es el error contrario y el más frecuente una vez aprendida la regla:\n\n❌ *noi capisciamo* · ✓ *noi capiamo*\n\n❌ *voi capiscete* · ✓ *voi capite*\n\nLa forma de la tabla es un cuadrado con un agujero en medio: cuatro personas con *-isc-*, dos sin él."
+    },
+    {
+      "title": "«L'esito» es el resultado, no el éxito",
+      "body": "**L'esito** significa **el resultado**, sin decir si es bueno o malo.\n\n✓ *l'esito di un esame* → el resultado de un examen\n\n✓ *l'esito è negativo* → el resultado es negativo\n\nEl «éxito» español es **il successo**:\n\n❌ *un grande esito* · ✓ *un grande successo*\n\nY de propina, el mismo par al revés: *il successo* tampoco es «el suceso». Un suceso es *un fatto* o *un avvenimento*."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "multiple-choice",
+      "prompt": "«Yo entiendo» en italiano es…",
+      "options": ["io capo", "io capisco", "io capio"],
+      "answer": 1,
+      "explain": "*Capo* existe, pero significa «jefe»."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "«Nosotros entendemos» en italiano es…",
+      "options": ["capisciamo", "capiamo", "capiscamo"],
+      "answer": 1,
+      "explain": "*Noi* y *voi* van sin -isc-."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "«L'esito» significa…",
+      "options": ["el éxito", "el resultado", "el suceso"],
+      "answer": 1,
+      "explain": "El éxito es *il successo*."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "¿Cuál de estos verbos NO lleva -isc-?",
+      "options": ["finire", "preferire", "dormire"],
+      "answer": 2,
+      "explain": "*Dormire* es de la lista corta: *dormo*, *dormi*, *dorme*."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Io ___ il caffè. (preferire)",
+      "answer": ["preferisco"],
+      "explain": "Con -isc- en la primera persona."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Noi ___ alle sei. (finire)",
+      "answer": ["finiamo"],
+      "explain": "*Noi* va sin -isc-."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Loro non ___ lo spagnolo. (capire)",
+      "answer": ["capiscono"],
+      "explain": "Tercera del plural: con -isc- y acento en la i."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Voi ___ la casa? (pulire)",
+      "answer": ["pulite"],
+      "explain": "*Voi* va sin -isc-."
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        ["capire", "entender"],
+        ["finire", "terminar"],
+        ["preferire", "preferir"],
+        ["pulire", "limpiar"],
+        ["spedire", "enviar"],
+        ["restituire", "devolver"]
+      ]
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        ["il pacco", "el paquete"],
+        ["la posta", "el correo"],
+        ["il regalo", "el regalo"],
+        ["la lezione", "la clase"],
+        ["la domanda", "la pregunta"],
+        ["la risposta", "la respuesta"]
+      ]
+    },
+    {
+      "type": "word-order",
+      "words": ["Non", "capisco", "puoi", "ripetere", "?"],
+      "answer": "Non capisco, puoi ripetere?",
+      "explain": "*Non* delante del verbo."
+    },
+    {
+      "type": "word-order",
+      "words": ["Il", "sabato", "pulisco", "la", "casa"],
+      "answer": "Il sabato pulisco la casa.",
+      "explain": "*Il sabato* con artículo: todos los sábados."
+    },
+    {
+      "type": "translation",
+      "prompt": "Prefiero el café.",
+      "answer": ["Preferisco il caffè."],
+      "explain": "Sin preposición: *preferisco il caffè*."
+    },
+    {
+      "type": "translation",
+      "prompt": "No entiendo.",
+      "answer": ["Non capisco."],
+      "explain": "Con -isc- porque es la primera persona del singular."
+    },
+    {
+      "type": "listening",
+      "audio": "Preferisci il tè o il caffè?",
+      "answer": ["Preferisci il tè o il caffè?"],
+      "explain": "*Preferisci* suena /pre-fe-RÍ-shi/."
+    },
+    {
+      "type": "listening",
+      "audio": "Spedisco un pacco alla posta.",
+      "answer": ["Spedisco un pacco alla posta."],
+      "explain": "*Spedisco* con c dura, porque detrás va una o."
+    }
+  ]
+}

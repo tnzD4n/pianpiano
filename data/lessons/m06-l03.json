@@ -1,0 +1,331 @@
+{
+  "id": "m06-l03",
+  "module": "m06",
+  "title": "La negación",
+  "goal": "Al final de esta lección sabrás negar en italiano con la misma doble negación del español, y sabrás decir «ya no» y «todavía no», que en italiano se construyen al revés de como suena.",
+  "vocab": [
+    {
+      "it": "niente",
+      "es": "nada",
+      "gender": null,
+      "plural": null,
+      "note": "También *nulla*, que es más formal y se usa menos al hablar."
+    },
+    {
+      "it": "più",
+      "es": "más",
+      "gender": null,
+      "plural": null,
+      "note": "Siempre con acento. Con *non* delante significa «ya no»."
+    },
+    {
+      "it": "ancora",
+      "es": "todavía; otra vez",
+      "gender": null,
+      "plural": null,
+      "note": "Acento en la o: /an-CÓ-ra/. *Ancora un caffè?*: ¿otro café?"
+    },
+    {
+      "it": "neanche",
+      "es": "tampoco, ni siquiera",
+      "gender": null,
+      "plural": null,
+      "note": "*Nemmeno* y *neppure* significan exactamente lo mismo."
+    },
+    {
+      "it": "affatto",
+      "es": "en absoluto",
+      "gender": null,
+      "plural": null,
+      "note": "*Non… affatto*. Con dos efes y dos tes."
+    },
+    {
+      "it": "senza",
+      "es": "sin",
+      "gender": null,
+      "plural": null,
+      "note": "Ya lo conoces: *un caffè senza zucchero*. No lleva artículo detrás."
+    },
+    {
+      "it": "quasi",
+      "es": "casi",
+      "gender": null,
+      "plural": null,
+      "note": "Sin acento y con qu-, como en español."
+    },
+    {
+      "it": "solo",
+      "es": "solo, solamente",
+      "gender": null,
+      "plural": null,
+      "note": "También *soltanto* y *solamente*. Como adjetivo, «solo» de compañía."
+    },
+    {
+      "it": "proprio",
+      "es": "justamente, de verdad",
+      "gender": null,
+      "plural": null,
+      "note": "*Non proprio*: no exactamente. *Proprio così*: exactamente así."
+    },
+    {
+      "it": "macché",
+      "es": "¡qué va!",
+      "gender": null,
+      "plural": null,
+      "note": "Respuesta muy italiana. Con acento en la e."
+    },
+    {
+      "it": "sbagliato",
+      "es": "equivocado, mal",
+      "gender": null,
+      "plural": null,
+      "note": "De *sbagliare*. *È sbagliato*: está mal."
+    },
+    {
+      "it": "vero",
+      "es": "verdadero, cierto",
+      "gender": null,
+      "plural": null,
+      "note": "*Non è vero!*: ¡no es verdad! Y *…, vero?* al final es «¿verdad?»."
+    },
+    {
+      "it": "verità",
+      "es": "la verdad",
+      "gender": "f",
+      "plural": "verità",
+      "note": "Invariable, con acento final."
+    },
+    {
+      "it": "bugia",
+      "es": "la mentira",
+      "gender": "f",
+      "plural": "bugie",
+      "note": "*Dire una bugia*: decir una mentira. El mentiroso es *un bugiardo*."
+    },
+    {
+      "it": "scherzo",
+      "es": "la broma",
+      "gender": "m",
+      "plural": "scherzi",
+      "note": "*Lo scherzo*, por la s impura. *Scherzo!*: ¡es broma!"
+    }
+  ],
+  "grammar": [
+    {
+      "heading": "Non, delante del verbo, y ya está",
+      "body": "Una sola palabra y siempre en el mismo sitio: justo delante del verbo. No hay nada que decidir.\n\n❌ *Io parlo non italiano* · ✓ *Io non parlo italiano*\n\nSi hay dos verbos, el *non* va delante del primero: *non posso venire*, *non voglio andare*.",
+      "table": {
+        "headers": ["Afirmativo", "Negativo"],
+        "rows": [
+          ["Parlo italiano", "Non parlo italiano"],
+          ["Ho fame", "Non ho fame"],
+          ["Sono stanca", "Non sono stanca"],
+          ["Posso venire", "Non posso venire"],
+          ["C'è tempo", "Non c'è tempo"]
+        ]
+      }
+    },
+    {
+      "heading": "La doble negación es obligatoria",
+      "body": "Igual que en español: si la palabra negativa va **detrás** del verbo, hace falta el *non* delante. Los dos no se anulan.\n\n❌ *Mangio niente* · ✓ *Non mangio niente*\n\nY si la palabra negativa va **delante**, el *non* desaparece, también como en español:\n\n✓ *Nessuno capisce* → nadie entiende\n\n✓ *Niente è facile* → nada es fácil",
+      "table": {
+        "headers": ["Italiano", "Español"],
+        "rows": [
+          ["Non mangio niente", "No como nada"],
+          ["Non vedo nessuno", "No veo a nadie"],
+          ["Non vado mai al cinema", "No voy nunca al cine"],
+          ["Non capisco neanche una parola", "No entiendo ni una palabra"],
+          ["Non è affatto facile", "No es nada fácil"]
+        ]
+      }
+    },
+    {
+      "heading": "«Non… più» es «ya no»",
+      "body": "*Più* significa «más», pero con *non* delante se convierte en **«ya no»**. Es la construcción que menos se parece al español y sale a cada rato.\n\n✓ *Non lavoro più* → ya no trabajo\n\n✓ *Non voglio più* → ya no quiero\n\nY su pareja *non… ancora* es «todavía no»:\n\n✓ *Non capisco ancora* → todavía no entiendo",
+      "table": {
+        "headers": ["Italiano", "Español"],
+        "rows": [
+          ["non… mai", "no… nunca"],
+          ["non… niente", "no… nada"],
+          ["non… nessuno", "no… nadie"],
+          ["non… più", "ya no"],
+          ["non… ancora", "todavía no"],
+          ["non… neanche", "ni siquiera"]
+        ]
+      }
+    }
+  ],
+  "phrases": [
+    {
+      "it": "Non capisco niente.",
+      "es": "No entiendo nada.",
+      "note": null
+    },
+    {
+      "it": "Non vedo nessuno.",
+      "es": "No veo a nadie.",
+      "note": "Sin la *a* del español: *nessuno* va solo."
+    },
+    {
+      "it": "Non lavoro più.",
+      "es": "Ya no trabajo.",
+      "note": "*Non… più* es «ya no», no «no más»."
+    },
+    {
+      "it": "Non è vero!",
+      "es": "¡No es verdad!",
+      "note": null
+    },
+    {
+      "it": "Non capisco ancora.",
+      "es": "Todavía no entiendo.",
+      "note": "*Non… ancora*: el orden es al revés que en español."
+    },
+    {
+      "it": "Neanch'io.",
+      "es": "Yo tampoco.",
+      "note": "Se apostrofa igual que *anch'io*."
+    },
+    {
+      "it": "Non fa niente.",
+      "es": "No pasa nada.",
+      "note": "La respuesta a cualquier disculpa. Se usa constantemente."
+    },
+    {
+      "it": "Macché!",
+      "es": "¡Qué va!",
+      "note": "Para negar con energía y buen humor."
+    },
+    {
+      "it": "Scherzo! Non è vero.",
+      "es": "¡Es broma! No es verdad.",
+      "note": null
+    }
+  ],
+  "ojo": [
+    {
+      "title": "La doble negación funciona igual que en español",
+      "body": "Esta es de las pocas veces en que no hay que cambiar de cabeza: el italiano hace exactamente lo mismo que el español.\n\n❌ *Mangio niente* · ✓ *Non mangio niente*\n\n❌ *Vado mai al cinema* · ✓ *Non vado mai al cinema*\n\n❌ *Vedo nessuno* · ✓ *Non vedo nessuno*\n\nY la regla del orden también coincide. Si la palabra negativa va delante del verbo, el *non* sobra:\n\n✓ *Nessuno capisce* — nadie entiende\n\n❌ *Nessuno non capisce*\n\nEl único sitio donde el inglés y el francés te confundirían es este, y el español te lo pone fácil: haz lo mismo que harías en tu lengua."
+    },
+    {
+      "title": "«Neanch'io» es «yo tampoco»",
+      "body": "El par completo, que conviene aprender junto:\n\n*Anch'io* → yo también\n\n*Neanch'io* → yo tampoco\n\n❌ *Anche io no* · ✓ *Neanch'io*\n\n*Neanche* se apostrofa delante de *io*, igual que *anche*. Y tiene dos sinónimos exactos que oirás con la misma frecuencia: **nemmeno** y **neppure**. Los tres significan lo mismo y se usan indistintamente:\n\n✓ *Neanche lui* · *Nemmeno lui* · *Neppure lui* — él tampoco"
+    },
+    {
+      "title": "«La truffa» es la estafa",
+      "body": "**Una truffa** es **una estafa**, un timo. No tiene nada que ver con la trufa, que es *un tartufo*.\n\n❌ *una truffa al cioccolato* · ✓ *un tartufo* → una trufa\n\n✓ *È una truffa!* → ¡es una estafa!\n\nEl verbo es *truffare*, estafar, y *un truffatore* es un estafador.\n\nY ya que estamos con las palabras que suenan parecido: *una bugia* es una mentira, no una bujía."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "multiple-choice",
+      "prompt": "«No como nada» en italiano es…",
+      "options": ["Mangio niente", "Non mangio niente", "Non mangio nulla niente"],
+      "answer": 1,
+      "explain": "Hace falta el *non*, igual que en español."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "«Non lavoro più» significa…",
+      "options": ["no trabajo más", "ya no trabajo", "no trabajo mucho"],
+      "answer": 1,
+      "explain": "*Non… più* es «ya no»."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "«Una truffa» es…",
+      "options": ["una trufa", "una estafa", "una broma"],
+      "answer": 1,
+      "explain": "La trufa es *un tartufo*; la broma, *uno scherzo*."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "«Yo tampoco» en italiano es…",
+      "options": ["Anche io no", "Neanch'io", "Non anch'io"],
+      "answer": 1,
+      "explain": "*Neanch'io*, con apóstrofo, como *anch'io*."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "___ capisco niente.",
+      "answer": ["Non"],
+      "explain": "El *non* va justo delante del verbo."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ya no trabajo: non lavoro ___",
+      "answer": ["più"],
+      "explain": "*Più* con acento, siempre."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Todavía no entiendo: non capisco ___",
+      "answer": ["ancora"],
+      "explain": "*Non… ancora*, con el adverbio detrás del verbo."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "No veo a nadie: non vedo ___",
+      "answer": ["nessuno"],
+      "explain": "Sin la *a* del español."
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        ["non… mai", "no… nunca"],
+        ["non… niente", "no… nada"],
+        ["non… nessuno", "no… nadie"],
+        ["non… più", "ya no"],
+        ["non… ancora", "todavía no"],
+        ["non… neanche", "ni siquiera"]
+      ]
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        ["la verità", "la verdad"],
+        ["la bugia", "la mentira"],
+        ["lo scherzo", "la broma"],
+        ["sbagliato", "equivocado"],
+        ["quasi", "casi"],
+        ["macché", "¡qué va!"]
+      ]
+    },
+    {
+      "type": "word-order",
+      "words": ["Non", "vado", "mai", "al", "cinema"],
+      "answer": "Non vado mai al cinema.",
+      "explain": "*Non* delante del verbo, *mai* detrás."
+    },
+    {
+      "type": "word-order",
+      "words": ["Non", "capisco", "neanche", "una", "parola"],
+      "answer": "Non capisco neanche una parola.",
+      "explain": "*Neanche* también necesita el *non*."
+    },
+    {
+      "type": "translation",
+      "prompt": "No pasa nada.",
+      "answer": ["Non fa niente.", "Non fa nulla."],
+      "explain": "La respuesta estándar a una disculpa."
+    },
+    {
+      "type": "translation",
+      "prompt": "Ya no quiero, gracias.",
+      "answer": ["Non voglio più, grazie."],
+      "explain": "*Non… più* rodeando al verbo."
+    },
+    {
+      "type": "listening",
+      "audio": "Non capisco niente, puoi ripetere?",
+      "answer": ["Non capisco niente, puoi ripetere?"],
+      "explain": "Doble negación y petición cortés en la misma frase."
+    },
+    {
+      "type": "listening",
+      "audio": "Non è vero, scherzo!",
+      "answer": ["Non è vero, scherzo!"],
+      "explain": "*Scherzo* con *lo* cuando lleva artículo: *lo scherzo*."
+    }
+  ]
+}

@@ -1,0 +1,325 @@
+{
+  "id": "m06-l01",
+  "module": "m06",
+  "title": "Potere, volere, dovere",
+  "goal": "Al final de esta lección sabrás decir lo que puedes, quieres y tienes que hacer, y sabrás pedir en un bar o en una tienda sin sonar brusca.",
+  "vocab": [
+    {
+      "it": "potere",
+      "es": "poder",
+      "gender": null,
+      "plural": null,
+      "note": "*Posso?* a secas es «¿puedo?», y se usa a todas horas."
+    },
+    {
+      "it": "volere",
+      "es": "querer",
+      "gender": null,
+      "plural": null,
+      "note": "Para pedir cosas no se usa *voglio*, sino *vorrei*."
+    },
+    {
+      "it": "dovere",
+      "es": "tener que, deber",
+      "gender": null,
+      "plural": null,
+      "note": "Nunca lleva preposición detrás: *devo andare*."
+    },
+    {
+      "it": "vorrei",
+      "es": "querría, quisiera",
+      "gender": null,
+      "plural": null,
+      "note": "Condicional de *volere*. Es **la** forma de pedir en Italia."
+    },
+    {
+      "it": "conto",
+      "es": "la cuenta",
+      "gender": "m",
+      "plural": "conti",
+      "note": "*Il conto, per favore*: la cuenta, por favor."
+    },
+    {
+      "it": "cameriere",
+      "es": "el camarero",
+      "gender": "m",
+      "plural": "camerieri",
+      "note": "Femenino *cameriera*. No se le llama a gritos: se levanta la mano."
+    },
+    {
+      "it": "menù",
+      "es": "el menú",
+      "gender": "m",
+      "plural": "menù",
+      "note": "Con acento en la u e invariable en plural."
+    },
+    {
+      "it": "aiuto",
+      "es": "la ayuda",
+      "gender": "m",
+      "plural": "aiuti",
+      "note": "*Aiuto!* solo, gritado, es «¡socorro!»."
+    },
+    {
+      "it": "permesso",
+      "es": "el permiso",
+      "gender": "m",
+      "plural": "permessi",
+      "note": "*Permesso?* se dice al entrar en casa de alguien y al pasar entre la gente."
+    },
+    {
+      "it": "favore",
+      "es": "el favor",
+      "gender": "m",
+      "plural": "favori",
+      "note": "*Per favore* ya lo conoces. *Fare un favore*: hacer un favor."
+    },
+    {
+      "it": "subito",
+      "es": "enseguida",
+      "gender": null,
+      "plural": null,
+      "note": "Acento en la primera sílaba: /SÚ-bi-to/. *Arrivo subito!*"
+    },
+    {
+      "it": "volentieri",
+      "es": "con mucho gusto",
+      "gender": null,
+      "plural": null,
+      "note": "La respuesta a una invitación: *— Vieni? — Volentieri!*"
+    },
+    {
+      "it": "magari",
+      "es": "ojalá; quizá",
+      "gender": null,
+      "plural": null,
+      "note": "Palabra italianísima: sirve para las dos cosas según dónde vaya."
+    },
+    {
+      "it": "purtroppo",
+      "es": "por desgracia",
+      "gender": null,
+      "plural": null,
+      "note": "Dos erres y dos pes. Suaviza cualquier negativa."
+    },
+    {
+      "it": "certo",
+      "es": "claro, por supuesto",
+      "gender": null,
+      "plural": null,
+      "note": "*Certo!* como respuesta. También *certamente*."
+    }
+  ],
+  "grammar": [
+    {
+      "heading": "Los tres verbos",
+      "body": "Los tres son irregulares y los tres se usan cada dos frases. *Può* lleva acento; *puoi* y *vuoi* no.\n\nY otra vez la regla de siempre: *noi* acaba en **-iamo**, aunque *dobbiamo* cambie la vocal de la raíz.",
+      "table": {
+        "headers": ["Persona", "potere", "volere", "dovere"],
+        "rows": [
+          ["io", "posso", "voglio", "devo"],
+          ["tu", "puoi", "vuoi", "devi"],
+          ["lui, lei, Lei", "può", "vuole", "deve"],
+          ["noi", "possiamo", "vogliamo", "dobbiamo"],
+          ["voi", "potete", "volete", "dovete"],
+          ["loro", "possono", "vogliono", "devono"]
+        ]
+      }
+    },
+    {
+      "heading": "Siempre con infinitivo detrás",
+      "body": "Los tres van seguidos del infinitivo, **sin ninguna preposición** en medio.\n\n❌ *devo di andare* · ✓ *devo andare*\n\n❌ *posso di entrare* · ✓ *posso entrare*\n\nY el *non* de la negación va delante del primero de los dos verbos, no en medio: *non posso venire*.",
+      "table": {
+        "headers": ["Italiano", "Español"],
+        "rows": [
+          ["Posso pagare?", "¿Puedo pagar?"],
+          ["Puoi ripetere?", "¿Puedes repetir?"],
+          ["Vuoi un caffè?", "¿Quieres un café?"],
+          ["Dobbiamo partire", "Tenemos que irnos"],
+          ["Non posso venire", "No puedo venir"],
+          ["Devi finire adesso", "Tienes que terminar ahora"]
+        ]
+      }
+    },
+    {
+      "heading": "«Vorrei»: la forma con la que se pide",
+      "body": "*Vorrei* es el condicional de *volere*, y es la manera normal de pedir cualquier cosa en Italia: en un bar, en una tienda, en una ventanilla.\n\nNo hace falta saber conjugar el condicional entero. Con estas dos formas — *vorrei* y *potrei* — vas servida para un año.",
+      "table": {
+        "headers": ["Italiano", "Español"],
+        "rows": [
+          ["Vorrei un caffè", "Quería un café"],
+          ["Vorrei un tavolo per due", "Querría una mesa para dos"],
+          ["Vorrei il conto, per favore", "Me trae la cuenta, por favor"],
+          ["Potrei avere il menù?", "¿Me podría traer el menú?"],
+          ["Vorrei un'informazione", "Querría preguntar una cosa"]
+        ]
+      }
+    }
+  ],
+  "phrases": [
+    {
+      "it": "Vorrei un caffè, per favore.",
+      "es": "Quería un café, por favor.",
+      "note": "La fórmula del bar. Nunca *voglio*."
+    },
+    {
+      "it": "Il conto, per favore.",
+      "es": "La cuenta, por favor.",
+      "note": "Basta con esto: no hace falta verbo."
+    },
+    {
+      "it": "Posso pagare con la carta?",
+      "es": "¿Puedo pagar con tarjeta?",
+      "note": "Aquí *carta* es la tarjeta. En otro contexto es papel."
+    },
+    {
+      "it": "Non posso, purtroppo.",
+      "es": "No puedo, por desgracia.",
+      "note": "*Purtroppo* al final suaviza mucho la negativa."
+    },
+    {
+      "it": "Vuoi venire anche tu?",
+      "es": "¿Quieres venir tú también?",
+      "note": null
+    },
+    {
+      "it": "Devo andare, è tardi.",
+      "es": "Tengo que irme, es tarde.",
+      "note": null
+    },
+    {
+      "it": "Volentieri!",
+      "es": "¡Con mucho gusto!",
+      "note": "La respuesta que se espera a una invitación."
+    },
+    {
+      "it": "Scusi, posso?",
+      "es": "Perdone, ¿puedo?",
+      "note": "Para pasar, para sentarse, para coger algo. Sirve para todo."
+    },
+    {
+      "it": "Cosa vuoi bere?",
+      "es": "¿Qué quieres beber?",
+      "note": "Aquí *vuoi* sí es correcto: se pregunta, no se pide."
+    }
+  ],
+  "ojo": [
+    {
+      "title": "«Vorrei», no «voglio»",
+      "body": "*Voglio un caffè* es gramaticalmente perfecto y suena a niño de cinco años exigiendo. En un bar, en una tienda o en cualquier ventanilla se dice **vorrei**.\n\n❌ *Voglio un caffè* · ✓ *Vorrei un caffè*\n\n❌ *Voglio il conto* · ✓ *Vorrei il conto* — o simplemente *Il conto, per favore*\n\n*Voglio* se reserva para hablar de lo que uno quiere de verdad, no para pedir:\n\n✓ *Voglio imparare l'italiano* → quiero aprender italiano\n\n✓ *Non voglio andare* → no quiero ir\n\nEn español pasa algo parecido con «quiero» y «querría», solo que el italiano es más estricto: allí *vorrei* es prácticamente obligatorio."
+    },
+    {
+      "title": "«Dovere» es «tener que», y no lleva preposición",
+      "body": "*Dovere* + infinitivo cubre las dos cosas que el español separa:\n\n✓ *Devo andare* → tengo que irme (obligación)\n\n✓ *Deve essere in ritardo* → debe de llegar tarde (suposición)\n\nY nunca lleva nada en medio:\n\n❌ *devo di andare* · ✓ *devo andare*\n\nComo nombre, *il dovere* es «el deber». Y para decir que algo no hace falta se usa *non devo* o, mejor, *non è necessario*."
+    },
+    {
+      "title": "«Magari» no tiene traducción exacta",
+      "body": "Es una de esas palabras que hay que aprender por el uso, porque cambia de sentido según dónde vaya.\n\n**Sola, como respuesta** = ¡ojalá!\n\n— *Vai in Italia quest'anno?* — *Magari!*\n\n**Delante de una frase** = quizá\n\n✓ *Magari domani* → quizá mañana\n\n✓ *Magari ha ragione* → quizá tiene razón\n\nNo la confundas con *forse*, que es «quizá» a secas, sin ese punto de deseo. Si alguien te contesta *magari!*, te está diciendo que ojalá pudiera."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "multiple-choice",
+      "prompt": "Entras en un bar y quieres un café. ¿Qué dices?",
+      "options": ["Voglio un caffè.", "Vorrei un caffè, per favore.", "Devo un caffè."],
+      "answer": 1,
+      "explain": "*Vorrei* es la forma con la que se pide. *Voglio* suena brusco."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "«Tengo que irme» en italiano es…",
+      "options": ["Devo di andare", "Devo andare", "Devo per andare"],
+      "answer": 1,
+      "explain": "Nunca hay preposición entre el verbo y el infinitivo."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Alguien te contesta «Magari!». Significa…",
+      "options": ["¡Ojalá!", "¡Quizá no!", "¡De ninguna manera!"],
+      "answer": 0,
+      "explain": "Sola, como respuesta, *magari* es «¡ojalá!»."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Noi ___ partire adesso. (dovere)",
+      "answer": ["dobbiamo"],
+      "explain": "*Dobbiamo*, con la vocal de la raíz cambiada pero con *-iamo* de siempre."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Loro non ___ venire. (potere)",
+      "answer": ["possono"],
+      "explain": "*Possono*, con dos eses."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Tu cosa ___ bere? (volere)",
+      "answer": ["vuoi"],
+      "explain": "*Vuoi* sin acento; *può* sí lo lleva."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "En el bar: ___ un caffè, per favore.",
+      "answer": ["Vorrei"],
+      "explain": "La forma de cortesía."
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        ["posso", "puedo"],
+        ["puoi", "puedes"],
+        ["voglio", "quiero"],
+        ["vuole", "quiere"],
+        ["devo", "tengo que"],
+        ["dobbiamo", "tenemos que"]
+      ]
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        ["il conto", "la cuenta"],
+        ["il cameriere", "el camarero"],
+        ["il menù", "el menú"],
+        ["volentieri", "con mucho gusto"],
+        ["purtroppo", "por desgracia"],
+        ["subito", "enseguida"]
+      ]
+    },
+    {
+      "type": "word-order",
+      "words": ["Vorrei", "un", "tavolo", "per", "due", "per", "favore"],
+      "answer": "Vorrei un tavolo per due, per favore.",
+      "explain": "*Vorrei* + nombre, sin verbo en medio."
+    },
+    {
+      "type": "word-order",
+      "words": ["Non", "posso", "venire", "purtroppo"],
+      "answer": "Non posso venire, purtroppo.",
+      "explain": "*Non* delante del primer verbo, no entre los dos."
+    },
+    {
+      "type": "translation",
+      "prompt": "¿Puedo pagar con tarjeta?",
+      "answer": ["Posso pagare con la carta?", "Posso pagare con carta?"],
+      "explain": "*La carta* aquí es la tarjeta."
+    },
+    {
+      "type": "translation",
+      "prompt": "Tengo que irme, es tarde.",
+      "answer": ["Devo andare, è tardi."],
+      "explain": "*Devo* + infinitivo, sin nada en medio."
+    },
+    {
+      "type": "listening",
+      "audio": "Vorrei il conto, per favore.",
+      "answer": ["Vorrei il conto, per favore."],
+      "explain": "La frase con la que se acaba cualquier comida."
+    },
+    {
+      "type": "listening",
+      "audio": "Scusi, posso pagare con la carta?",
+      "answer": ["Scusi, posso pagare con la carta?"],
+      "explain": "*Scusi* de usted, como corresponde con un camarero que no conoces."
+    }
+  ]
+}

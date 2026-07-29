@@ -1,0 +1,340 @@
+{
+  "id": "m10-l02",
+  "module": "m10",
+  "title": "Passato prossimo con essere",
+  "goal": "Al final de esta lección sabrás qué verbos usan essere en vez de avere, y sabrás hacer concordar el participio, que es la marca de género más visible del italiano hablado.",
+  "vocab": [
+    {
+      "it": "arrivare",
+      "es": "llegar",
+      "gender": null,
+      "plural": null,
+      "note": "*Sono arrivata tardi*. Con *essere* y con concordancia."
+    },
+    {
+      "it": "entrare",
+      "es": "entrar",
+      "gender": null,
+      "plural": null,
+      "note": "*Sono entrata in casa*. Con *in*, no con *a*."
+    },
+    {
+      "it": "salire",
+      "es": "subir",
+      "gender": null,
+      "plural": null,
+      "note": "Ahora en pasado: *sono salita*. Sigue sin ser «salir»."
+    },
+    {
+      "it": "scendere",
+      "es": "bajar",
+      "gender": null,
+      "plural": null,
+      "note": "Participio irregular: *sceso*. *Sono scesa dal treno*."
+    },
+    {
+      "it": "restare",
+      "es": "quedarse",
+      "gender": null,
+      "plural": null,
+      "note": "*Sono restata a casa*. También *rimanere*, con participio irregular."
+    },
+    {
+      "it": "diventare",
+      "es": "llegar a ser, convertirse en",
+      "gender": null,
+      "plural": null,
+      "note": "*È diventata medico*. Cambio de estado: *essere*."
+    },
+    {
+      "it": "cadere",
+      "es": "caerse",
+      "gender": null,
+      "plural": null,
+      "note": "*Sono caduta*, sin pronombre reflexivo. No es «cazar»."
+    },
+    {
+      "it": "nascere",
+      "es": "nacer",
+      "gender": null,
+      "plural": null,
+      "note": "Participio irregular *nato*: *sono nata a Madrid*."
+    },
+    {
+      "it": "morire",
+      "es": "morir",
+      "gender": null,
+      "plural": null,
+      "note": "Participio irregular *morto*."
+    },
+    {
+      "it": "sembrare",
+      "es": "parecer",
+      "gender": null,
+      "plural": null,
+      "note": "No es «sembrar»: sembrar es *seminare*."
+    },
+    {
+      "it": "succedere",
+      "es": "pasar, ocurrir",
+      "gender": null,
+      "plural": null,
+      "note": "Participio *successo*. *Che cosa è successo?*: ¿qué ha pasado?"
+    },
+    {
+      "it": "aeroporto",
+      "es": "el aeropuerto",
+      "gender": "m",
+      "plural": "aeroporti",
+      "note": "*All'aeroporto*."
+    },
+    {
+      "it": "binario",
+      "es": "el andén, la vía",
+      "gender": "m",
+      "plural": "binari",
+      "note": "*Il treno parte dal binario 5*. Se anuncia así en todas las estaciones."
+    },
+    {
+      "it": "ritorno",
+      "es": "la vuelta",
+      "gender": "m",
+      "plural": "ritorni",
+      "note": "*Andata e ritorno*: ida y vuelta, al comprar el billete."
+    },
+    {
+      "it": "gita",
+      "es": "la excursión",
+      "gender": "f",
+      "plural": "gite",
+      "note": "*Una gita fuori porta*: una escapada de un día."
+    }
+  ],
+  "grammar": [
+    {
+      "heading": "Cuáles van con essere",
+      "body": "Es un grupo **cerrado y pequeño**. Casi todos son verbos de movimiento o de cambio de estado, y ninguno lleva complemento directo.\n\nLa manera práctica de reconocerlos: si el verbo describe **ir, venir, llegar, entrar, salir, subir, bajar, quedarse, nacer, morir**, va con *essere*.",
+      "table": {
+        "headers": ["Italiano", "Español", "Participio"],
+        "rows": [
+          ["andare", "ir", "andato"],
+          ["venire", "venir", "venuto"],
+          ["arrivare", "llegar", "arrivato"],
+          ["partire", "irse", "partito"],
+          ["entrare", "entrar", "entrato"],
+          ["uscire", "salir", "uscito"],
+          ["salire", "subir", "salito"],
+          ["scendere", "bajar", "sceso"],
+          ["restare", "quedarse", "restato"],
+          ["nascere", "nacer", "nato"],
+          ["morire", "morir", "morto"],
+          ["essere", "ser, estar", "stato"]
+        ]
+      }
+    },
+    {
+      "heading": "El participio concuerda",
+      "body": "Esta es la diferencia grande con *avere*: el participio **concuerda con el sujeto** en género y número, como si fuera un adjetivo.\n\nEn plural, *-i* si hay algún hombre en el grupo, *-e* si son todas mujeres. La misma regla de los adjetivos del módulo 3.\n\nY los reflexivos van **todos** con *essere*: *mi sono svegliata*, *ci siamo divertiti*.",
+      "table": {
+        "headers": ["Sujeto", "Italiano", "Español"],
+        "rows": [
+          ["io (mujer)", "sono andata", "he ido / fui"],
+          ["io (hombre)", "sono andato", "he ido / fui"],
+          ["tu (mujer)", "sei andata", "has ido"],
+          ["lui", "è andato", "ha ido"],
+          ["lei", "è andata", "ha ido"],
+          ["noi", "siamo andati / andate", "hemos ido"],
+          ["voi", "siete andati / andate", "habéis ido"],
+          ["loro", "sono andati / andate", "han ido"]
+        ]
+      }
+    },
+    {
+      "heading": "Cómo elegir el auxiliar",
+      "body": "La pregunta que resuelve casi todo: **¿el verbo puede llevar un objeto directo?**\n\nSi la respuesta es sí — comer *algo*, leer *algo*, comprar *algo* — va con *avere*.\n\nSi es no, y además describe un movimiento o un cambio, va con *essere*.\n\nDos avisos. *Dormire*, *lavorare* y *viaggiare* no llevan objeto y aun así van con *avere*. Y **todos los reflexivos van con *essere***, aunque haya un objeto detrás: *mi sono lavata le mani*.",
+      "table": {
+        "headers": ["Con avere", "Con essere"],
+        "rows": [
+          ["ho mangiato la pizza", "sono andata a casa"],
+          ["ho letto il libro", "sono arrivata tardi"],
+          ["ho dormito", "sono nata a Madrid"],
+          ["ho lavorato", "mi sono svegliata"],
+          ["ho viaggiato molto", "sono uscita presto"]
+        ]
+      }
+    }
+  ],
+  "phrases": [
+    {
+      "it": "Sono andata al mercato.",
+      "es": "He ido al mercado.",
+      "note": "*Andata* con -a si habla una mujer."
+    },
+    {
+      "it": "Sei arrivata tardi.",
+      "es": "Has llegado tarde.",
+      "note": null
+    },
+    {
+      "it": "Sono nata a Madrid.",
+      "es": "Nací en Madrid.",
+      "note": "Participio irregular *nata*, de *nascere*."
+    },
+    {
+      "it": "Ci siamo divertiti molto.",
+      "es": "Nos lo hemos pasado muy bien.",
+      "note": "Reflexivo: *essere* y concordancia."
+    },
+    {
+      "it": "Il treno è partito dal binario 5.",
+      "es": "El tren ha salido de la vía 5.",
+      "note": "*Dal binario*, con *da*."
+    },
+    {
+      "it": "Che cosa è successo?",
+      "es": "¿Qué ha pasado?",
+      "note": "*Successo* es el participio de *succedere*."
+    },
+    {
+      "it": "Mi sono svegliata presto.",
+      "es": "Me he despertado temprano.",
+      "note": "Todos los reflexivos van con *essere*."
+    },
+    {
+      "it": "Sono caduta dalle scale.",
+      "es": "Me he caído por las escaleras.",
+      "note": "Sin *mi*: el italiano no necesita el reflexivo aquí."
+    },
+    {
+      "it": "Siamo restati a casa tutto il giorno.",
+      "es": "Nos hemos quedado en casa todo el día.",
+      "note": "*Restati* en masculino plural si el grupo es mixto."
+    }
+  ],
+  "ojo": [
+    {
+      "title": "El español usa siempre «haber»; aquí hay dos auxiliares",
+      "body": "En español todos los tiempos compuestos van con «haber»: he comido, he ido, me he levantado. El italiano reparte entre dos, y encima el participio cambia.\n\n❌ *ho andato* · ✓ *sono andata*\n\n❌ *ho uscito* · ✓ *sono uscita*\n\n❌ *mi ho svegliata* · ✓ *mi sono svegliata*\n\nY la concordancia no es opcional ni un detalle de estilo. Si eres mujer y dices *sono andato*, estás diciendo algo que no cuadra, y se nota al momento.\n\n✓ *sono andata*, *sono arrivata*, *sono uscita*, *mi sono divertita*\n\nEs la marca de género más visible que tiene el italiano hablado: en cada frase en pasado dices si eres hombre o mujer."
+    },
+    {
+      "title": "«Cadere» es caerse, no cazar",
+      "body": "**Cadere** significa **caer, caerse**. Va con *essere* y concuerda: *sono caduta*.\n\n✓ *sono caduta dalle scale* → me caí por las escaleras\n\n✓ *è caduto il telefono* → se ha caído el móvil\n\nEl «cazar» español es *cacciare*, que no tiene nada que ver.\n\nY fíjate en un detalle: el italiano **no necesita el pronombre reflexivo** donde el español sí lo pone. Donde tú dices «me caí», el italiano dice *sono caduta*, sin *mi*."
+    },
+    {
+      "title": "«Sembrare» es parecer, no sembrar",
+      "body": "**Sembrare** significa **parecer**. Sembrar es *seminare*.\n\n✓ *sembra facile* → parece fácil\n\n✓ *mi sembra strano* → me parece raro\n\n✓ *sembri stanca* → pareces cansada\n\nVa con *essere* en el pasado y concuerda: *è sembrata una buona idea*.\n\nTiene además un hermano casi idéntico, *parere*, que significa lo mismo y se usa un poco menos: *mi pare di sì*, «me parece que sí»."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "multiple-choice",
+      "prompt": "Una mujer dice «he ido a casa». En italiano es…",
+      "options": ["Ho andato a casa", "Sono andata a casa", "Sono andato a casa"],
+      "answer": 1,
+      "explain": "*Andare* va con *essere*, y el participio concuerda: *andata*."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "«Me he despertado temprano» en italiano es…",
+      "options": ["Mi ho svegliata presto", "Mi sono svegliata presto", "Ho svegliato presto"],
+      "answer": 1,
+      "explain": "Todos los reflexivos van con *essere*."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "«Sembrare» significa…",
+      "options": ["sembrar", "parecer", "parecerse"],
+      "answer": 1,
+      "explain": "Sembrar es *seminare*."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "¿Cuál de estos verbos va con «avere»?",
+      "options": ["arrivare", "dormire", "uscire"],
+      "answer": 1,
+      "explain": "*Dormire* no lleva objeto pero tampoco es de movimiento: va con *avere*."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "(Una mujer) ___ arrivata tardi.",
+      "answer": ["sono"],
+      "explain": "*Arrivare* va con *essere*."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Una mujer dice: sono nat___ a Madrid.",
+      "answer": ["a"],
+      "explain": "El participio concuerda: *nata*."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Noi (mujeres) siamo andat___ al mercato.",
+      "answer": ["e"],
+      "explain": "Femenino plural: *andate*."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Che cosa è ___? (succedere)",
+      "answer": ["successo"],
+      "explain": "Participio irregular de *succedere*."
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        ["andare", "andato"],
+        ["venire", "venuto"],
+        ["nascere", "nato"],
+        ["morire", "morto"],
+        ["scendere", "sceso"],
+        ["essere", "stato"]
+      ]
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        ["sono andata", "he ido"],
+        ["sei arrivata", "has llegado"],
+        ["è partito", "se ha ido"],
+        ["siamo usciti", "hemos salido"],
+        ["mi sono svegliata", "me he despertado"],
+        ["ci siamo divertiti", "nos lo hemos pasado bien"]
+      ]
+    },
+    {
+      "type": "word-order",
+      "words": ["Sono", "caduta", "dalle", "scale"],
+      "answer": "Sono caduta dalle scale.",
+      "explain": "Sin *mi*: el italiano no lleva reflexivo aquí."
+    },
+    {
+      "type": "word-order",
+      "words": ["Il", "treno", "è", "partito", "dal", "binario", "5"],
+      "answer": "Il treno è partito dal binario 5.",
+      "explain": "*Partire* con *essere*, y *partito* concuerda con *treno*."
+    },
+    {
+      "type": "translation",
+      "prompt": "Nací en Madrid. (habla una mujer)",
+      "answer": ["Sono nata a Madrid."],
+      "explain": "*Nata* con -a, y *a* con la ciudad."
+    },
+    {
+      "type": "translation",
+      "prompt": "¿Qué ha pasado?",
+      "answer": ["Che cosa è successo?", "Cosa è successo?"],
+      "explain": "*Successo*, participio de *succedere*."
+    },
+    {
+      "type": "listening",
+      "audio": "Sono andata al mercato e sono tornata tardi.",
+      "answer": ["Sono andata al mercato e sono tornata tardi."],
+      "explain": "Dos verbos de movimiento, los dos con *essere* y los dos concordando."
+    },
+    {
+      "type": "listening",
+      "audio": "Mi sono svegliata presto e sono uscita subito.",
+      "answer": ["Mi sono svegliata presto e sono uscita subito."],
+      "explain": "Un reflexivo y un verbo de movimiento: los dos con *essere*."
+    }
+  ]
+}

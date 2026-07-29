@@ -1,0 +1,320 @@
+{
+  "id": "m06-l02",
+  "module": "m06",
+  "title": "Las palabras interrogativas",
+  "goal": "Al final de esta lección sabrás hacer cualquier pregunta en italiano, y sabrás que no hay que abrirla con ningún signo ni cambiar el orden de la frase.",
+  "vocab": [
+    {
+      "it": "cosa",
+      "es": "qué",
+      "gender": null,
+      "plural": null,
+      "note": "*Cosa?*, *Che cosa?* y *Che?* valen las tres. En el norte se dice más *cosa*."
+    },
+    {
+      "it": "dove",
+      "es": "dónde, adónde",
+      "gender": null,
+      "plural": null,
+      "note": "Una sola palabra para las dos: *dove sei?* y *dove vai?*"
+    },
+    {
+      "it": "quando",
+      "es": "cuándo",
+      "gender": null,
+      "plural": null,
+      "note": "Sin acento, al contrario del español."
+    },
+    {
+      "it": "come",
+      "es": "cómo",
+      "gender": null,
+      "plural": null,
+      "note": "Ya lo conoces: *come stai?*, *come si dice?*"
+    },
+    {
+      "it": "perché",
+      "es": "por qué; porque",
+      "gender": null,
+      "plural": null,
+      "note": "La misma palabra para preguntar y para responder. Siempre con acento agudo."
+    },
+    {
+      "it": "quale",
+      "es": "cuál, qué",
+      "gender": null,
+      "plural": null,
+      "note": "Plural *quali*. Delante de *è* se escribe *qual è*, sin apóstrofo."
+    },
+    {
+      "it": "spiegare",
+      "es": "explicar",
+      "gender": null,
+      "plural": null,
+      "note": "*Puoi spiegare?* Mete una h: *tu spieghi*."
+    },
+    {
+      "it": "informazione",
+      "es": "la información",
+      "gender": "f",
+      "plural": "informazioni",
+      "note": "*Un'informazione, per favore* es la manera de abordar a alguien para preguntar algo."
+    },
+    {
+      "it": "motivo",
+      "es": "el motivo",
+      "gender": "m",
+      "plural": "motivi",
+      "note": "*Per quale motivo?*: ¿por qué motivo?"
+    },
+    {
+      "it": "modo",
+      "es": "la manera",
+      "gender": "m",
+      "plural": "modi",
+      "note": "*In che modo?*: ¿de qué manera? Y *in ogni modo*: de todos modos."
+    },
+    {
+      "it": "davvero",
+      "es": "de verdad, en serio",
+      "gender": null,
+      "plural": null,
+      "note": "*Davvero?* es la reacción más frecuente a cualquier noticia."
+    },
+    {
+      "it": "allora",
+      "es": "entonces",
+      "gender": null,
+      "plural": null,
+      "note": "Con dos erres. Empieza media conversación italiana: *Allora…*"
+    },
+    {
+      "it": "quindi",
+      "es": "así que, por tanto",
+      "gender": null,
+      "plural": null,
+      "note": "Introduce una consecuencia."
+    },
+    {
+      "it": "comunque",
+      "es": "de todos modos, en fin",
+      "gender": null,
+      "plural": null,
+      "note": "Se usa muchísimo para cambiar de tema."
+    },
+    {
+      "it": "secondo",
+      "es": "según",
+      "gender": null,
+      "plural": null,
+      "note": "*Secondo me*: en mi opinión. Se dice constantemente."
+    }
+  ],
+  "grammar": [
+    {
+      "heading": "Las ocho palabras",
+      "body": "Ninguna lleva acento **salvo perché**. Y el italiano no abre las preguntas con ningún signo: la frase empieza como cualquier otra.",
+      "table": {
+        "headers": ["Italiano", "Español", "Ejemplo"],
+        "rows": [
+          ["chi", "quién", "Chi è?"],
+          ["che cosa / cosa", "qué", "Cosa fai?"],
+          ["dove", "dónde, adónde", "Dove abiti?"],
+          ["quando", "cuándo", "Quando parti?"],
+          ["come", "cómo", "Come stai?"],
+          ["perché", "por qué", "Perché non vieni?"],
+          ["quanto", "cuánto", "Quanti anni hai?"],
+          ["quale", "cuál", "Quale preferisci?"]
+        ]
+      }
+    },
+    {
+      "heading": "Preguntar sin cambiar el orden",
+      "body": "El italiano no invierte nada: la palabra interrogativa va delante y el resto de la frase se queda exactamente como estaba.\n\n*Vai a Roma.* → *Dove vai?*\n\n*Parti domani.* → *Quando parti?*\n\nY si no hay palabra interrogativa, la afirmación y la pregunta se escriben **igual** salvo por el signo final:\n\n*Parli italiano.* / *Parli italiano?*\n\nAl hablar solo cambia la entonación, que sube al final. Igual que en español."
+    },
+    {
+      "heading": "Quale y quanto concuerdan",
+      "body": "*Quale* solo cambia en número. *Quanto* cambia en género y en número, exactamente como el español «cuánto».\n\n✓ *Quanti anni hai?* · *Quante persone?* · *Quanto tempo?*\n\nY una regla de ortografía que fallan hasta los italianos: **qual è** se escribe **sin apóstrofo**, porque *quale* no pierde una vocal, pierde la sílaba entera.\n\n❌ *qual'è* · ✓ *qual è*",
+      "table": {
+        "headers": ["", "Masc. sing.", "Fem. sing.", "Masc. pl.", "Fem. pl."],
+        "rows": [
+          ["quale", "quale", "quale", "quali", "quali"],
+          ["quanto", "quanto", "quanta", "quanti", "quante"]
+        ]
+      }
+    }
+  ],
+  "phrases": [
+    {
+      "it": "Che cosa vuoi?",
+      "es": "¿Qué quieres?",
+      "note": "También *cosa vuoi?* a secas."
+    },
+    {
+      "it": "Dove sei?",
+      "es": "¿Dónde estás?",
+      "note": "La pregunta del móvil, en Italia igual que aquí."
+    },
+    {
+      "it": "Quando parti?",
+      "es": "¿Cuándo te vas?",
+      "note": null
+    },
+    {
+      "it": "Perché non vieni?",
+      "es": "¿Por qué no vienes?",
+      "note": null
+    },
+    {
+      "it": "Perché devo lavorare.",
+      "es": "Porque tengo que trabajar.",
+      "note": "La misma palabra que en la pregunta anterior."
+    },
+    {
+      "it": "Qual è il problema?",
+      "es": "¿Cuál es el problema?",
+      "note": "*Qual è* sin apóstrofo, siempre."
+    },
+    {
+      "it": "Scusi, un'informazione.",
+      "es": "Perdone, una pregunta.",
+      "note": "Así se aborda a un desconocido por la calle."
+    },
+    {
+      "it": "Davvero?",
+      "es": "¿En serio?",
+      "note": null
+    },
+    {
+      "it": "Secondo me, hai ragione.",
+      "es": "En mi opinión, tienes razón.",
+      "note": "*Secondo me* va casi siempre al principio."
+    }
+  ],
+  "ojo": [
+    {
+      "title": "No existe el signo de apertura",
+      "body": "El español es prácticamente la única lengua que abre las preguntas y las exclamaciones con un signo. En italiano no se pone, y escribirlo se ve a un kilómetro.\n\n❌ *¿Come stai?* · ✓ *Come stai?*\n\n❌ *¡Che bello!* · ✓ *Che bello!*\n\nEn el móvil el teclado español los pone solos: hay que acordarse de cambiar el idioma del teclado, o borrarlos a mano.\n\nEl signo del final sí existe, igual que en español."
+    },
+    {
+      "title": "«Perché» pregunta y responde",
+      "body": "En español son dos palabras distintas y hay que elegir: «por qué» y «porque». En italiano es **la misma**, siempre con acento.\n\n— *Perché non vieni?* → ¿Por qué no vienes?\n\n— *Perché devo lavorare.* → Porque tengo que trabajar.\n\nY sirve además para «para que»: *te lo dico perché tu capisca*.\n\nEl acento es **agudo**: *perché*, con la e cerrada. Escribir *perchè* con acento grave es una falta, y la cometen muchísimos italianos. Lo mismo con *poiché*, *affinché*, *benché*."
+    },
+    {
+      "title": "«Tuttavia» es «sin embargo», no «todavía»",
+      "body": "**Tuttavia** significa **sin embargo**. «Todavía» es **ancora**.\n\n❌ *tuttavia non capisco* → sin embargo no entiendo · ✓ *ancora non capisco* → todavía no entiendo\n\n✓ *È difficile; tuttavia, capisco* → es difícil; sin embargo, lo entiendo\n\nY *ancora* tiene además otros dos sentidos que conviene tener a mano:\n\n✓ *ancora un caffè?* → ¿otro café?\n\n✓ *non è ancora pronto* → todavía no está listo"
+    }
+  ],
+  "exercises": [
+    {
+      "type": "multiple-choice",
+      "prompt": "¿Cuál está bien escrito en italiano?",
+      "options": ["¿Come stai?", "Come stai?", "¿Come stai"],
+      "answer": 1,
+      "explain": "El italiano no abre las preguntas con ningún signo."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "«Porque tengo que trabajar» en italiano empieza por…",
+      "options": ["Perché", "Perchè", "Per che"],
+      "answer": 0,
+      "explain": "La misma palabra que para preguntar, y con acento agudo."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "«Tuttavia» significa…",
+      "options": ["todavía", "sin embargo", "de todos modos"],
+      "answer": 1,
+      "explain": "«Todavía» es *ancora*."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "¿Cuál está bien escrito?",
+      "options": ["qual'è", "qual è", "quale è"],
+      "answer": 1,
+      "explain": "*Quale* pierde la sílaba entera, no una vocal: por eso no lleva apóstrofo."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "___ abiti? — A Milano.",
+      "answer": ["Dove"],
+      "explain": "*Dove* para «dónde» y para «adónde»."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "___ parti? — Domani.",
+      "answer": ["Quando"],
+      "explain": "Sin acento, al contrario que el español «cuándo»."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "___ persone siete? — Siamo in quattro.",
+      "answer": ["Quante"],
+      "explain": "*Quante* concuerda con *persone*, femenino plural."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "___ è il tuo numero? — 349…",
+      "answer": ["Qual"],
+      "explain": "*Qual è*, sin apóstrofo."
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        ["chi", "quién"],
+        ["cosa", "qué"],
+        ["dove", "dónde"],
+        ["quando", "cuándo"],
+        ["perché", "por qué"],
+        ["quale", "cuál"]
+      ]
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        ["davvero", "de verdad"],
+        ["allora", "entonces"],
+        ["quindi", "así que"],
+        ["comunque", "de todos modos"],
+        ["secondo me", "en mi opinión"],
+        ["ancora", "todavía"]
+      ]
+    },
+    {
+      "type": "word-order",
+      "words": ["Perché", "non", "vieni", "con", "noi", "?"],
+      "answer": "Perché non vieni con noi?",
+      "explain": "El orden es el mismo que en la frase afirmativa."
+    },
+    {
+      "type": "word-order",
+      "words": ["Secondo", "me", "hai", "ragione"],
+      "answer": "Secondo me, hai ragione.",
+      "explain": "*Secondo me* va al principio."
+    },
+    {
+      "type": "translation",
+      "prompt": "¿Cuál es el problema?",
+      "answer": ["Qual è il problema?"],
+      "explain": "Sin apóstrofo en *qual è*."
+    },
+    {
+      "type": "translation",
+      "prompt": "¿Cuándo te vas?",
+      "answer": ["Quando parti?"],
+      "explain": "*Partire* para irse de viaje."
+    },
+    {
+      "type": "listening",
+      "audio": "Scusi, un'informazione: dov'è la stazione?",
+      "answer": ["Scusi, un'informazione: dov'è la stazione?"],
+      "explain": "*Un'informazione* con apóstrofo, y *dov'è* también."
+    },
+    {
+      "type": "listening",
+      "audio": "Perché non vieni? Perché devo lavorare.",
+      "answer": ["Perché non vieni? Perché devo lavorare."],
+      "explain": "La misma palabra en la pregunta y en la respuesta."
+    }
+  ]
+}

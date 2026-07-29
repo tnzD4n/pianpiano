@@ -1,0 +1,329 @@
+{
+  "id": "m03-l03",
+  "module": "m03",
+  "title": "El verbo avere",
+  "goal": "Al final de esta lección sabrás conjugar avere en presente, decir tu edad y usar las expresiones de sensación —hambre, sed, frío, calor, sueño, prisa, miedo— que en italiano se construyen con «tener».",
+  "vocab": [
+    {
+      "it": "fame",
+      "es": "el hambre",
+      "gender": "f",
+      "plural": null,
+      "note": "*Ho fame*: tengo hambre. Femenino, como en español."
+    },
+    {
+      "it": "freddo",
+      "es": "el frío",
+      "gender": "m",
+      "plural": null,
+      "note": "*Ho freddo*: tengo frío. También adjetivo: *il caffè è freddo*."
+    },
+    {
+      "it": "caldo",
+      "es": "el calor",
+      "gender": "m",
+      "plural": null,
+      "note": "*Ho caldo*: tengo calor. No es «el caldo»: eso es *il brodo*."
+    },
+    {
+      "it": "sonno",
+      "es": "el sueño (las ganas de dormir)",
+      "gender": "m",
+      "plural": null,
+      "note": "Con dos enes. *Sono* con una sola es el verbo *essere*."
+    },
+    {
+      "it": "ragione",
+      "es": "la razón",
+      "gender": "f",
+      "plural": "ragioni",
+      "note": "*Hai ragione*: tienes razón. Se dice muchísimo."
+    },
+    {
+      "it": "torto",
+      "es": "la falta de razón",
+      "gender": "m",
+      "plural": "torti",
+      "note": "*Hai torto*: no tienes razón, te equivocas. No hay traducción de una palabra."
+    },
+    {
+      "it": "paura",
+      "es": "el miedo",
+      "gender": "f",
+      "plural": "paure",
+      "note": "*Ho paura*: tengo miedo."
+    },
+    {
+      "it": "fretta",
+      "es": "la prisa",
+      "gender": "f",
+      "plural": null,
+      "note": "*Ho fretta*: tengo prisa. Con dos tes."
+    },
+    {
+      "it": "voglia",
+      "es": "las ganas",
+      "gender": "f",
+      "plural": "voglie",
+      "note": "*Ho voglia di un caffè*: me apetece un café. En italiano va en singular."
+    },
+    {
+      "it": "bisogno",
+      "es": "la necesidad",
+      "gender": "m",
+      "plural": "bisogni",
+      "note": "*Ho bisogno di…* es como se dice «necesito…»."
+    },
+    {
+      "it": "fortuna",
+      "es": "la suerte",
+      "gender": "f",
+      "plural": "fortune",
+      "note": "*Che fortuna!*: ¡qué suerte! Y *per fortuna*: por suerte."
+    },
+    {
+      "it": "tempo",
+      "es": "el tiempo",
+      "gender": "m",
+      "plural": "tempi",
+      "note": "El que pasa y el que hace, igual que en español."
+    },
+    {
+      "it": "cane",
+      "es": "el perro",
+      "gender": "m",
+      "plural": "cani",
+      "note": "Femenino *la cagna*, pero para una perra se dice normalmente *una cagnolina*."
+    },
+    {
+      "it": "fratello",
+      "es": "el hermano",
+      "gender": "m",
+      "plural": "fratelli",
+      "note": "*I fratelli* puede significar «los hermanos» en general, chicos y chicas."
+    },
+    {
+      "it": "sorella",
+      "es": "la hermana",
+      "gender": "f",
+      "plural": "sorelle",
+      "note": "Con una sola l, al revés que el español."
+    }
+  ],
+  "grammar": [
+    {
+      "heading": "Presente de avere",
+      "body": "Cuatro de las seis formas empiezan por una **h** que no se pronuncia jamás. *Ho* suena /o/, *hai* suena /ai/, *ha* suena /a/, *hanno* suena /ANN-o/.\n\nEsa h no es un adorno histórico: sirve para distinguir estas formas de otras palabras que suenan igual.",
+      "table": {
+        "headers": ["Persona", "Italiano", "Español"],
+        "rows": [
+          ["io", "ho", "he / tengo"],
+          ["tu", "hai", "has / tienes"],
+          ["lui, lei, Lei", "ha", "ha / tiene"],
+          ["noi", "abbiamo", "hemos / tenemos"],
+          ["voi", "avete", "habéis / tenéis"],
+          ["loro", "hanno", "han / tienen"]
+        ]
+      }
+    },
+    {
+      "heading": "Las cosas que en italiano se tienen",
+      "body": "Igual que en español: son **nombres**, no adjetivos, y por eso nunca concuerdan. *Siamo stanchi* lleva -i, pero *abbiamo fame* se queda igual para todos.",
+      "table": {
+        "headers": ["Italiano", "Español"],
+        "rows": [
+          ["ho fame", "tengo hambre"],
+          ["ho sete", "tengo sed"],
+          ["ho freddo", "tengo frío"],
+          ["ho caldo", "tengo calor"],
+          ["ho sonno", "tengo sueño"],
+          ["ho fretta", "tengo prisa"],
+          ["ho paura", "tengo miedo"],
+          ["ho ragione", "tengo razón"],
+          ["ho bisogno di…", "necesito…"],
+          ["ho voglia di…", "me apetece…"]
+        ]
+      }
+    },
+    {
+      "heading": "La edad se tiene, no se es",
+      "body": "Como en español: *ho trent'anni*, «tengo treinta años». La pregunta es *Quanti anni hai?* — o *Quanti anni ha?* si tratas de usted.\n\nFíjate en el apóstrofo: los números acabados en vocal se pegan a *anni*.",
+      "table": {
+        "headers": ["Número", "Con anni", "Español"],
+        "rows": [
+          ["venti", "vent'anni", "veinte años"],
+          ["trenta", "trent'anni", "treinta años"],
+          ["quaranta", "quarant'anni", "cuarenta años"],
+          ["diciotto", "diciotto anni", "dieciocho años"],
+          ["ventuno", "ventun anni", "veintiún años"]
+        ]
+      }
+    }
+  ],
+  "phrases": [
+    {
+      "it": "Ho fame. E tu?",
+      "es": "Tengo hambre. ¿Y tú?",
+      "note": null
+    },
+    {
+      "it": "Hai ragione.",
+      "es": "Tienes razón.",
+      "note": "De las frases más usadas del italiano hablado."
+    },
+    {
+      "it": "Quanti anni hai?",
+      "es": "¿Cuántos años tienes?",
+      "note": "De usted: *Quanti anni ha?* Aunque preguntarlo sigue siendo igual de delicado que en España."
+    },
+    {
+      "it": "Ho trent'anni.",
+      "es": "Tengo treinta años.",
+      "note": "*Trenta* pierde la a delante de *anni*."
+    },
+    {
+      "it": "Non ho tempo, ho fretta.",
+      "es": "No tengo tiempo, tengo prisa.",
+      "note": null
+    },
+    {
+      "it": "Ho bisogno di un caffè.",
+      "es": "Necesito un café.",
+      "note": "*Avere bisogno di* + nombre. No existe un verbo «necesitar» de uso corriente."
+    },
+    {
+      "it": "Hai freddo? — No, ho caldo.",
+      "es": "¿Tienes frío? — No, tengo calor.",
+      "note": null
+    },
+    {
+      "it": "Ho una sorella e due fratelli.",
+      "es": "Tengo una hermana y dos hermanos.",
+      "note": null
+    },
+    {
+      "it": "Che fortuna!",
+      "es": "¡Qué suerte!",
+      "note": "*Che* + nombre para exclamar: *che fame!*, *che caldo!*"
+    }
+  ],
+  "ojo": [
+    {
+      "title": "La h es muda, pero obligatoria",
+      "body": "La h de *avere* no se pronuncia nunca. Pero sin ella la palabra se convierte en otra, y son todas palabras corrientes:\n\n**ho** (tengo) / **o** (o)\n\n**hai** (tienes) / **ai** (a los)\n\n**ha** (tiene) / **a** (a)\n\n**hanno** (tienen) / **anno** (año)\n\n❌ *o fame* · ✓ *ho fame*\n\n❌ *loro anno un cane* · ✓ *loro hanno un cane*\n\nY al revés: no la metas donde no está. Las otras dos formas del presente van **sin** h: *abbiamo*, *avete*."
+    },
+    {
+      "title": "La edad no se es, se tiene",
+      "body": "Aquí el italiano y el español coinciden, así que el error no viene del español sino de las lenguas que se estudiaron antes.\n\n❌ *Sono venti anni* · ✓ *Ho vent'anni*\n\n❌ *Sono trenta anni* · ✓ *Ho trent'anni*\n\nY la pregunta se hace con *quanti*, en masculino plural, porque concuerda con *anni*: *Quanti anni hai?*"
+    },
+    {
+      "title": "«Caldo» no es caldo",
+      "body": "**Caldo** en italiano significa **caliente**, y como nombre, **calor**. El caldo de la sopa es **il brodo**.\n\n❌ *un caldo di pollo* → un calor de pollo · ✓ *un brodo di pollo* → un caldo de pollo\n\n✓ *Ho caldo* → Tengo calor\n\n✓ *Il caffè è caldo* → El café está caliente\n\nY ojo con el par completo: *freddo* es «frío» en los dos sentidos, así que ahí no hay trampa."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "multiple-choice",
+      "prompt": "«Tengo hambre» en italiano es…",
+      "options": ["Sono fame", "Ho fame", "Ho fama"],
+      "answer": 1,
+      "explain": "Las sensaciones van con *avere*, igual que en español."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "«Il brodo» significa…",
+      "options": ["el calor", "el caldo", "el frío"],
+      "answer": 1,
+      "explain": "*Caldo* es «calor» o «caliente»; el caldo de la sopa es *brodo*."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "¿Cuál está bien escrito?",
+      "options": ["o fame", "ho fame", "hò fame"],
+      "answer": 1,
+      "explain": "*Ho* con h muda y sin acento. *O* sin h significa «o»."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Noi ___ fame.",
+      "answer": ["abbiamo"],
+      "explain": "*Abbiamo*, sin h y con dos bes."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Voi ___ freddo?",
+      "answer": ["avete"],
+      "explain": "*Avete*, sin h."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Loro ___ ragione.",
+      "answer": ["hanno"],
+      "explain": "*Hanno* con h y con dos enes: sin h sería *anno*, «año»."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "— Quanti anni hai? — ___ trent'anni.",
+      "answer": ["Ho"],
+      "explain": "La edad se tiene: *ho trent'anni*."
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        ["ho fame", "tengo hambre"],
+        ["ho sete", "tengo sed"],
+        ["ho freddo", "tengo frío"],
+        ["ho caldo", "tengo calor"],
+        ["ho sonno", "tengo sueño"],
+        ["ho fretta", "tengo prisa"]
+      ]
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        ["il cane", "el perro"],
+        ["la sorella", "la hermana"],
+        ["il fratello", "el hermano"],
+        ["la paura", "el miedo"],
+        ["la fortuna", "la suerte"],
+        ["il tempo", "el tiempo"]
+      ]
+    },
+    {
+      "type": "word-order",
+      "words": ["Non", "ho", "tempo", "ho", "fretta"],
+      "answer": "Non ho tempo, ho fretta.",
+      "explain": "Dos veces *ho*, las dos con h muda."
+    },
+    {
+      "type": "word-order",
+      "words": ["Ho", "una", "sorella", "e", "due", "fratelli"],
+      "answer": "Ho una sorella e due fratelli.",
+      "explain": "*Fratello* → *fratelli*, plural masculino en -i."
+    },
+    {
+      "type": "translation",
+      "prompt": "¿Cuántos años tienes?",
+      "answer": ["Quanti anni hai?"],
+      "explain": "De usted sería *Quanti anni ha?*"
+    },
+    {
+      "type": "translation",
+      "prompt": "Tengo treinta años.",
+      "answer": ["Ho trent'anni.", "Ho trenta anni."],
+      "explain": "Lo normal es apostrofar: *trent'anni*."
+    },
+    {
+      "type": "listening",
+      "audio": "Hai ragione, ho torto.",
+      "answer": ["Hai ragione, ho torto."],
+      "explain": "«Tienes razón, me equivoco». Las dos haches, mudas."
+    },
+    {
+      "type": "listening",
+      "audio": "Abbiamo bisogno di un caffè.",
+      "answer": ["Abbiamo bisogno di un caffè."],
+      "explain": "*Abbiamo* va sin h. Y *avere bisogno di* es «necesitar»."
+    }
+  ]
+}

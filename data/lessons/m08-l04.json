@@ -1,0 +1,335 @@
+{
+  "id": "m08-l04",
+  "module": "m08",
+  "title": "Hacer la compra",
+  "goal": "Al final de esta lección sabrás en qué tienda se compra cada cosa, preguntar el precio y pagar, y sabrás que «negozio» no es «negocio».",
+  "vocab": [
+    {
+      "it": "panetteria",
+      "es": "la panadería",
+      "gender": "f",
+      "plural": "panetterie",
+      "note": "También *il forno*, que es como se dice de verdad en casi toda Italia."
+    },
+    {
+      "it": "macelleria",
+      "es": "la carnicería",
+      "gender": "f",
+      "plural": "macellerie",
+      "note": "De *macellaio*, el carnicero."
+    },
+    {
+      "it": "pescheria",
+      "es": "la pescadería",
+      "gender": "f",
+      "plural": "pescherie",
+      "note": "Con h para conservar el sonido k."
+    },
+    {
+      "it": "salumeria",
+      "es": "la charcutería",
+      "gender": "f",
+      "plural": "salumerie",
+      "note": "Embutidos y quesos. De *salume*."
+    },
+    {
+      "it": "pasticceria",
+      "es": "la pastelería",
+      "gender": "f",
+      "plural": "pasticcerie",
+      "note": "Con dos ces. Es donde se compran *le paste*."
+    },
+    {
+      "it": "edicola",
+      "es": "el quiosco",
+      "gender": "f",
+      "plural": "edicole",
+      "note": "Acento en la e: /É-di-co-la/. Periódicos y revistas."
+    },
+    {
+      "it": "tabaccheria",
+      "es": "el estanco",
+      "gender": "f",
+      "plural": "tabaccherie",
+      "note": "Tabaco, sellos, billetes de autobús y recargas. La señal es una T blanca."
+    },
+    {
+      "it": "scontrino",
+      "es": "el tique",
+      "gender": "m",
+      "plural": "scontrini",
+      "note": "*Lo scontrino*, por la s impura. Conviene guardarlo."
+    },
+    {
+      "it": "resto",
+      "es": "el cambio (la vuelta)",
+      "gender": "m",
+      "plural": "resti",
+      "note": "*Tenga il resto*: quédese el cambio."
+    },
+    {
+      "it": "sconto",
+      "es": "el descuento",
+      "gender": "m",
+      "plural": "sconti",
+      "note": "*Lo sconto*, por la s impura."
+    },
+    {
+      "it": "saldi",
+      "es": "las rebajas",
+      "gender": null,
+      "plural": null,
+      "note": "Siempre en plural y masculino: *i saldi*. En enero y en julio."
+    },
+    {
+      "it": "contante",
+      "es": "el efectivo",
+      "gender": "m",
+      "plural": "contanti",
+      "note": "*In contanti*: en efectivo. Casi siempre en plural."
+    },
+    {
+      "it": "caro",
+      "es": "caro; querido",
+      "gender": null,
+      "plural": null,
+      "note": "Los dos sentidos, como en español. Femenino *cara*."
+    },
+    {
+      "it": "economico",
+      "es": "barato",
+      "gender": null,
+      "plural": null,
+      "note": "No existe una palabra corta para «barato». También *a buon mercato*."
+    },
+    {
+      "it": "costare",
+      "es": "costar",
+      "gender": null,
+      "plural": null,
+      "note": "*Quanto costa?* para uno, *quanto costano?* para varios."
+    }
+  ],
+  "grammar": [
+    {
+      "heading": "Las tiendas",
+      "body": "Casi todas acaban en **-eria**, que es el sufijo de «sitio donde se vende X». Sabiendo el producto sale la tienda: *gelato* → *gelateria*, *pizza* → *pizzeria*, *libro* → *libreria*, *fiore* → *fioreria*.\n\nY *la tabaccheria* es mucho más que un estanco: allí se compran los billetes de autobús, los sellos y las recargas del móvil. Se reconoce por una **T** blanca sobre fondo negro.",
+      "table": {
+        "headers": ["Italiano", "Español", "Qué se compra"],
+        "rows": [
+          ["il forno / la panetteria", "la panadería", "pan"],
+          ["la macelleria", "la carnicería", "carne"],
+          ["la pescheria", "la pescadería", "pescado"],
+          ["la salumeria", "la charcutería", "embutidos y quesos"],
+          ["la pasticceria", "la pastelería", "dulces"],
+          ["l'edicola", "el quiosco", "periódicos"],
+          ["la tabaccheria", "el estanco", "tabaco, sellos, billetes"],
+          ["il supermercato", "el supermercado", "de todo"]
+        ]
+      }
+    },
+    {
+      "heading": "Preguntar el precio",
+      "body": "*Costa* para una cosa, *costano* para varias: el italiano concuerda, igual que el español.\n\n*Quant'è?* con apóstrofo es la forma más corta y la que se oye al pagar.",
+      "table": {
+        "headers": ["Italiano", "Español"],
+        "rows": [
+          ["Quanto costa?", "¿Cuánto cuesta?"],
+          ["Quanto costano?", "¿Cuánto cuestan?"],
+          ["Quanto viene?", "¿Cuánto sale?"],
+          ["Quant'è?", "¿Cuánto es?"],
+          ["È troppo caro", "Es demasiado caro"],
+          ["C'è uno sconto?", "¿Hay descuento?"]
+        ]
+      }
+    },
+    {
+      "heading": "Pagar",
+      "body": "*Lo scontrino* hay que guardarlo: la ley obliga al comerciante a darlo y, en teoría, al cliente a llevarlo consigo al salir. Nadie lo comprueba casi nunca, pero el papel se da siempre.\n\nY la bolsa se paga, unos céntimos, igual que en España.",
+      "table": {
+        "headers": ["Italiano", "Español"],
+        "rows": [
+          ["Posso pagare con la carta?", "¿Puedo pagar con tarjeta?"],
+          ["In contanti", "En efectivo"],
+          ["Ecco lo scontrino", "Aquí tiene el tique"],
+          ["Tenga il resto", "Quédese el cambio"],
+          ["Ha spiccioli?", "¿Tiene suelto?"],
+          ["Vuole il sacchetto?", "¿Quiere bolsa?"]
+        ]
+      }
+    }
+  ],
+  "phrases": [
+    {
+      "it": "Quanto costa?",
+      "es": "¿Cuánto cuesta?",
+      "note": "Para una sola cosa."
+    },
+    {
+      "it": "Quanto costano queste mele?",
+      "es": "¿Cuánto cuestan estas manzanas?",
+      "note": "Plural, así que *costano*."
+    },
+    {
+      "it": "È troppo caro.",
+      "es": "Es demasiado caro.",
+      "note": "*Troppo* no concuerda aquí: acompaña a un adjetivo."
+    },
+    {
+      "it": "Posso pagare in contanti?",
+      "es": "¿Puedo pagar en efectivo?",
+      "note": "*In contanti*, en plural."
+    },
+    {
+      "it": "Ecco lo scontrino.",
+      "es": "Aquí tiene el tique.",
+      "note": "*Lo scontrino*, por la s impura."
+    },
+    {
+      "it": "Vado in panetteria a comprare il pane.",
+      "es": "Voy a la panadería a comprar el pan.",
+      "note": "*In* con las tiendas, y *a* + infinitivo para el propósito."
+    },
+    {
+      "it": "In tabaccheria vendono i biglietti dell'autobus.",
+      "es": "En el estanco venden los billetes de autobús.",
+      "note": "Sorprende la primera vez, pero es así en toda Italia."
+    },
+    {
+      "it": "Ci sono i saldi.",
+      "es": "Están de rebajas.",
+      "note": "*I saldi*, siempre en plural."
+    },
+    {
+      "it": "Un chilo di pomodori, quanto viene?",
+      "es": "Un kilo de tomates, ¿cuánto sale?",
+      "note": "*Quanto viene?* es lo que se oye en el mercado."
+    }
+  ],
+  "ojo": [
+    {
+      "title": "«Negozio» es tienda, no negocio",
+      "body": "**Il negozio** es **la tienda**, el local donde se compra.\n\n✓ *un negozio di scarpe* → una zapatería\n\n✓ *i negozi sono chiusi* → las tiendas están cerradas\n\nEl «negocio» español, en el sentido de trato o asunto, es *un affare*:\n\n✓ *è un buon affare* → es un buen negocio\n\nY el negocio como empresa es *un'attività* o *un'impresa*.\n\nDe paso, el tercer miembro de la familia, que ya viste en el módulo 2: **la tienda de campaña es *una tenda***, la misma palabra que la cortina. Las tres se confunden entre sí y conviene tenerlas juntas: *negozio* = tienda de comprar, *tenda* = cortina o tienda de acampar, *affare* = negocio."
+    },
+    {
+      "title": "«Fare la spesa» y «fare spese» no son lo mismo",
+      "body": "Un artículo y un número de diferencia, y cambia todo:\n\n**fare la spesa** → hacer la compra: comida, supermercado, cosas de casa\n\n**fare spese** → ir de compras: ropa, zapatos, capricho\n\n✓ *Il sabato faccio la spesa* → los sábados hago la compra\n\n✓ *Andiamo a fare spese* → vamos de compras\n\nY *lo shopping* también se usa en italiano, con la pronunciación inglesa, y siempre para lo segundo."
+    },
+    {
+      "title": "«Caro» es caro y también querido",
+      "body": "Tiene los dos sentidos que tiene en español, y los dos se usan a diario:\n\n✓ *è troppo caro* → es demasiado caro\n\n✓ *cara Anna* → querida Anna, al empezar una carta\n\n✓ *caro mio* → querido mío, muchas veces con guasa\n\nLo contrario de caro es *economico*, o la expresión *a buon mercato*. Conviene saberlo porque **en italiano no existe una palabra corta para «barato»**: hay que usar una de las dos.\n\n❌ *è barato* · ✓ *è economico*"
+    }
+  ],
+  "exercises": [
+    {
+      "type": "multiple-choice",
+      "prompt": "«Il negozio» es…",
+      "options": ["el negocio", "la tienda", "la tienda de campaña"],
+      "answer": 1,
+      "explain": "El negocio es *l'affare*; la tienda de campaña, *la tenda*."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "¿Dónde compras los billetes del autobús en Italia?",
+      "options": ["in edicola", "in tabaccheria", "in pasticceria"],
+      "answer": 1,
+      "explain": "El estanco vende tabaco, sellos, billetes y recargas."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "«¿Cuánto cuestan estas manzanas?» en italiano es…",
+      "options": ["Quanto costa queste mele?", "Quanto costano queste mele?", "Quanto costi queste mele?"],
+      "answer": 1,
+      "explain": "Plural detrás, plural delante: *costano*."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "«Vamos de compras» (ropa, zapatos) en italiano es…",
+      "options": ["Andiamo a fare la spesa", "Andiamo a fare spese", "Andiamo al negozio"],
+      "answer": 1,
+      "explain": "*Fare la spesa* es la compra de comida; *fare spese*, ir de tiendas."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Voy a la panadería: vado in ___",
+      "answer": ["panetteria"],
+      "explain": "También *al forno*, que es más frecuente."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "¿Puedo pagar en efectivo? Posso pagare in ___?",
+      "answer": ["contanti"],
+      "explain": "Casi siempre en plural."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Aquí tiene el tique: ecco ___ scontrino.",
+      "answer": ["lo"],
+      "explain": "*Scontrino* empieza por s impura: *lo*."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Es demasiado caro: è troppo ___",
+      "answer": ["caro"],
+      "explain": "Lo contrario sería *economico*."
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        ["la panetteria", "la panadería"],
+        ["la macelleria", "la carnicería"],
+        ["la pescheria", "la pescadería"],
+        ["la salumeria", "la charcutería"],
+        ["la pasticceria", "la pastelería"],
+        ["l'edicola", "el quiosco"]
+      ]
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        ["lo scontrino", "el tique"],
+        ["il resto", "el cambio"],
+        ["lo sconto", "el descuento"],
+        ["i saldi", "las rebajas"],
+        ["il sacchetto", "la bolsa"],
+        ["in contanti", "en efectivo"]
+      ]
+    },
+    {
+      "type": "word-order",
+      "words": ["Quanto", "costano", "queste", "mele", "?"],
+      "answer": "Quanto costano queste mele?",
+      "explain": "*Costano* concuerda con *mele*."
+    },
+    {
+      "type": "word-order",
+      "words": ["Vado", "in", "panetteria", "a", "comprare", "il", "pane"],
+      "answer": "Vado in panetteria a comprare il pane.",
+      "explain": "*A* + infinitivo para decir a qué vas."
+    },
+    {
+      "type": "translation",
+      "prompt": "¿Cuánto cuesta?",
+      "answer": ["Quanto costa?"],
+      "explain": "Para una sola cosa."
+    },
+    {
+      "type": "translation",
+      "prompt": "Las tiendas están cerradas.",
+      "answer": ["I negozi sono chiusi."],
+      "explain": "*Chiusi* concuerda con *negozi*, masculino plural."
+    },
+    {
+      "type": "listening",
+      "audio": "Quant'è? Posso pagare con la carta?",
+      "answer": ["Quant'è? Posso pagare con la carta?"],
+      "explain": "*Quant'è* con apóstrofo: *quanto* + *è*."
+    },
+    {
+      "type": "listening",
+      "audio": "In tabaccheria vendono i biglietti dell'autobus.",
+      "answer": ["In tabaccheria vendono i biglietti dell'autobus."],
+      "explain": "*Dell'* es *di* + *l'*."
+    }
+  ]
+}

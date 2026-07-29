@@ -1,0 +1,335 @@
+{
+  "id": "m08-l02",
+  "module": "m08",
+  "title": "En el restaurante",
+  "goal": "Al final de esta lección sabrás entrar en un restaurante italiano, pedir sin equivocarte de categoría de plato y entender por qué en la cuenta aparece una línea que no has pedido.",
+  "vocab": [
+    {
+      "it": "antipasto",
+      "es": "el entrante",
+      "gender": "m",
+      "plural": "antipasti",
+      "note": "Embutidos, verduras, *bruschette*. Antes del primero."
+    },
+    {
+      "it": "primo",
+      "es": "el primer plato",
+      "gender": "m",
+      "plural": "primi",
+      "note": "Pasta, risotto o sopa. Siempre. Nunca carne."
+    },
+    {
+      "it": "secondo",
+      "es": "el segundo plato",
+      "gender": "m",
+      "plural": "secondi",
+      "note": "Carne o pescado, solo, sin guarnición."
+    },
+    {
+      "it": "contorno",
+      "es": "la guarnición",
+      "gender": "m",
+      "plural": "contorni",
+      "note": "Se pide aparte y se paga aparte."
+    },
+    {
+      "it": "coperto",
+      "es": "el cubierto",
+      "gender": "m",
+      "plural": "coperti",
+      "note": "Una cantidad fija por persona que aparece en la cuenta."
+    },
+    {
+      "it": "mancia",
+      "es": "la propina",
+      "gender": "f",
+      "plural": "mance",
+      "note": "No es obligatoria en Italia: el *coperto* hace ese papel."
+    },
+    {
+      "it": "prenotazione",
+      "es": "la reserva",
+      "gender": "f",
+      "plural": "prenotazioni",
+      "note": "*Ho una prenotazione*. El verbo es *prenotare*."
+    },
+    {
+      "it": "piatto",
+      "es": "el plato",
+      "gender": "m",
+      "plural": "piatti",
+      "note": "El objeto y la comida: *il piatto del giorno*."
+    },
+    {
+      "it": "forchetta",
+      "es": "el tenedor",
+      "gender": "f",
+      "plural": "forchette",
+      "note": "Con dos tes."
+    },
+    {
+      "it": "coltello",
+      "es": "el cuchillo",
+      "gender": "m",
+      "plural": "coltelli",
+      "note": "Con dos eles."
+    },
+    {
+      "it": "cucchiaio",
+      "es": "la cuchara",
+      "gender": "m",
+      "plural": "cucchiai",
+      "note": "Masculino, al contrario del español. *Il cucchiaino* es la cucharilla."
+    },
+    {
+      "it": "tovagliolo",
+      "es": "la servilleta",
+      "gender": "m",
+      "plural": "tovaglioli",
+      "note": "De *tovaglia*, el mantel."
+    },
+    {
+      "it": "cotto",
+      "es": "cocido, hecho",
+      "gender": null,
+      "plural": null,
+      "note": "*Ben cotto*: muy hecho. Lo contrario, para la carne, es *al sangue*."
+    },
+    {
+      "it": "crudo",
+      "es": "crudo",
+      "gender": null,
+      "plural": null,
+      "note": "*Il prosciutto crudo* es el jamón curado."
+    },
+    {
+      "it": "saporito",
+      "es": "sabroso",
+      "gender": null,
+      "plural": null,
+      "note": "Femenino *saporita*. También significa «salado de más»."
+    }
+  ],
+  "grammar": [
+    {
+      "heading": "La estructura del menú",
+      "body": "No hay que pedirlo todo. Lo normal es *primo* + *contorno*, o *secondo* + *contorno*, o simplemente un *primo*. Pedir los cinco es un banquete de domingo.\n\nY el café va **después** del postre, nunca a la vez, y se pide aparte cuando ya han retirado el plato.",
+      "table": {
+        "headers": ["Italiano", "Qué es"],
+        "rows": [
+          ["l'antipasto", "entrante: embutidos, verduras, bruschette"],
+          ["il primo", "pasta, risotto o sopa"],
+          ["il secondo", "carne o pescado"],
+          ["il contorno", "verdura o patatas, aparte"],
+          ["il dolce", "postre"],
+          ["il caffè", "al final, siempre solo"]
+        ]
+      }
+    },
+    {
+      "heading": "Pedir",
+      "body": "*Per me…* es la fórmula más natural cuando sois varios en la mesa, y no necesita verbo: *per me la pasta al pomodoro*.\n\n*Prendo…* también vale y suena más resuelto. *Vorrei…* es el más cortés de los tres. Los tres son correctos.",
+      "table": {
+        "headers": ["Italiano", "Español"],
+        "rows": [
+          ["Vorrei…", "Quería…"],
+          ["Per me…", "Para mí…"],
+          ["Prendo…", "Voy a tomar…"],
+          ["Che cosa mi consiglia?", "¿Qué me aconseja?"],
+          ["È piccante?", "¿Pica?"],
+          ["Senza glutine, per favore", "Sin gluten, por favor"],
+          ["Il conto, per favore", "La cuenta, por favor"]
+        ]
+      }
+    },
+    {
+      "heading": "Lo que te van a preguntar",
+      "body": "Todas son preguntas cerradas y todas se contestan con dos palabras. La del agua es la más frecuente, y se responde *naturale* o *frizzante* a secas.\n\n*Avete una prenotazione?* va en *voi* aunque te traten de usted: se dirige al grupo, no a ti sola.",
+      "table": {
+        "headers": ["Italiano", "Español"],
+        "rows": [
+          ["Avete una prenotazione?", "¿Tienen reserva?"],
+          ["Quanti siete?", "¿Cuántos son?"],
+          ["Da bere?", "¿Para beber?"],
+          ["Acqua naturale o frizzante?", "¿Agua sin gas o con gas?"],
+          ["Come contorno?", "¿De guarnición?"],
+          ["Tutto bene?", "¿Todo bien?"],
+          ["Prendete un caffè?", "¿Van a tomar café?"]
+        ]
+      }
+    }
+  ],
+  "phrases": [
+    {
+      "it": "Buonasera, abbiamo una prenotazione.",
+      "es": "Buenas noches, tenemos una reserva.",
+      "note": "*Buonasera* desde las seis."
+    },
+    {
+      "it": "Un tavolo per due, per favore.",
+      "es": "Una mesa para dos, por favor.",
+      "note": "Si no hay reserva."
+    },
+    {
+      "it": "Per me un primo e un contorno.",
+      "es": "Para mí un primer plato y una guarnición.",
+      "note": "Una comida perfectamente normal en Italia."
+    },
+    {
+      "it": "Che cosa mi consiglia?",
+      "es": "¿Qué me aconseja?",
+      "note": "De usted. Con *tu* sería *che cosa mi consigli?*"
+    },
+    {
+      "it": "Da bere, acqua naturale.",
+      "es": "Para beber, agua sin gas.",
+      "note": "*Da bere* sin verbo: es la fórmula fija."
+    },
+    {
+      "it": "È tutto molto buono.",
+      "es": "Está todo muy bueno.",
+      "note": "*Buono* para la comida."
+    },
+    {
+      "it": "Il conto, per favore.",
+      "es": "La cuenta, por favor.",
+      "note": null
+    },
+    {
+      "it": "Posso pagare con la carta?",
+      "es": "¿Puedo pagar con tarjeta?",
+      "note": "Hoy en día aceptan tarjeta casi en todas partes."
+    },
+    {
+      "it": "Scusi, c'è un errore nel conto.",
+      "es": "Perdone, hay un error en la cuenta.",
+      "note": "Dicho con calma, funciona igual que en cualquier sitio."
+    }
+  ],
+  "ojo": [
+    {
+      "title": "«Il primo» y «il secondo» son platos, no puestos",
+      "body": "No son «el primero» y «el segundo» de una fila: son **categorías fijas** del menú italiano, y no se mezclan.\n\n**Il primo** — pasta, risotto o sopa. Siempre. Nunca carne.\n\n**Il secondo** — carne o pescado. Solo eso.\n\n**Il contorno** — la verdura o las patatas. Se pide aparte y se paga aparte.\n\nEsto último sorprende a todo el mundo la primera vez: si pides una *bistecca*, llega la carne sola en el plato, sin patatas y sin ensalada. Si las quieres, hay que pedirlas.\n\nY no hace falta pedir un primero y un segundo: solo un *primo* es una comida completa y nadie te va a mirar raro."
+    },
+    {
+      "title": "«Il coperto» existe, y se paga",
+      "body": "*Il coperto* es una cantidad fija por persona — normalmente entre uno y tres euros — que aparece en la cuenta. Cubre el pan, el mantel y el servicio de mesa.\n\nNo es una estafa ni un error: es legal y está escrito en la carta, casi siempre en letra pequeña al final.\n\n✓ *Il coperto è due euro a persona.*\n\nA cambio, **la propina no es obligatoria**. En Italia se deja algo si el sitio ha estado muy bien, y se deja poco: redondear al alza, un par de euros. Nada parecido al quince por ciento americano.\n\nEn algunos sitios, en vez de *coperto*, cobran *pane e coperto* o un *servizio* en porcentaje. Está indicado igualmente."
+    },
+    {
+      "title": "El café va al final, y nunca es cappuccino",
+      "body": "Dos reglas no escritas que en Italia se respetan a rajatabla.\n\n**El café va después del postre**, no con él. Se pide cuando ya han retirado el plato.\n\n**Después de comer no se toma cappuccino.** El cappuccino es cosa del desayuno. Pedirlo a las tres de la tarde no está prohibido, pero te van a mirar, y probablemente te lo comenten.\n\nSi quieres algo más largo que un espresso después de comer, las opciones son *un caffè lungo*, *un caffè macchiato* — con una gota de leche — o *un ammazzacaffè*, que es directamente un licor."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "multiple-choice",
+      "prompt": "Pides «un primo». ¿Qué te va a llegar?",
+      "options": ["carne o pescado", "pasta, arroz o sopa", "un entrante de embutidos"],
+      "answer": 1,
+      "explain": "*Il primo* es siempre pasta, risotto o sopa."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Pides una «bistecca» como secondo. ¿Qué llega en el plato?",
+      "options": ["la carne con patatas", "la carne sola", "la carne con ensalada"],
+      "answer": 1,
+      "explain": "La guarnición es *il contorno* y se pide aparte."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "En la cuenta aparece «coperto: 2 €». Es…",
+      "options": ["un error", "el cargo fijo por persona", "la propina obligatoria"],
+      "answer": 1,
+      "explain": "Cubre el pan y el servicio de mesa. Es legal y está en la carta."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Son las tres de la tarde y acabas de comer. ¿Qué NO pides?",
+      "options": ["un caffè", "un cappuccino", "un caffè macchiato"],
+      "answer": 1,
+      "explain": "El cappuccino es del desayuno. Después de comer, espresso."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Tenemos una reserva: abbiamo una ___",
+      "answer": ["prenotazione"],
+      "explain": "El verbo es *prenotare*."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Para mí la pasta: ___ me la pasta.",
+      "answer": ["Per"],
+      "explain": "*Per me* no necesita verbo."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "La guarnición se llama il ___",
+      "answer": ["contorno"],
+      "explain": "Se pide y se paga aparte."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "La cuenta, por favor: il ___, per favore.",
+      "answer": ["conto"],
+      "explain": "*Il conto* es la cuenta; *il coperto*, el cargo fijo que viene dentro."
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        ["l'antipasto", "el entrante"],
+        ["il primo", "pasta o arroz"],
+        ["il secondo", "carne o pescado"],
+        ["il contorno", "la guarnición"],
+        ["il dolce", "el postre"],
+        ["il coperto", "el cargo por cubierto"]
+      ]
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        ["la forchetta", "el tenedor"],
+        ["il coltello", "el cuchillo"],
+        ["il cucchiaio", "la cuchara"],
+        ["il tovagliolo", "la servilleta"],
+        ["il piatto", "el plato"],
+        ["la mancia", "la propina"]
+      ]
+    },
+    {
+      "type": "word-order",
+      "words": ["Per", "me", "un", "primo", "e", "un", "contorno"],
+      "answer": "Per me un primo e un contorno.",
+      "explain": "Sin verbo: *per me* basta."
+    },
+    {
+      "type": "word-order",
+      "words": ["Buonasera", "abbiamo", "una", "prenotazione"],
+      "answer": "Buonasera, abbiamo una prenotazione.",
+      "explain": "*Abbiamo*, sin h."
+    },
+    {
+      "type": "translation",
+      "prompt": "¿Qué me aconseja?",
+      "answer": ["Che cosa mi consiglia?", "Cosa mi consiglia?"],
+      "explain": "De usted. Con *tu*: *cosa mi consigli?*"
+    },
+    {
+      "type": "translation",
+      "prompt": "Para beber, agua sin gas.",
+      "answer": ["Da bere, acqua naturale."],
+      "explain": "*Naturale* es sin gas; *frizzante*, con gas."
+    },
+    {
+      "type": "listening",
+      "audio": "Il conto, per favore. Posso pagare con la carta?",
+      "answer": ["Il conto, per favore. Posso pagare con la carta?"],
+      "explain": "Las dos frases del final de cualquier comida."
+    },
+    {
+      "type": "listening",
+      "audio": "Per me un primo, un contorno e un caffè.",
+      "answer": ["Per me un primo, un contorno e un caffè."],
+      "explain": "El café al final, siempre."
+    }
+  ]
+}

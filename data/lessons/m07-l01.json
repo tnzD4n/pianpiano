@@ -1,0 +1,335 @@
+{
+  "id": "m07-l01",
+  "module": "m07",
+  "title": "La casa y los muebles",
+  "goal": "Al final de esta lección sabrás describir dónde vives con essere, avere y c'è, y sabrás cuándo una habitación es «stanza» y cuándo es «camera».",
+  "vocab": [
+    {
+      "it": "appartamento",
+      "es": "el piso",
+      "gender": "m",
+      "plural": "appartamenti",
+      "note": "El italiano no distingue «piso» y «apartamento»: es la misma palabra."
+    },
+    {
+      "it": "stanza",
+      "es": "la habitación",
+      "gender": "f",
+      "plural": "stanze",
+      "note": "Cualquier habitación de la casa. La de dormir es *la camera*."
+    },
+    {
+      "it": "cucina",
+      "es": "la cocina",
+      "gender": "f",
+      "plural": "cucine",
+      "note": "La habitación y también el arte de cocinar: *la cucina italiana*."
+    },
+    {
+      "it": "soggiorno",
+      "es": "el salón",
+      "gender": "m",
+      "plural": "soggiorni",
+      "note": "También *il salotto*. Y como nombre común, «la estancia» de un viaje."
+    },
+    {
+      "it": "balcone",
+      "es": "el balcón",
+      "gender": "m",
+      "plural": "balconi",
+      "note": "*Il balcone*. La terraza grande es *il terrazzo*."
+    },
+    {
+      "it": "giardino",
+      "es": "el jardín",
+      "gender": "m",
+      "plural": "giardini",
+      "note": null
+    },
+    {
+      "it": "muro",
+      "es": "la pared, el muro",
+      "gender": "m",
+      "plural": "muri",
+      "note": "*Il muro* es el exterior; *la parete*, la pared de dentro. Las murallas son *le mura*, femenino."
+    },
+    {
+      "it": "pavimento",
+      "es": "el suelo",
+      "gender": "m",
+      "plural": "pavimenti",
+      "note": "El de dentro de casa. El de la calle es *l'asfalto*."
+    },
+    {
+      "it": "tetto",
+      "es": "el tejado",
+      "gender": "m",
+      "plural": "tetti",
+      "note": "Con dos tes."
+    },
+    {
+      "it": "mobile",
+      "es": "el mueble",
+      "gender": "m",
+      "plural": "mobili",
+      "note": "*I mobili*. Como adjetivo significa «móvil»: *il telefono mobile*."
+    },
+    {
+      "it": "divano",
+      "es": "el sofá",
+      "gender": "m",
+      "plural": "divani",
+      "note": "*Il divano letto* es el sofá cama."
+    },
+    {
+      "it": "armadio",
+      "es": "el armario",
+      "gender": "m",
+      "plural": "armadi",
+      "note": "*L'armadio*, con apóstrofo."
+    },
+    {
+      "it": "frigorifero",
+      "es": "la nevera",
+      "gender": "m",
+      "plural": "frigoriferi",
+      "note": "Todo el mundo dice *il frigo*."
+    },
+    {
+      "it": "lavatrice",
+      "es": "la lavadora",
+      "gender": "f",
+      "plural": "lavatrici",
+      "note": "El lavavajillas es *la lavastoviglie*."
+    },
+    {
+      "it": "affitto",
+      "es": "el alquiler",
+      "gender": "m",
+      "plural": "affitti",
+      "note": "*Essere in affitto*: vivir de alquiler. Con dos efes y dos tes."
+    }
+  ],
+  "grammar": [
+    {
+      "heading": "Las habitaciones",
+      "body": "Una advertencia de vocabulario antes de empezar: *il piano* no es la vivienda, es la planta del edificio. *Abito al terzo piano* significa «vivo en la tercera planta».",
+      "table": {
+        "headers": ["Italiano", "Español"],
+        "rows": [
+          ["l'appartamento", "el piso"],
+          ["la stanza", "la habitación (cualquiera)"],
+          ["la camera da letto", "el dormitorio"],
+          ["la cucina", "la cocina"],
+          ["il soggiorno", "el salón"],
+          ["il bagno", "el baño"],
+          ["il corridoio", "el pasillo"],
+          ["il balcone", "el balcón"]
+        ]
+      }
+    },
+    {
+      "heading": "Describir la casa con lo que ya sabes",
+      "body": "Con tres construcciones que ya tienes se describe una vivienda entera:\n\n**essere** + adjetivo — cómo es\n\n**avere** + nombre — qué tiene\n\n**c'è / ci sono** — qué hay\n\n❌ *La casa ha grande* · ✓ *La casa è grande*",
+      "table": {
+        "headers": ["Italiano", "Español"],
+        "rows": [
+          ["La casa è grande", "La casa es grande"],
+          ["La cucina è piccola", "La cocina es pequeña"],
+          ["L'appartamento ha due bagni", "El piso tiene dos baños"],
+          ["C'è un balcone", "Hay un balcón"],
+          ["Ci sono tre stanze", "Hay tres habitaciones"],
+          ["Non c'è l'ascensore", "No hay ascensor"]
+        ]
+      }
+    },
+    {
+      "heading": "Entrar y salir de casa",
+      "body": "*Casa* va **sin artículo** en todas estas expresiones, igual que en español. Lo que cambia es la preposición, y hay que aprenderla con la expresión entera.",
+      "table": {
+        "headers": ["Italiano", "Español"],
+        "rows": [
+          ["uscire di casa", "salir de casa"],
+          ["andare a casa", "ir a casa"],
+          ["tornare a casa", "volver a casa"],
+          ["essere a casa", "estar en casa"],
+          ["stare a casa", "quedarse en casa"],
+          ["in casa", "dentro de casa"]
+        ]
+      }
+    }
+  ],
+  "phrases": [
+    {
+      "it": "Abito in un appartamento in centro.",
+      "es": "Vivo en un piso en el centro.",
+      "note": null
+    },
+    {
+      "it": "L'appartamento ha due stanze e un bagno.",
+      "es": "El piso tiene dos habitaciones y un baño.",
+      "note": "Así se anuncian los pisos en Italia: por número de *stanze*."
+    },
+    {
+      "it": "C'è il balcone?",
+      "es": "¿Tiene balcón?",
+      "note": "Con artículo: *il balcone*, aunque en español no lo pongamos."
+    },
+    {
+      "it": "Non c'è l'ascensore, ci sono le scale.",
+      "es": "No hay ascensor, hay escaleras.",
+      "note": "Frase muy oída en los centros históricos italianos."
+    },
+    {
+      "it": "La cucina è piccola ma c'è tutto.",
+      "es": "La cocina es pequeña pero está todo.",
+      "note": "*Ma* es «pero»."
+    },
+    {
+      "it": "Esco di casa alle otto.",
+      "es": "Salgo de casa a las ocho.",
+      "note": "*Uscire di casa*: con *di* y sin artículo."
+    },
+    {
+      "it": "Torno a casa tardi.",
+      "es": "Vuelvo a casa tarde.",
+      "note": null
+    },
+    {
+      "it": "Sono in affitto.",
+      "es": "Vivo de alquiler.",
+      "note": "Literalmente «estoy en alquiler». Es la fórmula normal."
+    },
+    {
+      "it": "Ci sono due divani in soggiorno.",
+      "es": "Hay dos sofás en el salón.",
+      "note": "*In soggiorno*, sin artículo."
+    }
+  ],
+  "ojo": [
+    {
+      "title": "«Stanza» y «camera» no son lo mismo",
+      "body": "**La stanza** es cualquier habitación de la casa. **La camera** es la de dormir, y es también la palabra de los hoteles.\n\n✓ *un appartamento di tre stanze* → un piso de tres habitaciones\n\n✓ *la camera da letto* → el dormitorio\n\n✓ *una camera doppia* → una habitación doble, en un hotel\n\nEn un hotel se dice siempre *camera*, nunca *stanza*. En una casa, *stanza* para las de vivir y *camera* para las de dormir.\n\nY recuerda lo del módulo 6: *la camera* tampoco es la cámara de fotos."
+    },
+    {
+      "title": "«Salir de casa» es «uscire di casa»",
+      "body": "Tres cosas se juntan en esta expresión, y el español las hace todas de otra manera:\n\n**uscire**, no *salire* — porque *salire* es subir\n\n**di**, no *da* — la fórmula fija es *di casa*\n\n**sin artículo** — *di casa*, no *della casa*\n\n❌ *salgo dalla casa* · ✓ *esco di casa*\n\nCon otros sitios sí se usa *da*: *esco dal bar*, *esco dall'ufficio*, *esco dalla stazione*. Pero con *casa* la expresión es fija y hay que aprenderla entera."
+    },
+    {
+      "title": "«Il pavimento» es el suelo de dentro",
+      "body": "**Il pavimento** es **el suelo** de una habitación, el que se pisa dentro de casa.\n\n✓ *il pavimento della cucina* → el suelo de la cocina\n\nEl pavimento de la calle es *l'asfalto*. Y *il piano* no es ninguno de los dos: es la planta del edificio.\n\n✓ *Abito al terzo piano* → vivo en la tercera planta\n\nPara «en el suelo», en el sentido de por tierra, se dice *per terra*: *dormire per terra*, dormir en el suelo."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "multiple-choice",
+      "prompt": "En un hotel pides una habitación doble. ¿Qué palabra usas?",
+      "options": ["una stanza doppia", "una camera doppia", "un appartamento doppio"],
+      "answer": 1,
+      "explain": "En los hoteles siempre *camera*."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "«Salgo de casa a las ocho» en italiano es…",
+      "options": ["Salgo dalla casa alle otto", "Esco di casa alle otto", "Esco dalla casa alle otto"],
+      "answer": 1,
+      "explain": "*Uscire di casa*: con *di*, sin artículo, y con *uscire*, no *salire*."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "«La casa es grande» en italiano es…",
+      "options": ["La casa ha grande", "La casa è grande", "La casa c'è grande"],
+      "answer": 1,
+      "explain": "*Essere* + adjetivo para decir cómo es algo."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "«Il pavimento» es…",
+      "options": ["el pavimento de la calle", "el suelo de casa", "la planta del edificio"],
+      "answer": 1,
+      "explain": "El de la calle es *l'asfalto*; la planta es *il piano*."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "L'appartamento ___ due bagni.",
+      "answer": ["ha"],
+      "explain": "*Avere* para lo que algo tiene."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "___ tre stanze e una cucina.",
+      "answer": ["Ci sono"],
+      "explain": "Plural detrás, así que *ci sono*."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Salgo de casa: esco ___ casa.",
+      "answer": ["di"],
+      "explain": "*Di casa*, sin artículo."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "El dormitorio: la ___ da letto.",
+      "answer": ["camera"],
+      "explain": "*Camera*, no *stanza*."
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        ["la cucina", "la cocina"],
+        ["il soggiorno", "el salón"],
+        ["il bagno", "el baño"],
+        ["il balcone", "el balcón"],
+        ["il giardino", "el jardín"],
+        ["il tetto", "el tejado"]
+      ]
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        ["il divano", "el sofá"],
+        ["l'armadio", "el armario"],
+        ["il frigorifero", "la nevera"],
+        ["la lavatrice", "la lavadora"],
+        ["il muro", "la pared"],
+        ["l'affitto", "el alquiler"]
+      ]
+    },
+    {
+      "type": "word-order",
+      "words": ["Abito", "in", "un", "appartamento", "in", "centro"],
+      "answer": "Abito in un appartamento in centro.",
+      "explain": "*In centro*, sin artículo."
+    },
+    {
+      "type": "word-order",
+      "words": ["Non", "c'è", "l'ascensore", "ci", "sono", "le", "scale"],
+      "answer": "Non c'è l'ascensore, ci sono le scale.",
+      "explain": "Singular y plural en la misma frase: *c'è* y *ci sono*."
+    },
+    {
+      "type": "translation",
+      "prompt": "Vivo de alquiler.",
+      "answer": ["Sono in affitto."],
+      "explain": "Literalmente «estoy en alquiler»."
+    },
+    {
+      "type": "translation",
+      "prompt": "El piso tiene dos habitaciones.",
+      "answer": ["L'appartamento ha due stanze."],
+      "explain": "*Stanze* para las habitaciones en general."
+    },
+    {
+      "type": "listening",
+      "audio": "Esco di casa alle otto e torno tardi.",
+      "answer": ["Esco di casa alle otto e torno tardi."],
+      "explain": "*Di casa* al salir, *a casa* al volver."
+    },
+    {
+      "type": "listening",
+      "audio": "C'è un balcone e un piccolo giardino.",
+      "answer": ["C'è un balcone e un piccolo giardino."],
+      "explain": "*Piccolo* delante del nombre, como suele ir."
+    }
+  ]
+}

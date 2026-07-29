@@ -1,0 +1,331 @@
+{
+  "id": "m07-l03",
+  "module": "m07",
+  "title": "Preposiciones articuladas",
+  "goal": "Al final de esta lección sabrás fundir las preposiciones con el artículo, que en italiano es obligatorio y pasa treinta y cinco veces donde el español solo lo hace dos.",
+  "vocab": [
+    {
+      "it": "tavola",
+      "es": "la mesa (puesta)",
+      "gender": "f",
+      "plural": "tavole",
+      "note": "*A tavola!*: ¡a comer! *Il tavolo* es el mueble."
+    },
+    {
+      "it": "tasca",
+      "es": "el bolsillo",
+      "gender": "f",
+      "plural": "tasche",
+      "note": "Plural con h: *le tasche*."
+    },
+    {
+      "it": "cassetto",
+      "es": "el cajón",
+      "gender": "m",
+      "plural": "cassetti",
+      "note": "Dos eses y dos tes."
+    },
+    {
+      "it": "scaffale",
+      "es": "la estantería",
+      "gender": "m",
+      "plural": "scaffali",
+      "note": "*Lo scaffale*, por la s impura."
+    },
+    {
+      "it": "fondo",
+      "es": "el fondo",
+      "gender": "m",
+      "plural": "fondi",
+      "note": "*In fondo a*: al fondo de. *In fondo* solo: en el fondo, en realidad."
+    },
+    {
+      "it": "cortile",
+      "es": "el patio",
+      "gender": "m",
+      "plural": "cortili",
+      "note": "El de un edificio. *Nel cortile*."
+    },
+    {
+      "it": "spiaggia",
+      "es": "la playa",
+      "gender": "f",
+      "plural": "spiagge",
+      "note": "Plural *spiagge*, sin la i."
+    },
+    {
+      "it": "montagna",
+      "es": "la montaña",
+      "gender": "f",
+      "plural": "montagne",
+      "note": "*In montagna*, sin artículo, para ir de vacaciones."
+    },
+    {
+      "it": "campagna",
+      "es": "el campo",
+      "gender": "f",
+      "plural": "campagne",
+      "note": "Lo contrario de la ciudad. *In campagna*."
+    },
+    {
+      "it": "lago",
+      "es": "el lago",
+      "gender": "m",
+      "plural": "laghi",
+      "note": "Plural con h. *Al lago*."
+    },
+    {
+      "it": "mare",
+      "es": "el mar",
+      "gender": "m",
+      "plural": "mari",
+      "note": "*Al mare* es «a la playa», no «al mar»."
+    },
+    {
+      "it": "bosco",
+      "es": "el bosque",
+      "gender": "m",
+      "plural": "boschi",
+      "note": "Plural con h: *i boschi*."
+    },
+    {
+      "it": "ponte",
+      "es": "el puente",
+      "gender": "m",
+      "plural": "ponti",
+      "note": "También el puente de días festivos, igual que en español."
+    },
+    {
+      "it": "fiume",
+      "es": "el río",
+      "gender": "m",
+      "plural": "fiumi",
+      "note": "Masculino, como en español."
+    },
+    {
+      "it": "strada",
+      "es": "la calle, la carretera",
+      "gender": "f",
+      "plural": "strade",
+      "note": "*La strada* es genérica; *la via* es la de las direcciones postales."
+    }
+  ],
+  "grammar": [
+    {
+      "heading": "La tabla completa",
+      "body": "Cinco preposiciones se funden con el artículo y forman **una sola palabra**. El mecanismo siempre es el mismo: la preposición pierde su forma suelta y el artículo se pega detrás, doblando la consonante en las formas femeninas y en *nello*, *sullo*, *dallo*.\n\nLa tabla asusta a primera vista y no hay que memorizarla de golpe: se aprende usándola.",
+      "table": {
+        "headers": ["", "il", "lo", "l'", "la", "i", "gli", "le"],
+        "rows": [
+          ["di", "del", "dello", "dell'", "della", "dei", "degli", "delle"],
+          ["a", "al", "allo", "all'", "alla", "ai", "agli", "alle"],
+          ["da", "dal", "dallo", "dall'", "dalla", "dai", "dagli", "dalle"],
+          ["in", "nel", "nello", "nell'", "nella", "nei", "negli", "nelle"],
+          ["su", "sul", "sullo", "sull'", "sulla", "sui", "sugli", "sulle"]
+        ]
+      }
+    },
+    {
+      "heading": "Las que no se funden",
+      "body": "**Con**, **per**, **tra** y **fra** se quedan sueltas delante del artículo. La única excepción es *col* (= *con il*), que se oye al hablar pero se escribe poco.\n\n❌ *pel lavoro* — existía hace cien años, hoy sería una falta",
+      "table": {
+        "headers": ["Italiano", "Español"],
+        "rows": [
+          ["con il treno", "con el tren"],
+          ["per il lavoro", "para el trabajo"],
+          ["tra i due", "entre los dos"],
+          ["fra le case", "entre las casas"]
+        ]
+      }
+    },
+    {
+      "heading": "El italiano contrae mucho más",
+      "body": "El español tiene **dos** contracciones, y solo con el masculino singular: *al* y *del*. El italiano tiene **treinta y cinco**.\n\nPor eso el error de un hispanohablante casi nunca es equivocarse de forma: es **no contraer**, dejar la preposición y el artículo separados como se haría en español.\n\n❌ *a la spiaggia* · ✓ *alla spiaggia*\n\n❌ *in il bosco* · ✓ *nel bosco*\n\n❌ *di la casa* · ✓ *della casa*",
+      "table": {
+        "headers": ["Español", "Italiano"],
+        "rows": [
+          ["a la playa", "alla spiaggia"],
+          ["del médico", "dal medico"],
+          ["en la calle", "nella strada"],
+          ["sobre la mesa", "sulla tavola"],
+          ["de los amigos", "degli amici"],
+          ["a las ocho", "alle otto"],
+          ["en el bosque", "nel bosco"]
+        ]
+      }
+    }
+  ],
+  "phrases": [
+    {
+      "it": "Andiamo al mare!",
+      "es": "¡Vamos a la playa!",
+      "note": "*Al mare* es lo que en español es «a la playa»."
+    },
+    {
+      "it": "In estate vado in montagna.",
+      "es": "En verano voy a la montaña.",
+      "note": "*In montagna* sin artículo, pero *alla montagna* si es una montaña concreta."
+    },
+    {
+      "it": "Il libro è sul tavolo.",
+      "es": "El libro está sobre la mesa.",
+      "note": "*Sul* es *su* + *il*."
+    },
+    {
+      "it": "Le chiavi sono nella borsa.",
+      "es": "Las llaves están en el bolso.",
+      "note": "*Nella* es *in* + *la*."
+    },
+    {
+      "it": "Vengo dalla stazione.",
+      "es": "Vengo de la estación.",
+      "note": "*Dalla* es *da* + *la*."
+    },
+    {
+      "it": "La casa degli amici di Marco.",
+      "es": "La casa de los amigos de Marco.",
+      "note": "*Degli* con el artículo, *di* sin él delante de un nombre propio."
+    },
+    {
+      "it": "C'è un ponte sul fiume.",
+      "es": "Hay un puente sobre el río.",
+      "note": null
+    },
+    {
+      "it": "Abito in fondo alla strada.",
+      "es": "Vivo al final de la calle.",
+      "note": "*In fondo a* + artículo contraído."
+    },
+    {
+      "it": "Ci vediamo alle otto davanti al cinema.",
+      "es": "Nos vemos a las ocho delante del cine.",
+      "note": "*Alle* para la hora, *al* detrás de *davanti a*."
+    }
+  ],
+  "ojo": [
+    {
+      "title": "El error no es la forma: es no contraer",
+      "body": "El español solo contrae *a + el* y *de + el*. Todo lo demás lo deja separado, y esa costumbre se arrastra al italiano.\n\n❌ *Vado a la spiaggia* · ✓ *Vado alla spiaggia*\n\n❌ *Le chiavi sono in la borsa* · ✓ *Le chiavi sono nella borsa*\n\n❌ *Il libro è su il tavolo* · ✓ *Il libro è sul tavolo*\n\n❌ *La casa di il mio amico* · ✓ *La casa del mio amico*\n\nLa fusión no es optativa ni «más elegante»: es obligatoria. Escribir *a la* o *in il* en italiano es como escribir *a el* en español.\n\nY se aplica también a las expresiones que ya conoces: *alle otto*, *dal medico*, *all'estero*, *all'angolo*."
+    },
+    {
+      "title": "Con, per, tra y fra se quedan sueltas",
+      "body": "Solo se funden cinco preposiciones: **di, a, da, in, su**. Las otras tres, no.\n\n✓ *con il treno* · ✓ *per il lavoro* · ✓ *tra i due*\n\nExiste *col* (= *con il*) y se oye mucho al hablar, pero al escribir es mejor poner *con il*. Las demás formas antiguas — *pel*, *pei*, *collo* — están muertas.\n\nUna manera fácil de recordarlo: se funden las cinco preposiciones cortas de una sílaba corta. *Con*, *per*, *tra* y *fra* pesan más y se quedan enteras."
+    },
+    {
+      "title": "«La campagna» es el campo",
+      "body": "**La campagna** es **el campo**, lo contrario de la ciudad.\n\n✓ *una casa in campagna* → una casa en el campo\n\n✓ *andare in campagna* → ir al campo\n\nLa palabra española «campaña» también existe con ese sentido — *la campagna elettorale*, *una campagna pubblicitaria* — pero el uso corriente es el otro.\n\nY ojo con el par completo: *il campo* en italiano es el terreno concreto, el de fútbol o el sembrado. El campo como paisaje es siempre *la campagna*."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "multiple-choice",
+      "prompt": "«A la playa» en italiano es…",
+      "options": ["a la spiaggia", "alla spiaggia", "al spiaggia"],
+      "answer": 1,
+      "explain": "*A* + *la* = *alla*. La fusión es obligatoria."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "«En el bosque» en italiano es…",
+      "options": ["in il bosco", "nel bosco", "nello bosco"],
+      "answer": 1,
+      "explain": "*In* + *il* = *nel*. *Nello* sería con *lo*."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "¿Cuál de estas preposiciones NO se funde con el artículo?",
+      "options": ["su", "da", "con"],
+      "answer": 2,
+      "explain": "Se funden *di, a, da, in, su*. *Con*, *per*, *tra* y *fra* no."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "«La campagna» es…",
+      "options": ["la campaña electoral, solo", "el campo", "el campo de fútbol"],
+      "answer": 1,
+      "explain": "El campo de fútbol es *il campo*."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Il libro è ___ tavolo. (su + il)",
+      "answer": ["sul"],
+      "explain": "*Su* + *il* = *sul*."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Le chiavi sono ___ borsa. (in + la)",
+      "answer": ["nella"],
+      "explain": "*In* + *la* = *nella*, con dos eles."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "La casa ___ amici. (di + gli)",
+      "answer": ["degli"],
+      "explain": "*Di* + *gli* = *degli*."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Vengo ___ stazione. (da + la)",
+      "answer": ["dalla"],
+      "explain": "*Da* + *la* = *dalla*."
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        ["del", "di + il"],
+        ["allo", "a + lo"],
+        ["dalle", "da + le"],
+        ["nell'", "in + l'"],
+        ["sugli", "su + gli"],
+        ["alla", "a + la"]
+      ]
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        ["la spiaggia", "la playa"],
+        ["la montagna", "la montaña"],
+        ["il bosco", "el bosque"],
+        ["il fiume", "el río"],
+        ["il ponte", "el puente"],
+        ["la strada", "la calle"]
+      ]
+    },
+    {
+      "type": "word-order",
+      "words": ["Le", "chiavi", "sono", "nella", "borsa"],
+      "answer": "Le chiavi sono nella borsa.",
+      "explain": "*Nella* en una sola palabra."
+    },
+    {
+      "type": "word-order",
+      "words": ["Ci", "vediamo", "alle", "otto", "davanti", "al", "cinema"],
+      "answer": "Ci vediamo alle otto davanti al cinema.",
+      "explain": "Dos contracciones: *alle* y *al*."
+    },
+    {
+      "type": "translation",
+      "prompt": "Vamos a la playa.",
+      "answer": ["Andiamo al mare.", "Andiamo alla spiaggia."],
+      "explain": "*Al mare* es lo que se dice normalmente."
+    },
+    {
+      "type": "translation",
+      "prompt": "El libro está sobre la mesa.",
+      "answer": ["Il libro è sul tavolo.", "Il libro è sulla tavola."],
+      "explain": "*Il tavolo* es el mueble; *la tavola*, la mesa puesta."
+    },
+    {
+      "type": "listening",
+      "audio": "Il libro è sullo scaffale, nella prima fila.",
+      "answer": ["Il libro è sullo scaffale, nella prima fila."],
+      "explain": "*Sullo* por la s impura de *scaffale*."
+    },
+    {
+      "type": "listening",
+      "audio": "Vengo dalla stazione, arrivo fra dieci minuti.",
+      "answer": ["Vengo dalla stazione, arrivo fra dieci minuti."],
+      "explain": "*Dalla* se funde; *fra* no, porque va sin artículo."
+    }
+  ]
+}

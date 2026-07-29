@@ -1,0 +1,335 @@
+{
+  "id": "m11-l01",
+  "module": "m11",
+  "title": "Los pronombres de objeto directo",
+  "goal": "Al final de esta lección sabrás decir «lo veo», «te llamo», «los conozco» sin repetir el nombre, y sabrás que en italiano el leísmo no existe.",
+  "vocab": [
+    {
+      "it": "aiutare",
+      "es": "ayudar",
+      "gender": null,
+      "plural": null,
+      "note": "Sin preposición: *aiuto Marco*, *mi aiuti?*"
+    },
+    {
+      "it": "invitare",
+      "es": "invitar",
+      "gender": null,
+      "plural": null,
+      "note": "*Ti invito a cena*, con *a* delante del infinitivo."
+    },
+    {
+      "it": "ringraziare",
+      "es": "dar las gracias",
+      "gender": null,
+      "plural": null,
+      "note": "*Ti ringrazio* es un «gracias» un punto más formal."
+    },
+    {
+      "it": "accompagnare",
+      "es": "acompañar",
+      "gender": null,
+      "plural": null,
+      "note": "Con el grupo gn: /ac-com-pa-ÑA-re/."
+    },
+    {
+      "it": "mandare",
+      "es": "mandar, enviar",
+      "gender": null,
+      "plural": null,
+      "note": "*Ti mando un messaggio*. También *inviare*, más formal."
+    },
+    {
+      "it": "salutare",
+      "es": "saludar",
+      "gender": null,
+      "plural": null,
+      "note": "*Salutami Anna!*: ¡saluda a Anna de mi parte!"
+    },
+    {
+      "it": "baciare",
+      "es": "besar",
+      "gender": null,
+      "plural": null,
+      "note": "*Un bacio* es un beso, y se usa para despedirse."
+    },
+    {
+      "it": "abbracciare",
+      "es": "abrazar",
+      "gender": null,
+      "plural": null,
+      "note": "Dos bes y dos ces. *Un abbraccio* al final de un mensaje."
+    },
+    {
+      "it": "seguire",
+      "es": "seguir",
+      "gender": null,
+      "plural": null,
+      "note": "Sin -isc-: *seguo*, *segui*, *segue*."
+    },
+    {
+      "it": "lasciare",
+      "es": "dejar",
+      "gender": null,
+      "plural": null,
+      "note": "*Lascia stare*: déjalo estar."
+    },
+    {
+      "it": "tenere",
+      "es": "sujetar, guardar",
+      "gender": null,
+      "plural": null,
+      "note": "No es «tener» de posesión: eso es *avere*."
+    },
+    {
+      "it": "messaggio",
+      "es": "el mensaje",
+      "gender": "m",
+      "plural": "messaggi",
+      "note": "Dos ges. En el móvil, *un messaggio* o directamente *un WhatsApp*."
+    },
+    {
+      "it": "voce",
+      "es": "la voz",
+      "gender": "f",
+      "plural": "voci",
+      "note": "*Una voce* también significa «un rumor»."
+    },
+    {
+      "it": "cosa",
+      "es": "la cosa",
+      "gender": "f",
+      "plural": "cose",
+      "note": "La misma palabra que la interrogativa *cosa*."
+    },
+    {
+      "it": "novità",
+      "es": "la novedad",
+      "gender": "f",
+      "plural": "novità",
+      "note": "Invariable. *Che novità?*: ¿qué hay de nuevo?"
+    }
+  ],
+  "grammar": [
+    {
+      "heading": "Los ocho pronombres",
+      "body": "Los de primera y segunda persona — **mi, ti, ci, vi** — son los mismos que ya conoces de los reflexivos. Los de tercera son nuevos: **lo, la, li, le**.\n\nVan **delante del verbo conjugado**, exactamente igual que en español.",
+      "table": {
+        "headers": ["Español", "Italiano", "Ejemplo"],
+        "rows": [
+          ["me", "mi", "mi aiuti?"],
+          ["te", "ti", "ti chiamo"],
+          ["lo (a él)", "lo", "lo vedo"],
+          ["la (a ella)", "la", "la vedo"],
+          ["nos", "ci", "ci aiuta"],
+          ["os", "vi", "vi chiamo"],
+          ["los", "li", "li vedo"],
+          ["las", "le", "le vedo"]
+        ]
+      }
+    },
+    {
+      "heading": "Dónde van",
+      "body": "**Delante del verbo conjugado**: *ti chiamo*, *lo vedo*, *ci aiuta*.\n\n**Pegados al infinitivo**, que pierde la -e: *chiamarti*, *vederlo*, *aiutarci*.\n\nCon dos verbos puedes elegir, igual que con los reflexivos: *ti voglio chiamare* o *voglio chiamarti*.\n\nY delante de vocal, *lo* y *la* se apostrofan. *Li* y *le* nunca.",
+      "table": {
+        "headers": ["Italiano", "Español"],
+        "rows": [
+          ["Ti chiamo dopo", "Te llamo luego"],
+          ["Lo vedo domani", "Lo veo mañana"],
+          ["Non la conosco", "No la conozco"],
+          ["Ci aiuti?", "¿Nos ayudas?"],
+          ["Voglio chiamarti", "Quiero llamarte"],
+          ["L'aiuto io", "Le ayudo yo"]
+        ]
+      }
+    },
+    {
+      "heading": "En pasado, el participio concuerda",
+      "body": "Aquí está el detalle que quedó pendiente en el módulo 10: cuando un pronombre de objeto directo va **delante** de un *passato prossimo* con *avere*, el participio **concuerda con el pronombre**.\n\nSin pronombre delante, nada cambia: *ho visto Anna*, no *ho vista Anna*.",
+      "table": {
+        "headers": ["Pregunta", "Respuesta"],
+        "rows": [
+          ["Hai visto Marco?", "Sì, l'ho visto"],
+          ["Hai visto Anna?", "Sì, l'ho vista"],
+          ["Hai visto i ragazzi?", "Sì, li ho visti"],
+          ["Hai visto le ragazze?", "Sì, le ho viste"],
+          ["Hai comprato il pane?", "Sì, l'ho comprato"],
+          ["Hai comprato la frutta?", "Sì, l'ho comprata"]
+        ]
+      }
+    }
+  ],
+  "phrases": [
+    {
+      "it": "Ti chiamo dopo.",
+      "es": "Te llamo luego.",
+      "note": null
+    },
+    {
+      "it": "Non lo so.",
+      "es": "No lo sé.",
+      "note": "*Lo* aquí sustituye a toda una idea, como en español."
+    },
+    {
+      "it": "Mi aiuti, per favore?",
+      "es": "¿Me ayudas, por favor?",
+      "note": "*Aiutare* no lleva preposición."
+    },
+    {
+      "it": "Ti ringrazio.",
+      "es": "Te doy las gracias.",
+      "note": "Un punto más formal que *grazie*."
+    },
+    {
+      "it": "L'ho vista ieri.",
+      "es": "La vi ayer.",
+      "note": "*Vista* con -a: el participio concuerda con *la*."
+    },
+    {
+      "it": "Li conosco bene.",
+      "es": "Los conozco bien.",
+      "note": "*Li* no se apostrofa nunca."
+    },
+    {
+      "it": "Salutami Anna!",
+      "es": "¡Saluda a Anna de mi parte!",
+      "note": "Con el pronombre pegado al imperativo."
+    },
+    {
+      "it": "Vi invito a cena.",
+      "es": "Os invito a cenar.",
+      "note": "*A* delante del infinitivo."
+    },
+    {
+      "it": "Ti mando un messaggio.",
+      "es": "Te mando un mensaje.",
+      "note": null
+    }
+  ],
+  "ojo": [
+    {
+      "title": "El leísmo no existe",
+      "body": "En español mucha gente dice «le vi» hablando de un hombre. En italiano eso no existe: el objeto directo masculino es **siempre lo**.\n\n❌ *gli vedo* · ✓ *lo vedo*\n\n❌ *gli ho visto* · ✓ *l'ho visto*\n\n*Gli* existe, pero es objeto **indirecto**: es el *gli* de *gli piace*, «a él le gusta». Nunca significa «lo».\n\n✓ *Lo vedo* → lo veo (a él)\n\n✓ *Gli parlo* → le hablo (a él)\n\nSi dudas, hazte la pregunta con el verbo: ver **a** alguien lleva *lo*; hablar **a** alguien lleva *gli*. El italiano es aquí más estricto que el español, y no admite la mezcla."
+    },
+    {
+      "title": "«Tenere» no es «tener» de posesión",
+      "body": "**Tenere** significa **sujetar, agarrar, guardar**. La posesión es *avere*.\n\n❌ *tengo due fratelli* · ✓ *ho due fratelli*\n\n✓ *tieni la borsa un attimo?* → ¿me sujetas el bolso un momento?\n\n✓ *tengo io le chiavi* → yo me quedo con las llaves\n\nEs un falso amigo silencioso, porque *tengo* existe en italiano y es perfectamente correcto: solo que significa otra cosa. Nadie te va a corregir, y habrás dicho que sujetas dos hermanos."
+    },
+    {
+      "title": "«L'ho visto» y «l'ho vista»: la última letra lo cambia todo",
+      "body": "*Lo* y *la* pierden la vocal delante de otra vocal y se apostrofan, con lo cual se vuelven idénticos:\n\n✓ *l'aiuto* → le ayudo (a él o a ella)\n\n✓ *l'ho visto* → lo he visto\n\n✓ *l'ho vista* → la he visto\n\nLa única diferencia entre las dos últimas es la **última letra del participio**. Esa letra dice si hablas de un hombre o de una mujer, y es lo único que lo dice.\n\nY *li* y *le* **no se apostrofan nunca**:\n\n❌ *l'ho visti* · ✓ *li ho visti*"
+    }
+  ],
+  "exercises": [
+    {
+      "type": "multiple-choice",
+      "prompt": "«Lo veo mañana» (a un hombre) en italiano es…",
+      "options": ["Gli vedo domani", "Lo vedo domani", "Le vedo domani"],
+      "answer": 1,
+      "explain": "El objeto directo masculino es siempre *lo*. *Gli* es indirecto."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "«La vi ayer» en italiano es…",
+      "options": ["L'ho visto ieri", "L'ho vista ieri", "La ho vista ieri"],
+      "answer": 1,
+      "explain": "Con el pronombre delante, el participio concuerda: *vista*."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "«Tengo dos hermanos» en italiano es…",
+      "options": ["Tengo due fratelli", "Ho due fratelli", "Tengo di due fratelli"],
+      "answer": 1,
+      "explain": "*Tenere* es sujetar. La posesión va con *avere*."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "«Los conozco bien» en italiano es…",
+      "options": ["L'ho conosco bene", "Li conosco bene", "Gli conosco bene"],
+      "answer": 1,
+      "explain": "*Li* para el masculino plural, y nunca se apostrofa."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Hai visto Anna? — Sì, ___ ho vista.",
+      "answer": ["l'"],
+      "explain": "*La* se apostrofa delante de *ho*."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Hai visto le ragazze? — Sì, ___ ho viste.",
+      "answer": ["le"],
+      "explain": "*Le* no se apostrofa, y el participio concuerda: *viste*."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Vuoi venire? ___ chiamo dopo. (a ti)",
+      "answer": ["Ti"],
+      "explain": "*Ti* es el mismo de los reflexivos."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Hai comprato il pane? — Sì, l'ho comprat___",
+      "answer": ["o"],
+      "explain": "*Pane* es masculino: el participio concuerda en *-o*."
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        ["mi", "me"],
+        ["ti", "te"],
+        ["lo", "lo (a él)"],
+        ["la", "la (a ella)"],
+        ["li", "los"],
+        ["le", "las"]
+      ]
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        ["ti chiamo", "te llamo"],
+        ["lo vedo", "lo veo"],
+        ["ci aiuta", "nos ayuda"],
+        ["vi invito", "os invito"],
+        ["l'ho vista", "la he visto"],
+        ["li ho visti", "los he visto"]
+      ]
+    },
+    {
+      "type": "word-order",
+      "words": ["Ti", "mando", "un", "messaggio", "dopo"],
+      "answer": "Ti mando un messaggio dopo.",
+      "explain": "El pronombre delante del verbo conjugado."
+    },
+    {
+      "type": "word-order",
+      "words": ["Non", "la", "conosco", "bene"],
+      "answer": "Non la conosco bene.",
+      "explain": "*Non* delante del pronombre, no del verbo."
+    },
+    {
+      "type": "translation",
+      "prompt": "¿Me ayudas, por favor?",
+      "answer": ["Mi aiuti, per favore?"],
+      "explain": "*Aiutare* no lleva preposición delante del pronombre."
+    },
+    {
+      "type": "translation",
+      "prompt": "No lo sé.",
+      "answer": ["Non lo so."],
+      "explain": "*Lo* sustituye a toda la idea, igual que en español."
+    },
+    {
+      "type": "listening",
+      "audio": "Ti chiamo dopo, adesso non posso.",
+      "answer": ["Ti chiamo dopo, adesso non posso."],
+      "explain": "*Non posso* con el *non* delante del verbo modal."
+    },
+    {
+      "type": "listening",
+      "audio": "L'ho vista ieri, ma non le ho parlato.",
+      "answer": ["L'ho vista ieri, ma non le ho parlato."],
+      "explain": "*L'ho vista* es directo y concuerda; *le ho parlato* es indirecto y no concuerda."
+    }
+  ]
+}

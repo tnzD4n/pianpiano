@@ -1,0 +1,332 @@
+{
+  "id": "m09-l03",
+  "module": "m09",
+  "title": "La familia y los posesivos",
+  "goal": "Al final de esta lección sabrás hablar de tu familia y usar los posesivos italianos, que llevan artículo delante salvo en un caso muy concreto.",
+  "vocab": [
+    {
+      "it": "famiglia",
+      "es": "la familia",
+      "gender": "f",
+      "plural": "famiglie",
+      "note": "Con el grupo *gli*: /fa-MÍ-lla/."
+    },
+    {
+      "it": "madre",
+      "es": "la madre",
+      "gender": "f",
+      "plural": "madri",
+      "note": "En el habla se dice mucho más *la mamma*."
+    },
+    {
+      "it": "padre",
+      "es": "el padre",
+      "gender": "m",
+      "plural": "padri",
+      "note": "En el habla, *il papà*, con acento en la última."
+    },
+    {
+      "it": "figlio",
+      "es": "el hijo",
+      "gender": "m",
+      "plural": "figli",
+      "note": "*I figli* vale para hijos e hijas juntos."
+    },
+    {
+      "it": "figlia",
+      "es": "la hija",
+      "gender": "f",
+      "plural": "figlie",
+      "note": null
+    },
+    {
+      "it": "marito",
+      "es": "el marido",
+      "gender": "m",
+      "plural": "mariti",
+      "note": null
+    },
+    {
+      "it": "moglie",
+      "es": "la mujer, la esposa",
+      "gender": "f",
+      "plural": "mogli",
+      "note": "Plural irregular: *le mogli*, sin la e."
+    },
+    {
+      "it": "nipote",
+      "es": "el nieto; el sobrino",
+      "gender": "m",
+      "plural": "nipoti",
+      "note": "Sirve para las dos cosas, y para chico y chica: *il/la nipote*."
+    },
+    {
+      "it": "cugino",
+      "es": "el primo",
+      "gender": "m",
+      "plural": "cugini",
+      "note": "Femenino *cugina*. Se escribe con g, no con j."
+    },
+    {
+      "it": "genitori",
+      "es": "los padres",
+      "gender": null,
+      "plural": null,
+      "note": "Siempre en plural: *i genitori*. El singular *il genitore* casi no se usa."
+    },
+    {
+      "it": "parente",
+      "es": "el pariente",
+      "gender": "m",
+      "plural": "parenti",
+      "note": "No son «los padres»: eso es *i genitori*."
+    },
+    {
+      "it": "suocera",
+      "es": "la suegra",
+      "gender": "f",
+      "plural": "suocere",
+      "note": "El suegro es *il suocero*; los suegros, *i suoceri*."
+    },
+    {
+      "it": "gemello",
+      "es": "el gemelo",
+      "gender": "m",
+      "plural": "gemelli",
+      "note": "Femenino *gemella*. También los gemelos de la camisa."
+    },
+    {
+      "it": "matrimonio",
+      "es": "la boda; el matrimonio",
+      "gender": "m",
+      "plural": "matrimoni",
+      "note": "Las dos cosas, igual que en español."
+    },
+    {
+      "it": "anziano",
+      "es": "mayor (de edad)",
+      "gender": null,
+      "plural": null,
+      "note": "Más educado que *vecchio* para hablar de personas."
+    }
+  ],
+  "grammar": [
+    {
+      "heading": "Los posesivos",
+      "body": "Dos cosas que el español no hace:\n\n**Llevan artículo delante**: *il mio libro*, no *mio libro*.\n\n**Concuerdan con la cosa poseída**, no con el dueño. *Il suo libro* es «su libro», de él o de ella; lo que manda es el género de *libro*.\n\nY *loro* es invariable: solo cambia el artículo.",
+      "table": {
+        "headers": ["", "Masc. sing.", "Fem. sing.", "Masc. pl.", "Fem. pl."],
+        "rows": [
+          ["io", "il mio", "la mia", "i miei", "le mie"],
+          ["tu", "il tuo", "la tua", "i tuoi", "le tue"],
+          ["lui, lei, Lei", "il suo", "la sua", "i suoi", "le sue"],
+          ["noi", "il nostro", "la nostra", "i nostri", "le nostre"],
+          ["voi", "il vostro", "la vostra", "i vostri", "le vostre"],
+          ["loro", "il loro", "la loro", "i loro", "le loro"]
+        ]
+      }
+    },
+    {
+      "heading": "La excepción de la familia",
+      "body": "Con los parientes **en singular** el artículo desaparece: *mia sorella*, *mio fratello*, *tuo padre*.\n\nPero vuelve en cuanto se rompe alguna de las condiciones: si hay plural, si el posesivo es *loro*, si el pariente lleva un diminutivo o un adjetivo.\n\n✓ *le mie sorelle* — plural\n\n✓ *il loro padre* — con *loro*, siempre\n\n✓ *la mia sorellina* — diminutivo\n\n✓ *la mia sorella maggiore* — con adjetivo",
+      "table": {
+        "headers": ["Con artículo", "Sin artículo"],
+        "rows": [
+          ["il mio libro", "mia sorella"],
+          ["la mia casa", "mio fratello"],
+          ["i miei fratelli", "mia madre"],
+          ["il loro padre", "tuo padre"],
+          ["la mia sorellina", "sua moglie"],
+          ["le mie figlie", "mio figlio"]
+        ]
+      }
+    },
+    {
+      "heading": "«Suo» no dice de quién",
+      "body": "*Suo* concuerda con lo poseído, nunca con el dueño. El español hace lo mismo con «su», así que aquí no hay sorpresa: solo hay que aplicarlo con más cuidado, porque el italiano tiene cuatro formas donde el español tiene dos.\n\nSi de verdad hace falta aclarar, se usa *di lui* / *di lei*: *la casa di lui*.\n\nY el *Suo* con mayúscula es de usted: *il Suo nome*.",
+      "table": {
+        "headers": ["Italiano", "Español"],
+        "rows": [
+          ["il suo libro", "su libro (de él o de ella)"],
+          ["la sua casa", "su casa"],
+          ["i suoi figli", "sus hijos"],
+          ["le sue figlie", "sus hijas"],
+          ["il Suo nome", "su nombre (de usted)"]
+        ]
+      }
+    }
+  ],
+  "phrases": [
+    {
+      "it": "Questa è mia sorella.",
+      "es": "Esta es mi hermana.",
+      "note": "Sin artículo: pariente en singular."
+    },
+    {
+      "it": "I miei genitori abitano a Roma.",
+      "es": "Mis padres viven en Roma.",
+      "note": "Con artículo, porque es plural."
+    },
+    {
+      "it": "Come si chiama tua madre?",
+      "es": "¿Cómo se llama tu madre?",
+      "note": "Sin artículo."
+    },
+    {
+      "it": "Il mio libro è sul tavolo.",
+      "es": "Mi libro está sobre la mesa.",
+      "note": "Con artículo: no es un pariente."
+    },
+    {
+      "it": "Sua moglie è spagnola.",
+      "es": "Su mujer es española.",
+      "note": "Sin artículo, y *sua* concuerda con *moglie*."
+    },
+    {
+      "it": "Hai fratelli?",
+      "es": "¿Tienes hermanos?",
+      "note": "Sin posesivo y sin artículo: se sobreentiende."
+    },
+    {
+      "it": "Ho due figli e una figlia.",
+      "es": "Tengo dos hijos y una hija.",
+      "note": null
+    },
+    {
+      "it": "I loro figli sono piccoli.",
+      "es": "Sus hijos son pequeños.",
+      "note": "Con *loro* el artículo vuelve siempre, aunque sea familia."
+    },
+    {
+      "it": "La mia famiglia è grande.",
+      "es": "Mi familia es grande.",
+      "note": "*Famiglia* lleva artículo: es el grupo, no un pariente."
+    }
+  ],
+  "ojo": [
+    {
+      "title": "El posesivo lleva artículo, salvo con la familia en singular",
+      "body": "La regla general es que **el posesivo va con artículo**, y es la diferencia más visible con el español:\n\n❌ *mio libro* · ✓ *il mio libro*\n\n❌ *tua casa* · ✓ *la tua casa*\n\nLa excepción son los parientes **en singular y a secas**:\n\n✓ *mia sorella*, *mio fratello*, *tuo padre*, *sua moglie*\n\nY la excepción tiene sus propias excepciones. El artículo vuelve si:\n\n**hay plural** — *i miei fratelli*\n\n**el posesivo es *loro*** — *il loro padre*, siempre\n\n**hay diminutivo** — *la mia sorellina*\n\n**hay adjetivo** — *la mia sorella maggiore*\n\nEn resumen: sin artículo solo *mio fratello* y compañía, pelados. En cuanto se les añade algo, vuelve."
+    },
+    {
+      "title": "«Suo» concuerda con la cosa, no con el dueño",
+      "body": "El español hace lo mismo con «su», así que no hay que cambiar de chip: hay que aplicarlo con más formas.\n\n✓ *Marco e la sua casa* → *sua* por *casa*, femenino\n\n✓ *Anna e il suo libro* → *suo* por *libro*, masculino\n\n❌ *Anna e la sua libro*\n\nEs decir: mirar la palabra que viene detrás, no a la persona de la que hablas.\n\nSi hay ambigüedad real y hace falta aclarar de quién es, se dice *di lui* o *di lei*: *la casa di lei*, la casa de ella."
+    },
+    {
+      "title": "«I parenti» no son los padres",
+      "body": "**I parenti** son **los parientes**, la familia en general. Los padres son **i genitori**.\n\n❌ *i miei parenti abitano a Roma*, si hablas de tus padres · ✓ *i miei genitori abitano a Roma*\n\n✓ *ho parenti in Sicilia* → tengo familia en Sicilia\n\nY hay otro que hace doble trabajo: **il nipote** significa **el nieto** y también **el sobrino**. El contexto decide, y muchas veces ni eso: hay que preguntar. Vale además para chico y para chica, cambiando solo el artículo: *il nipote*, *la nipote*."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "multiple-choice",
+      "prompt": "«Mi libro» en italiano es…",
+      "options": ["mio libro", "il mio libro", "mio il libro"],
+      "answer": 1,
+      "explain": "El posesivo lleva artículo salvo con parientes en singular."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "«Mi hermana» en italiano es…",
+      "options": ["la mia sorella", "mia sorella", "mia la sorella"],
+      "answer": 1,
+      "explain": "Pariente en singular y a secas: sin artículo."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "«Sus padres» (de ellos) en italiano es…",
+      "options": ["loro genitori", "i loro genitori", "suoi genitori"],
+      "answer": 1,
+      "explain": "Con *loro* el artículo vuelve siempre, y además es plural."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "«I parenti» son…",
+      "options": ["los padres", "los parientes", "los hermanos"],
+      "answer": 1,
+      "explain": "Los padres son *i genitori*."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Questa è ___ sorella. (mi)",
+      "answer": ["mia"],
+      "explain": "Sin artículo: pariente en singular."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "___ miei fratelli abitano a Milano.",
+      "answer": ["I"],
+      "explain": "Plural, así que vuelve el artículo."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Anna e ___ suo libro.",
+      "answer": ["il"],
+      "explain": "*Suo* concuerda con *libro*, masculino: *il suo libro*."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Los padres, en italiano: i ___",
+      "answer": ["genitori"],
+      "explain": "*I parenti* son los parientes."
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        ["la madre", "la madre"],
+        ["il marito", "el marido"],
+        ["la moglie", "la mujer"],
+        ["il figlio", "el hijo"],
+        ["il cugino", "el primo"],
+        ["la suocera", "la suegra"]
+      ]
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        ["il mio libro", "mi libro"],
+        ["mia sorella", "mi hermana"],
+        ["i miei genitori", "mis padres"],
+        ["la sua casa", "su casa"],
+        ["il loro padre", "su padre (de ellos)"],
+        ["le tue figlie", "tus hijas"]
+      ]
+    },
+    {
+      "type": "word-order",
+      "words": ["I", "miei", "genitori", "abitano", "a", "Roma"],
+      "answer": "I miei genitori abitano a Roma.",
+      "explain": "Plural: con artículo."
+    },
+    {
+      "type": "word-order",
+      "words": ["Questa", "è", "mia", "sorella"],
+      "answer": "Questa è mia sorella.",
+      "explain": "Singular y sin adjetivo: sin artículo."
+    },
+    {
+      "type": "translation",
+      "prompt": "Mi familia es grande.",
+      "answer": ["La mia famiglia è grande."],
+      "explain": "*Famiglia* es el grupo, no un pariente: lleva artículo."
+    },
+    {
+      "type": "translation",
+      "prompt": "¿Tienes hermanos?",
+      "answer": ["Hai fratelli?"],
+      "explain": "Sin posesivo y sin artículo: se sobreentiende de quién."
+    },
+    {
+      "type": "listening",
+      "audio": "Mia sorella e i miei fratelli abitano a Napoli.",
+      "answer": ["Mia sorella e i miei fratelli abitano a Napoli."],
+      "explain": "Sin artículo en singular, con artículo en plural, en la misma frase."
+    },
+    {
+      "type": "listening",
+      "audio": "Sua moglie è spagnola come me.",
+      "answer": ["Sua moglie è spagnola come me."],
+      "explain": "*Sua* concuerda con *moglie*, y va sin artículo."
+    }
+  ]
+}

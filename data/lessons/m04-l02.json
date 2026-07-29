@@ -1,0 +1,324 @@
+{
+  "id": "m04-l02",
+  "module": "m04",
+  "title": "¿Qué hora es?",
+  "goal": "Al final de esta lección sabrás preguntar y decir la hora, quedar con alguien y entender por qué el italiano parte la tarde en dos trozos que el español no distingue.",
+  "vocab": [
+    {
+      "it": "minuto",
+      "es": "el minuto",
+      "gender": "m",
+      "plural": "minuti",
+      "note": "*Un minuto!* se usa igual que en español para pedir que esperen."
+    },
+    {
+      "it": "mezzogiorno",
+      "es": "el mediodía",
+      "gender": "m",
+      "plural": null,
+      "note": "Las doce del día, ni una más. *È mezzogiorno*, en singular."
+    },
+    {
+      "it": "mezzanotte",
+      "es": "la medianoche",
+      "gender": "f",
+      "plural": null,
+      "note": "Femenino, porque dentro lleva *notte*. *È mezzanotte*."
+    },
+    {
+      "it": "mattina",
+      "es": "la mañana",
+      "gender": "f",
+      "plural": "mattine",
+      "note": "*Di mattina*: por la mañana. No confundir con *domani*, que es el día siguiente."
+    },
+    {
+      "it": "pomeriggio",
+      "es": "la tarde (de luz)",
+      "gender": "m",
+      "plural": "pomeriggi",
+      "note": "De las doce a las seis, más o menos. El español no tiene esta palabra."
+    },
+    {
+      "it": "sera",
+      "es": "la tarde-noche",
+      "gender": "f",
+      "plural": "sere",
+      "note": "De las seis en adelante. Por eso *buonasera* se dice mucho antes de que anochezca."
+    },
+    {
+      "it": "notte",
+      "es": "la noche",
+      "gender": "f",
+      "plural": "notti",
+      "note": "Con dos tes. *Note* con una sola son «las notas»."
+    },
+    {
+      "it": "quarto",
+      "es": "el cuarto",
+      "gender": "m",
+      "plural": "quarti",
+      "note": "*Un quarto d'ora*: un cuarto de hora."
+    },
+    {
+      "it": "sveglia",
+      "es": "el despertador",
+      "gender": "f",
+      "plural": "sveglie",
+      "note": "Empieza por s + consonante, pero como es femenino lleva *la*, no *lo*."
+    },
+    {
+      "it": "appuntamento",
+      "es": "la cita",
+      "gender": "m",
+      "plural": "appuntamenti",
+      "note": "Vale para el médico, el trabajo y el peluquero. Para una cita romántica se dice igual."
+    },
+    {
+      "it": "presto",
+      "es": "temprano; pronto",
+      "gender": null,
+      "plural": null,
+      "note": "*A presto!* es «¡hasta pronto!». No confundir con *pronto*, que es «listo»."
+    },
+    {
+      "it": "tardi",
+      "es": "tarde",
+      "gender": null,
+      "plural": null,
+      "note": "Invariable. *È tardi!*: ¡es tarde! *A più tardi*: hasta luego."
+    },
+    {
+      "it": "adesso",
+      "es": "ahora",
+      "gender": null,
+      "plural": null,
+      "note": "Con dos eses. También se dice *ora*, con el mismo sentido."
+    },
+    {
+      "it": "sempre",
+      "es": "siempre",
+      "gender": null,
+      "plural": null,
+      "note": "Va detrás del verbo: *sono sempre in ritardo*."
+    },
+    {
+      "it": "mai",
+      "es": "nunca",
+      "gender": null,
+      "plural": null,
+      "note": "Necesita el *non*: *non è mai puntuale*. Igual que el español «no… nunca»."
+    }
+  ],
+  "grammar": [
+    {
+      "heading": "Preguntar y decir la hora",
+      "body": "Hay dos preguntas y las dos son igual de normales: *Che ora è?* en singular y *Che ore sono?* en plural. Da igual cuál uses.\n\nPara responder manda el número: de las dos en adelante va en **plural**; la una, el mediodía y la medianoche van en **singular**.\n\nEl artículo es *le* (femenino plural) porque se sobreentiende *le ore*: *sono le tre* es «son las tres horas».",
+      "table": {
+        "headers": ["Hora", "Italiano"],
+        "rows": [
+          ["1:00", "È l'una"],
+          ["2:00", "Sono le due"],
+          ["3:00", "Sono le tre"],
+          ["10:00", "Sono le dieci"],
+          ["12:00", "È mezzogiorno"],
+          ["00:00", "È mezzanotte"]
+        ]
+      }
+    },
+    {
+      "heading": "Los minutos",
+      "body": "Funciona igual que en español: **e** para sumar, **meno** para restar. *Mezza* va en femenino porque concuerda con *ora*.\n\nPara decir a qué hora, el artículo se funde con la *a*: *alle tre*, *all'una*, *a mezzogiorno* (este sin artículo). Es la primera vez que ves esta fusión; el módulo 7 la explica entera.",
+      "table": {
+        "headers": ["Hora", "Italiano", "Español"],
+        "rows": [
+          ["3:10", "Sono le tre e dieci", "Son las tres y diez"],
+          ["3:15", "Sono le tre e un quarto", "… y cuarto"],
+          ["3:30", "Sono le tre e mezza", "… y media"],
+          ["3:45", "Sono le quattro meno un quarto", "… menos cuarto"],
+          ["3:50", "Sono le quattro meno dieci", "… menos diez"],
+          ["15:00", "Sono le tre del pomeriggio", "Son las tres de la tarde"]
+        ]
+      }
+    },
+    {
+      "heading": "Mañana, tarde, noche",
+      "body": "Aquí hay una diferencia de verdad: el italiano parte la tarde en dos y el español no. *Pomeriggio* es la tarde de luz; *sera* empieza sobre las seis, cuando en España todavía se dice «tarde».\n\nPor eso *buonasera* se oye a las cinco y media sin que suene raro.",
+      "table": {
+        "headers": ["Italiano", "Cuándo", "Español"],
+        "rows": [
+          ["di mattina", "hasta las 12", "por la mañana"],
+          ["di pomeriggio", "de 12 a 18", "por la tarde"],
+          ["di sera", "de 18 en adelante", "por la tarde-noche"],
+          ["di notte", "de madrugada", "por la noche"]
+        ]
+      }
+    }
+  ],
+  "phrases": [
+    {
+      "it": "Che ore sono?",
+      "es": "¿Qué hora es?",
+      "note": "También *Che ora è?*: las dos son correctas."
+    },
+    {
+      "it": "Sono le tre e mezza.",
+      "es": "Son las tres y media.",
+      "note": null
+    },
+    {
+      "it": "È l'una.",
+      "es": "Es la una.",
+      "note": "La única hora en singular, con el artículo apostrofado."
+    },
+    {
+      "it": "A che ora?",
+      "es": "¿A qué hora?",
+      "note": null
+    },
+    {
+      "it": "Ho un appuntamento alle dieci.",
+      "es": "Tengo una cita a las diez.",
+      "note": "*Alle* es *a* + *le*."
+    },
+    {
+      "it": "È tardi, ho fretta!",
+      "es": "¡Es tarde, tengo prisa!",
+      "note": null
+    },
+    {
+      "it": "Sei sempre puntuale.",
+      "es": "Siempre eres puntual.",
+      "note": "*Sempre* va detrás del verbo, al revés que en español."
+    },
+    {
+      "it": "Non è mai puntuale.",
+      "es": "Nunca es puntual.",
+      "note": "*Non* delante y *mai* detrás: hacen falta los dos."
+    },
+    {
+      "it": "A mezzogiorno o a mezzanotte?",
+      "es": "¿A mediodía o a medianoche?",
+      "note": "Estos dos van sin artículo detrás de la *a*."
+    }
+  ],
+  "ojo": [
+    {
+      "title": "«Sono le tre», en plural",
+      "body": "El italiano concuerda el verbo con las horas, y las horas son varias. El español dice «son las tres» igual, así que la trampa está solo en la una y en el mediodía.\n\n❌ *È le tre* · ✓ *Sono le tre*\n\n❌ *Sono l'una* · ✓ *È l'una*\n\n❌ *Sono mezzogiorno* · ✓ *È mezzogiorno*\n\n❌ *Sono mezzanotte* · ✓ *È mezzanotte*\n\nRegla corta: **singular solo tres veces al día** — la una, las doce del mediodía y las doce de la noche. Todo lo demás, plural."
+    },
+    {
+      "title": "«Buonasera» se dice mucho antes de que anochezca",
+      "body": "El italiano tiene una palabra que el español no tiene: *pomeriggio*, la tarde de luz. Y cuando esa tarde acaba, sobre las seis, empieza *la sera*.\n\nEso mueve los saludos: *buongiorno* vale hasta media tarde, y a partir de las cinco o las seis ya se dice **buonasera**, aunque todavía haya sol y en España nadie diría «buenas noches».\n\n✓ *Sono le sei di sera* — son las seis de la tarde\n\n✓ *Sono le tre del pomeriggio* — son las tres de la tarde\n\nLas dos son «tarde» en español y palabras distintas en italiano."
+    },
+    {
+      "title": "En horarios se usan las 24 horas",
+      "body": "En la estación, en el cine y en cualquier horario escrito, el italiano cuenta hasta 24 y lo dice tal cual:\n\n*il treno delle quattordici e trenta* → el tren de las 14:30\n\n*il film delle ventuno* → la película de las 21:00\n\nHablando entre amigos, en cambio, se usan las doce y se añade la parte del día: *alle due del pomeriggio*, *alle nove di sera*. Igual que en español."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "multiple-choice",
+      "prompt": "«Son las tres» en italiano es…",
+      "options": ["È le tre", "Sono le tre", "Sono la tre"],
+      "answer": 1,
+      "explain": "De las dos en adelante, el verbo va en plural."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "«Es la una» en italiano es…",
+      "options": ["Sono l'una", "È l'una", "È le una"],
+      "answer": 1,
+      "explain": "La una es singular, y el artículo se apostrofa."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Son las 18:30 en Italia. ¿Cómo saludas?",
+      "options": ["Buongiorno", "Buonasera", "Buonanotte"],
+      "answer": 1,
+      "explain": "*La sera* empieza sobre las seis: a esa hora ya se dice *buonasera*."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "12:00 → È ___",
+      "answer": ["mezzogiorno"],
+      "explain": "Singular y sin artículo."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "3:30 → Sono le tre e ___",
+      "answer": ["mezza"],
+      "explain": "*Mezza* en femenino, porque concuerda con *ora*."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "3:15 → Sono le tre e un ___",
+      "answer": ["quarto"],
+      "explain": "*Un quarto*, con artículo, al contrario que en español."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "— A che ora? — ___ otto.",
+      "answer": ["Alle"],
+      "explain": "*Alle* es la fusión de *a* + *le*."
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        ["È l'una", "Es la una"],
+        ["Sono le due", "Son las dos"],
+        ["È mezzogiorno", "Es mediodía"],
+        ["È mezzanotte", "Es medianoche"],
+        ["Sono le tre e mezza", "Son las tres y media"],
+        ["Sono le quattro meno un quarto", "Son las cuatro menos cuarto"]
+      ]
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        ["la mattina", "la mañana"],
+        ["il pomeriggio", "la tarde de luz"],
+        ["la sera", "la tarde-noche"],
+        ["la notte", "la noche"],
+        ["la sveglia", "el despertador"],
+        ["l'appuntamento", "la cita"]
+      ]
+    },
+    {
+      "type": "word-order",
+      "words": ["Ho", "un", "appuntamento", "alle", "dieci"],
+      "answer": "Ho un appuntamento alle dieci.",
+      "explain": "*Alle dieci*: la hora va con *a* + artículo."
+    },
+    {
+      "type": "word-order",
+      "words": ["Sono", "le", "tre", "del", "pomeriggio"],
+      "answer": "Sono le tre del pomeriggio.",
+      "explain": "*Del* es *di* + *il*."
+    },
+    {
+      "type": "translation",
+      "prompt": "¿Qué hora es?",
+      "answer": ["Che ore sono?", "Che ora è?"],
+      "explain": "Las dos formas son correctas y se usan igual."
+    },
+    {
+      "type": "translation",
+      "prompt": "Nunca es puntual.",
+      "answer": ["Non è mai puntuale."],
+      "explain": "*Non* delante del verbo y *mai* detrás."
+    },
+    {
+      "type": "listening",
+      "audio": "Sono le nove e un quarto.",
+      "answer": ["Sono le nove e un quarto."],
+      "explain": "Las nueve y cuarto."
+    },
+    {
+      "type": "listening",
+      "audio": "È l'una e mezza.",
+      "answer": ["È l'una e mezza."],
+      "explain": "Singular porque es la una, con el artículo apostrofado."
+    }
+  ]
+}

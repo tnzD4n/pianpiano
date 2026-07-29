@@ -1,0 +1,312 @@
+{
+  "id": "m03-l01",
+  "module": "m03",
+  "title": "Los pronombres personales",
+  "goal": "Al final de esta lección conocerás los seis pronombres personales italianos, sabrás por qué casi nunca se dicen y sabrás tratar a alguien de usted con «Lei».",
+  "vocab": [
+    {
+      "it": "io",
+      "es": "yo",
+      "gender": null,
+      "plural": null,
+      "note": "No se dice casi nunca: el verbo ya lo lleva dentro."
+    },
+    {
+      "it": "tu",
+      "es": "tú",
+      "gender": null,
+      "plural": null,
+      "note": "Sin acento. En italiano no hay ningún *tu* del que distinguirlo."
+    },
+    {
+      "it": "lui",
+      "es": "él",
+      "gender": null,
+      "plural": null,
+      "note": "En los libros antiguos aparece *egli*; hoy nadie lo dice."
+    },
+    {
+      "it": "lei",
+      "es": "ella",
+      "gender": null,
+      "plural": null,
+      "note": "Con mayúscula, *Lei*, significa «usted»."
+    },
+    {
+      "it": "noi",
+      "es": "nosotros, nosotras",
+      "gender": null,
+      "plural": null,
+      "note": "Una sola forma para los dos géneros."
+    },
+    {
+      "it": "voi",
+      "es": "vosotros, vosotras",
+      "gender": null,
+      "plural": null,
+      "note": "También vale para «ustedes» en plural."
+    },
+    {
+      "it": "loro",
+      "es": "ellos, ellas",
+      "gender": null,
+      "plural": null,
+      "note": "Una sola forma. Nada de *elli* ni *elle*."
+    },
+    {
+      "it": "persona",
+      "es": "la persona",
+      "gender": "f",
+      "plural": "persone",
+      "note": "Siempre femenino, aunque hable de un hombre."
+    },
+    {
+      "it": "gente",
+      "es": "la gente",
+      "gender": "f",
+      "plural": null,
+      "note": "Singular, igual que en español: *la gente*."
+    },
+    {
+      "it": "tutti",
+      "es": "todos",
+      "gender": null,
+      "plural": null,
+      "note": "Femenino *tutte*. *Ciao a tutti!* es el saludo de grupo."
+    },
+    {
+      "it": "insieme",
+      "es": "juntos, juntas",
+      "gender": null,
+      "plural": null,
+      "note": "Invariable: vale para cualquier género y número."
+    },
+    {
+      "it": "anche",
+      "es": "también",
+      "gender": null,
+      "plural": null,
+      "note": "Va delante de la palabra: *anche tu*, *anch'io*."
+    },
+    {
+      "it": "nessuno",
+      "es": "nadie",
+      "gender": null,
+      "plural": null,
+      "note": "Con dos eses. Femenino *nessuna* cuando acompaña a un nombre."
+    },
+    {
+      "it": "qualcuno",
+      "es": "alguien",
+      "gender": null,
+      "plural": null,
+      "note": "*Qualcuno* también significa «alguno»."
+    },
+    {
+      "it": "chi",
+      "es": "quién",
+      "gender": null,
+      "plural": null,
+      "note": "Invariable: *chi è?*, *chi sono?*. Nunca *chis*."
+    }
+  ],
+  "grammar": [
+    {
+      "heading": "Los seis pronombres (y el de usted)",
+      "body": "El italiano tiene un pronombre menos que el español, porque *noi*, *voi* y *loro* no distinguen género: valen igual para un grupo de hombres, de mujeres o mezclado.",
+      "table": {
+        "headers": ["Persona", "Italiano", "Español"],
+        "rows": [
+          ["1ª singular", "io", "yo"],
+          ["2ª singular", "tu", "tú"],
+          ["3ª singular", "lui / lei", "él / ella"],
+          ["1ª plural", "noi", "nosotros, nosotras"],
+          ["2ª plural", "voi", "vosotros, vosotras"],
+          ["3ª plural", "loro", "ellos, ellas"],
+          ["Cortesía", "Lei", "usted"]
+        ]
+      }
+    },
+    {
+      "heading": "El sujeto se calla",
+      "body": "Igual que en español, el pronombre se omite casi siempre: la terminación del verbo ya dice quién habla. Ponerlo cada vez suena a libro de texto.\n\n❌ *Io mi chiamo Giulia e io sono di Roma.*\n\n✓ *Mi chiamo Giulia e sono di Roma.*\n\nSolo aparece cuando hace falta **contrastar** o **subrayar**: *Io sono spagnola, lui è italiano.* Ahí el pronombre lleva el peso de la frase."
+    },
+    {
+      "heading": "Respuestas cortas: aquí el pronombre sí se dice",
+      "body": "Cuando no hay verbo, el pronombre va solo. Son las frases más frecuentes de una conversación y funcionan exactamente como en español.",
+      "table": {
+        "headers": ["Italiano", "Español"],
+        "rows": [
+          ["Anch'io", "Yo también"],
+          ["Io no", "Yo no"],
+          ["Lui sì, lei no", "Él sí, ella no"],
+          ["E voi?", "¿Y vosotros?"],
+          ["Tutti insieme", "Todos juntos"],
+          ["Nessuno", "Nadie"]
+        ]
+      }
+    }
+  ],
+  "phrases": [
+    {
+      "it": "Chi è? — Sono io.",
+      "es": "¿Quién es? — Soy yo.",
+      "note": "Lo que se dice en el telefonillo o detrás de una puerta."
+    },
+    {
+      "it": "Anch'io!",
+      "es": "¡Yo también!",
+      "note": "*Anche io* se contrae casi siempre en *anch'io*."
+    },
+    {
+      "it": "Io no, grazie.",
+      "es": "Yo no, gracias.",
+      "note": null
+    },
+    {
+      "it": "E voi?",
+      "es": "¿Y vosotros?",
+      "note": "Para devolver la pregunta a un grupo."
+    },
+    {
+      "it": "Lui è italiano, lei è spagnola.",
+      "es": "Él es italiano, ella es española.",
+      "note": "Aquí los pronombres sí se dicen: sirven para contrastar."
+    },
+    {
+      "it": "Loro no, noi sì.",
+      "es": "Ellos no, nosotros sí.",
+      "note": null
+    },
+    {
+      "it": "Tutti insieme!",
+      "es": "¡Todos juntos!",
+      "note": null
+    },
+    {
+      "it": "Scusi, Lei è il signor Rossi?",
+      "es": "Perdone, ¿es usted el señor Rossi?",
+      "note": "*Lei* con mayúscula al escribir. Al hablar suena igual que «ella»."
+    },
+    {
+      "it": "Chi? Io?",
+      "es": "¿Quién? ¿Yo?",
+      "note": null
+    }
+  ],
+  "ojo": [
+    {
+      "title": "«Lei» con mayúscula es el usted italiano",
+      "body": "El italiano trata de usted con la **tercera persona**, igual que el español. La diferencia es que usa el pronombre femenino *lei*, y lo usa con cualquier interlocutor, hombre o mujer.\n\n*Lei è italiano?* dicho a un hombre significa «¿es usted italiano?», no «¿ella es italiana?».\n\nAl escribir se distingue con la mayúscula:\n\n**lei** è italiana → ella es italiana\n\n**Lei** è italiano? → ¿es usted italiano?\n\nAl hablar no se oye ninguna diferencia: la deshace el contexto, y nadie se confunde.\n\nEl *voi* de cortesía existió y todavía se oye en el sur con la gente mayor, pero hoy suena antiguo. Usa siempre *Lei*."
+    },
+    {
+      "title": "«Tu» no lleva acento",
+      "body": "En español el acento separa «tú» (pronombre) de «tu» (posesivo). En italiano el posesivo es *tuo* / *tua*, así que no hay nada que separar y el acento sobra.\n\n❌ *tú sei* · ✓ *tu sei*\n\nLo mismo con *lui*, *lei*, *noi*, *voi*, *loro*: ninguno lleva acento. Y *sì* («sí») sí lo lleva, para distinguirlo de *si* (el «se» impersonal de *si dice*)."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "multiple-choice",
+      "prompt": "Hablas con una señora que no conoces. ¿Qué pronombre usas?",
+      "options": ["tu", "voi", "Lei"],
+      "answer": 2,
+      "explain": "*Lei* es el usted italiano, para hombres y para mujeres."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "«Lei è italiano?» dicho a un hombre significa…",
+      "options": ["¿Ella es italiana?", "¿Es usted italiano?", "¿Vosotros sois italianos?"],
+      "answer": 1,
+      "explain": "El adjetivo *italiano* en masculino delata que se habla con un hombre: es el *Lei* de cortesía."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "¿Cuál de estas frases suena natural en italiano?",
+      "options": ["Io mi chiamo Anna e io sono di Roma.", "Mi chiamo Anna e sono di Roma.", "Mi chiamo io Anna e sono di Roma."],
+      "answer": 1,
+      "explain": "El pronombre se omite: repetirlo suena a ejercicio de libro."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "— Chi è? — Sono ___.",
+      "answer": ["io"],
+      "explain": "*Sono io*: literalmente «soy yo»."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "«Yo también» se dice anch'___",
+      "answer": ["io"],
+      "explain": "*Anche* pierde la e delante de *io* y se apostrofa."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Él es italiano: ___ è italiano.",
+      "answer": ["lui"],
+      "explain": "*Lui* para «él», *lei* para «ella»."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "¿Y vosotros? — E ___?",
+      "answer": ["voi"],
+      "explain": "*Voi* vale para «vosotros», «vosotras» y también «ustedes»."
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        ["io", "yo"],
+        ["tu", "tú"],
+        ["lui", "él"],
+        ["noi", "nosotros"],
+        ["voi", "vosotros"],
+        ["loro", "ellos"]
+      ]
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        ["tutti", "todos"],
+        ["insieme", "juntos"],
+        ["anche", "también"],
+        ["nessuno", "nadie"],
+        ["qualcuno", "alguien"],
+        ["la gente", "la gente"]
+      ]
+    },
+    {
+      "type": "word-order",
+      "words": ["Lui", "è", "italiano", "lei", "è", "spagnola"],
+      "answer": "Lui è italiano, lei è spagnola.",
+      "explain": "Los pronombres aparecen porque la frase contrapone dos personas."
+    },
+    {
+      "type": "word-order",
+      "words": ["Scusi", "Lei", "è", "il", "signor", "Rossi", "?"],
+      "answer": "Scusi, Lei è il signor Rossi?",
+      "explain": "*Signore* pierde la -e delante del apellido."
+    },
+    {
+      "type": "translation",
+      "prompt": "Yo también, gracias.",
+      "answer": ["Anch'io, grazie.", "Anche io, grazie."],
+      "explain": "Las dos son correctas, pero *anch'io* es lo que se oye."
+    },
+    {
+      "type": "translation",
+      "prompt": "Ellos no, nosotros sí.",
+      "answer": ["Loro no, noi sì."],
+      "explain": "*Sì* con acento: sin él sería el *si* impersonal."
+    },
+    {
+      "type": "listening",
+      "audio": "Anch'io sono di Roma.",
+      "answer": ["Anch'io sono di Roma."],
+      "explain": "«Yo también soy de Roma»."
+    },
+    {
+      "type": "listening",
+      "audio": "Scusi, Lei è il signor Rossi?",
+      "answer": ["Scusi, Lei è il signor Rossi?", "Scusi, lei è il signor Rossi?"],
+      "explain": "Al hablar no se oye la mayúscula: aquí la delata el *scusi*, que ya es de usted."
+    }
+  ]
+}

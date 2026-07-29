@@ -1,0 +1,331 @@
+{
+  "id": "m09-l01",
+  "module": "m09",
+  "title": "Los verbos reflexivos",
+  "goal": "Al final de esta lección sabrás contar tu día entero —despertarte, levantarte, vestirte, cansarte— y sabrás dónde va el pronombre, que es lo único que cambia respecto al español.",
+  "vocab": [
+    {
+      "it": "svegliarsi",
+      "es": "despertarse",
+      "gender": null,
+      "plural": null,
+      "note": "*Mi sveglio alle sette*. El despertador es *la sveglia*."
+    },
+    {
+      "it": "alzarsi",
+      "es": "levantarse",
+      "gender": null,
+      "plural": null,
+      "note": "Despertarse y levantarse son dos cosas distintas, aquí también."
+    },
+    {
+      "it": "lavarsi",
+      "es": "lavarse",
+      "gender": null,
+      "plural": null,
+      "note": "*Mi lavo le mani*, con artículo y sin posesivo."
+    },
+    {
+      "it": "vestirsi",
+      "es": "vestirse",
+      "gender": null,
+      "plural": null,
+      "note": "Regular en -ire, sin -isc-: *mi vesto*, *ti vesti*."
+    },
+    {
+      "it": "pettinarsi",
+      "es": "peinarse",
+      "gender": null,
+      "plural": null,
+      "note": "*Il pettine* es el peine."
+    },
+    {
+      "it": "riposarsi",
+      "es": "descansar",
+      "gender": null,
+      "plural": null,
+      "note": "*Mi riposo un po'*. También *riposare* sin pronombre."
+    },
+    {
+      "it": "addormentarsi",
+      "es": "dormirse",
+      "gender": null,
+      "plural": null,
+      "note": "Con dos des. *Dormire* es dormir; *addormentarsi*, quedarse dormida."
+    },
+    {
+      "it": "divertirsi",
+      "es": "divertirse, pasarlo bien",
+      "gender": null,
+      "plural": null,
+      "note": "*Ti diverti?*: ¿te lo estás pasando bien?"
+    },
+    {
+      "it": "annoiarsi",
+      "es": "aburrirse",
+      "gender": null,
+      "plural": null,
+      "note": "Con dos enes. *Che noia!*: ¡qué aburrimiento!"
+    },
+    {
+      "it": "arrabbiarsi",
+      "es": "enfadarse",
+      "gender": null,
+      "plural": null,
+      "note": "Dos erres y dos bes. *Sono arrabbiata*: estoy enfadada."
+    },
+    {
+      "it": "sentirsi",
+      "es": "sentirse, encontrarse",
+      "gender": null,
+      "plural": null,
+      "note": "*Come ti senti?*: ¿cómo te encuentras?"
+    },
+    {
+      "it": "ricordarsi",
+      "es": "acordarse",
+      "gender": null,
+      "plural": null,
+      "note": "*Mi ricordo*. También vale *ricordare*, sin pronombre."
+    },
+    {
+      "it": "dimenticarsi",
+      "es": "olvidarse",
+      "gender": null,
+      "plural": null,
+      "note": "También *dimenticare*, sin pronombre. Mete una h: *ti dimentichi*."
+    },
+    {
+      "it": "mettersi",
+      "es": "ponerse (ropa)",
+      "gender": null,
+      "plural": null,
+      "note": "*Mi metto la giacca*. De *mettere*, poner."
+    },
+    {
+      "it": "sbrigarsi",
+      "es": "darse prisa",
+      "gender": null,
+      "plural": null,
+      "note": "*Sbrigati!*: ¡date prisa! Es de las palabras que más se gritan en Italia."
+    }
+  ],
+  "grammar": [
+    {
+      "heading": "Los pronombres reflexivos",
+      "body": "Cuatro de los seis son casi el español: *mi*, *ti*, *si*, *si*. Los otros dos no se parecen nada: **ci** es «nos» y **vi** es «os».\n\nY van **delante del verbo conjugado**, exactamente igual que en español.",
+      "table": {
+        "headers": ["Persona", "Pronombre", "svegliarsi"],
+        "rows": [
+          ["io", "mi", "mi sveglio"],
+          ["tu", "ti", "ti svegli"],
+          ["lui, lei, Lei", "si", "si sveglia"],
+          ["noi", "ci", "ci svegliamo"],
+          ["voi", "vi", "vi svegliate"],
+          ["loro", "si", "si svegliano"]
+        ]
+      }
+    },
+    {
+      "heading": "Dónde va el pronombre",
+      "body": "**Delante del verbo conjugado**: *mi sveglio*, *ti alzi*, *si veste*.\n\n**Pegado al infinitivo**, que pierde la -e: *svegliarsi*, *alzarsi*, *mettersi*.\n\nCuando hay dos verbos puedes elegir: delante del primero o pegado al infinitivo. Las dos son correctas y se usan las dos.\n\nY ojo a un detalle que se escapa siempre: pegado al infinitivo, el pronombre **cambia con la persona**. No es siempre *-si*.",
+      "table": {
+        "headers": ["Italiano", "Español"],
+        "rows": [
+          ["mi sveglio", "me despierto"],
+          ["devo svegliarmi", "tengo que despertarme"],
+          ["mi devo svegliare", "tengo que despertarme"],
+          ["non mi sveglio", "no me despierto"],
+          ["non voglio alzarmi", "no quiero levantarme"],
+          ["dobbiamo alzarci", "tenemos que levantarnos"]
+        ]
+      }
+    },
+    {
+      "heading": "Con el cuerpo y la ropa, sin posesivo",
+      "body": "Cuando el verbo es reflexivo, la parte del cuerpo y la ropa van con **artículo**, no con posesivo. El reflexivo ya dice de quién son.\n\n❌ *mi lavo le mie mani* · ✓ *mi lavo le mani*\n\nEs exactamente lo que hace el español: «me lavo las manos», no «me lavo mis manos».",
+      "table": {
+        "headers": ["Italiano", "Español"],
+        "rows": [
+          ["mi lavo le mani", "me lavo las manos"],
+          ["si lava i capelli", "se lava el pelo"],
+          ["mi metto le scarpe", "me pongo los zapatos"],
+          ["mi metto la sciarpa", "me pongo la bufanda"]
+        ]
+      }
+    }
+  ],
+  "phrases": [
+    {
+      "it": "Mi sveglio alle sette.",
+      "es": "Me despierto a las siete.",
+      "note": null
+    },
+    {
+      "it": "Non mi alzo mai presto.",
+      "es": "No me levanto nunca temprano.",
+      "note": "*Non… mai* rodeando al verbo, con el pronombre en medio."
+    },
+    {
+      "it": "A che ora ti svegli?",
+      "es": "¿A qué hora te despiertas?",
+      "note": null
+    },
+    {
+      "it": "Mi diverto molto.",
+      "es": "Me lo paso muy bien.",
+      "note": "*Divertirsi* es «pasarlo bien», no solo «divertirse»."
+    },
+    {
+      "it": "Come ti senti?",
+      "es": "¿Cómo te encuentras?",
+      "note": "De usted: *come si sente?*"
+    },
+    {
+      "it": "Non mi ricordo.",
+      "es": "No me acuerdo.",
+      "note": "También *non ricordo*, sin pronombre."
+    },
+    {
+      "it": "Sbrigati, siamo in ritardo!",
+      "es": "¡Date prisa, llegamos tarde!",
+      "note": "*Sbrigati* es el imperativo con el pronombre pegado detrás."
+    },
+    {
+      "it": "Mi metto la giacca ed esco.",
+      "es": "Me pongo la chaqueta y salgo.",
+      "note": "*Ed* delante de vocal."
+    },
+    {
+      "it": "La domenica ci riposiamo.",
+      "es": "Los domingos descansamos.",
+      "note": "*La domenica* con artículo: todos los domingos."
+    }
+  ],
+  "ojo": [
+    {
+      "title": "El pronombre va delante, pero se pega al infinitivo",
+      "body": "La primera parte no tiene misterio, porque el español hace lo mismo:\n\n❌ *sveglio mi alle sette* · ✓ *mi sveglio alle sette*\n\nLa segunda sí. Al pegarse al infinitivo, **el pronombre cambia con la persona**, y aquí es donde se cuela el error: se copia la forma del diccionario.\n\n❌ *devo svegliarsi*, hablando de mí · ✓ *devo svegliarmi*\n\n❌ *vuoi alzarsi?* · ✓ *vuoi alzarti?*\n\n✓ *dobbiamo alzarci* → tenemos que levantarnos\n\nEl infinitivo pierde la -e al recibir el pronombre: *svegliare* + *mi* = *svegliarmi*."
+    },
+    {
+      "title": "«Ci» y «vi» no se parecen al español",
+      "body": "Cuatro de los seis pronombres son casi calcados: *mi*, *ti*, *si*, *si*. Los otros dos hay que aprenderlos de cero.\n\n**ci** = nos → *ci svegliamo*, nos despertamos\n\n**vi** = os → *vi svegliate*, os despertáis\n\n❌ *nos svegliamo* · ✓ *ci svegliamo*\n\nY *ci* ya lo conocías de otros dos sitios: es el mismo *ci* de *c'è* y el de *ci vediamo*. En italiano es una palabra muy trabajadora, y la irás encontrando con más papeles todavía."
+    },
+    {
+      "title": "«Nudo» es desnudo",
+      "body": "**Nudo** significa **desnudo**. El nudo de una cuerda es **un nodo**.\n\n✓ *a piedi nudi* → descalzo, literalmente «a pies desnudos»\n\n✓ *un nodo alla cravatta* → un nudo en la corbata\n\n❌ *ho un nudo allo stomaco* · ✓ *ho un nodo allo stomaco* → tengo un nudo en el estómago\n\nUna letra de diferencia y dos palabras que no tienen nada que ver. Y el femenino es *nuda*, con lo cual la frase equivocada puede quedar bastante llamativa."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "multiple-choice",
+      "prompt": "«Tengo que despertarme» en italiano es…",
+      "options": ["Devo svegliarsi", "Devo svegliarmi", "Devo mi svegliare"],
+      "answer": 1,
+      "explain": "El pronombre pegado al infinitivo cambia con la persona: *-mi* para «yo»."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "«Nos despertamos» en italiano es…",
+      "options": ["nos svegliamo", "ci svegliamo", "si svegliamo"],
+      "answer": 1,
+      "explain": "*Ci* es «nos»; *vi* es «os»."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "«Nudo» en italiano significa…",
+      "options": ["el nudo", "desnudo", "el nido"],
+      "answer": 1,
+      "explain": "El nudo es *il nodo*."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "«Me lavo las manos» en italiano es…",
+      "options": ["Mi lavo le mie mani", "Mi lavo le mani", "Lavo le mie mani"],
+      "answer": 1,
+      "explain": "Con artículo, sin posesivo: el reflexivo ya dice de quién son."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Io ___ sveglio alle sette.",
+      "answer": ["mi"],
+      "explain": "Primera persona: *mi*."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Loro ___ alzano tardi.",
+      "answer": ["si"],
+      "explain": "Tercera del plural: *si*, igual que el singular."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Voi ___ divertite?",
+      "answer": ["vi"],
+      "explain": "*Vi* es «os»."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Non voglio ___ (alzarsi, hablando de mí).",
+      "answer": ["alzarmi"],
+      "explain": "Pegado al infinitivo y en primera persona: *alzarmi*."
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        ["svegliarsi", "despertarse"],
+        ["alzarsi", "levantarse"],
+        ["vestirsi", "vestirse"],
+        ["divertirsi", "pasarlo bien"],
+        ["arrabbiarsi", "enfadarse"],
+        ["sbrigarsi", "darse prisa"]
+      ]
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        ["mi sveglio", "me despierto"],
+        ["ti alzi", "te levantas"],
+        ["si veste", "se viste"],
+        ["ci riposiamo", "descansamos"],
+        ["vi divertite", "os lo pasáis bien"],
+        ["si annoiano", "se aburren"]
+      ]
+    },
+    {
+      "type": "word-order",
+      "words": ["Mi", "metto", "la", "giacca", "ed", "esco"],
+      "answer": "Mi metto la giacca ed esco.",
+      "explain": "El pronombre delante del verbo conjugado."
+    },
+    {
+      "type": "word-order",
+      "words": ["Non", "mi", "alzo", "mai", "presto"],
+      "answer": "Non mi alzo mai presto.",
+      "explain": "*Non* delante del pronombre, *mai* detrás del verbo."
+    },
+    {
+      "type": "translation",
+      "prompt": "¿Cómo te encuentras?",
+      "answer": ["Come ti senti?"],
+      "explain": "De usted: *come si sente?*"
+    },
+    {
+      "type": "translation",
+      "prompt": "No me acuerdo.",
+      "answer": ["Non mi ricordo.", "Non ricordo."],
+      "explain": "*Ricordarsi* y *ricordare* valen las dos."
+    },
+    {
+      "type": "listening",
+      "audio": "Mi sveglio alle sette ma mi alzo alle otto.",
+      "answer": ["Mi sveglio alle sette ma mi alzo alle otto."],
+      "explain": "Despertarse y levantarse, dos verbos distintos."
+    },
+    {
+      "type": "listening",
+      "audio": "Sbrigati, siamo in ritardo!",
+      "answer": ["Sbrigati, siamo in ritardo!"],
+      "explain": "*Sbrigati* lleva el pronombre pegado detrás."
+    }
+  ]
+}

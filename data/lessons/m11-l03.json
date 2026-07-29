@@ -1,0 +1,338 @@
+{
+  "id": "m11-l03",
+  "module": "m11",
+  "title": "Al teléfono y por mensaje",
+  "goal": "Al final de esta lección sabrás descolgar, preguntar por alguien, colgar y escribir un mensaje sin decir accidentalmente «te amo» a una amiga.",
+  "vocab": [
+    {
+      "it": "telefonata",
+      "es": "la llamada",
+      "gender": "f",
+      "plural": "telefonate",
+      "note": "*Fare una telefonata*: hacer una llamada."
+    },
+    {
+      "it": "cellulare",
+      "es": "el móvil",
+      "gender": "m",
+      "plural": "cellulari",
+      "note": "También *il telefonino*. Con dos eles."
+    },
+    {
+      "it": "squillo",
+      "es": "el toque, el tono",
+      "gender": "m",
+      "plural": "squilli",
+      "note": "*Lo squillo*, por la s impura. *Fammi uno squillo*: dame un toque."
+    },
+    {
+      "it": "segreteria",
+      "es": "el contestador",
+      "gender": "f",
+      "plural": "segreterie",
+      "note": "*La segreteria telefonica*. También la secretaría."
+    },
+    {
+      "it": "linea",
+      "es": "la línea",
+      "gender": "f",
+      "plural": "linee",
+      "note": "*La linea è occupata*: está comunicando."
+    },
+    {
+      "it": "attimo",
+      "es": "el momento, el instante",
+      "gender": "m",
+      "plural": "attimi",
+      "note": "*Un attimo!* se usa más que *un momento!*"
+    },
+    {
+      "it": "disturbo",
+      "es": "la molestia",
+      "gender": "m",
+      "plural": "disturbi",
+      "note": "*Disturbo?*: ¿molesto? Se dice al llamar o al entrar."
+    },
+    {
+      "it": "vocale",
+      "es": "el audio, el mensaje de voz",
+      "gender": "m",
+      "plural": "vocali",
+      "note": "*Ti mando un vocale*. Los italianos los mandan larguísimos."
+    },
+    {
+      "it": "schermo",
+      "es": "la pantalla",
+      "gender": "m",
+      "plural": "schermi",
+      "note": "*Lo schermo*, por la s impura."
+    },
+    {
+      "it": "batteria",
+      "es": "la batería",
+      "gender": "f",
+      "plural": "batterie",
+      "note": "*Ho poca batteria*: me queda poca batería."
+    },
+    {
+      "it": "rete",
+      "es": "la red, la cobertura",
+      "gender": "f",
+      "plural": "reti",
+      "note": "*Non c'è rete*: no hay cobertura."
+    },
+    {
+      "it": "richiamare",
+      "es": "volver a llamar",
+      "gender": null,
+      "plural": null,
+      "note": "*Ti richiamo io*: ya te llamo yo."
+    },
+    {
+      "it": "riattaccare",
+      "es": "colgar",
+      "gender": null,
+      "plural": null,
+      "note": "También *mettere giù*, más coloquial."
+    },
+    {
+      "it": "inviare",
+      "es": "enviar",
+      "gender": null,
+      "plural": null,
+      "note": "Más formal que *mandare*. Es lo que pone en el botón."
+    },
+    {
+      "it": "saluto",
+      "es": "el saludo",
+      "gender": "m",
+      "plural": "saluti",
+      "note": "*Saluti!* al final de un mensaje o un correo."
+    }
+  ],
+  "grammar": [
+    {
+      "heading": "Descolgar y hablar",
+      "body": "*Pronto?* es lo único que se dice al descolgar, siempre. Y quien llama se identifica enseguida, sin esperar a que le pregunten: *Pronto? Sono Anna*.\n\nFíjate en *sono Anna*: sin *io* y sin nada más. Literalmente «soy Anna».",
+      "table": {
+        "headers": ["Italiano", "Español"],
+        "rows": [
+          ["Pronto?", "¿Diga?"],
+          ["Chi parla?", "¿Quién es?"],
+          ["Sono Anna", "Soy Anna"],
+          ["C'è Marco?", "¿Está Marco?"],
+          ["Te lo passo", "Te lo paso"],
+          ["Un attimo, per favore", "Un momento, por favor"],
+          ["Non c'è, richiama più tardi", "No está, vuelve a llamar más tarde"],
+          ["Hai sbagliato numero", "Te has equivocado de número"]
+        ]
+      }
+    },
+    {
+      "heading": "Despedirse",
+      "body": "*Ci sentiamo* es la despedida telefónica por excelencia: literalmente «nos oímos». *Ci vediamo* es para cuando vais a veros en persona.\n\nY *un bacio* al colgar es normalísimo entre amigos y familia, también entre hombres.",
+      "table": {
+        "headers": ["Italiano", "Español"],
+        "rows": [
+          ["Ci sentiamo", "Hablamos"],
+          ["Ci vediamo", "Nos vemos"],
+          ["A dopo", "Hasta luego"],
+          ["A presto", "Hasta pronto"],
+          ["Ti richiamo io", "Ya te llamo yo"],
+          ["Un bacio", "Un beso"],
+          ["Salutami tutti", "Saluda a todos de mi parte"]
+        ]
+      }
+    },
+    {
+      "heading": "Por mensaje",
+      "body": "La **x** de las abreviaturas viene del signo de multiplicar, que en italiano se lee *per*. De ahí *xké* (per + ché) y *xò* (però).\n\nNo hace falta escribir así, pero sí entenderlo cuando llega.",
+      "table": {
+        "headers": ["Abreviatura", "Completo", "Español"],
+        "rows": [
+          ["xké", "perché", "por qué / porque"],
+          ["cmq", "comunque", "de todos modos"],
+          ["tvb", "ti voglio bene", "te quiero (de cariño)"],
+          ["nn", "non", "no"],
+          ["qlc", "qualcosa", "algo"],
+          ["dv6", "dove sei", "dónde estás"],
+          ["+ o -", "più o meno", "más o menos"],
+          ["ci sent", "ci sentiamo", "hablamos"]
+        ]
+      }
+    }
+  ],
+  "phrases": [
+    {
+      "it": "Pronto? Chi parla?",
+      "es": "¿Diga? ¿Quién es?",
+      "note": "Las dos frases de siempre al descolgar."
+    },
+    {
+      "it": "Sono Anna, c'è Marco?",
+      "es": "Soy Anna, ¿está Marco?",
+      "note": "*C'è*, no *è*."
+    },
+    {
+      "it": "Un attimo, te lo passo.",
+      "es": "Un momento, te lo paso.",
+      "note": "*Te lo* son dos pronombres juntos: apréndelo como fórmula."
+    },
+    {
+      "it": "Non c'è, ti richiamo io.",
+      "es": "No está, ya te llamo yo.",
+      "note": "*Io* al final para subrayar quién llama."
+    },
+    {
+      "it": "Scusa, ho sbagliato numero.",
+      "es": "Perdona, me he equivocado de número.",
+      "note": "*Sbagliare numero*, sin preposición."
+    },
+    {
+      "it": "Non ti sento, non c'è rete.",
+      "es": "No te oigo, no hay cobertura.",
+      "note": "*Sentire* es oír; *ascoltare*, escuchar."
+    },
+    {
+      "it": "Ho poca batteria, ci sentiamo dopo.",
+      "es": "Me queda poca batería, hablamos luego.",
+      "note": null
+    },
+    {
+      "it": "Ti mando un vocale.",
+      "es": "Te mando un audio.",
+      "note": "*Un vocale*, masculino."
+    },
+    {
+      "it": "Ci sentiamo domani!",
+      "es": "¡Hablamos mañana!",
+      "note": "La despedida telefónica estándar."
+    }
+  ],
+  "ojo": [
+    {
+      "title": "«Pronto?» al descolgar",
+      "body": "Ya lo viste en el módulo 3, y aquí es donde de verdad hace falta.\n\nAl descolgar el teléfono en Italia se dice **Pronto?**, y solo eso. No *ciao*, no *sì*, no tu nombre.\n\n❌ *Ciao?* al descolgar · ✓ *Pronto?*\n\nLa palabra no tiene nada que ver con la prisa. *Pronto* como adjetivo es «listo, preparado» (*sono pronta*), y el «pronto» español de dentro de poco es **presto**: *a presto!*\n\nY quien llama se identifica enseguida, sin esperar: *Pronto? Sono Anna, c'è Marco?* Los tres pasos seguidos, en una sola frase."
+    },
+    {
+      "title": "«Ti voglio bene» no es «ti amo»",
+      "body": "Es lo más importante que hay que saber antes de escribir un mensaje en italiano.\n\n**Ti voglio bene** (tvb) → el cariño. Familia, amigos, gente a la que quieres. Se dice muchísimo y no compromete a nada.\n\n**Ti amo** → el amor romántico. Se dice a una pareja, y con cuentagotas.\n\nEl español los junta en «te quiero», y de ahí el lío. Si le escribes *ti amo* a una amiga italiana, la frase llega muchísimo más fuerte de lo que pretendías.\n\n✓ *Ti voglio bene, mamma*\n\n✓ *Ti amo* — solo a quien corresponda\n\nY el sustantivo *un bacio* al final de un mensaje es neutro y normal entre amigos: no significa nada más."
+    },
+    {
+      "title": "«Ci sentiamo» y «ci vediamo»",
+      "body": "Las dos son despedidas y no significan lo mismo:\n\n**Ci sentiamo** → «hablamos», por teléfono o por mensaje. Literalmente «nos oímos».\n\n**Ci vediamo** → «nos vemos», en persona.\n\nLas dos usan *ci* recíproco: la misma palabra que ya has visto como «nos» y dentro de *c'è*.\n\nY el resto de la familia, ordenada de más cerca a más lejos:\n\n✓ *a dopo* → hasta luego, dentro de un rato\n\n✓ *a domani* → hasta mañana\n\n✓ *a presto* → hasta pronto, sin fecha"
+    }
+  ],
+  "exercises": [
+    {
+      "type": "multiple-choice",
+      "prompt": "Suena el teléfono en Italia y descuelgas. ¿Qué dices?",
+      "options": ["Ciao?", "Pronto?", "Sì?"],
+      "answer": 1,
+      "explain": "*Pronto?* y solo eso, siempre."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Escribes a una amiga italiana. ¿Qué le pones?",
+      "options": ["Ti amo", "Ti voglio bene", "Ti piaccio"],
+      "answer": 1,
+      "explain": "*Ti amo* es amor romántico. Para el cariño, *ti voglio bene*."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "«Ci sentiamo» significa…",
+      "options": ["nos vemos", "hablamos", "nos sentamos"],
+      "answer": 1,
+      "explain": "Literalmente «nos oímos». Para verse es *ci vediamo*."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "En un mensaje lees «xké nn vieni?». Significa…",
+      "options": ["¿por qué no vienes?", "¿cuándo vienes?", "¿con quién vienes?"],
+      "answer": 0,
+      "explain": "*Xké* es *perché* y *nn* es *non*."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "___? Sono Anna.",
+      "answer": ["Pronto"],
+      "explain": "Lo primero que se dice al descolgar."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "___ Marco? — No, non c'è.",
+      "answer": ["C'è"],
+      "explain": "*C'è* para preguntar si alguien está."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "No hay cobertura: non c'è ___",
+      "answer": ["rete"],
+      "explain": "*La rete* es la red y la cobertura."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Hablamos mañana: ci ___ domani.",
+      "answer": ["sentiamo"],
+      "explain": "*Ci sentiamo* para el teléfono, *ci vediamo* en persona."
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        ["Pronto?", "¿Diga?"],
+        ["Chi parla?", "¿Quién es?"],
+        ["Te lo passo", "Te lo paso"],
+        ["Un attimo", "Un momento"],
+        ["Hai sbagliato numero", "Te has equivocado de número"],
+        ["Ti richiamo io", "Ya te llamo yo"]
+      ]
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        ["il cellulare", "el móvil"],
+        ["lo squillo", "el toque"],
+        ["la segreteria", "el contestador"],
+        ["il vocale", "el audio"],
+        ["la batteria", "la batería"],
+        ["la rete", "la cobertura"]
+      ]
+    },
+    {
+      "type": "word-order",
+      "words": ["Pronto", "sono", "Anna", "c'è", "Marco", "?"],
+      "answer": "Pronto, sono Anna, c'è Marco?",
+      "explain": "Los tres pasos seguidos: descolgar, identificarse, preguntar."
+    },
+    {
+      "type": "word-order",
+      "words": ["Non", "ti", "sento", "non", "c'è", "rete"],
+      "answer": "Non ti sento, non c'è rete.",
+      "explain": "*Ti* delante del verbo, y *c'è* con apóstrofo."
+    },
+    {
+      "type": "translation",
+      "prompt": "Perdona, me he equivocado de número.",
+      "answer": ["Scusa, ho sbagliato numero."],
+      "explain": "*Sbagliare numero*, sin preposición."
+    },
+    {
+      "type": "translation",
+      "prompt": "Un momento, te lo paso.",
+      "answer": ["Un attimo, te lo passo.", "Un momento, te lo passo."],
+      "explain": "*Attimo* es lo que se oye más."
+    },
+    {
+      "type": "listening",
+      "audio": "Pronto? Sono Anna, c'è Marco?",
+      "answer": ["Pronto? Sono Anna, c'è Marco?"],
+      "explain": "La apertura completa de cualquier llamada italiana."
+    },
+    {
+      "type": "listening",
+      "audio": "Ho poca batteria, ti richiamo io.",
+      "answer": ["Ho poca batteria, ti richiamo io."],
+      "explain": "*Io* al final subraya quién va a llamar."
+    }
+  ]
+}

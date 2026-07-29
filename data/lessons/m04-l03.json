@@ -1,0 +1,325 @@
+{
+  "id": "m04-l03",
+  "module": "m04",
+  "title": "Días, meses y fechas",
+  "goal": "Al final de esta lección sabrás decir qué día es, quedar para un día concreto y escribir una fecha, con la diferencia entre «il lunedì» y «lunedì», que en español no existe.",
+  "vocab": [
+    {
+      "it": "lunedì",
+      "es": "el lunes",
+      "gender": "m",
+      "plural": "lunedì",
+      "note": "Acento en la última sílaba, como los cuatro días siguientes. Invariable en plural."
+    },
+    {
+      "it": "martedì",
+      "es": "el martes",
+      "gender": "m",
+      "plural": "martedì",
+      "note": null
+    },
+    {
+      "it": "mercoledì",
+      "es": "el miércoles",
+      "gender": "m",
+      "plural": "mercoledì",
+      "note": "/mer-co-le-DÍ/. Se come la e que el español pronuncia."
+    },
+    {
+      "it": "giovedì",
+      "es": "el jueves",
+      "gender": "m",
+      "plural": "giovedì",
+      "note": null
+    },
+    {
+      "it": "venerdì",
+      "es": "el viernes",
+      "gender": "m",
+      "plural": "venerdì",
+      "note": null
+    },
+    {
+      "it": "sabato",
+      "es": "el sábado",
+      "gender": "m",
+      "plural": "sabati",
+      "note": "El único sin acento final y el único con plural normal."
+    },
+    {
+      "it": "domenica",
+      "es": "el domingo",
+      "gender": "f",
+      "plural": "domeniche",
+      "note": "El único femenino: *la domenica*. Plural con h."
+    },
+    {
+      "it": "settimana",
+      "es": "la semana",
+      "gender": "f",
+      "plural": "settimane",
+      "note": "Con dos tes. *Il fine settimana* es el fin de semana."
+    },
+    {
+      "it": "mese",
+      "es": "el mes",
+      "gender": "m",
+      "plural": "mesi",
+      "note": null
+    },
+    {
+      "it": "stagione",
+      "es": "la estación (del año)",
+      "gender": "f",
+      "plural": "stagioni",
+      "note": "Ojo: la del tren es *la stazione*. Una letra de diferencia."
+    },
+    {
+      "it": "compleanno",
+      "es": "el cumpleaños",
+      "gender": "m",
+      "plural": "compleanni",
+      "note": "Con dos enes. *Buon compleanno!*"
+    },
+    {
+      "it": "oggi",
+      "es": "hoy",
+      "gender": null,
+      "plural": null,
+      "note": "Con dos ges: suena /ÓD-yi/."
+    },
+    {
+      "it": "domani",
+      "es": "mañana (el día siguiente)",
+      "gender": null,
+      "plural": null,
+      "note": "No es «la mañana»: eso es *la mattina*. *Domani mattina* es «mañana por la mañana»."
+    },
+    {
+      "it": "ieri",
+      "es": "ayer",
+      "gender": null,
+      "plural": null,
+      "note": "*L'altro ieri* es «anteayer»."
+    },
+    {
+      "it": "prossimo",
+      "es": "próximo, que viene",
+      "gender": null,
+      "plural": null,
+      "note": "Femenino *prossima*. Como nombre, *il prossimo* es «el prójimo»."
+    }
+  ],
+  "grammar": [
+    {
+      "heading": "Los siete días",
+      "body": "Los cinco primeros acaban en **-ì** con acento y son invariables: *due lunedì*, *tre venerdì*. *Sabato* y *domenica* son los raros: uno no lleva acento y la otra es femenina.\n\nTodos van **en minúscula**, igual que en español.",
+      "table": {
+        "headers": ["Italiano", "Español"],
+        "rows": [
+          ["lunedì", "lunes"],
+          ["martedì", "martes"],
+          ["mercoledì", "miércoles"],
+          ["giovedì", "jueves"],
+          ["venerdì", "viernes"],
+          ["sabato", "sábado"],
+          ["la domenica", "domingo"]
+        ]
+      }
+    },
+    {
+      "heading": "Con artículo o sin artículo: no es lo mismo",
+      "body": "Aquí hay una diferencia real con el español, y es de las que se usan a diario.\n\n**il lunedì** (con artículo) = todos los lunes, cada lunes\n\n**lunedì** (sin artículo) = este lunes, el que viene o el que acaba de pasar\n\nEl español hace la misma distinción con el plural — «los lunes» frente a «el lunes» — y el italiano la hace con el artículo en singular.",
+      "table": {
+        "headers": ["Italiano", "Español"],
+        "rows": [
+          ["Il sabato sono a casa", "Los sábados estoy en casa"],
+          ["Sabato sono a casa", "Este sábado estoy en casa"],
+          ["La domenica è tutto chiuso", "Los domingos está todo cerrado"],
+          ["Domenica siamo in ritardo", "El domingo llegamos tarde"]
+        ]
+      }
+    },
+    {
+      "heading": "Meses y fechas",
+      "body": "Los meses van **en minúscula** y sin artículo delante: *a gennaio*, *in agosto*.\n\nPara la fecha se usa el número normal con artículo, y **sin *di***: *il 12 marzo*, *il 25 dicembre*. La única excepción es el día 1, que va con el ordinal:\n\n❌ *il uno maggio* · ✓ *il primo maggio*",
+      "table": {
+        "headers": ["Italiano", "Español", "Italiano", "Español"],
+        "rows": [
+          ["gennaio", "enero", "luglio", "julio"],
+          ["febbraio", "febrero", "agosto", "agosto"],
+          ["marzo", "marzo", "settembre", "septiembre"],
+          ["aprile", "abril", "ottobre", "octubre"],
+          ["maggio", "mayo", "novembre", "noviembre"],
+          ["giugno", "junio", "dicembre", "diciembre"]
+        ]
+      }
+    }
+  ],
+  "phrases": [
+    {
+      "it": "Che giorno è oggi?",
+      "es": "¿Qué día es hoy?",
+      "note": null
+    },
+    {
+      "it": "Oggi è lunedì, domani è martedì.",
+      "es": "Hoy es lunes, mañana es martes.",
+      "note": null
+    },
+    {
+      "it": "Ci vediamo sabato!",
+      "es": "¡Nos vemos el sábado!",
+      "note": "Sin artículo: este sábado concreto."
+    },
+    {
+      "it": "Il sabato sono sempre a casa.",
+      "es": "Los sábados siempre estoy en casa.",
+      "note": "Con artículo: todos los sábados."
+    },
+    {
+      "it": "La settimana prossima sono in Italia.",
+      "es": "La semana que viene estoy en Italia.",
+      "note": "*Prossima* detrás del nombre es lo más frecuente."
+    },
+    {
+      "it": "Domani è il compleanno di Marco.",
+      "es": "Mañana es el cumpleaños de Marco.",
+      "note": null
+    },
+    {
+      "it": "Buon compleanno!",
+      "es": "¡Feliz cumpleaños!",
+      "note": "*Buon*, no *buono*, delante del nombre masculino."
+    },
+    {
+      "it": "Oggi è il primo maggio.",
+      "es": "Hoy es el uno de mayo.",
+      "note": "El día 1 es el único que va con ordinal."
+    },
+    {
+      "it": "A domani!",
+      "es": "¡Hasta mañana!",
+      "note": null
+    }
+  ],
+  "ojo": [
+    {
+      "title": "«Il lunedì» y «lunedì» no significan lo mismo",
+      "body": "Esta es la diferencia que más se nota al hablar, porque cambia lo que estás diciendo.\n\n**Con artículo** = costumbre, todas las semanas:\n\n✓ *Il lunedì ho lezione* → los lunes tengo clase\n\n**Sin artículo** = un día concreto:\n\n✓ *Lunedì ho lezione* → este lunes tengo clase\n\nSi quedas con alguien y dices *il sabato*, estás diciendo que quedáis todos los sábados de aquí a la eternidad. Para este sábado: *sabato*, a secas.\n\n❌ *Ci vediamo il sabato* (si es solo este) · ✓ *Ci vediamo sabato*"
+    },
+    {
+      "title": "Días y meses en minúscula",
+      "body": "Igual que en español, y por la misma razón: no son nombres propios. El inglés ha contagiado la mayúscula a mucha gente, pero en italiano es una falta.\n\n❌ *Lunedì 12 Marzo* · ✓ *lunedì 12 marzo*\n\n❌ *il 25 Dicembre* · ✓ *il 25 dicembre*\n\nLo que sí lleva mayúscula son las fiestas: *Natale*, *Pasqua*, *Ferragosto*."
+    },
+    {
+      "title": "«Prossimo» es «próximo», pero también «el prójimo»",
+      "body": "Como adjetivo, *prossimo* significa **próximo, siguiente**, y va normalmente detrás del nombre:\n\n✓ *la settimana prossima* — la semana que viene\n\n✓ *l'anno prossimo* — el año que viene\n\n✓ *la prossima fermata* — la próxima parada (aquí sí va delante)\n\nPero *il prossimo* como nombre es **el prójimo**, el del mandamiento. No es un error frecuente, pero conviene no confundirse al leer.\n\nY para «la próxima vez» se dice *la prossima volta*, con el adjetivo delante."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "multiple-choice",
+      "prompt": "«Los sábados estoy en casa» en italiano es…",
+      "options": ["Sabato sono a casa", "Il sabato sono a casa", "I sabati sono a casa"],
+      "answer": 1,
+      "explain": "El artículo singular marca la costumbre: *il sabato* = todos los sábados."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "«Mañana» en el sentido de «el día siguiente» es…",
+      "options": ["la mattina", "domani", "la domenica"],
+      "answer": 1,
+      "explain": "*La mattina* es la mañana como parte del día; *domani* es el día siguiente."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "¿Cuál está bien escrito?",
+      "options": ["Lunedì 12 Marzo", "lunedì 12 marzo", "Lunedì 12 marzo"],
+      "answer": 1,
+      "explain": "Días y meses en minúscula."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "El 1 de mayo: il ___ maggio.",
+      "answer": ["primo"],
+      "explain": "El día 1 es el único que va con ordinal."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "El único día femenino: ___ domenica.",
+      "answer": ["la"],
+      "explain": "*La domenica*, plural *le domeniche*."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "La semana que viene: la settimana ___",
+      "answer": ["prossima"],
+      "explain": "*Prossima* concuerda con *settimana*, femenino."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Hoy es miércoles: oggi è ___",
+      "answer": ["mercoledì"],
+      "explain": "Con acento en la última sílaba."
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        ["lunedì", "lunes"],
+        ["mercoledì", "miércoles"],
+        ["giovedì", "jueves"],
+        ["venerdì", "viernes"],
+        ["sabato", "sábado"],
+        ["domenica", "domingo"]
+      ]
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        ["gennaio", "enero"],
+        ["febbraio", "febrero"],
+        ["maggio", "mayo"],
+        ["giugno", "junio"],
+        ["luglio", "julio"],
+        ["ottobre", "octubre"]
+      ]
+    },
+    {
+      "type": "word-order",
+      "words": ["La", "settimana", "prossima", "sono", "in", "Italia"],
+      "answer": "La settimana prossima sono in Italia.",
+      "explain": "*Italia* con mayúscula; *prossima* detrás del nombre."
+    },
+    {
+      "type": "word-order",
+      "words": ["Domani", "è", "il", "compleanno", "di", "Marco"],
+      "answer": "Domani è il compleanno di Marco.",
+      "explain": "*Di* + nombre para la posesión, como en español «de»."
+    },
+    {
+      "type": "translation",
+      "prompt": "¿Qué día es hoy?",
+      "answer": ["Che giorno è oggi?", "Che giorno è oggi"],
+      "explain": "*Che giorno è?* también vale a secas."
+    },
+    {
+      "type": "translation",
+      "prompt": "¡Feliz cumpleaños!",
+      "answer": ["Buon compleanno!", "Buon compleanno"],
+      "explain": "*Buon* pierde la -o delante de un nombre masculino."
+    },
+    {
+      "type": "listening",
+      "audio": "Oggi è mercoledì, domani è giovedì.",
+      "answer": ["Oggi è mercoledì, domani è giovedì."],
+      "explain": "Los dos con acento en la última sílaba."
+    },
+    {
+      "type": "listening",
+      "audio": "Ci vediamo la settimana prossima.",
+      "answer": ["Ci vediamo la settimana prossima."],
+      "explain": "«Nos vemos la semana que viene»."
+    }
+  ]
+}

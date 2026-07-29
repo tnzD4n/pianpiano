@@ -1,0 +1,325 @@
+{
+  "id": "m04-l01",
+  "module": "m04",
+  "title": "Los números del 0 al 100",
+  "goal": "Al final de esta lección sabrás decir y escribir cualquier número hasta el millón, con las dos trampas que tiene el italiano: la vocal que se cae y el plural de «mille».",
+  "vocab": [
+    {
+      "it": "zero",
+      "es": "el cero",
+      "gender": "m",
+      "plural": "zeri",
+      "note": "*Lo zero*, porque empieza por z."
+    },
+    {
+      "it": "tre",
+      "es": "tres",
+      "gender": null,
+      "plural": null,
+      "note": "Solo lleva acento cuando va al final de un número compuesto: *ventitré*, *quarantatré*."
+    },
+    {
+      "it": "sei",
+      "es": "seis",
+      "gender": null,
+      "plural": null,
+      "note": "También significa «eres». El contexto lo aclara siempre."
+    },
+    {
+      "it": "otto",
+      "es": "ocho",
+      "gender": null,
+      "plural": null,
+      "note": "Con dos tes. La decena pierde su vocal delante: *ventotto*, *trentotto*."
+    },
+    {
+      "it": "undici",
+      "es": "once",
+      "gender": null,
+      "plural": null,
+      "note": "Acento en la u: /ÚN-di-chi/."
+    },
+    {
+      "it": "venti",
+      "es": "veinte",
+      "gender": null,
+      "plural": null,
+      "note": "Cuidado: *i venti* también son «los vientos»."
+    },
+    {
+      "it": "quaranta",
+      "es": "cuarenta",
+      "gender": null,
+      "plural": null,
+      "note": "Sin la e del español: *quaranta*, no «cuarenta»."
+    },
+    {
+      "it": "cento",
+      "es": "cien, ciento",
+      "gender": null,
+      "plural": null,
+      "note": "Invariable: *duecento*, *trecento*. Nunca *centi* ni *centos*."
+    },
+    {
+      "it": "mille",
+      "es": "mil",
+      "gender": null,
+      "plural": "mila",
+      "note": "Plural irregular: *duemila*, *tremila*, *diecimila*."
+    },
+    {
+      "it": "mezzo",
+      "es": "medio",
+      "gender": null,
+      "plural": null,
+      "note": "Femenino *mezza*. *Mezzo chilo*, *mezz'ora*."
+    },
+    {
+      "it": "quanto",
+      "es": "cuánto",
+      "gender": null,
+      "plural": null,
+      "note": "Concuerda: *quanti anni*, *quante persone*."
+    },
+    {
+      "it": "prezzo",
+      "es": "el precio",
+      "gender": "m",
+      "plural": "prezzi",
+      "note": "Con dos zetas. Lo que pone en la etiqueta."
+    },
+    {
+      "it": "chilo",
+      "es": "el kilo",
+      "gender": "m",
+      "plural": "chili",
+      "note": "Se escribe con ch, no con k: *un chilo di pane*."
+    },
+    {
+      "it": "piano",
+      "es": "el piso (de un edificio)",
+      "gender": "m",
+      "plural": "piani",
+      "note": "*Il primo piano*. Y *piano piano* significa «poco a poco»: de ahí el nombre de este sitio."
+    },
+    {
+      "it": "primo",
+      "es": "primero",
+      "gender": null,
+      "plural": null,
+      "note": "Femenino *prima*. También *il primo* es el primer plato de la comida."
+    }
+  ],
+  "grammar": [
+    {
+      "heading": "Del 0 al 20",
+      "body": "Los primeros diez se parecen tanto al español que casi no hay que estudiarlos. Del 11 al 16 el italiano pone la unidad delante (*undici*, *dodici*); del 17 al 19 la pone detrás (*diciassette*). El español hace el mismo cambio de sistema, solo que un número antes.\n\nFíjate en las dobles: *diciassette* con dos eses, *diciannove* con dos enes.",
+      "table": {
+        "headers": ["N.º", "Italiano", "N.º", "Italiano"],
+        "rows": [
+          ["0", "zero", "11", "undici"],
+          ["1", "uno", "12", "dodici"],
+          ["2", "due", "13", "tredici"],
+          ["3", "tre", "14", "quattordici"],
+          ["4", "quattro", "15", "quindici"],
+          ["5", "cinque", "16", "sedici"],
+          ["6", "sei", "17", "diciassette"],
+          ["7", "sette", "18", "diciotto"],
+          ["8", "otto", "19", "diciannove"],
+          ["9", "nove", "20", "venti"],
+          ["10", "dieci", "", ""]
+        ]
+      }
+    },
+    {
+      "heading": "Las decenas, y la vocal que se cae",
+      "body": "Todo se escribe **junto**, en una sola palabra, por largo que sea: *quarantatré*, *sessantacinque*, *novantotto*.\n\nY la decena **pierde su vocal final** delante de *uno* y de *otto*, que empiezan por vocal: *venti* + *uno* = **ventuno**.\n\nCuando el número acaba en *tre*, ese *tre* lleva acento: *ventitré*, *quarantatré*, *novantatré*.",
+      "table": {
+        "headers": ["Decena", "Italiano", "+ uno", "+ otto"],
+        "rows": [
+          ["20", "venti", "ventuno", "ventotto"],
+          ["30", "trenta", "trentuno", "trentotto"],
+          ["40", "quaranta", "quarantuno", "quarantotto"],
+          ["50", "cinquanta", "cinquantuno", "cinquantotto"],
+          ["60", "sessanta", "sessantuno", "sessantotto"],
+          ["70", "settanta", "settantuno", "settantotto"],
+          ["80", "ottanta", "ottantuno", "ottantotto"],
+          ["90", "novanta", "novantuno", "novantotto"]
+        ]
+      }
+    },
+    {
+      "heading": "Cien, mil y más",
+      "body": "*Cento* no cambia nunca. *Mille* sí: su plural es **-mila**, y se pega al número.\n\n❌ *duemille* · ✓ *duemila*\n\nY ni *cento* ni *mille* llevan *un* delante, igual que en español no decimos «un cien»: *cento euro*, *mille euro*. En cambio *milione* sí lo lleva, y además pide *di* delante del nombre: *un milione di persone*.",
+      "table": {
+        "headers": ["Italiano", "Español"],
+        "rows": [
+          ["cento", "cien, ciento"],
+          ["centouno", "ciento uno"],
+          ["duecento", "doscientos"],
+          ["mille", "mil"],
+          ["duemila", "dos mil"],
+          ["diecimila", "diez mil"],
+          ["un milione", "un millón"]
+        ]
+      }
+    }
+  ],
+  "phrases": [
+    {
+      "it": "Un caffè e due cornetti, per favore.",
+      "es": "Un café y dos cruasanes, por favor.",
+      "note": null
+    },
+    {
+      "it": "Quanti siete?",
+      "es": "¿Cuántos sois?",
+      "note": "Lo primero que preguntan al entrar en un restaurante."
+    },
+    {
+      "it": "Siamo in quattro.",
+      "es": "Somos cuatro.",
+      "note": "Con *in* delante del número. También vale *siamo quattro*."
+    },
+    {
+      "it": "Un tavolo per sei, per favore.",
+      "es": "Una mesa para seis, por favor.",
+      "note": null
+    },
+    {
+      "it": "Terzo piano, per favore.",
+      "es": "Tercer piso, por favor.",
+      "note": "En el ascensor. La planta baja es *il piano terra*."
+    },
+    {
+      "it": "Mezzo chilo di pomodori, per favore.",
+      "es": "Medio kilo de tomates, por favor.",
+      "note": "*Mezzo chilo*, sin artículo, como en español."
+    },
+    {
+      "it": "Il numero è quarantatré.",
+      "es": "El número es cuarenta y tres.",
+      "note": "Todo junto y con acento en la e final."
+    },
+    {
+      "it": "Cento euro, non di più.",
+      "es": "Cien euros, no más.",
+      "note": "*Euro* invariable: nunca *euri*."
+    }
+  ],
+  "ojo": [
+    {
+      "title": "Los números se escriben juntos, y «mille» hace «mila»",
+      "body": "Dos reglas de ortografía que el español no tiene y que se saltan casi todos los principiantes.\n\n**Todo junto**, aunque queden palabras larguísimas:\n\n❌ *quaranta tre* · ✓ *quarantatré*\n\n❌ *cinquanta sei* · ✓ *cinquantasei*\n\n**La vocal se cae** delante de *uno* y *otto*:\n\n❌ *venti uno* · ✓ *ventuno*\n\n❌ *trenta otto* · ✓ *trentotto*\n\n**Mille hace mila** en plural:\n\n❌ *duemille* · ✓ *duemila*\n\n❌ *diecimille* · ✓ *diecimila*\n\nY el *tre* final siempre con acento: *ventitré*, *sessantatré*."
+    },
+    {
+      "title": "Los números están llenos de consonantes dobles",
+      "body": "Aquí vuelve el problema del módulo 1, concentrado. Si escribes un número con una consonante de menos, está mal escrito:\n\n*se**tt**e*, *o**tt**o*, *qua**tt**ro*, *qua**tt**ordici*\n\n*dicia**ss**ette*, *dicia**nn**ove*, *se**ss**anta*, *se**tt**anta*, *o**tt**anta*\n\nY dos que se parecen peligrosamente:\n\n*sette* (siete) / *sete* (sed)\n\n*novanta* (noventa) / *nove* (nueve)"
+    }
+  ],
+  "exercises": [
+    {
+      "type": "multiple-choice",
+      "prompt": "«43» se escribe…",
+      "options": ["quaranta tre", "quarantatré", "quarantatre"],
+      "answer": 1,
+      "explain": "Todo junto y con acento en el *tre* final."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "«2000» se dice…",
+      "options": ["duemille", "duemila", "duecento"],
+      "answer": 1,
+      "explain": "El plural de *mille* es *mila*."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "«28» se dice…",
+      "options": ["ventiotto", "ventotto", "venteotto"],
+      "answer": 1,
+      "explain": "*Venti* pierde la i delante de *otto*."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "21 = ___",
+      "answer": ["ventuno"],
+      "explain": "*Venti* + *uno*, con la i caída."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "17 = ___",
+      "answer": ["diciassette"],
+      "explain": "Con dos eses: *diciassette*."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "100 = ___",
+      "answer": ["cento"],
+      "explain": "Sin *un* delante: *cento euro*."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "10 000 = ___",
+      "answer": ["diecimila"],
+      "explain": "*Dieci* + *mila*, todo junto."
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        ["undici", "once"],
+        ["quattordici", "catorce"],
+        ["sedici", "dieciséis"],
+        ["diciannove", "diecinueve"],
+        ["sessanta", "sesenta"],
+        ["novanta", "noventa"]
+      ]
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        ["ventuno", "veintiuno"],
+        ["ventotto", "veintiocho"],
+        ["quarantatré", "cuarenta y tres"],
+        ["duecento", "doscientos"],
+        ["duemila", "dos mil"],
+        ["un milione", "un millón"]
+      ]
+    },
+    {
+      "type": "word-order",
+      "words": ["Un", "tavolo", "per", "sei", "per", "favore"],
+      "answer": "Un tavolo per sei, per favore.",
+      "explain": "*Per* + número, sin artículo."
+    },
+    {
+      "type": "word-order",
+      "words": ["Un", "caffè", "e", "due", "cornetti", "per", "favore"],
+      "answer": "Un caffè e due cornetti, per favore.",
+      "explain": "*Cornetto* → *cornetti* en plural."
+    },
+    {
+      "type": "translation",
+      "prompt": "Somos cuatro.",
+      "answer": ["Siamo in quattro.", "Siamo quattro."],
+      "explain": "Las dos valen; *siamo in quattro* es lo que se oye en un restaurante."
+    },
+    {
+      "type": "translation",
+      "prompt": "Cien euros, no más.",
+      "answer": ["Cento euro, non di più.", "Cento euro non di più"],
+      "explain": "*Euro* no cambia en plural."
+    },
+    {
+      "type": "listening",
+      "audio": "Quarantatré, cinquantasei, novantotto.",
+      "answer": ["Quarantatré, cinquantasei, novantotto."],
+      "explain": "Tres números compuestos, los tres en una sola palabra."
+    },
+    {
+      "type": "listening",
+      "audio": "Mezzo chilo di pomodori, per favore.",
+      "answer": ["Mezzo chilo di pomodori, per favore."],
+      "explain": "*Chilo* con ch. *Mezzo* con dos zetas."
+    }
+  ]
+}

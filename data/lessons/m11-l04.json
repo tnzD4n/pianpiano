@@ -1,0 +1,432 @@
+{
+  "id": "m11-l04",
+  "module": "m11",
+  "title": "Repaso final del A1",
+  "goal": "Sin gramática nueva: treinta ejercicios mezclados de los once módulos, y el glosario definitivo de los falsos amigos que más caro cuestan.",
+  "vocab": [
+    {
+      "it": "truffa",
+      "es": "la estafa",
+      "gender": "f",
+      "plural": "truffe",
+      "note": "La trufa es *il tartufo*. El verbo es *truffare*."
+    },
+    {
+      "it": "tartufo",
+      "es": "la trufa",
+      "gender": "m",
+      "plural": "tartufi",
+      "note": "El hongo y el helado. Nada que ver con *la truffa*."
+    },
+    {
+      "it": "esito",
+      "es": "el resultado",
+      "gender": "m",
+      "plural": "esiti",
+      "note": "Sin decir si es bueno o malo. El éxito es *il successo*."
+    },
+    {
+      "it": "successo",
+      "es": "el éxito",
+      "gender": "m",
+      "plural": "successi",
+      "note": "Tampoco es «el suceso»: eso es *il fatto*. Y es el participio de *succedere*."
+    },
+    {
+      "it": "tuttavia",
+      "es": "sin embargo",
+      "gender": null,
+      "plural": null,
+      "note": "«Todavía» es *ancora*."
+    },
+    {
+      "it": "autista",
+      "es": "el conductor",
+      "gender": "m",
+      "plural": "autisti",
+      "note": "Vale para hombre y mujer: *l'autista*. Femenino plural *le autiste*."
+    },
+    {
+      "it": "rapporto",
+      "es": "la relación; el informe",
+      "gender": "m",
+      "plural": "rapporti",
+      "note": "El rapto es *il rapimento*."
+    },
+    {
+      "it": "subire",
+      "es": "padecer, sufrir",
+      "gender": null,
+      "plural": null,
+      "note": "Subir es *salire*. Su participio, *subito*, se escribe como el adverbio."
+    },
+    {
+      "it": "nudo",
+      "es": "desnudo",
+      "gender": null,
+      "plural": null,
+      "note": "El nudo es *il nodo*."
+    },
+    {
+      "it": "nodo",
+      "es": "el nudo",
+      "gender": "m",
+      "plural": "nodi",
+      "note": "*Un nodo alla gola*: un nudo en la garganta."
+    },
+    {
+      "it": "gambero",
+      "es": "la gamba (el marisco)",
+      "gender": "m",
+      "plural": "gamberi",
+      "note": "*La gamba* es la pierna."
+    },
+    {
+      "it": "orso",
+      "es": "el oso",
+      "gender": "m",
+      "plural": "orsi",
+      "note": "*L'osso* es el hueso. Una letra de diferencia."
+    },
+    {
+      "it": "brodo",
+      "es": "el caldo",
+      "gender": "m",
+      "plural": "brodi",
+      "note": "*Il caldo* es el calor."
+    },
+    {
+      "it": "asino",
+      "es": "el burro (el animal)",
+      "gender": "m",
+      "plural": "asini",
+      "note": "*Il burro* es la mantequilla. Como insulto funciona igual que en español."
+    },
+    {
+      "it": "affare",
+      "es": "el negocio, el asunto",
+      "gender": "m",
+      "plural": "affari",
+      "note": "*Il negozio* es la tienda. *È un buon affare*: es un buen negocio."
+    }
+  ],
+  "grammar": [
+    {
+      "heading": "Los cuatro verbos que lo sostienen todo",
+      "body": "Si te sabes estos cuatro, te sostienen la mitad de las frases que vas a decir. Los demás son regulares o casi.",
+      "table": {
+        "headers": ["", "essere", "avere", "andare", "fare"],
+        "rows": [
+          ["io", "sono", "ho", "vado", "faccio"],
+          ["tu", "sei", "hai", "vai", "fai"],
+          ["lui, lei, Lei", "è", "ha", "va", "fa"],
+          ["noi", "siamo", "abbiamo", "andiamo", "facciamo"],
+          ["voi", "siete", "avete", "andate", "fate"],
+          ["loro", "sono", "hanno", "vanno", "fanno"]
+        ]
+      }
+    },
+    {
+      "heading": "Las trampas de ortografía",
+      "body": "Ninguna de estas es opcional, y algunas las fallan los propios italianos. Merece la pena repasarlas antes de escribir cualquier cosa.",
+      "table": {
+        "headers": ["Mal", "Bien", "Por qué"],
+        "rows": [
+          ["e", "è", "*è* es el verbo, *e* es «y»"],
+          ["perchè", "perché", "acento agudo, siempre"],
+          ["qual'è", "qual è", "*quale* pierde la sílaba, no una vocal"],
+          ["un pò", "un po'", "*po'* viene de *poco*: apóstrofo"],
+          ["c'sono", "ci sono", "solo *c'è* se apostrofa"],
+          ["un'amico", "un amico", "el masculino no se apostrofa"],
+          ["una amica", "un'amica", "el femenino sí"],
+          ["duemille", "duemila", "el plural de *mille* es *mila*"],
+          ["quaranta tre", "quarantatré", "los números van juntos"]
+        ]
+      }
+    },
+    {
+      "heading": "Lo que ya sabes hacer",
+      "body": "Once módulos, y esto es lo que cubren. Si puedes hacer todo lo de la columna de la derecha sin pararte a pensar, el A1 está.",
+      "table": {
+        "headers": ["Módulo", "Sabes"],
+        "rows": [
+          ["1–2", "saludar, leer en voz alta, género, plural, artículos"],
+          ["3", "essere, avere, adjetivos, nacionalidades"],
+          ["4", "números, hora, fechas, el tiempo que hace"],
+          ["5", "el presente entero, regular e irregular"],
+          ["6", "pedir, preguntar, negar, decir que hay algo"],
+          ["7", "describir tu casa, preposiciones, orientarte"],
+          ["8", "comer fuera, comprar, cantidades"],
+          ["9", "tu día, lo que te gusta, tu familia, cómo estás"],
+          ["10", "contar lo que pasó"],
+          ["11", "pronombres, órdenes, teléfono y mensajes"]
+        ]
+      }
+    }
+  ],
+  "phrases": [
+    {
+      "it": "Non capisco, puoi ripetere?",
+      "es": "No entiendo, ¿puedes repetir?",
+      "note": "La frase más útil del curso. De usted: *può ripetere?*"
+    },
+    {
+      "it": "Vorrei un caffè, per favore.",
+      "es": "Quería un café, por favor.",
+      "note": "*Vorrei*, nunca *voglio*."
+    },
+    {
+      "it": "Scusi, dov'è il bagno?",
+      "es": "Perdone, ¿dónde está el baño?",
+      "note": "La segunda más útil, siendo honestos."
+    },
+    {
+      "it": "Quanto costa?",
+      "es": "¿Cuánto cuesta?",
+      "note": "En plural, *quanto costano?*"
+    },
+    {
+      "it": "Mi fa male la testa.",
+      "es": "Me duele la cabeza.",
+      "note": "Con artículo, nunca con posesivo."
+    },
+    {
+      "it": "Non lo so.",
+      "es": "No lo sé.",
+      "note": "Con el pronombre, siempre. *Non so* solo suena incompleto."
+    },
+    {
+      "it": "Ci sentiamo domani!",
+      "es": "¡Hablamos mañana!",
+      "note": "Por teléfono. En persona, *ci vediamo*."
+    },
+    {
+      "it": "Piano piano, ci arrivo.",
+      "es": "Poco a poco, ya llegaré.",
+      "note": "De aquí viene el nombre de este sitio. Y es verdad."
+    }
+  ],
+  "ojo": [
+    {
+      "title": "Los diez que más daño hacen",
+      "body": "Estos son los que cambian el sentido de una frase entera y no se descubren hasta que alguien pone cara rara.\n\n**burro** → mantequilla · el animal es *l'asino*\n\n**aceto** → vinagre · el aceite es *l'olio*\n\n**panna** → nata · el pan es *il pane*\n\n**caldo** → calor, caliente · el caldo es *il brodo*\n\n**gamba** → pierna · el marisco es *il gambero*\n\n**osso** → hueso · el oso es *l'orso*\n\n**camera** → habitación · la cámara es *la macchina fotografica*\n\n**negozio** → tienda · el negocio es *un affare*\n\n**largo** → ancho · largo es *lungo*\n\n**guardare** → mirar · guardar es *tenere*"
+    },
+    {
+      "title": "Los verbos que engañan",
+      "body": "Estos son peores que los anteriores, porque la frase equivocada **también tiene sentido**. Nadie te corrige, y estás diciendo otra cosa.\n\n**salire** → subir · salir es *uscire*\n\n**partire** → irse de viaje · partir en trozos es *tagliare*\n\n**sembrare** → parecer · sembrar es *seminare*\n\n**subire** → padecer · subir es *salire*\n\n**cadere** → caerse · cazar es *cacciare*\n\n**tenere** → sujetar · tener algo es *avere*\n\n✓ *Salgo le scale* → subo las escaleras, no salgo de ellas\n\n✓ *Ho due fratelli*, no *tengo due fratelli*"
+    },
+    {
+      "title": "Y los que se cuelan al escribir",
+      "body": "Menos peligrosos, pero igual de frecuentes.\n\n**pronto** → listo; y al teléfono, «¿diga?» · pronto de tiempo es *presto*\n\n**imbarazzata** → avergonzada · embarazada es *incinta*\n\n**tuttavia** → sin embargo · todavía es *ancora*\n\n**prossimo** → próximo; y como nombre, el prójimo\n\n**esito** → resultado · el éxito es *il successo*\n\n**rapporto** → relación o informe · el rapto es *il rapimento*\n\n**truffa** → estafa · la trufa es *il tartufo*\n\n**nudo** → desnudo · el nudo es *il nodo*\n\n**parente** → pariente · los padres son *i genitori*\n\n**finalmente** → por fin · en último lugar es *infine*\n\n**carta** → papel; y también tarjeta · la carta de correo es *una lettera*\n\n**tenda** → cortina, o tienda de campaña · la tienda de comprar es *il negozio*\n\n**simpatico** → majo, agradable · más ancho que el «simpático» español\n\n**autista** → conductor\n\n**campagna** → el campo, lo contrario de la ciudad"
+    }
+  ],
+  "exercises": [
+    {
+      "type": "multiple-choice",
+      "prompt": "«Il nonno» significa…",
+      "options": ["el noveno", "el abuelo", "la abuela"],
+      "answer": 1,
+      "explain": "*Nono* con una ene es «noveno». La doble consonante cambia la palabra."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "¿Qué artículo lleva «studente»?",
+      "options": ["il", "lo", "l'"],
+      "answer": 1,
+      "explain": "S + consonante pide *lo*, y en plural *gli*."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "«Estoy cansada» en italiano es…",
+      "options": ["Sto stanca", "Sono stanca", "Ho stanca"],
+      "answer": 1,
+      "explain": "No hay ser/estar: todo va con *essere*."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "«Guardare» significa…",
+      "options": ["guardar", "mirar", "esperar"],
+      "answer": 1,
+      "explain": "Guardar es *tenere* o *conservare*."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "«L'aceto» es…",
+      "options": ["el aceite", "el vinagre", "la aceituna"],
+      "answer": 1,
+      "explain": "El aceite es *l'olio*."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "«Comí ayer» en italiano es…",
+      "options": ["Mangiai ieri", "Ho mangiato ieri", "Mangiavo ieri"],
+      "answer": 1,
+      "explain": "El *passato prossimo* cubre «comí» y «he comido»."
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "«Lo veo mañana» (a un hombre) es…",
+      "options": ["Gli vedo domani", "Lo vedo domani", "Le vedo domani"],
+      "answer": 1,
+      "explain": "En italiano no hay leísmo: el objeto directo masculino es *lo*."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "un uovo → due ___",
+      "answer": ["uova"],
+      "explain": "Plural femenino irregular: *le uova*."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Loro ___ ragione. (avere)",
+      "answer": ["hanno"],
+      "explain": "*Hanno* con h muda pero obligatoria."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "12:00 → È ___",
+      "answer": ["mezzogiorno"],
+      "explain": "Singular, como *è l'una* y *è mezzanotte*."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Noi ___ alle sei. (finire)",
+      "answer": ["finiamo"],
+      "explain": "*Noi* va sin -isc-."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Le chiavi sono ___ borsa. (in + la)",
+      "answer": ["nella"],
+      "explain": "La fusión es obligatoria."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Mi ___ male i piedi.",
+      "answer": ["fanno"],
+      "explain": "El verbo concuerda con la parte del cuerpo, que aquí es plural."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "(Una mujer) sono ___ a Madrid. (nascere)",
+      "answer": ["nata"],
+      "explain": "Con *essere* el participio concuerda."
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        ["ventuno", "veintiuno"],
+        ["ventotto", "veintiocho"],
+        ["quarantatré", "cuarenta y tres"],
+        ["duecento", "doscientos"],
+        ["duemila", "dos mil"],
+        ["diecimila", "diez mil"]
+      ]
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        ["fare", "fatto"],
+        ["dire", "detto"],
+        ["prendere", "preso"],
+        ["vedere", "visto"],
+        ["aprire", "aperto"],
+        ["essere", "stato"]
+      ]
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        ["il burro", "la mantequilla"],
+        ["l'aceto", "el vinagre"],
+        ["la panna", "la nata"],
+        ["la gamba", "la pierna"],
+        ["il negozio", "la tienda"],
+        ["largo", "ancho"]
+      ]
+    },
+    {
+      "type": "matching",
+      "pairs": [
+        ["Non capisco", "No entiendo"],
+        ["Quanto costa?", "¿Cuánto cuesta?"],
+        ["Mi fa male la testa", "Me duele la cabeza"],
+        ["Ci sentiamo", "Hablamos"],
+        ["Non lo so", "No lo sé"],
+        ["Che peccato!", "¡Qué pena!"]
+      ]
+    },
+    {
+      "type": "word-order",
+      "words": ["Vorrei", "un", "tavolo", "per", "due", "per", "favore"],
+      "answer": "Vorrei un tavolo per due, per favore.",
+      "explain": "*Vorrei*, no *voglio*."
+    },
+    {
+      "type": "word-order",
+      "words": ["Non", "ho", "ancora", "deciso"],
+      "answer": "Non ho ancora deciso.",
+      "explain": "*Ancora* entre el auxiliar y el participio."
+    },
+    {
+      "type": "word-order",
+      "words": ["Mi", "sono", "svegliata", "presto", "e", "sono", "uscita", "subito"],
+      "answer": "Mi sono svegliata presto e sono uscita subito.",
+      "explain": "Reflexivo y verbo de movimiento: los dos con *essere* y los dos concordando."
+    },
+    {
+      "type": "word-order",
+      "words": ["Scusi", "dov'è", "la", "fermata", "dell'autobus", "?"],
+      "answer": "Scusi, dov'è la fermata dell'autobus?",
+      "explain": "*Scusi* de usted, y dos apóstrofos."
+    },
+    {
+      "type": "translation",
+      "prompt": "¿Cuánto cuesta?",
+      "answer": ["Quanto costa?"],
+      "explain": "En plural sería *quanto costano?*"
+    },
+    {
+      "type": "translation",
+      "prompt": "Me duele la cabeza.",
+      "answer": ["Mi fa male la testa.", "Ho mal di testa."],
+      "explain": "Las dos valen. Con artículo, nunca con posesivo."
+    },
+    {
+      "type": "translation",
+      "prompt": "Hace dos años.",
+      "answer": ["Due anni fa."],
+      "explain": "*Fa* siempre detrás."
+    },
+    {
+      "type": "translation",
+      "prompt": "No entiendo, ¿puedes repetir?",
+      "answer": ["Non capisco, puoi ripetere?"],
+      "explain": "De usted: *può ripetere?*"
+    },
+    {
+      "type": "translation",
+      "prompt": "Mis padres viven en Roma.",
+      "answer": ["I miei genitori abitano a Roma."],
+      "explain": "Con artículo porque es plural, y *a* con la ciudad."
+    },
+    {
+      "type": "listening",
+      "audio": "Vorrei un caffè e un cornetto, per favore.",
+      "answer": ["Vorrei un caffè e un cornetto, per favore."],
+      "explain": "El desayuno italiano y la fórmula para pedirlo."
+    },
+    {
+      "type": "listening",
+      "audio": "Non c'è nessuno, ci vediamo domani.",
+      "answer": ["Non c'è nessuno, ci vediamo domani."],
+      "explain": "Doble negación y despedida en persona."
+    },
+    {
+      "type": "listening",
+      "audio": "Due anni fa sono andata in Italia.",
+      "answer": ["Due anni fa sono andata in Italia."],
+      "explain": "*Fa* detrás, *essere* con concordancia, *in* con el país."
+    }
+  ]
+}
