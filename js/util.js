@@ -339,7 +339,8 @@ function diffBlock(given, expected) {
 export function showFeedback(box, opts) {
   clear(box);
   if (opts.correct) {
-    box.append(el('p', { class: 'fb ok', text: '✓ ¡Correcto!' }));
+    box.append(el('p', { class: 'fb ok' },
+      el('span', { class: 'fb-icon', 'aria-hidden': 'true' }, '✓'), ' ¡Correcto!'));
     if (opts.accentWarning) {
       // Confondere «è» ed «é» è l'errore classico: dirle «falta el acento»
       // quando l'accento c'è ma è girato non le spiega niente.
@@ -353,7 +354,12 @@ export function showFeedback(box, opts) {
       }));
     }
   } else {
-    box.append(el('p', { class: 'fb bad', text: '✗ Todavía no.' }));
+    /* L'icona è un elemento a sé perché porta lei il colore dell'errore:
+       --warn come testo piccolo non arriva a 4.5:1, come segno grande sì.
+       Il testo resta in --text, e chi legge con il lettore di schermo sente
+       «Todavía no» senza il simbolo, che sarebbe rumore. */
+    box.append(el('p', { class: 'fb bad' },
+      el('span', { class: 'fb-icon', 'aria-hidden': 'true' }, '✗'), ' Todavía no.'));
 
     // `diff` lo attivano solo gli esercizi in cui si scrive: nella scelta
     // multipla le due opzioni sono parole diverse e allinearle non dice nulla.

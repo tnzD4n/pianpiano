@@ -6,6 +6,7 @@
      #/repaso            sessione di ripasso                                  */
 
 import { el, clear } from './util.js';
+import * as store from './store.js';
 import * as srs from './srs.js';
 import * as tts from './tts.js';
 import * as pwa from './pwa.js';
@@ -134,6 +135,11 @@ function route() {
 }
 
 async function boot() {
+  /* Lo script inline nel <head> ha già messo `data-theme` per non far
+     lampeggiare il bianco. Qui si riallinea la barra di stato del telefono
+     al colore del tema, cosa che richiede il CSS già applicato. */
+  store.applyTheme(store.getTheme());
+
   try {
     const response = await fetch('data/course.json', { cache: 'no-cache' });
     course = await response.json();

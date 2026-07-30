@@ -61,7 +61,8 @@ async function loadStore(initial) {
   store.markBackupDone();
   const salvato = JSON.parse(storage.getItem(KEY));
 
-  check('lo schema passa a 3', salvato.schemaVersion === 3, `trovato ${salvato.schemaVersion}`);
+  check('lo schema passa a 4', salvato.schemaVersion === 4, `trovato ${salvato.schemaVersion}`);
+  check('chi arriva da prima parte dal tema automatico', salvato.theme === 'auto', String(salvato.theme));
   check('il vecchio campo `version` viene rimosso', salvato.version === undefined, JSON.stringify(salvato.version));
 
   check('le lezioni sono identiche',
@@ -112,7 +113,7 @@ async function loadStore(initial) {
   const { storage: storage2 } = await loadStore(JSON.parse(primo));
   const secondo = storage2.getItem(KEY);
   check('la migrazione è idempotente',
-    secondo === null || JSON.parse(secondo).schemaVersion === 3);
+    secondo === null || JSON.parse(secondo).schemaVersion === 4);
 
   // Rileggere non deve rigonfiare i contatori.
   const riletti = JSON.parse(primo).srs;

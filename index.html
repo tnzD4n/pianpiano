@@ -7,7 +7,8 @@
   <meta name="color-scheme" content="light dark">
   <title>Pian piano · Italiano desde cero</title>
   <meta name="description" content="Curso de italiano desde cero para hispanohablantes. Nivel A1.">
-  <meta name="theme-color" content="#0f7b5c">
+  <!-- Il contenuto lo aggiorna js/store.js quando il tema cambia. -->
+  <meta name="theme-color" id="theme-color" content="#F7F5F0">
   <link rel="icon" href="assets/icons/favicon-32.png" sizes="32x32" type="image/png">
   <link rel="icon" href="assets/icons/favicon-16.png" sizes="16x16" type="image/png">
   <link rel="icon" href="assets/icons/icon.svg" type="image/svg+xml">
@@ -15,6 +16,35 @@
   <link rel="manifest" href="manifest.webmanifest">
   <meta name="apple-mobile-web-app-title" content="Pian piano">
   <meta name="apple-mobile-web-app-capable" content="yes">
+
+  <!-- Il tema scelto va applicato PRIMA del primo paint, altrimenti chi ha
+       scelto lo scuro vede un lampo bianco a ogni caricamento. Deve stare
+       qui, inline e sincrono: un modulo ES arriverebbe troppo tardi.
+       Legge la stessa chiave di js/store.js; se cambia lì, cambia anche qui. -->
+  <script>
+    (function () {
+      var scelta = 'auto';
+      try {
+        var raw = localStorage.getItem('pianpiano.v1');
+        if (raw) {
+          var t = JSON.parse(raw).theme;
+          if (t === 'light' || t === 'dark') scelta = t;
+        }
+      } catch (e) {
+        /* modalità privata o dati illeggibili: resta 'auto' */
+      }
+      /* «auto» viene risolto qui in un valore concreto, così il CSS ha
+         bisogno dei soli due blocchi di variabili e nessun colore va
+         scritto due volte. Il cambio di tema di sistema, a scelta «auto»,
+         viene riseguito a runtime da js/store.js. */
+      if (scelta === 'auto') {
+        scelta = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+          ? 'dark' : 'light';
+      }
+      if (scelta === 'dark') document.documentElement.setAttribute('data-theme', 'dark');
+    })();
+  </script>
+
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -31,9 +61,7 @@
     </nav>
   </header>
 
-  <main id="main" class="app" tabindex="-1">
-    <p class="loading">Cargando…</p>
-  </main>
+  <main id="main" class="app" tabindex="-1"></main>
 
   <footer class="site-footer">
     <p>Pian piano · italiano desde cero · nivel A1</p>

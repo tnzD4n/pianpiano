@@ -1,181 +1,193 @@
 /* ==========================================================================
-   Pian piano — foglio di stile unico.
+   Pian piano — «Adriatico e sabbia».
+
    Mobile first: le media query allargano, non restringono.
-   Il tema scuro segue prefers-color-scheme, senza interruttore manuale.
+   Nessun colore letterale fuori dai due blocchi di variabili qui sotto.
+   Nessuna ombra, nessun gradiente: la profondità la fa --surface-sunk.
+
+   Il tema si sceglie fra automatico, chiaro e scuro. «Automatico» viene
+   risolto in 'light' o 'dark' da uno script inline nel <head>, prima del
+   primo paint, così il CSS ha bisogno dei soli due blocchi di variabili e
+   nessun colore va scritto due volte.
    ========================================================================== */
 
 /* ---------- Caratteri ----------
-   Due famiglie, scaricate nel repository da `node tools/fetch-fonts.mjs`,
-   entrambe con licenza SIL Open Font License 1.1 (il testo sta accanto ai
-   file .woff2). Nessuna richiesta verso l'esterno.
+   Scaricati nel repository da `node tools/fetch-fonts.mjs`, licenza SIL OFL
+   1.1 (il testo sta accanto ai .woff2). Nessuna richiesta verso l'esterno.
 
-   La divisione è di sostanza, non decorativa:
-     Lora  (serif caldo)  = la lingua da imparare, l'italiano
-     Inter (sans neutro)  = la lingua di servizio, lo spagnolo
-   Si riconoscono a colpo d'occhio, senza doverlo spiegare.
-
-   Sono varianti variabili: un file copre tutti i pesi da 400 a 700. */
+   La regola è secca e senza eccezioni:
+     Newsreader  (serif) = la lingua da imparare, l'italiano
+     Public Sans (sans)  = la lingua di servizio, lo spagnolo             */
 
 @font-face {
-  font-family: "Lora var";
+  font-family: "Newsreader";
   font-style: normal;
   font-weight: 400 700;
   font-display: swap;
-  src: url("../assets/fonts/lora-latin-variable.woff2") format("woff2");
+  src: url("../assets/fonts/newsreader-latin-variable.woff2") format("woff2");
 }
-
 @font-face {
-  font-family: "Lora var";
+  font-family: "Newsreader";
   font-style: italic;
   font-weight: 400 700;
   font-display: swap;
-  src: url("../assets/fonts/lora-latin-italic-variable.woff2") format("woff2");
+  src: url("../assets/fonts/newsreader-latin-italic-variable.woff2") format("woff2");
 }
-
 @font-face {
-  font-family: "Inter var";
+  font-family: "Public Sans";
   font-style: normal;
   font-weight: 400 700;
   font-display: swap;
-  src: url("../assets/fonts/inter-latin-variable.woff2") format("woff2");
+  src: url("../assets/fonts/publicsans-latin-variable.woff2") format("woff2");
 }
-
 @font-face {
-  font-family: "Inter var";
+  font-family: "Public Sans";
   font-style: italic;
   font-weight: 400 700;
   font-display: swap;
-  src: url("../assets/fonts/inter-latin-italic-variable.woff2") format("woff2");
+  src: url("../assets/fonts/publicsans-latin-italic-variable.woff2") format("woff2");
 }
+
+/* ---------- Tema chiaro (predefinito) ---------- */
 
 :root {
-  /* --- Fondi e testo, tutti su base calda --- */
-  --bg: #faf6ef;
-  --surface: #ffffff;
-  --surface-2: #f3ece1;
-  --text: #23201c;
-  --muted: #6d6357;
-  --line: #d9ccb6;
+  --bg:            #F7F5F0;
+  --surface:       #FFFFFF;
+  --surface-sunk:  #EFECE5;
+  --text:          #10202B;
+  --text-muted:    #5A6B76;
+  --accent:        #1E5F82;
+  --accent-hover:  #17506F;
+  --accent-soft:   #C9DEE9;
+  --ok:            #2F7A5E;
+  --ok-soft:       #D6EBE1;
+  --warn:          #D2762F;
+  --warn-soft:     #F6E1CE;
+  --border:        rgba(16, 32, 43, 0.12);
+  --border-strong: rgba(16, 32, 43, 0.24);
 
-  /* --- Un solo colore d'accento --- */
-  --accent: #0f7b5c;
-  --accent-soft: #e2f1ea;
-  --accent-ink: #0b5c45;
-  /* Il testo che sta *sopra* l'accento. Serve perché nel tema scuro
-     l'accento è chiaro e il bianco sopra non si legge (2:1). */
-  --accent-on: #ffffff;
+  /* Il testo che sta *sopra* --accent. Non è decorativo: nel tema scuro
+     l'accento è chiaro e il bianco sopra scenderebbe a 2:1. */
+  --on-accent:     #FFFFFF;
 
-  /* --- Colori con un significato ---
-     `bad` è un arancione bruciato, non un rosso: sbagliare qui non è un
-     allarme. `warn` è ambra, tenuta lontana dall'arancione (45° contro 19°)
-     perché le due cose non si devono confondere. `danger` è l'unico rosso,
-     e sta solo sui comandi che distruggono davvero qualcosa. */
-  --ok: #1a7a48;
-  --ok-soft: #e3f4e9;
-  --bad: #a63f0e;
-  --bad-soft: #fbeade;
-  --warn: #745800;
-  --warn-soft: #fbf1d8;
-  --danger: #a3291a;
+  color-scheme: light;
 
-  /* --- Scala tipografica, rapporto 1.25 --- */
-  --step--1: 0.8rem;
-  --step-0: 1rem;
-  --step-1: 1.25rem;
-  --step-2: 1.5625rem;
-  --step-3: 1.9531rem;
-  --step-4: 2.4414rem;
+  /* --- Scala tipografica: 13 · 16 · 20 · 25 · 31 · 39, rapporto 1.25 --- */
+  --size-xs:  0.8125rem;   /* 13 */
+  --size-s:   1rem;        /* 16 */
+  --size-m:   1.25rem;     /* 20 */
+  --size-l:   1.5625rem;   /* 25 */
+  --size-xl:  1.9375rem;   /* 31 */
+  --size-2xl: 2.4375rem;   /* 39 */
 
-  /* --- Misure --- */
+  --font-it: "Newsreader", Georgia, "Times New Roman", serif;
+  --font-ui: "Public Sans", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+
+  /* --- Ritmo verticale in rem, spaziature interne in px --- */
+  --space-1: 1rem;
+  --space-2: 1.5rem;
+  --space-3: 2rem;
+  --space-4: 3rem;
+
+  --pad-1:  8px;
+  --pad-2: 12px;
+  --pad-3: 16px;
+  --pad-4: 24px;
+
+  --radius-card:    10px;
+  --radius-control:  8px;
+
   --measure: 65ch;
-  --radius: 14px;
-  --radius-sm: 9px;
-  --shadow: 0 1px 2px rgba(35, 32, 28, .06), 0 6px 20px rgba(35, 32, 28, .05);
-  --font: "Inter var", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-  --font-it: "Lora var", Georgia, "Iowan Old Style", "Times New Roman", serif;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bg: #14120f;
-    --surface: #1d1a16;
-    --surface-2: #262218;
-    --text: #efe9df;
-    --muted: #a89d8e;
-    /* Più chiaro dell'originale: a #342e26 il bordo delle schede era
-       indistinguibile dal fondo (1.29:1) e le schede non si vedevano. */
-    --line: #423a2e;
+/* ---------- Tema scuro ---------- */
 
-    --accent: #52c79c;
-    --accent-soft: #14332a;
-    --accent-ink: #8fdcbb;
-    /* Sull'accento chiaro del tema scuro ci va un verde molto scuro. */
-    --accent-on: #05201a;
+[data-theme="dark"] {
+  --bg:            #0E1A22;
+  --surface:       #16242E;
+  --surface-sunk:  #1D2E39;
+  --text:          #E8EEF2;
+  --text-muted:    #92A6B2;
+  --accent:        #5FA8CE;
+  --accent-hover:  #7CBBDB;
+  --accent-soft:   #1E3A4A;
+  --ok:            #5FB894;
+  --ok-soft:       #17332A;
+  --warn:          #E8945A;
+  --warn-soft:     #37241A;
+  --border:        rgba(232, 238, 242, 0.14);
+  --border-strong: rgba(232, 238, 242, 0.28);
 
-    --ok: #6cc98f;
-    --ok-soft: #16301f;
-    --bad: #f2a35f;
-    --bad-soft: #3a2415;
-    --warn: #e0b957;
-    --warn-soft: #332911;
-    --danger: #eb9585;
+  /* Sull'accento chiaro del tema scuro ci va il fondo, non il bianco. */
+  --on-accent:     #0E1A22;
 
-    --shadow: 0 1px 2px rgba(0, 0, 0, .4), 0 6px 20px rgba(0, 0, 0, .3);
-  }
+  color-scheme: dark;
 }
 
-* { box-sizing: border-box; }
+/* ==========================================================================
+   Base
+   ========================================================================== */
 
-/* La base della scala sta qui, in percentuale e non in px: 106.25% di 16 fa
-   i 17px del disegno, ma se chi legge ha alzato il corpo del testo nelle
-   impostazioni del browser tutto cresce insieme. Con `font-size: 17px` sul
-   body, invece, il testo di lettura sarebbe stato l'unica cosa a non
-   rispettare quella preferenza. */
+*, *::before, *::after { box-sizing: border-box; }
+
 html {
   -webkit-text-size-adjust: 100%;
-  font-size: 106.25%;
+  /* Base 16px, senza forzature: il corpo del testo deve seguire le
+     preferenze di chi legge. */
 }
 
 body {
   margin: 0;
   background: var(--bg);
   color: var(--text);
-  font-family: var(--font);
-  font-size: var(--step-0);
-  /* 1.6 su tutto il testo lungo; i titoli lo stringono a 1.25. */
+  font-family: var(--font-ui);
+  font-size: var(--size-s);
   line-height: 1.6;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
 }
 
-/* I titoli sono in serif: sono le insegne del corso, non testo di servizio.
-   La riga stretta (1.25) è giusta per due o tre parole; il corpo del testo
-   respira a 1.6. */
+/* I titoli sono interfaccia, quindi sans e peso 500. Il 700 impesantisce
+   e in una pagina di studio fa rumore. Sentence case ovunque: nessun
+   text-transform in tutto il foglio. */
 h1, h2, h3, h4 {
+  font-family: var(--font-ui);
+  font-weight: 500;
   line-height: 1.25;
-  margin: 0 0 .5em;
-  font-weight: 700;
-  font-family: var(--font-it);
-  /* Anche un titolo lungo non deve diventare un nastro. */
+  margin: 0 0 var(--space-1);
   max-width: var(--measure);
+  letter-spacing: -0.01em;
 }
-h1 { font-size: var(--step-2); }
-h2 { font-size: var(--step-1); }
-h3 { font-size: var(--step-0); }
-p { margin: 0 0 1em; }
-a { color: var(--accent-ink); }
+h1 { font-size: var(--size-xl); }
+h2 { font-size: var(--size-l); }
+h3 { font-size: var(--size-m); }
+h4 { font-size: var(--size-s); }
+
+p { margin: 0 0 var(--space-1); }
+a { color: var(--accent); }
+a:hover { color: var(--accent-hover); }
+
+strong { font-weight: 600; }
+
 code {
   font-family: ui-monospace, "SFMono-Regular", Consolas, "Liberation Mono", monospace;
-  font-size: .9em;
-  background: var(--surface-2);
-  padding: .1em .35em;
-  border-radius: 5px;
+  font-size: 0.9em;
+  background: var(--surface-sunk);
+  padding: 0.1em 0.35em;
+  border-radius: 4px;
 }
-pre { background: var(--surface-2); padding: .7em .9em; border-radius: var(--radius-sm); overflow-x: auto; }
+pre {
+  background: var(--surface-sunk);
+  padding: var(--pad-2) var(--pad-3);
+  border-radius: var(--radius-control);
+  overflow-x: auto;
+}
 pre code { background: none; padding: 0; }
 
-/* Visibile solo al lettore di schermo. */
+/* Tutto ciò che è in italiano, ovunque si trovi. */
+[lang="it"], .it, .it-plain { font-family: var(--font-it); }
+
 .sr-only {
   position: absolute;
   width: 1px;
@@ -193,647 +205,764 @@ pre code { background: none; padding: 0; }
   position: absolute;
   left: -9999px;
   top: 0;
+  z-index: 20;
   background: var(--accent);
-  color: var(--accent-on);
-  padding: .6em 1em;
-  z-index: 10;
+  color: var(--on-accent);
+  padding: var(--pad-2) var(--pad-3);
+  border-radius: 0 0 var(--radius-control) 0;
 }
 .skip-link:focus { left: 0; }
 
+/* Anello di 2px, staccato di 2px. Mai outline:none senza sostituto. */
 :focus-visible {
-  outline: 3px solid var(--accent);
+  outline: 2px solid var(--accent);
   outline-offset: 2px;
   border-radius: 4px;
 }
 
-/* ---------- Intestazione e piè di pagina ---------- */
+/* ==========================================================================
+   Intestazione, contenuto, piè di pagina
+   ========================================================================== */
 
 .site-header {
   display: flex;
   flex-wrap: wrap;
   align-items: baseline;
   justify-content: space-between;
-  gap: .5rem 1rem;
-  padding: .9rem 1rem;
-  border-bottom: 1px solid var(--line);
+  gap: var(--pad-1) var(--pad-3);
+  padding: var(--pad-3);
+  border-bottom: 1px solid var(--border);
   background: var(--surface);
 }
 
-.brand { text-decoration: none; color: inherit; display: flex; align-items: baseline; gap: .5rem; flex-wrap: wrap; }
-.brand-title { font-family: var(--font-it); font-size: var(--step-1); font-weight: 700; color: var(--accent-ink); }
-.brand-sub { font-size: var(--step--1); color: var(--muted); }
+.brand {
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  align-items: baseline;
+  gap: var(--pad-1);
+  flex-wrap: wrap;
+}
+/* «Pian piano» è italiano: serif, come ogni parola italiana del sito. */
+.brand-title {
+  font-family: var(--font-it);
+  font-size: var(--size-m);
+  font-weight: 600;
+  color: var(--text);
+}
+.brand-sub { font-size: var(--size-xs); color: var(--text-muted); }
 
-.site-nav { display: flex; gap: 1rem; font-size: var(--step-0); }
-.site-nav a { text-decoration: none; color: var(--muted); padding: .2em 0; border-bottom: 2px solid transparent; }
+.site-nav { display: flex; gap: var(--pad-3); font-size: var(--size-s); }
+.site-nav a {
+  text-decoration: none;
+  color: var(--text-muted);
+  padding: 0.2em 0;
+  border-bottom: 2px solid transparent;
+}
+.site-nav a:hover { color: var(--text); }
 .site-nav a[aria-current="page"] { color: var(--text); border-bottom-color: var(--accent); }
 
 .badge {
   display: inline-block;
-  min-width: 1.5em;
-  padding: 0 .4em;
+  min-width: 1.6em;
+  padding: 0 0.4em;
   border-radius: 999px;
-  background: var(--accent);
-  color: var(--accent-on);
-  font-size: var(--step--1);
-  font-weight: 700;
+  background: var(--surface-sunk);
+  color: var(--text);
+  border: 1px solid var(--border-strong);
+  font-size: var(--size-xs);
+  font-weight: 600;
   text-align: center;
 }
 
+/* Padding asimmetrico: 32px sopra, 16px sotto. Dà direzione alla lettura:
+   il contenuto entra con respiro e si chiude stretto, invece di galleggiare. */
 .app {
   flex: 1;
   width: 100%;
-  max-width: 46rem;
+  max-width: 44rem;
   margin: 0 auto;
-  padding: 1.25rem 1rem 3rem;
+  padding: var(--space-3) var(--pad-3) var(--pad-3);
 }
 
 .site-footer {
-  border-top: 1px solid var(--line);
-  padding: 1.2rem 1rem 2rem;
+  border-top: 1px solid var(--border);
+  padding: var(--space-2) var(--pad-3) var(--space-3);
   text-align: center;
-  color: var(--muted);
-  font-size: var(--step--1);
+  color: var(--text-muted);
+  font-size: var(--size-xs);
 }
-.site-footer p { margin: 0 0 .3em; }
-.fine-print { font-size: var(--step--1); opacity: .85; }
+.site-footer p { margin: 0 0 0.3em; }
+.fine-print { opacity: 0.9; }
 
-/* ---------- Blocchi generici ---------- */
+/* ==========================================================================
+   Blocchi generici
+   ========================================================================== */
 
 .card {
   background: var(--surface);
-  border: 1px solid var(--line);
-  border-radius: var(--radius);
-  padding: 1rem 1.1rem;
-  margin: 0 0 1.1rem;
-  box-shadow: var(--shadow);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-card);
+  padding: var(--pad-4) var(--pad-3) var(--pad-3);
+  margin: 0 0 var(--space-2);
 }
 .card > :last-child { margin-bottom: 0; }
 
-.notice { border-left: 4px solid var(--accent); }
+.notice { border-left: 3px solid var(--accent); }
 
-.hero { margin-bottom: 1.5rem; }
-.hero h1 { font-family: var(--font-it); font-size: var(--step-3); margin-bottom: .2em; }
-.hero .lead { color: var(--muted); margin-bottom: 0; }
+.hero { margin-bottom: var(--space-3); }
+.hero h1 { font-size: var(--size-2xl); margin-bottom: var(--pad-1); }
+.hero .lead { color: var(--text-muted); margin-bottom: 0; max-width: var(--measure); }
 
-.breadcrumb { font-size: var(--step--1); color: var(--muted); margin-bottom: .8rem; }
-.breadcrumb a { color: var(--muted); }
+.breadcrumb {
+  font-size: var(--size-xs);
+  color: var(--text-muted);
+  margin-bottom: var(--space-1);
+}
+.breadcrumb a { color: var(--text-muted); }
 
 .section-title {
   display: flex;
   align-items: baseline;
   justify-content: space-between;
-  gap: .8rem;
-  margin: 2rem 0 .8rem;
+  gap: var(--pad-2);
+  margin: var(--space-3) 0 var(--space-1);
 }
 .section-title h2 { margin: 0; }
-.section-title .count { color: var(--muted); font-size: var(--step--1); }
+.section-title .count { color: var(--text-muted); font-size: var(--size-xs); }
 
-.muted { color: var(--muted); }
-.small { font-size: var(--step--1); }
+.muted { color: var(--text-muted); }
+.small { font-size: var(--size-xs); }
 .center { text-align: center; }
 
-/* ---------- Bottoni ---------- */
+/* ==========================================================================
+   Controlli
+   ========================================================================== */
 
 .btn {
   font: inherit;
-  font-size: var(--step-0);
-  border: 1px solid var(--line);
+  font-family: var(--font-ui);
+  font-size: var(--size-s);
+  font-weight: 500;
+  /* Area di tocco minima 44×44. */
+  min-height: 44px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--pad-1);
+  border: 1px solid var(--border-strong);
   background: var(--surface);
   color: var(--text);
-  padding: .5em 1em;
-  border-radius: var(--radius-sm);
+  padding: var(--pad-2) var(--pad-3);
+  border-radius: var(--radius-control);
   cursor: pointer;
   text-decoration: none;
-  display: inline-block;
-  transition: background .12s ease, border-color .12s ease;
+  transition: background 0.12s ease, border-color 0.12s ease, color 0.12s ease;
 }
-.btn:hover { background: var(--surface-2); }
-.btn.primary { background: var(--accent); border-color: var(--accent); color: var(--accent-on); font-weight: 600; }
-.btn.primary:hover { filter: brightness(1.06); background: var(--accent); }
-.btn.danger { color: var(--danger); border-color: var(--danger); background: transparent; }
-.btn:disabled { opacity: .5; cursor: not-allowed; }
-.btn-row { display: flex; flex-wrap: wrap; gap: .5rem; }
+.btn:hover { background: var(--surface-sunk); }
 
-/* ---------- Barre di avanzamento ---------- */
+/* L'unico elemento accentato della schermata è l'azione principale. */
+.btn.primary {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: var(--on-accent);
+}
+.btn.primary:hover { background: var(--accent-hover); border-color: var(--accent-hover); }
+
+/* Non esiste un rosso in questa palette: il tono non è punitivo nemmeno
+   davanti a un comando distruttivo, che si difende con la conferma. */
+.btn.danger { color: var(--text); border-color: var(--warn); background: transparent; }
+.btn.danger:hover { background: var(--warn-soft); }
+
+.btn:disabled { opacity: 0.5; cursor: not-allowed; }
+.btn-small { min-height: 36px; font-size: var(--size-xs); padding: var(--pad-1) var(--pad-2); }
+.btn-row { display: flex; flex-wrap: wrap; gap: var(--pad-2); }
+
+/* ---------- Pulsante audio: icona circolare discreta ---------- */
+
+.audio { display: inline-flex; gap: 4px; vertical-align: middle; }
+.audio button {
+  font: inherit;
+  font-size: var(--size-xs);
+  line-height: 1;
+  /* Area di tocco minima 44×44, ovunque compaia: dentro le schede di
+     vocabolario come dentro gli esercizi. Il cerchio resta discreto
+     perché è trasparente, non perché è piccolo. */
+  width: 44px;
+  height: 44px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  cursor: pointer;
+  color: var(--text-muted);
+  transition: background 0.12s ease, color 0.12s ease, border-color 0.12s ease;
+}
+.audio button:hover {
+  background: var(--surface-sunk);
+  color: var(--text);
+  border-color: var(--border-strong);
+}
+body.no-tts .audio { display: none; }
+
+/* ==========================================================================
+   Avanzamento
+   ========================================================================== */
 
 .progress {
-  height: 9px;
-  background: var(--surface-2);
+  height: 4px;
+  background: var(--surface-sunk);
   border-radius: 999px;
   overflow: hidden;
-  margin: .45rem 0;
+  margin: var(--pad-1) 0;
 }
 .progress > span {
   display: block;
   height: 100%;
   background: var(--accent);
   border-radius: 999px;
-  transition: width .3s ease;
+  transition: width 0.3s ease;
 }
 
-.stats { display: flex; flex-wrap: wrap; gap: 1.5rem; margin-bottom: .6rem; }
+.stats { display: flex; flex-wrap: wrap; gap: var(--pad-4); margin-bottom: var(--pad-2); }
 .stat { line-height: 1.2; }
-.stat b { display: block; font-size: var(--step-2); font-family: var(--font-it); }
-.stat span { font-size: var(--step--1); color: var(--muted); }
+.stat b { display: block; font-size: var(--size-l); font-weight: 500; }
+.stat span { font-size: var(--size-xs); color: var(--text-muted); }
 
-/* ---------- Elenco moduli e lezioni ---------- */
+/* ==========================================================================
+   Moduli e lezioni
+   ========================================================================== */
 
-.module-list, .lesson-list { list-style: none; margin: 0; padding: 0; display: grid; gap: .75rem; }
+.module-list, .lesson-list { list-style: none; margin: 0; padding: 0; display: grid; gap: var(--pad-2); }
 
 .module-card {
   display: block;
   text-decoration: none;
   color: inherit;
   background: var(--surface);
-  border: 1px solid var(--line);
-  border-radius: var(--radius);
-  padding: .9rem 1rem;
-  box-shadow: var(--shadow);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-card);
+  padding: var(--pad-3);
 }
-.module-card:hover { border-color: var(--accent); }
-.module-card h3 { margin: 0 0 .15em; }
-.module-card .goal { color: var(--muted); font-size: var(--step--1); margin: 0; }
-.module-card .meta { font-size: var(--step--1); color: var(--muted); margin-top: .4rem; }
-.module-num { font-size: var(--step--1); letter-spacing: .1em; text-transform: uppercase; color: var(--accent-ink); font-weight: 700; }
+.module-card:hover { border-color: var(--border-strong); background: var(--surface-sunk); }
+.module-card h3 { margin: 0 0 4px; }
+.module-card .goal { color: var(--text-muted); font-size: var(--size-xs); margin: 0; }
+.module-card .meta { font-size: var(--size-xs); color: var(--text-muted); margin-top: var(--pad-1); }
+.module-num {
+  font-size: var(--size-xs);
+  color: var(--text-muted);
+  display: block;
+  margin-bottom: 2px;
+}
 
 .lesson-item {
   background: var(--surface);
-  border: 1px solid var(--line);
-  border-radius: var(--radius);
-  box-shadow: var(--shadow);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-card);
 }
 .lesson-item a {
   display: block;
-  padding: .85rem 1rem;
+  padding: var(--pad-3);
   text-decoration: none;
   color: inherit;
+  border-radius: var(--radius-card);
 }
-.lesson-item a:hover { background: var(--surface-2); border-radius: var(--radius); }
-.lesson-item .head { display: flex; align-items: baseline; justify-content: space-between; gap: .6rem; }
-.lesson-item h3 { margin: 0; font-size: var(--step-0); }
-.lesson-item .hint { font-size: var(--step--1); color: var(--muted); margin: .3rem 0 0; }
+.lesson-item a:hover { background: var(--surface-sunk); }
+.lesson-item .head { display: flex; align-items: baseline; justify-content: space-between; gap: var(--pad-2); }
+.lesson-item h3 { margin: 0; font-size: var(--size-s); }
+.lesson-item .hint { font-size: var(--size-xs); color: var(--text-muted); margin: 4px 0 0; }
 
+/* Stato: mai il colore da solo, sempre icona + parola. */
 .status {
   flex: none;
-  font-size: var(--step--1);
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: .05em;
-  padding: .18em .6em;
+  font-size: var(--size-xs);
+  padding: 2px 10px;
   border-radius: 999px;
-  border: 1px solid var(--line);
-  color: var(--muted);
+  border: 1px solid var(--border);
+  color: var(--text-muted);
+  background: var(--surface-sunk);
   white-space: nowrap;
 }
-/* Mai il colore da solo: ogni stato ha colore, icona e testo.
-   Chi non distingue il verde dall'ambra legge comunque il segno e la parola. */
-.status.en-curso { color: var(--warn); border-color: var(--warn); background: var(--warn-soft); }
-.status.en-curso::before { content: "◐ "; }
-.status.completada { color: var(--ok); border-color: var(--ok); background: var(--ok-soft); }
-.status.completada::before { content: "✓ "; }
-.status.no-iniciada::before { content: "○ "; }
-
-.locked { opacity: .55; }
-
-/* ---------- Lezione: vocabolario, frasi, grammatica ---------- */
-
-.vocab-list { list-style: none; margin: 0; padding: 0; }
-.vocab-list li {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: baseline;
-  gap: .1rem .5rem;
-  padding: .55rem 0;
-  border-bottom: 1px solid var(--line);
-}
-.vocab-list li:last-child { border-bottom: 0; }
-.it { font-family: var(--font-it); font-weight: 700; color: var(--accent-ink); }
-.it-plain { font-family: var(--font-it); }
-.es { color: var(--text); }
-.sep { color: var(--muted); }
-.vocab-note, .phrase-note { flex-basis: 100%; font-size: var(--step--1); color: var(--muted); }
-.vocab-plural { font-size: var(--step--1); color: var(--muted); }
-
-.phrase-list { list-style: none; margin: 0; padding: 0; }
-.phrase-list li { padding: .6rem 0; border-bottom: 1px solid var(--line); }
-.phrase-list li:last-child { border-bottom: 0; }
-.phrase-list .it { display: inline; font-size: var(--step-1); }
-.phrase-list .es { display: block; color: var(--muted); font-size: var(--step-0); }
-
-.grammar h3 { color: var(--accent-ink); }
-
-/* Larghezza di lettura: oltre le 65 battute l'occhio perde la riga.
-   Vale per i blocchi lunghi, non per le tabelle né per gli elenchi brevi. */
-.grammar p,
-.ojo p,
-.hero .lead,
-.fb-explain,
-.data-tools p,
-.backup-offer p {
-  max-width: var(--measure);
-}
-
-.table-wrap { overflow-x: auto; margin: .8rem 0 0; }
-table { border-collapse: collapse; width: 100%; font-size: var(--step-0); }
-th, td { text-align: left; padding: .45em .6em; border-bottom: 1px solid var(--line); vertical-align: top; }
-th { font-size: var(--step--1); text-transform: uppercase; letter-spacing: .04em; color: var(--muted); }
-tbody tr:last-child td { border-bottom: 0; }
-
-.ojo { border-left: 4px solid var(--warn); background: var(--surface); }
-.ojo h2 { color: var(--warn); }
-.ojo h2::before { content: "¡Ojo! "; font-weight: 700; }
-
-/* ---------- Audio ---------- */
-
-.audio {
-  display: inline-flex;
-  gap: .15rem;
-  vertical-align: baseline;
-}
-.audio button {
-  font: inherit;
-  font-size: var(--step--1);
-  line-height: 1;
-  background: none;
-  border: 1px solid transparent;
-  border-radius: 6px;
-  padding: .18em .3em;
-  cursor: pointer;
-  color: var(--muted);
-}
-.audio button:hover { background: var(--accent-soft); color: var(--accent-ink); }
-.audio button.slow { font-size: var(--step--1); }
-body.no-tts .audio { display: none; }
-
-/* ---------- Esercizi ---------- */
-
-.exercise {
-  background: var(--surface);
-  border: 1px solid var(--line);
-  border-radius: var(--radius);
-  padding: 1rem 1.1rem;
-  margin-bottom: 1rem;
-  box-shadow: var(--shadow);
-}
-.exercise.solved { border-color: var(--ok); }
-.ex-head {
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
-  gap: .6rem;
-  font-size: var(--step--1);
-  text-transform: uppercase;
-  letter-spacing: .06em;
-  color: var(--muted);
-  margin-bottom: .5rem;
-}
-.ex-prompt { font-size: var(--step-1); margin: 0 0 .8rem; }
-.ex-actions { display: flex; flex-wrap: wrap; gap: .5rem; align-items: center; margin-top: .8rem; }
-
-.ex-input {
-  font: inherit;
-  font-family: var(--font-it);
-  font-size: var(--step-1);
-  width: 100%;
-  padding: .55em .7em;
-  border: 1px solid var(--line);
-  border-radius: var(--radius-sm);
-  background: var(--bg);
+.status::before { margin-right: 4px; }
+.status.no-iniciada::before { content: "○"; }
+.status.en-curso::before { content: "◐"; }
+.status.completada {
   color: var(--text);
-}
-.blank-input { width: 9em; display: inline-block; text-align: center; }
-
-/* ---------- Barra delle vocali accentate ----------
-   Nel DOM sta dopo il campo, così il tabulatore arriva prima al campo;
-   `order` la riporta sopra, dove la tastiera virtuale non la copre. */
-
-.answer-field { display: flex; flex-direction: column; }
-.answer-field .accent-bar { order: -1; }
-
-.accent-bar {
-  display: flex;
-  flex-wrap: wrap;
-  gap: .35rem;
-  margin: 0 0 .45rem;
-}
-
-.accent-key {
-  font-family: var(--font-it);
-  font-size: var(--step-1);
-  line-height: 1;
-  /* Bersaglio minimo per il pollice: 44×44 px. */
-  min-width: 44px;
-  min-height: 44px;
-  padding: 0 .2em;
-  border: 1px solid var(--line);
-  border-radius: var(--radius-sm);
-  background: var(--surface);
-  color: var(--accent-ink);
-  cursor: pointer;
-  transition: background .12s ease, border-color .12s ease;
-}
-.accent-key:hover { background: var(--accent-soft); border-color: var(--accent); }
-.accent-key:active { background: var(--accent-soft); }
-
-.options { list-style: none; margin: 0; padding: 0; display: grid; gap: .5rem; }
-.option {
-  font: inherit;
-  text-align: left;
-  width: 100%;
-  padding: .6em .8em;
-  border: 1px solid var(--line);
-  border-radius: var(--radius-sm);
-  background: var(--bg);
-  color: var(--text);
-  cursor: pointer;
-  font-family: var(--font-it);
-  font-size: var(--step-1);
-}
-.option:hover { border-color: var(--accent); }
-
-/* L'esito non è solo il colore del bordo: davanti all'opzione compare
-   il segno, e il riquadro di riscontro lo dice anche a parole. */
-.option.is-ok,
-.option.is-bad {
-  display: flex;
-  align-items: baseline;
-  gap: .5em;
-}
-.option.is-ok { border-color: var(--ok); background: var(--ok-soft); border-width: 2px; }
-.option.is-bad { border-color: var(--bad); background: var(--bad-soft); border-width: 2px; }
-.option.is-ok::before,
-.option.is-bad::before {
-  flex: none;
-  font-family: var(--font);
-  font-weight: 700;
-}
-.option.is-ok::before { content: "✓"; color: var(--ok); }
-.option.is-bad::before { content: "✗"; color: var(--bad); }
-
-.match-grid { display: grid; grid-template-columns: 1fr 1fr; gap: .5rem; }
-.match-col { display: grid; gap: .5rem; align-content: start; }
-.match-btn {
-  font: inherit;
-  padding: .55em .6em;
-  border: 1px solid var(--line);
-  border-radius: var(--radius-sm);
-  background: var(--bg);
-  color: var(--text);
-  cursor: pointer;
-  text-align: left;
-}
-.match-col.it .match-btn { font-family: var(--font-it); }
-.match-btn:hover { border-color: var(--accent); }
-
-/* Anche qui: selezione, accoppiata e sbaglio hanno un segno, non solo un colore. */
-.match-btn.selected {
-  border-color: var(--accent);
-  background: var(--accent-soft);
-  border-width: 2px;
-  font-weight: 700;
-}
-.match-btn.selected::before { content: "▸ "; color: var(--accent-ink); }
-.match-btn.done {
   border-color: var(--ok);
   background: var(--ok-soft);
-  color: var(--muted);
-  cursor: default;
-  text-decoration: line-through;
 }
-.match-btn.done::before { content: "✓ "; color: var(--ok); text-decoration: none; }
-.match-btn.shake { border-color: var(--bad); background: var(--bad-soft); border-width: 2px; }
-.match-btn.shake::before { content: "✗ "; color: var(--bad); }
+.status.completada::before { content: "✓"; }
 
-.match-tally {
-  margin: .6rem 0 0;
-  font-size: var(--step--1);
-  color: var(--muted);
-}
-.match-tally:empty { display: none; }
+.locked { opacity: 0.55; }
 
-.wo-answer {
-  min-height: 3rem;
-  display: flex;
-  flex-wrap: wrap;
-  gap: .4rem;
-  align-content: flex-start;
-  padding: .5rem;
-  border: 1px dashed var(--line);
-  border-radius: var(--radius-sm);
-  background: var(--bg);
-  margin-bottom: .6rem;
-}
-.wo-pool { display: flex; flex-wrap: wrap; gap: .4rem; }
-.chip {
-  font: inherit;
-  font-family: var(--font-it);
-  font-size: var(--step-1);
-  padding: .35em .7em;
-  border: 1px solid var(--line);
-  border-radius: 999px;
-  background: var(--surface);
-  color: var(--text);
-  cursor: pointer;
-}
-.chip:hover { border-color: var(--accent); }
-.chip.placed { background: var(--accent-soft); border-color: var(--accent); }
-.wo-empty { color: var(--muted); font-size: var(--step--1); align-self: center; padding-left: .3rem; }
-
-/* ---------- Riscontro ---------- */
-
-.ex-feedback:empty { display: none; }
-.ex-feedback { margin-top: .8rem; font-size: var(--step-0); }
-.fb { margin: 0 0 .35em; font-weight: 600; }
-.fb.ok { color: var(--ok); }
-.fb.bad { color: var(--bad); }
-.fb.warn { color: var(--warn); font-weight: 500; }
-.fb-compare { display: grid; gap: .2rem; margin: 0 0 .4em; font-size: var(--step-0); }
-.fb-compare .given { color: var(--muted); text-decoration: line-through; }
-.fb-compare .expected { font-family: var(--font-it); font-weight: 700; color: var(--ok); }
-
-/* ---------- Confronto lettera per lettera ---------- */
-
-.fb-diff { margin: 0 0 .5em; }
-.diff-row {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: baseline;
-  gap: .15rem .5rem;
-  margin-bottom: .2rem;
-}
-.diff-label {
-  flex: none;
-  min-width: 7.5em;
-  font-size: var(--step--1);
-  text-transform: uppercase;
-  letter-spacing: .05em;
-  color: var(--muted);
-}
-.diff-text {
-  font-family: var(--font-it);
-  font-size: var(--step-1);
-  /* Gli spazi sbagliati devono restare visibili. */
-  white-space: pre-wrap;
-  word-break: break-word;
-}
-.diff-row:last-of-type .diff-text { font-weight: 700; }
-
-/* Di troppo: barrata. Mancante: in evidenza. Mai il colore da solo. */
-.d-extra {
-  text-decoration: line-through;
-  text-decoration-thickness: 2px;
-  color: var(--bad);
-  background: var(--bad-soft);
-  border-radius: 3px;
-}
-.d-missing {
-  color: var(--ok);
-  background: var(--ok-soft);
-  border-bottom: 2px solid var(--ok);
-  border-radius: 3px 3px 0 0;
-}
-
-.fb-double {
-  margin: .1em 0 .4em;
-  padding: .5em .7em;
-  font-size: var(--step-0);
-  color: var(--text);
-  background: var(--warn-soft);
-  border-left: 3px solid var(--warn);
-  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
-}
-.fb-double strong { font-family: var(--font-it); }
-.fb-explain { margin: 0 0 .3em; color: var(--text); font-size: var(--step--1); }
-.fb-hint { margin: 0; color: var(--muted); font-size: var(--step--1); }
-
-/* ---------- Barra del modulo durante la lezione ----------
-   Appiccicata in alto: durante una lezione lunga si scorre molto, e sapere
-   quanto manca al modulo è quello che tiene in piedi la sessione. */
+/* ---------- Barra del modulo, sempre in vista durante la lezione ---------- */
 
 .module-pane {
   position: sticky;
   top: 0;
   z-index: 5;
-  margin: 0 -1rem .9rem;
-  padding: .5rem 1rem .55rem;
+  margin: 0 calc(-1 * var(--pad-3)) var(--space-2);
+  padding: var(--pad-2) var(--pad-3);
   background: var(--bg);
-  border-bottom: 1px solid var(--line);
+  border-bottom: 1px solid var(--border);
 }
 .mp-head {
   display: flex;
   align-items: baseline;
   justify-content: space-between;
-  gap: .8rem;
-  font-size: var(--step--1);
-  color: var(--muted);
+  gap: var(--pad-2);
+  font-size: var(--size-xs);
+  color: var(--text-muted);
 }
 .mp-title {
-  font-weight: 600;
   color: var(--text);
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
 }
 .mp-count { flex: none; }
-.module-pane .progress { margin: .35rem 0 0; height: 6px; }
 
-.lesson-goal { max-width: var(--measure); }
+.lesson-goal { max-width: var(--measure); color: var(--text-muted); }
+
+/* ==========================================================================
+   La scheda di vocabolario
+   È l'elemento più visto del sito: gerarchia netta, non due colonne.
+   ========================================================================== */
+
+.vocab-list { list-style: none; margin: 0; padding: 0; display: grid; gap: var(--pad-2); }
+
+.vocab-card {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: start;
+  gap: var(--pad-1) var(--pad-2);
+  padding: var(--pad-3);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-card);
+}
+
+/* La parola italiana sta da sola sulla sua riga, a 31px. */
+.vocab-word {
+  grid-column: 1;
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: var(--pad-1);
+  min-width: 0;
+}
+.vocab-card .it {
+  font-family: var(--font-it);
+  font-size: var(--size-xl);
+  line-height: 1.15;
+  color: var(--text);
+  word-break: break-word;
+}
+
+/* Genere e plurale: etichetta piccola accanto alla parola, non una riga. */
+.vocab-tag {
+  font-size: var(--size-xs);
+  color: var(--text-muted);
+  background: var(--surface-sunk);
+  border-radius: 999px;
+  padding: 1px 8px;
+  white-space: nowrap;
+}
+
+.vocab-es {
+  grid-column: 1;
+  margin: 0;
+  font-size: var(--size-xs);
+  color: var(--text-muted);
+}
+
+.vocab-audio { grid-column: 2; grid-row: 1 / span 2; align-self: center; }
+
+.vocab-note {
+  grid-column: 1 / -1;
+  margin: 4px 0 0;
+  font-size: var(--size-xs);
+  color: var(--text-muted);
+  max-width: var(--measure);
+}
+
+/* ---------- Frasi ---------- */
+
+.phrase-list { list-style: none; margin: 0; padding: 0; display: grid; gap: var(--pad-2); }
+.phrase-list li {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 2px var(--pad-2);
+  padding: var(--pad-2) 0;
+  border-bottom: 1px solid var(--border);
+}
+.phrase-list li:last-child { border-bottom: 0; }
+.phrase-list .it {
+  grid-column: 1;
+  font-family: var(--font-it);
+  font-size: var(--size-m);
+  color: var(--text);
+}
+.phrase-list .es { grid-column: 1; color: var(--text-muted); font-size: var(--size-xs); }
+.phrase-list .audio { grid-column: 2; grid-row: 1 / span 2; align-self: center; }
+.phrase-note {
+  grid-column: 1 / -1;
+  font-size: var(--size-xs);
+  color: var(--text-muted);
+  max-width: var(--measure);
+}
+
+/* ---------- Grammatica ---------- */
+
+.grammar h3 { margin-top: var(--space-2); }
+.grammar h3:first-of-type { margin-top: 0; }
+
+/* Oltre le 65 battute l'occhio perde la riga. */
+.grammar p,
+.ojo p,
+.fb-explain,
+.data-tools p,
+.backup-offer p,
+.rebels-lead { max-width: var(--measure); }
+
+.table-wrap { overflow-x: auto; margin: var(--space-1) 0 0; }
+table { border-collapse: collapse; width: 100%; font-size: var(--size-xs); }
+th, td {
+  text-align: left;
+  padding: var(--pad-1) var(--pad-2);
+  border-bottom: 1px solid var(--border);
+  vertical-align: top;
+}
+th { color: var(--text-muted); font-weight: 500; }
+tbody tr:last-child td { border-bottom: 0; }
+
+/* ---------- ¡Ojo! ---------- */
+
+.ojo { border-left: 3px solid var(--warn); }
+.ojo h2 { color: var(--warn); font-size: var(--size-l); }
+.ojo h2::before { content: "¡Ojo! "; }
+
+/* ==========================================================================
+   Esercizi
+   ========================================================================== */
+
+.exercise {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-card);
+  padding: var(--pad-4) var(--pad-3) var(--pad-3);
+  margin-bottom: var(--space-2);
+}
+.exercise.solved { border-color: var(--ok); }
+
+.ex-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: var(--pad-2);
+  font-size: var(--size-xs);
+  color: var(--text-muted);
+  margin-bottom: var(--pad-2);
+}
+.ex-prompt { font-size: var(--size-m); margin: 0 0 var(--space-1); }
+.ex-actions { display: flex; flex-wrap: wrap; gap: var(--pad-2); align-items: center; margin-top: var(--space-1); }
+
+.ex-input {
+  font-family: var(--font-it);
+  font-size: var(--size-m);
+  width: 100%;
+  padding: var(--pad-2);
+  min-height: 44px;
+  border: 1px solid var(--border-strong);
+  border-radius: var(--radius-control);
+  background: var(--surface-sunk);
+  color: var(--text);
+}
+.ex-input:focus { background: var(--surface); }
+.blank-input { width: 8em; display: inline-block; text-align: center; }
+
+/* ---------- Barra delle vocali accentate ----------
+   Nel DOM sta dopo il campo (così il tabulatore arriva prima al campo);
+   `order` la riporta sopra, dove la tastiera virtuale non la copre. */
+
+.answer-field { display: flex; flex-direction: column; }
+.answer-field .accent-bar { order: -1; }
+
+.accent-bar { display: flex; flex-wrap: wrap; gap: var(--pad-1); margin: 0 0 var(--pad-1); }
+.accent-key {
+  font-family: var(--font-it);
+  font-size: var(--size-m);
+  line-height: 1;
+  min-width: 44px;
+  min-height: 44px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-control);
+  background: var(--surface);
+  color: var(--text);
+  cursor: pointer;
+  transition: background 0.12s ease, border-color 0.12s ease;
+}
+.accent-key:hover { background: var(--surface-sunk); border-color: var(--border-strong); }
+
+/* ---------- Scelta multipla ---------- */
+
+.options { list-style: none; margin: 0; padding: 0; display: grid; gap: var(--pad-2); }
+.option {
+  font-family: var(--font-it);
+  font-size: var(--size-m);
+  text-align: left;
+  width: 100%;
+  min-height: 44px;
+  padding: var(--pad-2) var(--pad-3);
+  border: 1px solid var(--border-strong);
+  border-radius: var(--radius-control);
+  background: var(--surface);
+  color: var(--text);
+  cursor: pointer;
+  transition: background 0.12s ease, border-color 0.12s ease;
+}
+.option:hover { background: var(--surface-sunk); }
+.option.is-ok, .option.is-bad { display: flex; align-items: baseline; gap: var(--pad-1); }
+.option.is-ok::before, .option.is-bad::before { flex: none; font-family: var(--font-ui); }
+.option.is-ok { border-color: var(--ok); background: var(--ok-soft); }
+.option.is-ok::before { content: "✓"; color: var(--ok); }
+.option.is-bad { border-color: var(--warn); background: var(--warn-soft); }
+.option.is-bad::before { content: "✗"; color: var(--text); }
+
+/* ---------- Abbinamento ---------- */
+
+.match-grid { display: grid; grid-template-columns: 1fr 1fr; gap: var(--pad-2); }
+.match-col { display: grid; gap: var(--pad-2); align-content: start; }
+.match-btn {
+  font-family: var(--font-ui);
+  font-size: var(--size-s);
+  min-height: 44px;
+  padding: var(--pad-1) var(--pad-2);
+  border: 1px solid var(--border-strong);
+  border-radius: var(--radius-control);
+  background: var(--surface);
+  color: var(--text);
+  cursor: pointer;
+  text-align: left;
+}
+.match-col.it .match-btn { font-family: var(--font-it); }
+.match-btn:hover { background: var(--surface-sunk); }
+.match-btn.selected { border-color: var(--accent); background: var(--accent-soft); }
+.match-btn.selected::before { content: "▸ "; }
+.match-btn.done {
+  border-color: var(--ok);
+  background: var(--ok-soft);
+  color: var(--text-muted);
+  cursor: default;
+  text-decoration: line-through;
+}
+.match-btn.done::before { content: "✓ "; color: var(--ok); text-decoration: none; }
+.match-btn.shake { border-color: var(--warn); background: var(--warn-soft); }
+.match-btn.shake::before { content: "✗ "; color: var(--text); }
+
+.match-tally { margin: var(--pad-2) 0 0; font-size: var(--size-xs); color: var(--text-muted); }
+.match-tally:empty { display: none; }
+
+/* ---------- Ordinare le parole ---------- */
+
+.wo-answer {
+  min-height: 3rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--pad-1);
+  align-content: flex-start;
+  padding: var(--pad-1);
+  border: 1px dashed var(--border-strong);
+  border-radius: var(--radius-control);
+  background: var(--surface-sunk);
+  margin-bottom: var(--pad-2);
+}
+.wo-pool { display: flex; flex-wrap: wrap; gap: var(--pad-1); }
+.chip {
+  font-family: var(--font-it);
+  font-size: var(--size-s);
+  min-height: 44px;
+  padding: var(--pad-1) var(--pad-3);
+  border: 1px solid var(--border-strong);
+  border-radius: 999px;
+  background: var(--surface);
+  color: var(--text);
+  cursor: pointer;
+}
+.chip:hover { background: var(--surface-sunk); }
+.chip.placed { background: var(--accent-soft); border-color: var(--accent); }
+.wo-empty { color: var(--text-muted); font-size: var(--size-xs); align-self: center; padding-left: 4px; }
+
+/* ==========================================================================
+   Riscontro
+   ========================================================================== */
+
+/* ---------- Regola d'uso di --ok e --warn ----------
+   I due colori sono quelli prescritti dalla palette e non si toccano.
+   Cambia dove si mettono, perché non tutti i fondi reggono tutto:
+
+     --ok  su --surface e --bg   5.16:1  → può fare da testo
+     --ok  su --ok-soft          4.14:1  → solo icona o bordo (≥3:1)
+     --warn su --surface         3.30:1  → solo icona grande o bordo
+     --warn su --warn-soft       2.60:1  → né testo né icona: lì va --text
+
+   Quindi il testo del riscontro sbagliato è in --text e l'arancione sta
+   nell'icona, nel bordo e nel fondo tenue. Colore, icona e parola ci sono
+   tutti e tre: cambia solo quale dei tre porta il colore. */
+
+.ex-feedback:empty { display: none; }
+.ex-feedback { margin-top: var(--space-1); font-size: var(--size-s); }
+.fb {
+  margin: 0 0 var(--pad-1);
+  font-weight: 500;
+  display: flex;
+  align-items: baseline;
+  gap: var(--pad-1);
+}
+/* Segno grande: a 25px vale la soglia del testo grande, 3:1. */
+.fb-icon { flex: none; font-size: var(--size-l); line-height: 1; }
+.fb.bad .fb-icon { color: var(--warn); }
+.fb.ok .fb-icon { color: var(--ok); }
+.fb.ok { color: var(--ok); }
+.fb.bad { color: var(--text); }
+.fb.warn { color: var(--text); border-left: 3px solid var(--warn); padding-left: var(--pad-1); }
+
+.fb-compare { display: grid; gap: 2px; margin: 0 0 var(--pad-1); font-size: var(--size-s); }
+.fb-compare .given { color: var(--text-muted); text-decoration: line-through; }
+.fb-compare .expected { font-family: var(--font-it); color: var(--ok); }
+
+/* ---------- Confronto lettera per lettera ---------- */
+
+.fb-diff { margin: 0 0 var(--pad-2); }
+.diff-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 2px var(--pad-2);
+  margin-bottom: 2px;
+}
+.diff-label {
+  flex: none;
+  min-width: 8em;
+  font-size: var(--size-xs);
+  color: var(--text-muted);
+}
+.diff-text {
+  font-family: var(--font-it);
+  font-size: var(--size-m);
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+/* Di troppo: barrata. Mancante: in evidenza. Mai il colore da solo. */
+.d-extra {
+  text-decoration: line-through;
+  text-decoration-thickness: 2px;
+  color: var(--text);
+  background: var(--warn-soft);
+  border-radius: 3px;
+}
+.d-missing {
+  color: var(--text);
+  background: var(--ok-soft);
+  border-bottom: 2px solid var(--ok);
+  border-radius: 3px 3px 0 0;
+}
+
+.fb-double {
+  margin: 0 0 var(--pad-2);
+  padding: var(--pad-2);
+  font-size: var(--size-xs);
+  color: var(--text);
+  background: var(--warn-soft);
+  border-left: 3px solid var(--warn);
+  border-radius: 0 var(--radius-control) var(--radius-control) 0;
+  max-width: var(--measure);
+}
+.fb-double strong { font-family: var(--font-it); font-weight: 600; }
+
+.fb-explain { margin: 0 0 var(--pad-1); color: var(--text); font-size: var(--size-xs); }
+.fb-hint { margin: 0; color: var(--text-muted); font-size: var(--size-xs); }
+
+/* ==========================================================================
+   Ripasso
+   ========================================================================== */
+
+.review-head { display: flex; align-items: center; justify-content: space-between; gap: var(--pad-3); margin-bottom: var(--pad-1); }
+.review-kind { font-size: var(--size-xs); color: var(--text-muted); }
+.review-done { text-align: center; padding: var(--space-3) var(--pad-3); }
+.review-done .big { font-family: var(--font-it); font-size: var(--size-2xl); margin-bottom: var(--pad-1); }
 
 /* ---------- Fine lezione ---------- */
 
-.lesson-done {
-  border: 2px solid var(--ok);
-  text-align: center;
-}
+.lesson-done { border: 1px solid var(--ok); text-align: center; }
 .lesson-done > * { margin-left: auto; margin-right: auto; }
-.done-mark {
-  font-size: var(--step-3);
-  line-height: 1;
-  color: var(--ok);
-  margin: .2rem 0 .3rem;
-}
+.done-mark { font-size: var(--size-2xl); line-height: 1; color: var(--ok); margin: 0 0 var(--pad-1); }
 .lesson-done h2 { color: var(--ok); }
-.done-lead { font-size: var(--step-1); max-width: var(--measure); }
-.lesson-done .btn-row { justify-content: center; margin-top: 1rem; }
+.done-lead { font-size: var(--size-m); max-width: var(--measure); }
+.lesson-done .btn-row { justify-content: center; margin-top: var(--space-1); }
 
 .done-details {
   text-align: left;
   max-width: var(--measure);
-  margin: .8rem auto;
-  border: 1px solid var(--line);
-  border-radius: var(--radius-sm);
-  background: var(--surface-2);
-  padding: .5rem .8rem;
+  margin: var(--space-1) auto;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-control);
+  background: var(--surface-sunk);
+  padding: var(--pad-2);
 }
-.done-details summary {
-  cursor: pointer;
-  font-size: var(--step--1);
-  font-weight: 600;
-  color: var(--accent-ink);
-}
-.done-words { list-style: none; margin: .6rem 0 .2rem; padding: 0; }
+.done-details summary { cursor: pointer; font-size: var(--size-xs); color: var(--accent); }
+.done-words { list-style: none; margin: var(--pad-2) 0 0; padding: 0; }
 .done-words li {
   display: flex;
   flex-wrap: wrap;
-  gap: .1rem .45rem;
-  padding: .3rem 0;
-  border-bottom: 1px solid var(--line);
-  font-size: var(--step--1);
+  gap: 2px var(--pad-1);
+  padding: 4px 0;
+  border-bottom: 1px solid var(--border);
+  font-size: var(--size-xs);
 }
 .done-words li:last-child { border-bottom: 0; }
+.done-words .it { font-family: var(--font-it); font-size: var(--size-s); }
+.done-words .es { color: var(--text-muted); }
+.done-words .sep { color: var(--text-muted); }
 
-/* ---------- Stati vuoti ---------- */
+/* ---------- Stati vuoti: una ricompensa, non una schermata rotta ---------- */
 
-.empty-state { text-align: center; padding: 2.2rem 1.2rem; }
+.empty-state { text-align: center; padding: var(--space-4) var(--pad-3) var(--space-3); }
 .empty-state > * { margin-left: auto; margin-right: auto; }
-.empty-mark {
-  font-size: var(--step-4);
-  line-height: 1;
-  color: var(--ok);
-  margin: 0 0 .2rem;
-}
-.empty-state h1 { font-size: var(--step-2); margin-bottom: .3rem; }
-.empty-lead { font-size: var(--step-1); max-width: var(--measure); color: var(--text); }
+.empty-mark { font-size: var(--size-2xl); line-height: 1; color: var(--ok); margin: 0 0 var(--pad-2); }
+.empty-state h1 { font-size: var(--size-l); margin-bottom: var(--pad-1); }
+.empty-lead { font-size: var(--size-m); max-width: var(--measure); color: var(--text); }
+.empty-state .btn-row { justify-content: center; margin-top: var(--space-2); }
 
-/* Riga «niente da ripassare» nella pagina iniziale. */
 .nothing-due {
   display: flex;
   align-items: baseline;
-  gap: .5rem;
+  gap: var(--pad-1);
   margin: 0;
-  padding: .7rem .9rem;
+  padding: var(--pad-2) var(--pad-3);
   background: var(--ok-soft);
   border-left: 3px solid var(--ok);
-  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+  border-radius: 0 var(--radius-control) var(--radius-control) 0;
   max-width: var(--measure);
 }
-.nd-mark { flex: none; color: var(--ok); font-weight: 700; }
+.nd-mark { flex: none; color: var(--ok); }
 
-/* ---------- Sessione di ripasso ---------- */
+/* ==========================================================================
+   Palabras rebeldes
+   ========================================================================== */
 
-.review-head { display: flex; align-items: center; justify-content: space-between; gap: 1rem; margin-bottom: .5rem; }
-.review-kind { font-size: var(--step--1); text-transform: uppercase; letter-spacing: .06em; color: var(--muted); }
-.review-done { text-align: center; padding: 2rem 1rem; }
-.review-done .big { font-size: var(--step-4); font-family: var(--font-it); margin-bottom: .2em; }
-
-/* ---------- Palabras rebeldes ---------- */
-
-.rebels-lead { max-width: var(--measure); }
-
-.rebels-list {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  counter-reset: rebelde;
-}
+.rebels-list { list-style: none; margin: 0; padding: 0; counter-reset: rebelde; }
 .rebel {
   counter-increment: rebelde;
   display: flex;
   flex-wrap: wrap;
   align-items: baseline;
-  gap: .3rem .7rem;
-  padding: .7rem 0 .7rem 2.2rem;
-  border-bottom: 1px solid var(--line);
+  gap: 4px var(--pad-2);
+  padding: var(--pad-2) 0 var(--pad-2) var(--space-2);
+  border-bottom: 1px solid var(--border);
   position: relative;
 }
 .rebel:last-child { border-bottom: 0; }
@@ -841,215 +970,178 @@ body.no-tts .audio { display: none; }
   content: counter(rebelde);
   position: absolute;
   left: 0;
-  top: .7rem;
+  top: var(--pad-2);
   width: 1.6rem;
   text-align: right;
-  font-size: var(--step--1);
-  color: var(--muted);
+  font-size: var(--size-xs);
+  color: var(--text-muted);
   font-variant-numeric: tabular-nums;
 }
-.rebel-main {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: baseline;
-  gap: .2rem .5rem;
-  flex: 1 1 14rem;
-}
-.rebel-main .es { color: var(--muted); }
-.rebel-stats {
-  display: flex;
-  align-items: baseline;
-  gap: .5rem;
-  flex: none;
-}
-.rebel-rate {
-  font-weight: 700;
-  color: var(--bad);
-  font-variant-numeric: tabular-nums;
-}
-.rebel-count {
-  font-size: var(--step--1);
-  color: var(--muted);
-  font-variant-numeric: tabular-nums;
-}
-.rebel-note { flex-basis: 100%; margin: .2rem 0 0; font-size: var(--step--1); color: var(--muted); }
+.rebel-main { display: flex; flex-wrap: wrap; align-items: baseline; gap: 2px var(--pad-1); flex: 1 1 14rem; }
+.rebel-main .it { font-family: var(--font-it); font-size: var(--size-m); }
+.rebel-main .es { color: var(--text-muted); font-size: var(--size-xs); }
+.rebel-stats { display: flex; align-items: baseline; gap: var(--pad-1); flex: none; }
+.rebel-rate { color: var(--text); font-variant-numeric: tabular-nums; }
+.rebel-count { font-size: var(--size-xs); color: var(--text-muted); font-variant-numeric: tabular-nums; }
+.rebel-note { flex-basis: 100%; margin: 2px 0 0; font-size: var(--size-xs); color: var(--text-muted); }
 
-.rebels-peek { margin: 0 0 .6rem; font-family: var(--font-it); }
-.rebels-peek .peek { color: var(--accent-ink); }
+.rebels-peek { margin: 0 0 var(--pad-2); font-family: var(--font-it); font-size: var(--size-m); }
 
-.listen-entry { margin: .8rem 0 0; }
-.listen-entry a { font-weight: 600; text-decoration: none; }
+.listen-entry { margin: var(--space-1) 0 0; }
+.listen-entry a { text-decoration: none; }
 .listen-entry a:hover { text-decoration: underline; }
 
-/* ---------- Modalità solo-ascolto ----------
-   Schermo grande, mani occupate: bersagli larghi e pochi elementi. */
+/* ==========================================================================
+   Modalità solo-ascolto
+   ========================================================================== */
 
-.listen-stage { margin-top: 1rem; }
-
+.listen-stage { margin-top: var(--space-1); }
 .listen-card {
   background: var(--surface);
-  border: 1px solid var(--line);
-  border-radius: var(--radius);
-  padding: 1.2rem 1.1rem;
-  box-shadow: var(--shadow);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-card);
+  padding: var(--pad-4) var(--pad-3) var(--pad-3);
   text-align: center;
 }
+.listen-state { margin: 0 0 var(--space-1); min-height: 1.6em; font-size: var(--size-m); color: var(--text-muted); }
+.listen-state.ok { color: var(--ok); }
+.listen-state.bad { color: var(--text); }
 
-.listen-state {
-  margin: 0 0 1rem;
-  min-height: 1.6em;
-  font-size: var(--step-1);
-  color: var(--muted);
-}
-.listen-state.ok { color: var(--ok); font-weight: 600; }
-.listen-state.bad { color: var(--bad); font-weight: 600; }
-
-.listen-options {
-  display: grid;
-  gap: .6rem;
-  margin-bottom: 1rem;
-}
+.listen-options { display: grid; gap: var(--pad-2); margin-bottom: var(--space-1); }
 .listen-option {
-  font: inherit;
-  font-size: var(--step-1);
-  /* Bersaglio grande: si deve poter premere senza guardare. */
-  min-height: 4rem;
-  padding: .8em 1em;
-  border: 2px solid var(--line);
-  border-radius: var(--radius);
-  background: var(--bg);
+  font-family: var(--font-ui);
+  font-size: var(--size-m);
+  min-height: 64px;
+  padding: var(--pad-3);
+  border: 1px solid var(--border-strong);
+  border-radius: var(--radius-control);
+  background: var(--surface);
   color: var(--text);
   cursor: pointer;
-  transition: border-color .12s ease, background .12s ease;
+  transition: background 0.12s ease, border-color 0.12s ease;
 }
-.listen-option:hover:not(:disabled) { border-color: var(--accent); }
-.listen-option:disabled { cursor: default; opacity: .75; }
-.listen-option.is-ok {
-  border-color: var(--ok);
-  background: var(--ok-soft);
-  opacity: 1;
-  font-weight: 600;
-}
+.listen-option:hover:not(:disabled) { background: var(--surface-sunk); }
+.listen-option:disabled { cursor: default; opacity: 0.75; }
+.listen-option.is-ok { border-color: var(--ok); background: var(--ok-soft); opacity: 1; }
 .listen-option.is-ok::before { content: "✓ "; color: var(--ok); }
-.listen-option.is-bad {
-  border-color: var(--bad);
-  background: var(--bad-soft);
-  opacity: 1;
-}
-.listen-option.is-bad::before { content: "✗ "; color: var(--bad); }
+.listen-option.is-bad { border-color: var(--warn); background: var(--warn-soft); opacity: 1; }
+.listen-option.is-bad::before { content: "✗ "; color: var(--text); }
 
-/* L'italiano scritto: nascosto finché non si è risposto. */
 .listen-reveal {
-  margin: 0 0 1rem;
+  margin: 0 0 var(--space-1);
   font-family: var(--font-it);
-  font-size: var(--step-2);
-  font-weight: 700;
-  color: var(--accent-ink);
+  font-size: var(--size-l);
+  color: var(--text);
 }
 .listen-reveal[hidden] { display: none; }
 
-.listen-controls {
-  display: flex;
-  flex-wrap: wrap;
-  gap: .5rem;
-  justify-content: center;
-}
-.listen-controls .btn { min-height: 44px; }
-.listen-pause[aria-pressed="true"] {
-  border-color: var(--warn);
-  background: var(--warn-soft);
-  color: var(--warn);
-  font-weight: 600;
-}
+.listen-controls { display: flex; flex-wrap: wrap; gap: var(--pad-2); justify-content: center; }
+.listen-pause[aria-pressed="true"] { border-color: var(--warn); background: var(--warn-soft); color: var(--text); }
 
-@media (min-width: 40rem) {
-  .listen-options { grid-template-columns: 1fr 1fr; }
-}
+/* ==========================================================================
+   Dati e tema
+   ========================================================================== */
 
-/* ---------- Gestione dei dati ---------- */
-
-.data-tools .btn-row { margin-bottom: .5rem; }
+.data-tools .btn-row { margin-bottom: var(--pad-2); }
 .hidden-file { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
 
-/* Proposta di copia: presente ma non allarmante. */
-.backup-offer { border-left: 4px solid var(--accent); }
+.backup-offer { border-left: 3px solid var(--accent); }
 
 .import-choice {
-  margin-top: .8rem;
-  padding: .8rem .9rem;
-  border: 1px solid var(--line);
-  border-radius: var(--radius-sm);
-  background: var(--surface-2);
+  margin-top: var(--space-1);
+  padding: var(--pad-3);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-control);
+  background: var(--surface-sunk);
 }
 .import-choice > :last-child { margin-bottom: 0; }
-.import-choice .btn-row { margin: .6rem 0; }
+.import-choice .btn-row { margin: var(--pad-2) 0; }
 
-/* Riga in fondo alla home. Discreta fino a due settimane, poi visibile. */
-.backup-line {
-  margin: 1.2rem 0 0;
-  text-align: center;
-  font-size: var(--step--1);
-  color: var(--muted);
-}
+.backup-line { margin: var(--space-2) 0 0; text-align: center; font-size: var(--size-xs); color: var(--text-muted); }
 .backup-line.stale {
-  color: var(--warn);
-  font-size: var(--step-0);
-  font-weight: 600;
-  padding: .5em .8em;
+  color: var(--text);
+  padding: var(--pad-1) var(--pad-2);
   background: var(--warn-soft);
-  border-radius: var(--radius-sm);
+  border-radius: var(--radius-control);
 }
+
+/* ---------- Selettore del tema ---------- */
+
+.theme-picker { margin: 0; }
+.theme-picker legend {
+  padding: 0;
+  font-size: var(--size-xs);
+  color: var(--text-muted);
+  margin-bottom: var(--pad-1);
+}
+.theme-options {
+  display: inline-flex;
+  border: 1px solid var(--border-strong);
+  border-radius: var(--radius-control);
+  overflow: hidden;
+}
+.theme-option { position: relative; }
+.theme-option input {
+  position: absolute;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  cursor: pointer;
+}
+.theme-option span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  padding: var(--pad-1) var(--pad-3);
+  font-size: var(--size-xs);
+  color: var(--text-muted);
+  border-left: 1px solid var(--border);
+  cursor: pointer;
+}
+.theme-option:first-child span { border-left: 0; }
+.theme-option input:checked + span { background: var(--accent-soft); color: var(--text); }
+.theme-option input:focus-visible + span { outline: 2px solid var(--accent); outline-offset: -2px; }
 
 /* ---------- Avviso di versione nuova ---------- */
 
 .update-banner {
   position: fixed;
   left: 50%;
-  bottom: 1rem;
+  bottom: var(--pad-3);
   transform: translateX(-50%);
   z-index: 20;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  gap: .5rem;
+  gap: var(--pad-2);
   max-width: calc(100vw - 2rem);
-  padding: .6rem .8rem;
+  padding: var(--pad-2) var(--pad-3);
   background: var(--surface);
-  border: 1px solid var(--line);
-  border-radius: var(--radius);
-  box-shadow: var(--shadow);
-  font-size: var(--step-0);
+  border: 1px solid var(--border-strong);
+  border-radius: var(--radius-card);
+  font-size: var(--size-xs);
 }
-.update-text { margin-right: .2rem; }
-.btn-small { font-size: var(--step--1); padding: .35em .7em; }
 
-.loading { color: var(--muted); }
-
-/* ---------- Schermi larghi ---------- */
+/* ==========================================================================
+   Schermi larghi
+   ========================================================================== */
 
 @media (min-width: 40rem) {
-  /* Su schermi larghi la base sale a 18px (sempre in percentuale, sempre
-     relativa alla preferenza di chi legge). La soglia in rem della media
-     query si misura sul corpo iniziale del browser, non su questa, quindi
-     non si morde la coda. */
-  html { font-size: 112.5%; }
-  .app { padding: 2rem 1.5rem 4rem; }
-  h1 { font-size: var(--step-3); }
-  .hero h1 { font-size: var(--step-4); }
+  .app { padding: var(--space-3) var(--space-2) var(--pad-3); }
   .module-list { grid-template-columns: 1fr 1fr; }
-  .vocab-list li { padding: .5rem 0; }
+  .listen-options { grid-template-columns: 1fr 1fr; }
 }
 
-/* ---------- Chi ha chiesto meno movimento ----------
-   Non basta togliere le transizioni: vanno spente anche le animazioni
-   (lo scossone dell'abbinamento sbagliato) e lo scorrimento morbido. */
+/* ==========================================================================
+   Chi ha chiesto meno movimento
+   ========================================================================== */
 
 @media (prefers-reduced-motion: reduce) {
-  *,
-  *::before,
-  *::after {
+  *, *::before, *::after {
     transition: none !important;
-    animation-duration: .001ms !important;
+    animation-duration: 0.001ms !important;
     animation-iteration-count: 1 !important;
     scroll-behavior: auto !important;
   }

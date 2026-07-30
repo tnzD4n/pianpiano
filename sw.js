@@ -14,7 +14,7 @@
    Non modificarla a mano. Se cambia la struttura della cache si alza il
    `v1` del prefisso, dentro tools/stamp-sw.mjs. */
 
-const CACHE = 'pianpiano-v1-b8512328';
+const CACHE = 'pianpiano-v1-dd6a62f3';
 
 /* Guscio dell'applicazione. I file delle lezioni non stanno qui:
    si ricavano da course.json, così aggiungerne una non obbliga
@@ -46,10 +46,10 @@ const SHELL = [
   './js/render/review.js',
   // I font vanno in cache come tutto il resto: offline il sito non deve
   // ricadere sui caratteri di sistema, o cambia faccia da un giorno all'altro.
-  './assets/fonts/lora-latin-variable.woff2',
-  './assets/fonts/lora-latin-italic-variable.woff2',
-  './assets/fonts/inter-latin-variable.woff2',
-  './assets/fonts/inter-latin-italic-variable.woff2',
+  './assets/fonts/newsreader-latin-variable.woff2',
+  './assets/fonts/newsreader-latin-italic-variable.woff2',
+  './assets/fonts/publicsans-latin-variable.woff2',
+  './assets/fonts/publicsans-latin-italic-variable.woff2',
   './assets/icons/icon-192.png',
   './assets/icons/icon-512.png',
   './assets/icons/icon-maskable-512.png',

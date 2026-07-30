@@ -13,7 +13,7 @@ import { writeFileSync, mkdirSync } from 'node:fs';
 
 const OUT = 'assets/icons';
 
-const ACCENT = [0x0f, 0x7b, 0x5c];   // --accent del tema chiaro
+const ACCENT = [0x1e, 0x5f, 0x82];   // --accent del tema chiaro
 const INK = [0xff, 0xff, 0xff];
 
 /* ---------- Geometria della lettera «p», in unità di corpo ----------

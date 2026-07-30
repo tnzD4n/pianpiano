@@ -5,7 +5,13 @@
 import { todayISO, daysBetween } from './util.js';
 
 const KEY = 'pianpiano.v1';
-const SCHEMA_VERSION = 3;
+const SCHEMA_VERSION = 4;
+
+/* Il tema è letto anche da uno script inline nel <head>, prima che questo
+   modulo esista, per non far lampeggiare il bianco al caricamento. Se cambia
+   la chiave o il nome del campo va cambiato anche lì: è l'unico punto del
+   progetto in cui la forma dei dati è scritta in due posti. */
+export const THEMES = ['auto', 'light', 'dark'];
 
 function emptyState() {
   return {
@@ -18,6 +24,8 @@ function emptyState() {
     // copia di sicurezza: quando è stata scaricata l'ultima volta,
     // e a quante lezioni completate risaliva.
     backup: { lastAt: null, lessonsAt: 0 },
+    // 'auto' segue prefers-color-scheme; 'light' e 'dark' lo forzano.
+    theme: 'auto',
     updatedAt: null
   };
 }
@@ -55,6 +63,13 @@ function migrate(data) {
       if (typeof item.errors !== 'number') item.errors = wrong;
     }
     out.schemaVersion = 3;
+  }
+
+  // v3 -> v4: la scelta del tema. Chi arriva da prima parte da 'auto',
+  // che è come si comportava il sito quando il tema non era scegliibile.
+  if (out.schemaVersion === 3) {
+    if (!THEMES.includes(out.theme)) out.theme = 'auto';
+    out.schemaVersion = 4;
   }
 
   delete out.version;
@@ -192,6 +207,55 @@ export function getSrs() {
 
 export function saveSrs() {
   write();
+}
+
+/* ---------- Tema ---------- */
+
+export function getTheme() {
+  return THEMES.includes(state.theme) ? state.theme : 'auto';
+}
+
+export function setTheme(theme) {
+  state.theme = THEMES.includes(theme) ? theme : 'auto';
+  write();
+  applyTheme(state.theme);
+  return state.theme;
+}
+
+/* Scrive `data-theme` sull'elemento <html>. Con 'auto' l'attributo si
+   toglie del tutto, così torna a decidere la media query del CSS. */
+export function applyTheme(theme) {
+  const root = document.documentElement;
+  const scelta = THEMES.includes(theme) ? theme : 'auto';
+  // 'auto' si risolve qui in un valore concreto, esattamente come fa lo
+  // script inline nel <head>: al CSS arrivano solo 'light' o 'dark'.
+  const risolto = scelta === 'auto' ? systemTheme() : scelta;
+  if (risolto === 'dark') root.setAttribute('data-theme', 'dark');
+  else root.removeAttribute('data-theme');
+  syncThemeColor();
+}
+
+export function systemTheme() {
+  if (typeof window === 'undefined' || !window.matchMedia) return 'light';
+  return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+}
+
+/* La barra di stato del telefono deve seguire il tema, altrimenti in scuro
+   resta una striscia chiara sopra la pagina. Il colore si legge dalla
+   variabile CSS già applicata: nessun colore scritto due volte. */
+function syncThemeColor() {
+  const meta = document.getElementById('theme-color');
+  if (!meta) return;
+  const bg = getComputedStyle(document.documentElement).getPropertyValue('--bg').trim();
+  if (bg) meta.setAttribute('content', bg);
+}
+
+/* Con il tema su 'auto' il sistema può cambiare da solo (di sera, o con
+   la modalità automatica): la barra di stato deve seguirlo. */
+if (typeof window !== 'undefined' && window.matchMedia) {
+  const query = window.matchMedia('(prefers-color-scheme: dark)');
+  const onChange = () => { if (getTheme() === 'auto') applyTheme('auto'); };
+  if (query.addEventListener) query.addEventListener('change', onChange);
 }
 
 /* ---------- Copia di sicurezza ---------- */

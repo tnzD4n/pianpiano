@@ -16,8 +16,8 @@ export async function render(root, ctx, lessonId) {
     return;
   }
 
-  root.append(el('p', { class: 'loading' }, 'Cargando la lección…'));
-
+  // Niente messaggio di caricamento: il JSON è locale, e in cache è
+  // istantaneo. Uno spinner qui sarebbe solo un lampo di rumore.
   let lesson;
   try {
     const response = await fetch(entry.lesson.file, { cache: 'no-cache' });
@@ -99,22 +99,36 @@ function notFound(root, text) {
 
 /* ---------- Vocabolario ---------- */
 
+/* La scheda di vocabolario è l'elemento più visto del sito.
+   Gerarchia, non due colonne allineate: la parola italiana da sola sulla
+   riga, la traduzione sotto e più piccola, genere e plurale come etichetta
+   accanto alla parola, l'audio come icona discreta a destra. */
 function vocabSection(vocab) {
   const list = el('ul', { class: 'vocab-list' });
+
   vocab.forEach((item) => {
     const italian = withArticle(item.it, item.gender);
-    const line = el('li', null,
-      el('span', { class: 'it' }, italian),
-      tts.available() ? tts.audioControls(item.it, italian) : null,
-      el('span', { class: 'sep' }, '·'),
-      el('span', { class: 'es' }, item.es)
-    );
-    if (item.plural) {
-      line.append(el('span', { class: 'vocab-plural' }, `(pl. ${withPluralArticle(item.plural, item.gender)})`));
+    const card = el('li', { class: 'vocab-card' });
+
+    const word = el('div', { class: 'vocab-word' },
+      el('span', { class: 'it', lang: 'it' }, italian));
+
+    // Genere e plurale stanno insieme in una sola etichetta, non su righe proprie.
+    const marks = [];
+    if (item.gender) marks.push(item.gender === 'f' ? 'f.' : 'm.');
+    if (item.plural) marks.push('pl. ' + withPluralArticle(item.plural, item.gender));
+    if (marks.length) word.append(el('span', { class: 'vocab-tag' }, marks.join(' · ')));
+
+    card.append(word, el('p', { class: 'vocab-es' }, item.es));
+
+    if (tts.available()) {
+      card.append(el('div', { class: 'vocab-audio' }, tts.audioButton(item.it, italian)));
     }
-    if (item.note) line.append(el('span', { class: 'vocab-note', html: mdInline(item.note) }));
-    list.append(line);
+    if (item.note) card.append(el('p', { class: 'vocab-note', html: mdInline(item.note) }));
+
+    list.append(card);
   });
+
   return el('section', { class: 'card' }, el('h2', null, 'Vocabulario'), list);
 }
 

@@ -84,6 +84,19 @@ export function resume() {
   if ('speechSynthesis' in window) window.speechSynthesis.resume();
 }
 
+/* Un solo pulsante circolare, per la scheda di vocabolario: lì l'audio è
+   un dettaglio discreto sul bordo destro, non un comando da due bottoni. */
+export function audioButton(text, label = text) {
+  return el('span', { class: 'audio' },
+    el('button', {
+      type: 'button',
+      class: 'normal',
+      title: 'Escuchar',
+      'aria-label': `Escuchar: ${label}`,
+      onclick: () => speak(text, NORMAL)
+    }, '🔊'));
+}
+
 // Coppia di pulsanti: velocità normale e velocità lenta.
 export function audioControls(text, label = text) {
   const wrap = el('span', { class: 'audio' });

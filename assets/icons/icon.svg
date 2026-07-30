@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
   <title>Pian piano</title>
-  <rect width="512" height="512" rx="112.64" fill="#0f7b5c"/>
+  <rect width="512" height="512" rx="112.64" fill="#1e5f82"/>
     <rect x="97.28" y="146.88" width="39.68" height="218.24" rx="19.84" fill="#fff"/>
     <path d="M 109.18 214.34 a 67.46 67.46 0 1 0 134.91 0 a 67.46 67.46 0 1 0 -134.91 0 Z M 145.89 214.34 a 30.75 30.75 0 1 1 61.5 0 a 30.75 30.75 0 1 1 -61.5 0 Z" fill="#fff" fill-rule="evenodd"/>
     <rect x="267.9" y="146.88" width="39.68" height="218.24" rx="19.84" fill="#fff"/>

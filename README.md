@@ -43,21 +43,32 @@ E uno, l'unico che tocca la rete, si lancia a mano una volta sola e non sta
 nella CI (i font stanno nel repository, il sito non scarica niente):
 
 ```
-node tools/fetch-fonts.mjs           # scarica Lora e Inter in assets/fonts/
+node tools/fetch-fonts.mjs           # Newsreader e Public Sans in assets/fonts/
 ```
 
-## Caratteri
+## Caratteri e colore
 
 Due famiglie, self-hosted, licenza SIL OFL 1.1 (il testo della licenza sta
 accanto ai file). La divisione è di sostanza, non decorativa:
 
-* **Lora**, serif caldo → tutto ciò che è in italiano: parole, frasi, esercizi;
-* **Inter**, sans neutro → l'interfaccia e le spiegazioni in spagnolo.
+* **Newsreader**, serif da lettura → tutto ciò che è in italiano;
+* **Public Sans**, sans da interfaccia → lo spagnolo e tutti i titoli.
 
-Sono varianti variabili con il solo sottoinsieme latino: quattro file, 174 kB
-in tutto, tondo e corsivo per famiglia. La scala tipografica ha rapporto 1.25
-(`--step--1` … `--step-4`) e la base sta su `html` in percentuale, non in px,
-perché il corpo del testo deve seguire le preferenze del browser.
+Sottoinsieme latino, varianti variabili, con l'asse `opsz` di Newsreader
+fissato a 16 (da solo raddoppiava il peso del file): quattro file, 173 kB
+in tutto. Scala tipografica 13 · 16 · 20 · 25 · 31 · 39, base 16px lasciata
+sull'elemento `html` senza forzature, così il corpo del testo segue le
+preferenze del browser.
+
+La palette «Adriatico e sabbia» sta tutta in due blocchi di `css/style.css`:
+`:root` e `[data-theme="dark"]`. Nel resto del foglio non c'è nessun colore
+letterale, e `tools/check-contrast.mjs` lo verifica insieme ai contrasti,
+ai bordi e alla regola che vieta il rosso.
+
+Il tema si sceglie in fondo alla pagina iniziale fra automatico, chiaro e
+scuro. «Automatico» viene risolto in un valore concreto prima del primo
+paint, da uno script inline nel `<head>`: niente lampo bianco al
+caricamento, e il CSS ha bisogno dei soli due blocchi di variabili.
 
 ## Pubblicare su GitHub Pages
 
@@ -180,7 +191,7 @@ Note:
 index.html            impalcatura, avviso file://, meta noindex, manifest e icone
 manifest.webmanifest  PWA installabile, percorsi relativi
 sw.js                 service worker, cache-first, nome cache con impronta
-css/style.css         tema chiaro e scuro (prefers-color-scheme)
+css/style.css         palette, tipografia e componenti; due soli blocchi di colore
 js/app.js             bootstrap e router a hash (#/, #/modulo/:id, #/lezione/:id,
                       #/repaso, #/repaso/rebeldes, #/rebeldes, #/escucha)
 js/store.js           localStorage versionato, avanzamento, streak, copie di sicurezza

@@ -7,8 +7,8 @@
    in pagina non c'è nessuna richiesta verso l'esterno.
 
    Due famiglie, entrambe con licenza SIL Open Font License 1.1:
-     Lora   serif calligrafico e caldo → tutto ciò che è in italiano
-     Inter  sans neutro da interfaccia → lo spagnolo di servizio
+     Newsreader   serif da lettura → tutto ciò che è in italiano
+     Public Sans  sans da interfaccia → lo spagnolo di servizio
 
    Si prendono le varianti variabili (un file copre tutti i pesi da 400 a 700)
    e solo il sottoinsieme latino, che è l'unico che serve a spagnolo e
@@ -24,18 +24,21 @@ const UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 ' +
 /* Le famiglie, con il nome del file locale per ciascuno stile. */
 const FAMILIES = [
   {
-    name: 'Lora',
-    query: 'family=Lora:ital,wght@0,400..700;1,400..700',
-    license: 'https://raw.githubusercontent.com/google/fonts/main/ofl/lora/OFL.txt',
-    licenseFile: 'Lora-OFL.txt',
-    files: { normal: 'lora-latin-variable.woff2', italic: 'lora-latin-italic-variable.woff2' }
+    name: 'Newsreader',
+    /* `opsz` fissato a 16 e non lasciato libero da 6 a 72: l'asse della
+       dimensione ottica raddoppia il peso del file (129 kB contro 56 kB) e
+       qui non serve, perché il testo italiano sta fra 16 e 31 px. */
+    query: 'family=Newsreader:ital,opsz,wght@0,16,400..700;1,16,400..700',
+    license: 'https://raw.githubusercontent.com/google/fonts/main/ofl/newsreader/OFL.txt',
+    licenseFile: 'Newsreader-OFL.txt',
+    files: { normal: 'newsreader-latin-variable.woff2', italic: 'newsreader-latin-italic-variable.woff2' }
   },
   {
-    name: 'Inter',
-    query: 'family=Inter:ital,wght@0,400..700;1,400..700',
-    license: 'https://raw.githubusercontent.com/google/fonts/main/ofl/inter/OFL.txt',
-    licenseFile: 'Inter-OFL.txt',
-    files: { normal: 'inter-latin-variable.woff2', italic: 'inter-latin-italic-variable.woff2' }
+    name: 'Public Sans',
+    query: 'family=Public+Sans:ital,wght@0,400..700;1,400..700',
+    license: 'https://raw.githubusercontent.com/google/fonts/main/ofl/publicsans/OFL.txt',
+    licenseFile: 'PublicSans-OFL.txt',
+    files: { normal: 'publicsans-latin-variable.woff2', italic: 'publicsans-latin-italic-variable.woff2' }
   }
 ];
 

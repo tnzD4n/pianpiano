@@ -113,9 +113,44 @@ export function render(root, ctx) {
 
   /* --- Dati --- */
   root.append(dataTools(ctx));
+  root.append(themePicker());
 
   const line = backupLine();
   if (line) root.append(line);
+}
+
+/* Selettore del tema a tre stati. Radio veri dentro una fieldset: il
+   gruppo si annuncia da solo al lettore di schermo e funziona con le
+   frecce da tastiera senza una riga di JavaScript in più. */
+function themePicker() {
+  const attuale = store.getTheme();
+  const opzioni = [
+    ['auto', 'Automático'],
+    ['light', 'Claro'],
+    ['dark', 'Oscuro']
+  ];
+
+  const group = el('div', { class: 'theme-options' });
+  opzioni.forEach(([valore, etichetta]) => {
+    const id = 'theme-' + valore;
+    group.append(el('label', { class: 'theme-option', for: id },
+      el('input', {
+        type: 'radio',
+        name: 'theme',
+        id,
+        value: valore,
+        checked: valore === attuale,
+        onchange: () => store.setTheme(valore)
+      }),
+      el('span', null, etichetta)));
+  });
+
+  return el('section', { class: 'card' },
+    el('fieldset', { class: 'theme-picker' },
+      el('legend', null, 'Tema'),
+      group),
+    el('p', { class: 'small muted', style: 'margin:12px 0 0' },
+      'Con «automático» sigue la preferencia de tu sistema.'));
 }
 
 function stat(value, label) {
