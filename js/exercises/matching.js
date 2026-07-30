@@ -15,7 +15,22 @@ export function render(data, onAnswer) {
   let selected = null;
   let found = 0;
 
+  /* Il conteggio delle coppie è una regione «polite»: chi usa il lettore di
+     schermo sente «2 de 6 parejas» a ogni accoppiata giusta, altrimenti una
+     coppia trovata non produce nessun annuncio e resta un fatto solo visivo. */
+  const tally = el('p', { class: 'match-tally', role: 'status', 'aria-live': 'polite' });
+  const updateTally = () => {
+    tally.textContent = found === 0
+      ? ''
+      : `${found} de ${pairs.length} ${pairs.length === 1 ? 'pareja' : 'parejas'}`;
+  };
+
   const clearFeedback = () => clear(box);
+
+  const setSelected = (button, on) => {
+    button.classList.toggle('selected', on);
+    button.setAttribute('aria-pressed', on ? 'true' : 'false');
+  };
 
   const tryMatch = (button) => {
     if (button.classList.contains('done')) return;
@@ -23,31 +38,33 @@ export function render(data, onAnswer) {
 
     if (!selected) {
       selected = button;
-      button.classList.add('selected');
+      setSelected(button, true);
       return;
     }
     if (selected === button) {
-      button.classList.remove('selected');
+      setSelected(button, false);
       selected = null;
       return;
     }
     if (selected.dataset.side === side) {
-      selected.classList.remove('selected');
+      setSelected(selected, false);
       selected = button;
-      button.classList.add('selected');
+      setSelected(button, true);
       return;
     }
 
     const ok = selected.dataset.pair === button.dataset.pair;
     if (ok) {
-      selected.classList.remove('selected');
-      selected.classList.add('done');
-      button.classList.add('done');
-      selected.disabled = true;
-      button.disabled = true;
+      setSelected(selected, false);
+      [selected, button].forEach((b) => {
+        b.classList.add('done');
+        b.disabled = true;
+        b.removeAttribute('aria-pressed');
+      });
       selected = null;
       found += 1;
       clearFeedback();
+      updateTally();
       if (found === pairs.length) {
         showFeedback(box, { correct: true, explain: data.explain });
         onAnswer(true);
@@ -62,7 +79,7 @@ export function render(data, onAnswer) {
         given: `${selected.textContent} + ${button.textContent}`,
         expected: `${selected.textContent} + ${partner}`
       });
-      selected.classList.remove('selected');
+      setSelected(selected, false);
       selected = null;
       onAnswer(false);
     }
@@ -73,6 +90,10 @@ export function render(data, onAnswer) {
     class: 'match-btn',
     'data-pair': index,
     'data-side': side,
+    // Il pulsante è a due stati: premuto = scelto. Senza questo, la
+    // selezione esiste solo come colore e come segno grafico.
+    'aria-pressed': 'false',
+    lang: side === 'it' ? 'it' : 'es',
     onclick(event) { tryMatch(event.currentTarget); }
   }, text);
 
@@ -82,6 +103,7 @@ export function render(data, onAnswer) {
   return el('div', { class: 'ex-body' },
     el('p', { class: 'ex-prompt' }, data.prompt || 'Une cada palabra italiana con su traducción.'),
     el('div', { class: 'match-grid' }, left, right),
+    tally,
     box
   );
 }

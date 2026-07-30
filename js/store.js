@@ -5,35 +5,72 @@
 import { todayISO, daysBetween } from './util.js';
 
 const KEY = 'pianpiano.v1';
-const VERSION = 1;
+const SCHEMA_VERSION = 3;
 
 function emptyState() {
   return {
-    version: VERSION,
+    schemaVersion: SCHEMA_VERSION,
     // lezioni: { "m01-l01": { opened, done: [indici], completedAt } }
     lessons: {},
     // ripasso: { "v:ciao": { id, kind, it, es, gender, lesson, box, due, right, wrong } }
     srs: {},
     streak: { current: 0, best: 0, last: null },
+    // copia di sicurezza: quando è stata scaricata l'ultima volta,
+    // e a quante lezioni completate risaliva.
+    backup: { lastAt: null, lessonsAt: 0 },
     updatedAt: null
   };
 }
 
 /* Le migrazioni si aggiungono qui, una per ogni salto di versione.
-   Esempio per il futuro:
-     if (data.version === 1) { data.qualcosa = {}; data.version = 2; } */
+   Regola: non si perde mai niente: si aggiunge quello che manca e si
+   lascia in pace tutto il resto. */
 function migrate(data) {
   if (!data || typeof data !== 'object') return emptyState();
+
+  const out = { ...data };
+
+  // v1 -> v2: nasce il blocco `backup`, e il numero di versione cambia
+  // nome da `version` a `schemaVersion` per allinearsi a course.json.
+  if (!out.schemaVersion) {
+    out.schemaVersion = 1;
+  }
+  if (out.schemaVersion === 1) {
+    if (!out.backup) out.backup = { lastAt: null, lessonsAt: 0 };
+    out.schemaVersion = 2;
+  }
+
+  /* v2 -> v3: ogni voce del ripasso guadagna `attempts` ed `errors`, i due
+     contatori su cui si regge la schermata delle «palabras rebeldes».
+     Non si parte da zero: `right` e `wrong` esistono dalla prima versione e
+     contengono esattamente la stessa storia, quindi si travasano. Azzerare
+     avrebbe voluto dire buttare mesi di statistiche già raccolte. */
+  if (out.schemaVersion === 2) {
+    const srs = out.srs || {};
+    for (const item of Object.values(srs)) {
+      if (!item || typeof item !== 'object') continue;
+      const right = Number(item.right) || 0;
+      const wrong = Number(item.wrong) || 0;
+      if (typeof item.attempts !== 'number') item.attempts = right + wrong;
+      if (typeof item.errors !== 'number') item.errors = wrong;
+    }
+    out.schemaVersion = 3;
+  }
+
+  delete out.version;
+
+  // Rete di sicurezza: qualunque campo nuovo dello stato vuoto che ancora
+  // non esistesse viene aggiunto senza toccare quelli già presenti.
   const base = emptyState();
-  const out = {
+  return {
     ...base,
-    ...data,
-    lessons: { ...base.lessons, ...(data.lessons || {}) },
-    srs: { ...base.srs, ...(data.srs || {}) },
-    streak: { ...base.streak, ...(data.streak || {}) }
+    ...out,
+    lessons: { ...base.lessons, ...(out.lessons || {}) },
+    srs: { ...base.srs, ...(out.srs || {}) },
+    streak: { ...base.streak, ...(out.streak || {}) },
+    backup: { ...base.backup, ...(out.backup || {}) },
+    schemaVersion: SCHEMA_VERSION
   };
-  out.version = VERSION;
-  return out;
 }
 
 let state = read();
@@ -157,20 +194,140 @@ export function saveSrs() {
   write();
 }
 
+/* ---------- Copia di sicurezza ---------- */
+
+// Quante lezioni risultano completate in questo momento.
+export function completedCount() {
+  return Object.values(state.lessons).filter((rec) => rec && rec.completedAt).length;
+}
+
+export function backupInfo() {
+  const last = state.backup.lastAt;
+  return {
+    lastAt: last,
+    daysAgo: last ? daysBetween(last, todayISO()) : null,
+    lessonsSince: completedCount() - (state.backup.lessonsAt || 0)
+  };
+}
+
+export function markBackupDone() {
+  state.backup = { lastAt: todayISO(), lessonsAt: completedCount() };
+  write();
+  return state.backup;
+}
+
+/* Va proposta una copia? Ogni 5 lezioni completate dall'ultima, oppure
+   dopo due settimane. Si propone e basta: non blocca mai niente. */
+export function shouldOfferBackup() {
+  const info = backupInfo();
+  if (completedCount() === 0) return false;
+  if (info.lastAt === null) return completedCount() >= 5;
+  return info.lessonsSince >= 5 || info.daysAgo >= 14;
+}
+
 /* ---------- Esportare, importare, azzerare ---------- */
 
 export function exportJSON() {
   return JSON.stringify(state, null, 2);
 }
 
-export function importJSON(text) {
-  const parsed = JSON.parse(text);
-  if (!parsed || typeof parsed !== 'object' || typeof parsed.version !== 'number') {
-    throw new Error('formato');
+export function isEmpty() {
+  return Object.keys(state.lessons).length === 0 && Object.keys(state.srs).length === 0;
+}
+
+/* Controlla che il file sia davvero un progresso di Pian piano prima di
+   toccare quello che c'è già. Restituisce lo stato ripulito, senza salvarlo:
+   decidere fra unire e sostituire tocca a chi chiama. */
+export function parseBackup(text) {
+  let parsed;
+  try {
+    parsed = JSON.parse(text);
+  } catch (err) {
+    throw new Error('El archivo no es un JSON válido.');
   }
-  state = migrate(parsed);
+  if (!parsed || typeof parsed !== 'object' || Array.isArray(parsed)) {
+    throw new Error('El archivo no tiene la forma esperada.');
+  }
+  // I file vecchi hanno `version`, i nuovi `schemaVersion`.
+  const v = typeof parsed.schemaVersion === 'number' ? parsed.schemaVersion : parsed.version;
+  if (typeof v !== 'number') {
+    throw new Error('Al archivo le falta el número de versión: no parece un progreso de Pian piano.');
+  }
+  if (v > SCHEMA_VERSION) {
+    throw new Error('El archivo viene de una versión más nueva de Pian piano. Actualiza la página e inténtalo otra vez.');
+  }
+  const plainObject = (x) => x === undefined || (x && typeof x === 'object' && !Array.isArray(x));
+  if (!plainObject(parsed.lessons) || !plainObject(parsed.srs) || !plainObject(parsed.streak)) {
+    throw new Error('El archivo está dañado: las lecciones o el repaso no tienen la forma esperada.');
+  }
+
+  const incoming = migrate(parsed);
+  return {
+    state: incoming,
+    lessons: Object.keys(incoming.lessons).length,
+    items: Object.keys(incoming.srs).length,
+    completed: Object.values(incoming.lessons).filter((r) => r && r.completedAt).length
+  };
+}
+
+// Sostituisce tutto con quello che arriva dal file.
+export function replaceWith(incoming) {
+  state = migrate(incoming);
   write();
   return state;
+}
+
+/* Unisce due progressi tenendo sempre il migliore dei due:
+   la lezione più avanti, la scatola di ripasso più alta, la serie più lunga.
+   Così importare per sbaglio non fa mai perdere terreno. */
+export function mergeWith(incoming) {
+  const other = migrate(incoming);
+
+  for (const [id, their] of Object.entries(other.lessons)) {
+    const mine = state.lessons[id];
+    if (!mine) {
+      state.lessons[id] = their;
+      continue;
+    }
+    const done = new Set([...(mine.done || []), ...(their.done || [])]);
+    state.lessons[id] = {
+      opened: [mine.opened, their.opened].filter(Boolean).sort()[0] || null,
+      done: [...done].sort((a, b) => a - b),
+      completedAt: mine.completedAt || their.completedAt || null
+    };
+  }
+
+  for (const [id, their] of Object.entries(other.srs)) {
+    const mine = state.srs[id];
+    if (!mine) {
+      state.srs[id] = their;
+      continue;
+    }
+    // Scatola più alta: si tiene il ripasso più avanzato dei due.
+    state.srs[id] = their.box > mine.box ? { ...mine, ...their } : mine;
+    state.srs[id].right = Math.max(mine.right || 0, their.right || 0);
+    state.srs[id].wrong = Math.max(mine.wrong || 0, their.wrong || 0);
+  }
+
+  const s = state.streak;
+  const t = other.streak || {};
+  s.best = Math.max(s.best || 0, t.best || 0);
+  if (t.last && (!s.last || t.last > s.last)) {
+    s.last = t.last;
+    s.current = t.current || 0;
+  }
+
+  if (other.backup && other.backup.lastAt && (!state.backup.lastAt || other.backup.lastAt > state.backup.lastAt)) {
+    state.backup = { ...other.backup };
+  }
+
+  write();
+  return state;
+}
+
+// Compatibilità: sostituisce, come faceva prima.
+export function importJSON(text) {
+  return replaceWith(parseBackup(text).state);
 }
 
 export function resetAll() {

@@ -4,28 +4,95 @@
    Il tema scuro segue prefers-color-scheme, senza interruttore manuale.
    ========================================================================== */
 
+/* ---------- Caratteri ----------
+   Due famiglie, scaricate nel repository da `node tools/fetch-fonts.mjs`,
+   entrambe con licenza SIL Open Font License 1.1 (il testo sta accanto ai
+   file .woff2). Nessuna richiesta verso l'esterno.
+
+   La divisione è di sostanza, non decorativa:
+     Lora  (serif caldo)  = la lingua da imparare, l'italiano
+     Inter (sans neutro)  = la lingua di servizio, lo spagnolo
+   Si riconoscono a colpo d'occhio, senza doverlo spiegare.
+
+   Sono varianti variabili: un file copre tutti i pesi da 400 a 700. */
+
+@font-face {
+  font-family: "Lora var";
+  font-style: normal;
+  font-weight: 400 700;
+  font-display: swap;
+  src: url("../assets/fonts/lora-latin-variable.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Lora var";
+  font-style: italic;
+  font-weight: 400 700;
+  font-display: swap;
+  src: url("../assets/fonts/lora-latin-italic-variable.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Inter var";
+  font-style: normal;
+  font-weight: 400 700;
+  font-display: swap;
+  src: url("../assets/fonts/inter-latin-variable.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Inter var";
+  font-style: italic;
+  font-weight: 400 700;
+  font-display: swap;
+  src: url("../assets/fonts/inter-latin-italic-variable.woff2") format("woff2");
+}
+
 :root {
+  /* --- Fondi e testo, tutti su base calda --- */
   --bg: #faf6ef;
   --surface: #ffffff;
   --surface-2: #f3ece1;
   --text: #23201c;
   --muted: #6d6357;
-  --line: #e3d9ca;
+  --line: #d9ccb6;
+
+  /* --- Un solo colore d'accento --- */
   --accent: #0f7b5c;
   --accent-soft: #e2f1ea;
   --accent-ink: #0b5c45;
-  --red: #b23a2b;
+  /* Il testo che sta *sopra* l'accento. Serve perché nel tema scuro
+     l'accento è chiaro e il bianco sopra non si legge (2:1). */
+  --accent-on: #ffffff;
+
+  /* --- Colori con un significato ---
+     `bad` è un arancione bruciato, non un rosso: sbagliare qui non è un
+     allarme. `warn` è ambra, tenuta lontana dall'arancione (45° contro 19°)
+     perché le due cose non si devono confondere. `danger` è l'unico rosso,
+     e sta solo sui comandi che distruggono davvero qualcosa. */
   --ok: #1a7a48;
   --ok-soft: #e3f4e9;
-  --bad: #b3261e;
-  --bad-soft: #fbe8e6;
-  --warn: #8a6100;
+  --bad: #a63f0e;
+  --bad-soft: #fbeade;
+  --warn: #745800;
   --warn-soft: #fbf1d8;
+  --danger: #a3291a;
+
+  /* --- Scala tipografica, rapporto 1.25 --- */
+  --step--1: 0.8rem;
+  --step-0: 1rem;
+  --step-1: 1.25rem;
+  --step-2: 1.5625rem;
+  --step-3: 1.9531rem;
+  --step-4: 2.4414rem;
+
+  /* --- Misure --- */
+  --measure: 65ch;
   --radius: 14px;
   --radius-sm: 9px;
   --shadow: 0 1px 2px rgba(35, 32, 28, .06), 0 6px 20px rgba(35, 32, 28, .05);
-  --font: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-  --font-it: Georgia, "Iowan Old Style", "Times New Roman", serif;
+  --font: "Inter var", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-it: "Lora var", Georgia, "Iowan Old Style", "Times New Roman", serif;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -35,41 +102,67 @@
     --surface-2: #262218;
     --text: #efe9df;
     --muted: #a89d8e;
-    --line: #342e26;
+    /* Più chiaro dell'originale: a #342e26 il bordo delle schede era
+       indistinguibile dal fondo (1.29:1) e le schede non si vedevano. */
+    --line: #423a2e;
+
     --accent: #52c79c;
     --accent-soft: #14332a;
     --accent-ink: #8fdcbb;
-    --red: #e08a78;
+    /* Sull'accento chiaro del tema scuro ci va un verde molto scuro. */
+    --accent-on: #05201a;
+
     --ok: #6cc98f;
     --ok-soft: #16301f;
-    --bad: #f0958b;
-    --bad-soft: #35201d;
+    --bad: #f2a35f;
+    --bad-soft: #3a2415;
     --warn: #e0b957;
     --warn-soft: #332911;
+    --danger: #eb9585;
+
     --shadow: 0 1px 2px rgba(0, 0, 0, .4), 0 6px 20px rgba(0, 0, 0, .3);
   }
 }
 
 * { box-sizing: border-box; }
 
-html { -webkit-text-size-adjust: 100%; }
+/* La base della scala sta qui, in percentuale e non in px: 106.25% di 16 fa
+   i 17px del disegno, ma se chi legge ha alzato il corpo del testo nelle
+   impostazioni del browser tutto cresce insieme. Con `font-size: 17px` sul
+   body, invece, il testo di lettura sarebbe stato l'unica cosa a non
+   rispettare quella preferenza. */
+html {
+  -webkit-text-size-adjust: 100%;
+  font-size: 106.25%;
+}
 
 body {
   margin: 0;
   background: var(--bg);
   color: var(--text);
   font-family: var(--font);
-  font-size: 17px;
+  font-size: var(--step-0);
+  /* 1.6 su tutto il testo lungo; i titoli lo stringono a 1.25. */
   line-height: 1.6;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
 }
 
-h1, h2, h3, h4 { line-height: 1.25; margin: 0 0 .5em; font-weight: 700; }
-h1 { font-size: 1.6rem; }
-h2 { font-size: 1.25rem; }
-h3 { font-size: 1.05rem; }
+/* I titoli sono in serif: sono le insegne del corso, non testo di servizio.
+   La riga stretta (1.25) è giusta per due o tre parole; il corpo del testo
+   respira a 1.6. */
+h1, h2, h3, h4 {
+  line-height: 1.25;
+  margin: 0 0 .5em;
+  font-weight: 700;
+  font-family: var(--font-it);
+  /* Anche un titolo lungo non deve diventare un nastro. */
+  max-width: var(--measure);
+}
+h1 { font-size: var(--step-2); }
+h2 { font-size: var(--step-1); }
+h3 { font-size: var(--step-0); }
 p { margin: 0 0 1em; }
 a { color: var(--accent-ink); }
 code {
@@ -82,12 +175,26 @@ code {
 pre { background: var(--surface-2); padding: .7em .9em; border-radius: var(--radius-sm); overflow-x: auto; }
 pre code { background: none; padding: 0; }
 
+/* Visibile solo al lettore di schermo. */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border: 0;
+}
+
 .skip-link {
   position: absolute;
   left: -9999px;
   top: 0;
   background: var(--accent);
-  color: #fff;
+  color: var(--accent-on);
   padding: .6em 1em;
   z-index: 10;
 }
@@ -113,10 +220,10 @@ pre code { background: none; padding: 0; }
 }
 
 .brand { text-decoration: none; color: inherit; display: flex; align-items: baseline; gap: .5rem; flex-wrap: wrap; }
-.brand-title { font-family: var(--font-it); font-size: 1.35rem; font-weight: 700; color: var(--accent-ink); }
-.brand-sub { font-size: .82rem; color: var(--muted); }
+.brand-title { font-family: var(--font-it); font-size: var(--step-1); font-weight: 700; color: var(--accent-ink); }
+.brand-sub { font-size: var(--step--1); color: var(--muted); }
 
-.site-nav { display: flex; gap: 1rem; font-size: .95rem; }
+.site-nav { display: flex; gap: 1rem; font-size: var(--step-0); }
 .site-nav a { text-decoration: none; color: var(--muted); padding: .2em 0; border-bottom: 2px solid transparent; }
 .site-nav a[aria-current="page"] { color: var(--text); border-bottom-color: var(--accent); }
 
@@ -126,8 +233,8 @@ pre code { background: none; padding: 0; }
   padding: 0 .4em;
   border-radius: 999px;
   background: var(--accent);
-  color: #fff;
-  font-size: .75rem;
+  color: var(--accent-on);
+  font-size: var(--step--1);
   font-weight: 700;
   text-align: center;
 }
@@ -145,10 +252,10 @@ pre code { background: none; padding: 0; }
   padding: 1.2rem 1rem 2rem;
   text-align: center;
   color: var(--muted);
-  font-size: .85rem;
+  font-size: var(--step--1);
 }
 .site-footer p { margin: 0 0 .3em; }
-.fine-print { font-size: .78rem; opacity: .85; }
+.fine-print { font-size: var(--step--1); opacity: .85; }
 
 /* ---------- Blocchi generici ---------- */
 
@@ -165,10 +272,10 @@ pre code { background: none; padding: 0; }
 .notice { border-left: 4px solid var(--accent); }
 
 .hero { margin-bottom: 1.5rem; }
-.hero h1 { font-family: var(--font-it); font-size: 2rem; margin-bottom: .2em; }
+.hero h1 { font-family: var(--font-it); font-size: var(--step-3); margin-bottom: .2em; }
 .hero .lead { color: var(--muted); margin-bottom: 0; }
 
-.breadcrumb { font-size: .85rem; color: var(--muted); margin-bottom: .8rem; }
+.breadcrumb { font-size: var(--step--1); color: var(--muted); margin-bottom: .8rem; }
 .breadcrumb a { color: var(--muted); }
 
 .section-title {
@@ -179,17 +286,17 @@ pre code { background: none; padding: 0; }
   margin: 2rem 0 .8rem;
 }
 .section-title h2 { margin: 0; }
-.section-title .count { color: var(--muted); font-size: .85rem; }
+.section-title .count { color: var(--muted); font-size: var(--step--1); }
 
 .muted { color: var(--muted); }
-.small { font-size: .85rem; }
+.small { font-size: var(--step--1); }
 .center { text-align: center; }
 
 /* ---------- Bottoni ---------- */
 
 .btn {
   font: inherit;
-  font-size: .95rem;
+  font-size: var(--step-0);
   border: 1px solid var(--line);
   background: var(--surface);
   color: var(--text);
@@ -201,9 +308,9 @@ pre code { background: none; padding: 0; }
   transition: background .12s ease, border-color .12s ease;
 }
 .btn:hover { background: var(--surface-2); }
-.btn.primary { background: var(--accent); border-color: var(--accent); color: #fff; font-weight: 600; }
+.btn.primary { background: var(--accent); border-color: var(--accent); color: var(--accent-on); font-weight: 600; }
 .btn.primary:hover { filter: brightness(1.06); background: var(--accent); }
-.btn.danger { color: var(--red); border-color: var(--red); background: transparent; }
+.btn.danger { color: var(--danger); border-color: var(--danger); background: transparent; }
 .btn:disabled { opacity: .5; cursor: not-allowed; }
 .btn-row { display: flex; flex-wrap: wrap; gap: .5rem; }
 
@@ -226,8 +333,8 @@ pre code { background: none; padding: 0; }
 
 .stats { display: flex; flex-wrap: wrap; gap: 1.5rem; margin-bottom: .6rem; }
 .stat { line-height: 1.2; }
-.stat b { display: block; font-size: 1.6rem; font-family: var(--font-it); }
-.stat span { font-size: .8rem; color: var(--muted); }
+.stat b { display: block; font-size: var(--step-2); font-family: var(--font-it); }
+.stat span { font-size: var(--step--1); color: var(--muted); }
 
 /* ---------- Elenco moduli e lezioni ---------- */
 
@@ -245,9 +352,9 @@ pre code { background: none; padding: 0; }
 }
 .module-card:hover { border-color: var(--accent); }
 .module-card h3 { margin: 0 0 .15em; }
-.module-card .goal { color: var(--muted); font-size: .88rem; margin: 0; }
-.module-card .meta { font-size: .78rem; color: var(--muted); margin-top: .4rem; }
-.module-num { font-size: .75rem; letter-spacing: .1em; text-transform: uppercase; color: var(--accent-ink); font-weight: 700; }
+.module-card .goal { color: var(--muted); font-size: var(--step--1); margin: 0; }
+.module-card .meta { font-size: var(--step--1); color: var(--muted); margin-top: .4rem; }
+.module-num { font-size: var(--step--1); letter-spacing: .1em; text-transform: uppercase; color: var(--accent-ink); font-weight: 700; }
 
 .lesson-item {
   background: var(--surface);
@@ -263,12 +370,12 @@ pre code { background: none; padding: 0; }
 }
 .lesson-item a:hover { background: var(--surface-2); border-radius: var(--radius); }
 .lesson-item .head { display: flex; align-items: baseline; justify-content: space-between; gap: .6rem; }
-.lesson-item h3 { margin: 0; font-size: 1rem; }
-.lesson-item .hint { font-size: .84rem; color: var(--muted); margin: .3rem 0 0; }
+.lesson-item h3 { margin: 0; font-size: var(--step-0); }
+.lesson-item .hint { font-size: var(--step--1); color: var(--muted); margin: .3rem 0 0; }
 
 .status {
   flex: none;
-  font-size: .72rem;
+  font-size: var(--step--1);
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: .05em;
@@ -278,8 +385,13 @@ pre code { background: none; padding: 0; }
   color: var(--muted);
   white-space: nowrap;
 }
+/* Mai il colore da solo: ogni stato ha colore, icona e testo.
+   Chi non distingue il verde dall'ambra legge comunque il segno e la parola. */
 .status.en-curso { color: var(--warn); border-color: var(--warn); background: var(--warn-soft); }
+.status.en-curso::before { content: "◐ "; }
 .status.completada { color: var(--ok); border-color: var(--ok); background: var(--ok-soft); }
+.status.completada::before { content: "✓ "; }
+.status.no-iniciada::before { content: "○ "; }
 
 .locked { opacity: .55; }
 
@@ -299,26 +411,37 @@ pre code { background: none; padding: 0; }
 .it-plain { font-family: var(--font-it); }
 .es { color: var(--text); }
 .sep { color: var(--muted); }
-.vocab-note, .phrase-note { flex-basis: 100%; font-size: .82rem; color: var(--muted); }
-.vocab-plural { font-size: .8rem; color: var(--muted); }
+.vocab-note, .phrase-note { flex-basis: 100%; font-size: var(--step--1); color: var(--muted); }
+.vocab-plural { font-size: var(--step--1); color: var(--muted); }
 
 .phrase-list { list-style: none; margin: 0; padding: 0; }
 .phrase-list li { padding: .6rem 0; border-bottom: 1px solid var(--line); }
 .phrase-list li:last-child { border-bottom: 0; }
-.phrase-list .it { display: inline; font-size: 1.05rem; }
-.phrase-list .es { display: block; color: var(--muted); font-size: .92rem; }
+.phrase-list .it { display: inline; font-size: var(--step-1); }
+.phrase-list .es { display: block; color: var(--muted); font-size: var(--step-0); }
 
 .grammar h3 { color: var(--accent-ink); }
 
+/* Larghezza di lettura: oltre le 65 battute l'occhio perde la riga.
+   Vale per i blocchi lunghi, non per le tabelle né per gli elenchi brevi. */
+.grammar p,
+.ojo p,
+.hero .lead,
+.fb-explain,
+.data-tools p,
+.backup-offer p {
+  max-width: var(--measure);
+}
+
 .table-wrap { overflow-x: auto; margin: .8rem 0 0; }
-table { border-collapse: collapse; width: 100%; font-size: .92rem; }
+table { border-collapse: collapse; width: 100%; font-size: var(--step-0); }
 th, td { text-align: left; padding: .45em .6em; border-bottom: 1px solid var(--line); vertical-align: top; }
-th { font-size: .78rem; text-transform: uppercase; letter-spacing: .04em; color: var(--muted); }
+th { font-size: var(--step--1); text-transform: uppercase; letter-spacing: .04em; color: var(--muted); }
 tbody tr:last-child td { border-bottom: 0; }
 
-.ojo { border-left: 4px solid var(--red); background: var(--surface); }
-.ojo h3 { color: var(--red); }
-.ojo h3::before { content: "¡Ojo! "; font-weight: 700; }
+.ojo { border-left: 4px solid var(--warn); background: var(--surface); }
+.ojo h2 { color: var(--warn); }
+.ojo h2::before { content: "¡Ojo! "; font-weight: 700; }
 
 /* ---------- Audio ---------- */
 
@@ -329,7 +452,7 @@ tbody tr:last-child td { border-bottom: 0; }
 }
 .audio button {
   font: inherit;
-  font-size: .9rem;
+  font-size: var(--step--1);
   line-height: 1;
   background: none;
   border: 1px solid transparent;
@@ -339,7 +462,7 @@ tbody tr:last-child td { border-bottom: 0; }
   color: var(--muted);
 }
 .audio button:hover { background: var(--accent-soft); color: var(--accent-ink); }
-.audio button.slow { font-size: .8rem; }
+.audio button.slow { font-size: var(--step--1); }
 body.no-tts .audio { display: none; }
 
 /* ---------- Esercizi ---------- */
@@ -358,19 +481,19 @@ body.no-tts .audio { display: none; }
   justify-content: space-between;
   align-items: baseline;
   gap: .6rem;
-  font-size: .74rem;
+  font-size: var(--step--1);
   text-transform: uppercase;
   letter-spacing: .06em;
   color: var(--muted);
   margin-bottom: .5rem;
 }
-.ex-prompt { font-size: 1.05rem; margin: 0 0 .8rem; }
+.ex-prompt { font-size: var(--step-1); margin: 0 0 .8rem; }
 .ex-actions { display: flex; flex-wrap: wrap; gap: .5rem; align-items: center; margin-top: .8rem; }
 
 .ex-input {
   font: inherit;
   font-family: var(--font-it);
-  font-size: 1.05rem;
+  font-size: var(--step-1);
   width: 100%;
   padding: .55em .7em;
   border: 1px solid var(--line);
@@ -379,6 +502,38 @@ body.no-tts .audio { display: none; }
   color: var(--text);
 }
 .blank-input { width: 9em; display: inline-block; text-align: center; }
+
+/* ---------- Barra delle vocali accentate ----------
+   Nel DOM sta dopo il campo, così il tabulatore arriva prima al campo;
+   `order` la riporta sopra, dove la tastiera virtuale non la copre. */
+
+.answer-field { display: flex; flex-direction: column; }
+.answer-field .accent-bar { order: -1; }
+
+.accent-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .35rem;
+  margin: 0 0 .45rem;
+}
+
+.accent-key {
+  font-family: var(--font-it);
+  font-size: var(--step-1);
+  line-height: 1;
+  /* Bersaglio minimo per il pollice: 44×44 px. */
+  min-width: 44px;
+  min-height: 44px;
+  padding: 0 .2em;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-sm);
+  background: var(--surface);
+  color: var(--accent-ink);
+  cursor: pointer;
+  transition: background .12s ease, border-color .12s ease;
+}
+.accent-key:hover { background: var(--accent-soft); border-color: var(--accent); }
+.accent-key:active { background: var(--accent-soft); }
 
 .options { list-style: none; margin: 0; padding: 0; display: grid; gap: .5rem; }
 .option {
@@ -392,11 +547,28 @@ body.no-tts .audio { display: none; }
   color: var(--text);
   cursor: pointer;
   font-family: var(--font-it);
-  font-size: 1.02rem;
+  font-size: var(--step-1);
 }
 .option:hover { border-color: var(--accent); }
-.option.is-ok { border-color: var(--ok); background: var(--ok-soft); }
-.option.is-bad { border-color: var(--bad); background: var(--bad-soft); }
+
+/* L'esito non è solo il colore del bordo: davanti all'opzione compare
+   il segno, e il riquadro di riscontro lo dice anche a parole. */
+.option.is-ok,
+.option.is-bad {
+  display: flex;
+  align-items: baseline;
+  gap: .5em;
+}
+.option.is-ok { border-color: var(--ok); background: var(--ok-soft); border-width: 2px; }
+.option.is-bad { border-color: var(--bad); background: var(--bad-soft); border-width: 2px; }
+.option.is-ok::before,
+.option.is-bad::before {
+  flex: none;
+  font-family: var(--font);
+  font-weight: 700;
+}
+.option.is-ok::before { content: "✓"; color: var(--ok); }
+.option.is-bad::before { content: "✗"; color: var(--bad); }
 
 .match-grid { display: grid; grid-template-columns: 1fr 1fr; gap: .5rem; }
 .match-col { display: grid; gap: .5rem; align-content: start; }
@@ -412,9 +584,32 @@ body.no-tts .audio { display: none; }
 }
 .match-col.it .match-btn { font-family: var(--font-it); }
 .match-btn:hover { border-color: var(--accent); }
-.match-btn.selected { border-color: var(--accent); background: var(--accent-soft); }
-.match-btn.done { border-color: var(--ok); background: var(--ok-soft); color: var(--muted); cursor: default; }
-.match-btn.shake { border-color: var(--bad); background: var(--bad-soft); }
+
+/* Anche qui: selezione, accoppiata e sbaglio hanno un segno, non solo un colore. */
+.match-btn.selected {
+  border-color: var(--accent);
+  background: var(--accent-soft);
+  border-width: 2px;
+  font-weight: 700;
+}
+.match-btn.selected::before { content: "▸ "; color: var(--accent-ink); }
+.match-btn.done {
+  border-color: var(--ok);
+  background: var(--ok-soft);
+  color: var(--muted);
+  cursor: default;
+  text-decoration: line-through;
+}
+.match-btn.done::before { content: "✓ "; color: var(--ok); text-decoration: none; }
+.match-btn.shake { border-color: var(--bad); background: var(--bad-soft); border-width: 2px; }
+.match-btn.shake::before { content: "✗ "; color: var(--bad); }
+
+.match-tally {
+  margin: .6rem 0 0;
+  font-size: var(--step--1);
+  color: var(--muted);
+}
+.match-tally:empty { display: none; }
 
 .wo-answer {
   min-height: 3rem;
@@ -432,7 +627,7 @@ body.no-tts .audio { display: none; }
 .chip {
   font: inherit;
   font-family: var(--font-it);
-  font-size: 1rem;
+  font-size: var(--step-1);
   padding: .35em .7em;
   border: 1px solid var(--line);
   border-radius: 999px;
@@ -442,47 +637,421 @@ body.no-tts .audio { display: none; }
 }
 .chip:hover { border-color: var(--accent); }
 .chip.placed { background: var(--accent-soft); border-color: var(--accent); }
-.wo-empty { color: var(--muted); font-size: .85rem; align-self: center; padding-left: .3rem; }
+.wo-empty { color: var(--muted); font-size: var(--step--1); align-self: center; padding-left: .3rem; }
 
 /* ---------- Riscontro ---------- */
 
 .ex-feedback:empty { display: none; }
-.ex-feedback { margin-top: .8rem; font-size: .95rem; }
+.ex-feedback { margin-top: .8rem; font-size: var(--step-0); }
 .fb { margin: 0 0 .35em; font-weight: 600; }
 .fb.ok { color: var(--ok); }
 .fb.bad { color: var(--bad); }
 .fb.warn { color: var(--warn); font-weight: 500; }
-.fb-compare { display: grid; gap: .2rem; margin: 0 0 .4em; font-size: .92rem; }
+.fb-compare { display: grid; gap: .2rem; margin: 0 0 .4em; font-size: var(--step-0); }
 .fb-compare .given { color: var(--muted); text-decoration: line-through; }
 .fb-compare .expected { font-family: var(--font-it); font-weight: 700; color: var(--ok); }
-.fb-explain { margin: 0 0 .3em; color: var(--text); font-size: .9rem; }
-.fb-hint { margin: 0; color: var(--muted); font-size: .82rem; }
+
+/* ---------- Confronto lettera per lettera ---------- */
+
+.fb-diff { margin: 0 0 .5em; }
+.diff-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: .15rem .5rem;
+  margin-bottom: .2rem;
+}
+.diff-label {
+  flex: none;
+  min-width: 7.5em;
+  font-size: var(--step--1);
+  text-transform: uppercase;
+  letter-spacing: .05em;
+  color: var(--muted);
+}
+.diff-text {
+  font-family: var(--font-it);
+  font-size: var(--step-1);
+  /* Gli spazi sbagliati devono restare visibili. */
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+.diff-row:last-of-type .diff-text { font-weight: 700; }
+
+/* Di troppo: barrata. Mancante: in evidenza. Mai il colore da solo. */
+.d-extra {
+  text-decoration: line-through;
+  text-decoration-thickness: 2px;
+  color: var(--bad);
+  background: var(--bad-soft);
+  border-radius: 3px;
+}
+.d-missing {
+  color: var(--ok);
+  background: var(--ok-soft);
+  border-bottom: 2px solid var(--ok);
+  border-radius: 3px 3px 0 0;
+}
+
+.fb-double {
+  margin: .1em 0 .4em;
+  padding: .5em .7em;
+  font-size: var(--step-0);
+  color: var(--text);
+  background: var(--warn-soft);
+  border-left: 3px solid var(--warn);
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+}
+.fb-double strong { font-family: var(--font-it); }
+.fb-explain { margin: 0 0 .3em; color: var(--text); font-size: var(--step--1); }
+.fb-hint { margin: 0; color: var(--muted); font-size: var(--step--1); }
+
+/* ---------- Barra del modulo durante la lezione ----------
+   Appiccicata in alto: durante una lezione lunga si scorre molto, e sapere
+   quanto manca al modulo è quello che tiene in piedi la sessione. */
+
+.module-pane {
+  position: sticky;
+  top: 0;
+  z-index: 5;
+  margin: 0 -1rem .9rem;
+  padding: .5rem 1rem .55rem;
+  background: var(--bg);
+  border-bottom: 1px solid var(--line);
+}
+.mp-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: .8rem;
+  font-size: var(--step--1);
+  color: var(--muted);
+}
+.mp-title {
+  font-weight: 600;
+  color: var(--text);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.mp-count { flex: none; }
+.module-pane .progress { margin: .35rem 0 0; height: 6px; }
+
+.lesson-goal { max-width: var(--measure); }
+
+/* ---------- Fine lezione ---------- */
+
+.lesson-done {
+  border: 2px solid var(--ok);
+  text-align: center;
+}
+.lesson-done > * { margin-left: auto; margin-right: auto; }
+.done-mark {
+  font-size: var(--step-3);
+  line-height: 1;
+  color: var(--ok);
+  margin: .2rem 0 .3rem;
+}
+.lesson-done h2 { color: var(--ok); }
+.done-lead { font-size: var(--step-1); max-width: var(--measure); }
+.lesson-done .btn-row { justify-content: center; margin-top: 1rem; }
+
+.done-details {
+  text-align: left;
+  max-width: var(--measure);
+  margin: .8rem auto;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-sm);
+  background: var(--surface-2);
+  padding: .5rem .8rem;
+}
+.done-details summary {
+  cursor: pointer;
+  font-size: var(--step--1);
+  font-weight: 600;
+  color: var(--accent-ink);
+}
+.done-words { list-style: none; margin: .6rem 0 .2rem; padding: 0; }
+.done-words li {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .1rem .45rem;
+  padding: .3rem 0;
+  border-bottom: 1px solid var(--line);
+  font-size: var(--step--1);
+}
+.done-words li:last-child { border-bottom: 0; }
+
+/* ---------- Stati vuoti ---------- */
+
+.empty-state { text-align: center; padding: 2.2rem 1.2rem; }
+.empty-state > * { margin-left: auto; margin-right: auto; }
+.empty-mark {
+  font-size: var(--step-4);
+  line-height: 1;
+  color: var(--ok);
+  margin: 0 0 .2rem;
+}
+.empty-state h1 { font-size: var(--step-2); margin-bottom: .3rem; }
+.empty-lead { font-size: var(--step-1); max-width: var(--measure); color: var(--text); }
+
+/* Riga «niente da ripassare» nella pagina iniziale. */
+.nothing-due {
+  display: flex;
+  align-items: baseline;
+  gap: .5rem;
+  margin: 0;
+  padding: .7rem .9rem;
+  background: var(--ok-soft);
+  border-left: 3px solid var(--ok);
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+  max-width: var(--measure);
+}
+.nd-mark { flex: none; color: var(--ok); font-weight: 700; }
 
 /* ---------- Sessione di ripasso ---------- */
 
 .review-head { display: flex; align-items: center; justify-content: space-between; gap: 1rem; margin-bottom: .5rem; }
-.review-kind { font-size: .78rem; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); }
+.review-kind { font-size: var(--step--1); text-transform: uppercase; letter-spacing: .06em; color: var(--muted); }
 .review-done { text-align: center; padding: 2rem 1rem; }
-.review-done .big { font-size: 2.4rem; font-family: var(--font-it); margin-bottom: .2em; }
+.review-done .big { font-size: var(--step-4); font-family: var(--font-it); margin-bottom: .2em; }
+
+/* ---------- Palabras rebeldes ---------- */
+
+.rebels-lead { max-width: var(--measure); }
+
+.rebels-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  counter-reset: rebelde;
+}
+.rebel {
+  counter-increment: rebelde;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: .3rem .7rem;
+  padding: .7rem 0 .7rem 2.2rem;
+  border-bottom: 1px solid var(--line);
+  position: relative;
+}
+.rebel:last-child { border-bottom: 0; }
+.rebel::before {
+  content: counter(rebelde);
+  position: absolute;
+  left: 0;
+  top: .7rem;
+  width: 1.6rem;
+  text-align: right;
+  font-size: var(--step--1);
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
+}
+.rebel-main {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: .2rem .5rem;
+  flex: 1 1 14rem;
+}
+.rebel-main .es { color: var(--muted); }
+.rebel-stats {
+  display: flex;
+  align-items: baseline;
+  gap: .5rem;
+  flex: none;
+}
+.rebel-rate {
+  font-weight: 700;
+  color: var(--bad);
+  font-variant-numeric: tabular-nums;
+}
+.rebel-count {
+  font-size: var(--step--1);
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
+}
+.rebel-note { flex-basis: 100%; margin: .2rem 0 0; font-size: var(--step--1); color: var(--muted); }
+
+.rebels-peek { margin: 0 0 .6rem; font-family: var(--font-it); }
+.rebels-peek .peek { color: var(--accent-ink); }
+
+.listen-entry { margin: .8rem 0 0; }
+.listen-entry a { font-weight: 600; text-decoration: none; }
+.listen-entry a:hover { text-decoration: underline; }
+
+/* ---------- Modalità solo-ascolto ----------
+   Schermo grande, mani occupate: bersagli larghi e pochi elementi. */
+
+.listen-stage { margin-top: 1rem; }
+
+.listen-card {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 1.2rem 1.1rem;
+  box-shadow: var(--shadow);
+  text-align: center;
+}
+
+.listen-state {
+  margin: 0 0 1rem;
+  min-height: 1.6em;
+  font-size: var(--step-1);
+  color: var(--muted);
+}
+.listen-state.ok { color: var(--ok); font-weight: 600; }
+.listen-state.bad { color: var(--bad); font-weight: 600; }
+
+.listen-options {
+  display: grid;
+  gap: .6rem;
+  margin-bottom: 1rem;
+}
+.listen-option {
+  font: inherit;
+  font-size: var(--step-1);
+  /* Bersaglio grande: si deve poter premere senza guardare. */
+  min-height: 4rem;
+  padding: .8em 1em;
+  border: 2px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--bg);
+  color: var(--text);
+  cursor: pointer;
+  transition: border-color .12s ease, background .12s ease;
+}
+.listen-option:hover:not(:disabled) { border-color: var(--accent); }
+.listen-option:disabled { cursor: default; opacity: .75; }
+.listen-option.is-ok {
+  border-color: var(--ok);
+  background: var(--ok-soft);
+  opacity: 1;
+  font-weight: 600;
+}
+.listen-option.is-ok::before { content: "✓ "; color: var(--ok); }
+.listen-option.is-bad {
+  border-color: var(--bad);
+  background: var(--bad-soft);
+  opacity: 1;
+}
+.listen-option.is-bad::before { content: "✗ "; color: var(--bad); }
+
+/* L'italiano scritto: nascosto finché non si è risposto. */
+.listen-reveal {
+  margin: 0 0 1rem;
+  font-family: var(--font-it);
+  font-size: var(--step-2);
+  font-weight: 700;
+  color: var(--accent-ink);
+}
+.listen-reveal[hidden] { display: none; }
+
+.listen-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .5rem;
+  justify-content: center;
+}
+.listen-controls .btn { min-height: 44px; }
+.listen-pause[aria-pressed="true"] {
+  border-color: var(--warn);
+  background: var(--warn-soft);
+  color: var(--warn);
+  font-weight: 600;
+}
+
+@media (min-width: 40rem) {
+  .listen-options { grid-template-columns: 1fr 1fr; }
+}
 
 /* ---------- Gestione dei dati ---------- */
 
 .data-tools .btn-row { margin-bottom: .5rem; }
 .hidden-file { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
 
+/* Proposta di copia: presente ma non allarmante. */
+.backup-offer { border-left: 4px solid var(--accent); }
+
+.import-choice {
+  margin-top: .8rem;
+  padding: .8rem .9rem;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-sm);
+  background: var(--surface-2);
+}
+.import-choice > :last-child { margin-bottom: 0; }
+.import-choice .btn-row { margin: .6rem 0; }
+
+/* Riga in fondo alla home. Discreta fino a due settimane, poi visibile. */
+.backup-line {
+  margin: 1.2rem 0 0;
+  text-align: center;
+  font-size: var(--step--1);
+  color: var(--muted);
+}
+.backup-line.stale {
+  color: var(--warn);
+  font-size: var(--step-0);
+  font-weight: 600;
+  padding: .5em .8em;
+  background: var(--warn-soft);
+  border-radius: var(--radius-sm);
+}
+
+/* ---------- Avviso di versione nuova ---------- */
+
+.update-banner {
+  position: fixed;
+  left: 50%;
+  bottom: 1rem;
+  transform: translateX(-50%);
+  z-index: 20;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: .5rem;
+  max-width: calc(100vw - 2rem);
+  padding: .6rem .8rem;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  font-size: var(--step-0);
+}
+.update-text { margin-right: .2rem; }
+.btn-small { font-size: var(--step--1); padding: .35em .7em; }
+
 .loading { color: var(--muted); }
 
 /* ---------- Schermi larghi ---------- */
 
 @media (min-width: 40rem) {
-  body { font-size: 18px; }
+  /* Su schermi larghi la base sale a 18px (sempre in percentuale, sempre
+     relativa alla preferenza di chi legge). La soglia in rem della media
+     query si misura sul corpo iniziale del browser, non su questa, quindi
+     non si morde la coda. */
+  html { font-size: 112.5%; }
   .app { padding: 2rem 1.5rem 4rem; }
-  h1 { font-size: 1.9rem; }
-  .hero h1 { font-size: 2.4rem; }
+  h1 { font-size: var(--step-3); }
+  .hero h1 { font-size: var(--step-4); }
   .module-list { grid-template-columns: 1fr 1fr; }
   .vocab-list li { padding: .5rem 0; }
 }
 
+/* ---------- Chi ha chiesto meno movimento ----------
+   Non basta togliere le transizioni: vanno spente anche le animazioni
+   (lo scossone dell'abbinamento sbagliato) e lo scorrimento morbido. */
+
 @media (prefers-reduced-motion: reduce) {
-  * { transition: none !important; }
+  *,
+  *::before,
+  *::after {
+    transition: none !important;
+    animation-duration: .001ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+  }
+  html { scroll-behavior: auto; }
 }

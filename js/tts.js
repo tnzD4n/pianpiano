@@ -46,15 +46,42 @@ export function available() {
   return Boolean(italianVoice);
 }
 
-export function speak(text, rate = NORMAL) {
-  if (!available()) return;
+export function speak(text, rate = NORMAL, onEnd = null) {
+  if (!available()) {
+    // Anche senza voce chi aspetta la fine deve poter proseguire.
+    if (onEnd) setTimeout(onEnd, 0);
+    return null;
+  }
   const synth = window.speechSynthesis;
   synth.cancel();
   const utterance = new SpeechSynthesisUtterance(String(text));
   utterance.voice = italianVoice;
   utterance.lang = 'it-IT';
   utterance.rate = rate;
+  if (onEnd) {
+    let fired = false;
+    const once = () => { if (!fired) { fired = true; onEnd(); } };
+    utterance.addEventListener('end', once);
+    // `end` a volte non arriva (scheda in secondo piano, voce interrotta
+    // dal sistema): senza una via d'uscita la sessione si pianterebbe.
+    utterance.addEventListener('error', once);
+  }
   synth.speak(utterance);
+  return utterance;
+}
+
+/* ---------- Controlli per la modalità solo-ascolto ---------- */
+
+export function cancel() {
+  if ('speechSynthesis' in window) window.speechSynthesis.cancel();
+}
+
+export function pause() {
+  if ('speechSynthesis' in window) window.speechSynthesis.pause();
+}
+
+export function resume() {
+  if ('speechSynthesis' in window) window.speechSynthesis.resume();
 }
 
 // Coppia di pulsanti: velocità normale e velocità lenta.

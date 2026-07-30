@@ -2,7 +2,7 @@
    e li presenta uno alla volta, mescolando i tipi di esercizio.
    Per il ripasso conta il primo tentativo; riprovare resta sempre possibile. */
 
-import { el, clear, shuffle, pick, withArticle } from '../util.js';
+import { el, clear, shuffle, pick, withArticle, todayISO, daysBetween } from '../util.js';
 import * as srs from '../srs.js';
 import * as store from '../store.js';
 import * as tts from '../tts.js';
@@ -11,26 +11,63 @@ import { renderExercise, LABEL } from '../exercises/index.js';
 // Quanti elementi al massimo per sessione: meglio corta e ripetuta.
 const SESSION_SIZE = 20;
 
-export function render(root, ctx) {
+/* opts.mode === 'rebeldes' limita la sessione alle voci più sbagliate.
+   Il resto della meccanica è identico: stessi esercizi, stesse regole di
+   promozione, così ripassare «solo quelle» non è una modalità a parte da
+   mantenere ma la stessa sessione con una coda diversa. */
+export function render(root, ctx, opts = {}) {
   clear(root);
   const pool = srs.allItems();
-  const queue = shuffle(srs.dueItems()).slice(0, SESSION_SIZE);
+  const soloRibelli = opts.mode === 'rebeldes';
 
-  root.append(el('p', { class: 'breadcrumb' }, el('a', { href: '#/' }, 'Inicio'), ' › Repaso'));
+  const queue = soloRibelli
+    ? shuffle(srs.rebels(10))
+    : shuffle(srs.dueItems()).slice(0, SESSION_SIZE);
 
+  root.append(el('p', { class: 'breadcrumb' },
+    el('a', { href: '#/' }, 'Inicio'),
+    soloRibelli
+      ? [' › ', el('a', { href: '#/rebeldes' }, 'Palabras rebeldes'), ' › Repaso']
+      : ' › Repaso'));
+
+  /* Ripasso mirato senza niente da ripassare: si torna alla lista. */
+  if (soloRibelli && queue.length === 0) {
+    root.append(el('section', { class: 'card empty-state' },
+      el('p', { class: 'empty-mark', 'aria-hidden': 'true' }, '✓'),
+      el('h1', null, 'Nada que insistir'),
+      el('p', { class: 'empty-lead' }, 'Ahora mismo no hay ninguna palabra que se te resista.'),
+      el('div', { class: 'btn-row', style: 'justify-content:center' },
+        el('a', { class: 'btn primary', href: '#/repaso' }, 'Repaso normal'))));
+    return;
+  }
+
+  /* Stato vuoto: deve sembrare una ricompensa, non una schermata rotta.
+     Chi arriva qui e non trova niente ha finito il suo lavoro, e la pagina
+     glielo deve dire con la faccia giusta. */
   if (queue.length === 0) {
-    root.append(el('div', { class: 'card notice' },
-      el('h2', null, 'Nada que repasar hoy'),
-      el('p', null, pool.length
-        ? 'Has repasado todo lo que tocaba. Vuelve mañana o abre una lección nueva.'
-        : 'El repaso se llena solo: abre una lección y su vocabulario y sus frases entrarán aquí.'),
-      el('div', { class: 'btn-row' }, el('a', { class: 'btn primary', href: '#/' }, 'Volver al inicio'))));
+    const inCorso = pool.length > 0;
+    const prossima = inCorso ? nextDueLabel(pool) : null;
+
+    root.append(el('section', { class: 'card empty-state' },
+      el('p', { class: 'empty-mark', 'aria-hidden': 'true' }, inCorso ? '✓' : '◌'),
+      el('h1', null, inCorso ? 'Nada pendiente' : 'El repaso está esperando'),
+      el('p', { class: 'empty-lead' }, inCorso
+        ? 'Has repasado todo lo que tocaba hoy. Esto es exactamente como tiene que estar.'
+        : 'Todavía no hay nada aquí, y es normal: el repaso se llena solo.'),
+      inCorso
+        ? el('p', { class: 'small muted' },
+          `Tienes ${pool.length} ${pool.length === 1 ? 'palabra' : 'palabras y frases'} en circulación.`,
+          prossima ? ` Lo siguiente vuelve ${prossima}.` : '')
+        : el('p', { class: 'small muted' },
+          'Abre una lección: su vocabulario y sus frases entran aquí en cuanto la abres.'),
+      el('div', { class: 'btn-row', style: 'justify-content:center' },
+        el('a', { class: 'btn primary', href: '#/' }, 'Volver al inicio'))));
     return;
   }
 
   store.touchStreak();
 
-  const heading = el('h1', null, 'Repaso de hoy');
+  const heading = el('h1', null, soloRibelli ? 'Solo las rebeldes' : 'Repaso de hoy');
   const progressText = el('p', { class: 'small muted' });
   const progressBar = el('div', { class: 'progress' }, el('span', { style: 'width:0%' }));
   const stage = el('div');
@@ -90,11 +127,25 @@ export function render(root, ctx) {
         srs.dueCount() > 0 ? el('button', {
           type: 'button',
           class: 'btn',
-          onclick: () => render(root, ctx)
-        }, 'Otra ronda') : null)));
+          onclick: () => render(root, ctx, opts)
+        }, 'Otra ronda') : null,
+        soloRibelli ? el('a', { class: 'btn', href: '#/rebeldes' }, 'Ver la lista') : null)));
   };
 
   showCurrent();
+}
+
+/* «mañana», «en 3 días»: quando torna il primo elemento non ancora scaduto.
+   Serve allo stato vuoto, per dire che il ripasso è vivo e non fermo. */
+function nextDueLabel(pool) {
+  const today = todayISO();
+  const future = pool.map((i) => i.due).filter((d) => d > today).sort();
+  if (!future.length) return null;
+  const days = daysBetween(today, future[0]);
+  if (days <= 1) return 'mañana';
+  if (days < 7) return `en ${days} días`;
+  if (days < 14) return 'la semana que viene';
+  return `en ${Math.round(days / 7)} semanas`;
 }
 
 /* Costruisce al volo un esercizio a partire da un elemento del ripasso. */

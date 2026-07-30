@@ -10,7 +10,7 @@ export function render(root, ctx, moduleId) {
 
   if (!module) {
     root.append(el('div', { class: 'card notice' },
-      el('h2', null, 'Módulo no encontrado'),
+      el('h1', null, 'Módulo no encontrado'),
       el('p', null, 'Ese módulo no existe. ', el('a', { href: '#/' }, 'Volver al inicio.'))));
     return;
   }

@@ -29,7 +29,7 @@ export async function render(root, ctx, lessonId) {
       el('a', { href: '#/' }, 'Inicio'), ' › ',
       el('a', { href: `#/modulo/${entry.module.id}` }, entry.module.title)));
     root.append(el('div', { class: 'card notice' },
-      el('h2', null, entry.lesson.title),
+      el('h1', null, entry.lesson.title),
       el('p', null, 'Esta lección todavía no está disponible. Vuelve dentro de unos días.')));
     return;
   }
@@ -41,26 +41,59 @@ export async function render(root, ctx, lessonId) {
   srs.seedFromLesson(lesson);
   ctx.refreshBadge();
 
+  // La barra del modulo resta appiccicata in alto per tutta la lezione:
+  // sapere quanto manca è metà della motivazione.
+  const moduleBar = modulePane(entry.module);
+
   root.append(
     el('p', { class: 'breadcrumb' },
       el('a', { href: '#/' }, 'Inicio'), ' › ',
       el('a', { href: `#/modulo/${entry.module.id}` }, entry.module.title)),
+    moduleBar,
     el('h1', null, lesson.title),
-    lesson.goal ? el('p', { class: 'muted' }, lesson.goal) : null
+    lesson.goal ? el('p', { class: 'muted lesson-goal' }, lesson.goal) : null
   );
 
   if (lesson.vocab && lesson.vocab.length) root.append(vocabSection(lesson.vocab));
   if (lesson.phrases && lesson.phrases.length) root.append(phraseSection(lesson.phrases));
   if (lesson.grammar && lesson.grammar.length) root.append(grammarSection(lesson.grammar));
   if (lesson.ojo && lesson.ojo.length) root.append(ojoSection(lesson.ojo));
-  if (lesson.exercises && lesson.exercises.length) root.append(exerciseSection(lesson, ctx, entry));
+  if (lesson.exercises && lesson.exercises.length) {
+    root.append(exerciseSection(lesson, ctx, entry, () => refreshModulePane(moduleBar, entry.module)));
+  }
 
   root.append(lessonNav(ctx, entry));
 }
 
+/* ---------- Barra del modulo, sempre in vista ---------- */
+
+function modulePane(module) {
+  const pane = el('div', { class: 'module-pane' });
+  refreshModulePane(pane, module);
+  return pane;
+}
+
+function refreshModulePane(pane, module) {
+  const p = store.moduleProgress(module);
+  clear(pane);
+  pane.append(
+    el('div', { class: 'mp-head' },
+      el('span', { class: 'mp-title' }, module.title),
+      el('span', { class: 'mp-count' }, `${p.done} de ${p.total}`)),
+    el('div', {
+      class: 'progress',
+      role: 'progressbar',
+      'aria-valuenow': String(p.percent),
+      'aria-valuemin': '0',
+      'aria-valuemax': '100',
+      'aria-label': `Progreso del módulo: ${p.done} de ${p.total} lecciones`
+    }, el('span', { style: `width:${p.percent}%` }))
+  );
+}
+
 function notFound(root, text) {
   root.append(el('div', { class: 'card notice' },
-    el('h2', null, 'No encontrado'),
+    el('h1', null, 'No encontrado'),
     el('p', null, text, ' ', el('a', { href: '#/' }, 'Volver al inicio.'))));
 }
 
@@ -127,11 +160,14 @@ function renderTable(table) {
 
 /* ---------- ¡Ojo! ---------- */
 
+/* Ogni «¡Ojo!» è una sezione a sé, allo stesso livello di Vocabulario e
+   Gramática: quindi h2, non h3. La gerarchia dei titoli è come si naviga
+   una pagina con il lettore di schermo. */
 function ojoSection(blocks) {
   const wrap = el('div');
   blocks.forEach((block) => {
     wrap.append(el('section', { class: 'card ojo' },
-      el('h3', null, block.title),
+      el('h2', null, block.title),
       ...mdBlock(block.body)));
   });
   return wrap;
@@ -139,7 +175,64 @@ function ojoSection(blocks) {
 
 /* ---------- Esercizi ---------- */
 
-function exerciseSection(lesson, ctx, entry) {
+/* Schermata di fine lezione: che cosa ha imparato, non solo «bravo».
+   Rivedere le parole appena studiate elencate insieme è il primo ripasso. */
+function lessonSummary(lesson, ctx, entry, firstTry, total) {
+  const vocab = lesson.vocab || [];
+  const phrases = lesson.phrases || [];
+  const grammar = lesson.grammar || [];
+
+  const conta = [];
+  if (vocab.length) conta.push(`${vocab.length} ${vocab.length === 1 ? 'palabra nueva' : 'palabras nuevas'}`);
+  if (phrases.length) conta.push(`${phrases.length} ${phrases.length === 1 ? 'frase' : 'frases'}`);
+  if (grammar.length) conta.push(`${grammar.length} ${grammar.length === 1 ? 'punto de gramática' : 'puntos de gramática'}`);
+
+  const card = el('section', { class: 'card lesson-done' },
+    el('p', { class: 'done-mark', 'aria-hidden': 'true' }, '✓'),
+    el('h2', null, 'Lección terminada'),
+    el('p', { class: 'done-lead' }, conta.length
+      ? `Te llevas ${conta.join(', ').replace(/, ([^,]*)$/, ' y $1')}.`
+      : 'Has terminado todos los ejercicios.')
+  );
+
+  if (total > 0) {
+    card.append(el('p', { class: 'small muted' },
+      `Ejercicios acertados a la primera: ${firstTry} de ${total}.`,
+      firstTry < total ? ' Los demás también cuentan: lo que se repite se queda.' : ''));
+  }
+
+  // Le parole della lezione, in italiano e in spagnolo, in una riga per una.
+  if (vocab.length) {
+    const list = el('ul', { class: 'done-words' });
+    vocab.forEach((v) => {
+      list.append(el('li', null,
+        el('span', { class: 'it', lang: 'it' }, withArticle(v.it, v.gender)),
+        el('span', { class: 'sep', 'aria-hidden': 'true' }, '·'),
+        el('span', { class: 'es' }, v.es)));
+    });
+    card.append(el('details', { class: 'done-details' },
+      el('summary', null, `Repasar las ${vocab.length} palabras de esta lección`),
+      list));
+  }
+
+  if (grammar.length) {
+    card.append(el('p', { class: 'small' },
+      el('strong', null, 'Gramática: '),
+      grammar.map((g) => g.heading).join(' · ')));
+  }
+
+  card.append(
+    el('p', { class: 'small muted' },
+      'Todo esto ya está en tu repaso. Vuelve mañana: es la repetición la que fija, no el primer día.'),
+    el('div', { class: 'btn-row' },
+      el('a', { class: 'btn primary', href: '#/repaso' }, 'Ir al repaso'),
+      nextLink(ctx, entry, 'btn'))
+  );
+
+  return card;
+}
+
+function exerciseSection(lesson, ctx, entry, onProgress) {
   // Gli esercizi non utilizzabili (l'ascolto senza voce italiana) spariscono
   // e non contano per il completamento.
   const usable = lesson.exercises
@@ -155,20 +248,21 @@ function exerciseSection(lesson, ctx, entry) {
   const counter = section.querySelector('.count');
   const banner = el('div');
 
+  // Quanti sono stati risolti al primo colpo, in questa sessione.
+  let firstTry = 0;
+  const attempted = new Set();
+
   const updateCounter = () => {
     const rec = store.getLesson(lesson.id);
     const done = required.filter((i) => rec && rec.done.includes(i)).length;
     counter.textContent = `${done} de ${required.length} correctos`;
-    const complete = store.refreshCompletion(lesson.id, required);
     clear(banner);
+    const complete = store.refreshCompletion(lesson.id, required);
     if (complete) {
-      banner.append(el('div', { class: 'card notice' },
-        el('h2', null, '¡Lección completada!'),
-        el('p', null, 'Ya has acertado todos los ejercicios. El vocabulario y las frases están en el repaso: vuelve mañana para consolidarlos.'),
-        el('div', { class: 'btn-row' },
-          el('a', { class: 'btn primary', href: '#/repaso' }, 'Ir al repaso'),
-          nextLink(ctx, entry, 'btn'))));
+      banner.append(lessonSummary(lesson, ctx, entry, firstTry, required.length));
     }
+    // La barra del modulo si aggiorna nello stesso momento della scheda.
+    if (onProgress) onProgress();
   };
 
   usable.forEach(({ data, index }, position) => {
@@ -185,6 +279,9 @@ function exerciseSection(lesson, ctx, entry) {
     }
 
     const body = renderExercise(data, (correct) => {
+      // Primo tentativo giusto: conta per il riepilogo di fine lezione.
+      if (correct && !attempted.has(index)) firstTry += 1;
+      attempted.add(index);
       if (correct) {
         store.markExerciseDone(lesson.id, index);
         card.classList.add('solved');

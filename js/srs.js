@@ -33,8 +33,12 @@ export function seedFromLesson(lesson) {
       lesson: lesson.id,
       box: 1,
       due: today,
+      // `right`/`wrong` restano per compatibilità con i backup vecchi;
+      // quelli che si leggono sono `attempts` ed `errors`.
       right: 0,
-      wrong: 0
+      wrong: 0,
+      attempts: 0,
+      errors: 0
     };
     added += 1;
   };
@@ -65,16 +69,77 @@ export function grade(id, correct) {
   const srs = store.getSrs();
   const item = srs[id];
   if (!item) return null;
+
+  // I contatori crescono sempre, anche quando la scatola torna indietro:
+  // servono a sapere quali parole resistono, non a che punto del ripasso sono.
+  item.attempts = (item.attempts || 0) + 1;
+
   if (correct) {
     item.box = Math.min(item.box + 1, BOXES);
     item.right += 1;
   } else {
     item.box = 1;
     item.wrong += 1;
+    item.errors = (item.errors || 0) + 1;
   }
   item.due = addDays(todayISO(), INTERVALS[item.box - 1]);
   store.saveSrs();
   return item;
+}
+
+/* Conta il tentativo senza toccare scatola e scadenza.
+   Serve alla pratica libera: se non c'è niente da ripassare, esercitarsi non
+   deve spostare in avanti le date, ma sapere che quella parola è stata
+   sbagliata di nuovo è un'informazione da tenere. */
+export function countAttempt(id, correct) {
+  const srs = store.getSrs();
+  const item = srs[id];
+  if (!item) return null;
+  item.attempts = (item.attempts || 0) + 1;
+  if (!correct) item.errors = (item.errors || 0) + 1;
+  store.saveSrs();
+  return item;
+}
+
+/* ---------- «Tus palabras rebeldes» ---------- */
+
+// Sotto questa soglia complessiva una classifica non significherebbe niente:
+// con quattro tentativi in croce, «100% di errori» è solo rumore.
+export const REBELS_MIN_ATTEMPTS = 20;
+// E una singola voce entra in classifica solo se è stata provata almeno così.
+const MIN_PER_ITEM = 2;
+
+export function totalAttempts() {
+  return allItems().reduce((n, item) => n + (item.attempts || 0), 0);
+}
+
+export function errorRate(item) {
+  const a = item.attempts || 0;
+  return a === 0 ? 0 : (item.errors || 0) / a;
+}
+
+/* Le voci più sbagliate, ordinate per tasso d'errore.
+   A parità di tasso vince chi ha sbagliato più volte in assoluto: fra due
+   parole al 50%, quella con dieci errori dà più fastidio di quella con uno. */
+export function rebels(limit = 10) {
+  return allItems()
+    .filter((item) => (item.attempts || 0) >= MIN_PER_ITEM && (item.errors || 0) > 0)
+    .sort((a, b) => {
+      const diff = errorRate(b) - errorRate(a);
+      if (Math.abs(diff) > 1e-9) return diff;
+      return (b.errors || 0) - (a.errors || 0);
+    })
+    .slice(0, limit);
+}
+
+// Ci sono abbastanza dati perché la classifica voglia dire qualcosa?
+export function hasEnoughData() {
+  return totalAttempts() >= REBELS_MIN_ATTEMPTS;
+}
+
+export function itemsByIds(ids) {
+  const srs = store.getSrs();
+  return ids.map((id) => srs[id]).filter(Boolean);
 }
 
 export function stats() {

@@ -2,6 +2,8 @@
    articoli italiani, normalizzazione e confronto delle risposte,
    più i due mattoncini di riscontro usati da tutti gli esercizi. */
 
+import { alignChars, geminationDiff, geminationMessage } from './diff.js';
+
 /* ---------- DOM ---------- */
 
 // el('div', {class:'x', onclick:fn, html:'<b>…</b>'}, figli…)
@@ -125,13 +127,13 @@ export function withPluralArticle(word, gender) {
 
 /* ---------- Confronto delle risposte ---------- */
 
-// Minuscole, spazi normalizzati, apostrofi tipografici uniformati,
-// punteggiatura finale ignorata. Anche le virgole si ignorano: in un dettato
-// non si sentono, e bocciare per una virgola sarebbe punitivo.
-// Gli accenti invece restano: li controlliamo subito dopo.
-export function normalizeAnswer(text) {
+// Spazi normalizzati, apostrofi tipografici uniformati, punteggiatura finale
+// ignorata. Anche le virgole si ignorano: in un dettato non si sentono, e
+// bocciare per una virgola sarebbe punitivo. Le maiuscole restano: le toglie
+// `normalizeAnswer`. Il confronto lettera per lettera usa invece questa, così
+// mostra il testo com'è stato scritto senza inventare errori di punteggiatura.
+export function normalizeShape(text) {
   return String(text)
-    .toLowerCase()
     .replace(/[‘’ʼ´`]/g, "'")
     .replace(/[“”«»"]/g, '')
     .replace(/[,;]/g, ' ')
@@ -142,6 +144,11 @@ export function normalizeAnswer(text) {
     .trim()
     .replace(/[.!?…:]+$/, '')
     .trim();
+}
+
+// Gli accenti restano: li controlliamo subito dopo.
+export function normalizeAnswer(text) {
+  return normalizeShape(text).toLowerCase();
 }
 
 export function stripAccents(text) {
@@ -164,31 +171,207 @@ export function checkAnswer(given, answers) {
   return { correct: false, accentWarning: false, expected: list[0] || '' };
 }
 
+/* ---------- Campi di risposta in italiano ---------- */
+
+/* Le vocali accentate dell'italiano. Servono sia `è` sia `é`:
+   «è» (verbo essere) e «perché» si scrivono con accenti opposti, e
+   confonderli è l'errore classico di chi arriva dallo spagnolo. */
+export const ACCENT_CHARS = ['à', 'è', 'é', 'ì', 'ò', 'ù'];
+
+// Scorciatoie da tastiera fisica: Alt+vocale, con Maiusc per «é».
+// Si usa `code` e non `key` perché su macOS Alt produce caratteri morti.
+const ALT_KEYS = {
+  KeyA: ['à', 'à'],
+  KeyE: ['è', 'é'],
+  KeyI: ['ì', 'ì'],
+  KeyO: ['ò', 'ò'],
+  KeyU: ['ù', 'ù']
+};
+
+export function insertAtCursor(input, text) {
+  const start = input.selectionStart == null ? input.value.length : input.selectionStart;
+  const end = input.selectionEnd == null ? start : input.selectionEnd;
+  input.setRangeText(text, start, end, 'end');
+  input.dispatchEvent(new Event('input', { bubbles: true }));
+  // Sul telefono il focus non si deve perdere, altrimenti la tastiera si chiude.
+  input.focus();
+}
+
+/* La barra è pensata per il telefono, dove le vocali accentate italiane
+   stanno sotto una pressione prolungata e la tastiera spagnola propone
+   prima le sue. In DOM sta *dopo* il campo (così il tabulatore arriva
+   prima al campo), e la CSS la porta sopra. */
+export function accentBar(input) {
+  const bar = el('div', {
+    class: 'accent-bar',
+    role: 'group',
+    'aria-label': 'Vocales acentuadas italianas'
+  });
+  ACCENT_CHARS.forEach((ch) => {
+    bar.append(el('button', {
+      type: 'button',
+      class: 'accent-key',
+      lang: 'it',
+      'aria-label': `Insertar ${ch}`,
+      // Senza questo il campo perde il focus e la tastiera virtuale si chiude.
+      onmousedown: (event) => event.preventDefault(),
+      onclick: () => insertAtCursor(input, ch)
+    }, ch));
+  });
+  return bar;
+}
+
+function bindAltKeys(input) {
+  input.addEventListener('keydown', (event) => {
+    if (!event.altKey || event.ctrlKey || event.metaKey) return;
+    const pair = ALT_KEYS[event.code];
+    if (!pair) return;
+    event.preventDefault();
+    insertAtCursor(input, pair[event.shiftKey ? 1 : 0]);
+  });
+}
+
+/* Campo di risposta in italiano.
+   Gli attributi non sono decorativi: senza di loro la tastiera spagnola di
+   iOS riscrive le parole italiane mentre si digita («sono» diventa «son»)
+   e gli esercizi diventano ingiocabili.
+
+   opts: { className, placeholder, label, inline }
+   Restituisce { input, bar, field }:
+     - `field` è il blocco pronto (barra sopra, campo sotto);
+     - `bar` e `input` sono esposti per chi deve piazzarli a mano
+       (il completamento della frase ha il campo dentro il testo). */
+let fieldCount = 0;
+
+export function answerInput(opts = {}) {
+  // Una <label> vera, non un `aria-label`: la etichetta è associata al campo
+  // anche per chi ingrandisce, per chi usa la voce e per chi ci clicca sopra.
+  // Nascosta agli occhi perché la domanda è già scritta sopra.
+  fieldCount += 1;
+  const id = `answer-${fieldCount}`;
+  const label = el('label', { class: 'sr-only', for: id },
+    opts.label || 'Tu respuesta en italiano');
+
+  const input = el('input', {
+    id,
+    type: 'text',
+    class: 'ex-input' + (opts.className ? ' ' + opts.className : ''),
+    lang: 'it',
+    autocorrect: 'off',
+    autocapitalize: 'off',
+    spellcheck: 'false',
+    autocomplete: 'off',
+    enterkeyhint: 'done',
+    placeholder: opts.placeholder || null
+  });
+
+  bindAltKeys(input);
+
+  // La tastiera virtuale copre la metà bassa dello schermo: al focus
+  // portiamo il campo al centro, dopo che la tastiera è comparsa.
+  input.addEventListener('focus', () => {
+    setTimeout(() => {
+      input.scrollIntoView({ block: 'center', behavior: scrollBehavior() });
+    }, 250);
+  });
+
+  const bar = accentBar(input);
+  const field = el('div', { class: 'answer-field' }, label, input, bar);
+  return { input, bar, label, field };
+}
+
+function scrollBehavior() {
+  const reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  return reduce ? 'auto' : 'smooth';
+}
+
 /* ---------- Riscontro comune a tutti gli esercizi ---------- */
 
 export function feedbackBox() {
   return el('div', { class: 'ex-feedback', role: 'status', 'aria-live': 'polite' });
 }
 
-// opts: { correct, accentWarning, given, expected, explain }
+/* Confronto lettera per lettera.
+   Restituisce il blocco DOM, oppure null se le due forme sono così lontane
+   che allinearle produrrebbe solo rumore (risposta vuota, o parola diversa). */
+function diffBlock(given, expected) {
+  // Stessa normalizzazione della correzione: se una virgola o il punto
+  // interrogativo finale non contano per l'esito, non devono comparire
+  // qui come errori. Le maiuscole restano visibili ma non pesano.
+  const a = normalizeShape(given);
+  const b = normalizeShape(expected);
+  if (!a || !b) return null;
+
+  const { ops, distance } = alignChars(a, b);
+  if (distance > Math.max(3, Math.ceil(b.length * 0.5))) return null;
+
+  const mine = el('span', { class: 'diff-text', lang: 'it' });
+  const good = el('span', { class: 'diff-text it-plain', lang: 'it' });
+  // Uno spazio evidenziato deve restare visibile: diventa uno spazio unificatore.
+  const visible = (ch) => (ch === ' ' ? ' ' : ch);
+
+  ops.forEach((op) => {
+    if (op.op === 'equal') {
+      mine.append(document.createTextNode(op.a));
+      good.append(document.createTextNode(op.b));
+    } else if (op.op === 'sub') {
+      mine.append(el('span', { class: 'd-extra', text: visible(op.a) }));
+      good.append(el('span', { class: 'd-missing', text: visible(op.b) }));
+    } else if (op.op === 'extra') {
+      mine.append(el('span', { class: 'd-extra', text: visible(op.a) }));
+    } else {
+      good.append(el('span', { class: 'd-missing', text: visible(op.b) }));
+    }
+  });
+
+  return el('div', { class: 'fb-diff' },
+    el('div', { class: 'diff-row', 'aria-hidden': 'true' },
+      el('span', { class: 'diff-label' }, 'Tu respuesta'), mine),
+    el('div', { class: 'diff-row', 'aria-hidden': 'true' },
+      el('span', { class: 'diff-label' }, 'Forma correcta'), good),
+    // Le lettere sciolte in tanti <span> si leggono male ad alta voce:
+    // per il lettore di schermo ripetiamo le due frasi intere.
+    el('p', { class: 'sr-only' }, `Tu respuesta: ${a}. Forma correcta: ${b}.`)
+  );
+}
+
+// opts: { correct, accentWarning, given, expected, explain, diff }
 export function showFeedback(box, opts) {
   clear(box);
   if (opts.correct) {
     box.append(el('p', { class: 'fb ok', text: '✓ ¡Correcto!' }));
     if (opts.accentWarning) {
+      // Confondere «è» ed «é» è l'errore classico: dirle «falta el acento»
+      // quando l'accento c'è ma è girato non le spiega niente.
+      const scritto = String(opts.given || '');
+      const haAccento = stripAccents(scritto) !== scritto;
       box.append(el('p', {
         class: 'fb warn',
-        text: `Cuidado con los acentos: se escribe «${opts.expected}»`
+        text: haAccento
+          ? `Casi: el acento va al revés. Se escribe «${opts.expected}»`
+          : `Casi: falta el acento. Se escribe «${opts.expected}»`
       }));
     }
   } else {
     box.append(el('p', { class: 'fb bad', text: '✗ Todavía no.' }));
-    const compare = el('div', { class: 'fb-compare' });
-    if (opts.given && opts.given.trim()) {
-      compare.append(el('span', { class: 'given', text: `Tu respuesta: ${opts.given}` }));
+
+    // `diff` lo attivano solo gli esercizi in cui si scrive: nella scelta
+    // multipla le due opzioni sono parole diverse e allinearle non dice nulla.
+    const block = opts.diff ? diffBlock(opts.given || '', opts.expected || '') : null;
+    if (block) {
+      box.append(block);
+      const gem = geminationDiff(normalizeAnswer(opts.given), normalizeAnswer(opts.expected));
+      if (gem) {
+        box.append(el('p', { class: 'fb-double', html: '⚑ ' + mdInline(geminationMessage(gem)) }));
+      }
+    } else {
+      const compare = el('div', { class: 'fb-compare' });
+      if (opts.given && opts.given.trim()) {
+        compare.append(el('span', { class: 'given', text: `Tu respuesta: ${opts.given}` }));
+      }
+      compare.append(el('span', { class: 'expected', text: `Forma correcta: ${opts.expected}` }));
+      box.append(compare);
     }
-    compare.append(el('span', { class: 'expected', text: `Forma correcta: ${opts.expected}` }));
-    box.append(compare);
   }
   if (opts.explain) box.append(el('p', { class: 'fb-explain', html: mdInline(opts.explain) }));
   if (!opts.correct) box.append(el('p', { class: 'fb-hint', text: 'Puedes volver a intentarlo ahora mismo.' }));

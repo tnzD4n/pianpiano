@@ -1,19 +1,14 @@
 /* Traduzione dallo spagnolo all'italiano.
    `answer` raccoglie tutte le versioni accettabili. */
 
-import { el, feedbackBox, showFeedback, checkAnswer, onEnter } from '../util.js';
+import { el, feedbackBox, showFeedback, checkAnswer, onEnter, answerInput } from '../util.js';
 import * as tts from '../tts.js';
 
 export function render(data, onAnswer) {
   const box = feedbackBox();
-  const input = el('input', {
-    type: 'text',
-    class: 'ex-input',
-    autocomplete: 'off',
-    autocapitalize: 'off',
-    spellcheck: 'false',
+  const { input, field } = answerInput({
     placeholder: 'Escríbelo en italiano…',
-    'aria-label': 'Tu traducción al italiano'
+    label: 'Tu traducción al italiano'
   });
 
   const actions = el('div', { class: 'ex-actions' },
@@ -27,7 +22,8 @@ export function render(data, onAnswer) {
       accentWarning: result.accentWarning,
       given: input.value,
       expected: result.expected,
-      explain: data.explain
+      explain: data.explain,
+      diff: true
     });
     // Una volta risolto, si può riascoltare la forma corretta.
     if (result.correct && tts.available() && !actions.querySelector('.audio')) {
@@ -40,7 +36,7 @@ export function render(data, onAnswer) {
 
   return el('div', { class: 'ex-body' },
     el('p', { class: 'ex-prompt' }, data.prompt),
-    input,
+    field,
     actions,
     box
   );
