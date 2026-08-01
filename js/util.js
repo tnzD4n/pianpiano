@@ -338,6 +338,9 @@ function diffBlock(given, expected) {
 // opts: { correct, accentWarning, given, expected, explain, diff }
 export function showFeedback(box, opts) {
   clear(box);
+  /* Il riscontro non ha cornice: l'esito lo porta il filetto verticale a
+     sinistra, insieme al segno e alla parola. */
+  box.className = 'ex-feedback ' + (opts.correct ? 'is-ok' : 'is-bad');
   if (opts.correct) {
     box.append(el('p', { class: 'fb ok' },
       el('span', { class: 'fb-icon', 'aria-hidden': 'true' }, '✓'), ' ¡Correcto!'));

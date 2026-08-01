@@ -50,14 +50,13 @@
 <body>
   <a class="skip-link" href="#main">Saltar al contenido</a>
 
+  <!-- La testata è una riga sola: il nome in serif e due collegamenti.
+       Niente altro, e sotto una linea da 1px larga quanto la colonna. -->
   <header class="site-header">
-    <a class="brand" href="#/">
-      <span class="brand-title">Pian piano</span>
-      <span class="brand-sub">italiano desde cero</span>
-    </a>
+    <a class="brand" href="#/" lang="it">Pian piano</a>
     <nav class="site-nav" aria-label="Navegación principal">
-      <a href="#/" data-nav="home">Inicio</a>
-      <a href="#/repaso" data-nav="review">Repaso <span class="badge" id="nav-due" hidden>0</span></a>
+      <a href="#/repaso" data-nav="review">Repaso</a>
+      <a href="#/ajustes" data-nav="settings">Ajustes</a>
     </nav>
   </header>
 
@@ -65,7 +64,6 @@
 
   <footer class="site-footer">
     <p>Pian piano · italiano desde cero · nivel A1</p>
-    <p class="fine-print">Tus progresos se guardan solo en este navegador: no se sincronizan entre dispositivos.</p>
   </footer>
 
   <noscript>
@@ -78,8 +76,8 @@
     if (location.protocol === 'file:') {
       document.addEventListener('DOMContentLoaded', function () {
         document.getElementById('main').innerHTML =
-          '<div class="card notice">' +
-          '<h2>Hace falta un servidor local</h2>' +
+          '<div class="notice">' +
+          '<h1>Hace falta un servidor local</h1>' +
           '<p>Has abierto el archivo directamente desde el disco. Los navegadores bloquean la carga de módulos y de datos con el protocolo <code>file://</code>.</p>' +
           '<p>Abre una terminal en esta carpeta y ejecuta uno de estos comandos:</p>' +
           '<pre><code>python -m http.server 8000</code></pre>' +

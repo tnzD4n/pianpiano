@@ -23,19 +23,18 @@ export function render(root, ctx) {
   clear(root);
   const pool = srs.allItems();
 
-  root.append(el('p', { class: 'breadcrumb' },
-    el('a', { href: '#/' }, 'Inicio'), ' › Solo escuchar'));
+  root.append(el('p', { class: 'page-eyebrow' }, 'solo escuchar'));
 
   /* Servono almeno quattro voci: tre fanno da distrattori. */
   if (pool.length < OPTIONS) {
-    root.append(el('section', { class: 'card empty-state' },
+    root.append(el('section', { class: 'empty-state' },
       el('p', { class: 'empty-mark', 'aria-hidden': 'true' }, '◌'),
       el('h1', null, 'Todavía no'),
       el('p', { class: 'empty-lead' },
         'Para escuchar hacen falta al menos cuatro palabras en el repaso.'),
       el('p', { class: 'small muted' },
         'Abre una lección: su vocabulario entra aquí en cuanto la abres.'),
-      el('div', { class: 'btn-row', style: 'justify-content:center' },
+      el('div', { class: 'btn-row' },
         el('a', { class: 'btn primary', href: '#/' }, 'Volver al inicio'))));
     return;
   }
@@ -47,16 +46,16 @@ export function render(root, ctx) {
 
   store.touchStreak();
 
-  const heading = el('h1', null, 'Solo escuchar');
-  const sottotitolo = el('p', { class: 'muted' }, soloPratica
+  const heading = el('h1', { class: 'page-title' }, 'Solo escuchar');
+  const sottotitolo = el('p', { class: 'page-goal' }, soloPratica
     ? 'Hoy no toca repasar nada: esto es práctica libre, no cuenta para las cajas.'
     : 'Escucha y elige la traducción. Sin mirar: el italiano aparece después.');
 
-  const progressText = el('p', { class: 'small muted' });
   const progressBar = el('div', { class: 'progress' }, el('span', { style: 'width:0%' }));
+  const progressText = el('p', { class: 'small muted', style: 'margin:13px 0 0' });
   const stage = el('div', { class: 'listen-stage' });
 
-  root.append(heading, sottotitolo, progressText, progressBar, stage);
+  root.append(heading, sottotitolo, progressBar, progressText, stage);
 
   let position = 0;
   let giuste = 0;
@@ -94,7 +93,7 @@ export function render(root, ctx) {
     const distrattori = shuffle(fonte).slice(0, OPTIONS - 1).map((p) => p.es);
     const opzioni = shuffle([item.es, ...distrattori]);
 
-    const card = el('article', { class: 'listen-card' });
+    const card = el('article');
 
     // L'italiano scritto sta qui ma coperto: si scopre solo dopo la risposta.
     const rivelazione = el('p', { class: 'listen-reveal', hidden: true, lang: 'it' }, testo);
@@ -200,13 +199,13 @@ export function render(root, ctx) {
     progressText.textContent = '';
     progressBar.firstChild.style.width = '100%';
     clear(stage);
-    stage.append(el('div', { class: 'card review-done' },
-      el('p', { class: 'big' }, 'Pian piano.'),
+    stage.append(el('div', { class: 'review-done' },
+      el('p', { class: 'big', lang: 'it' }, 'Pian piano.'),
       el('p', null, `Has acertado ${giuste} de ${queue.length} solo de oído.`),
       el('p', { class: 'small muted' }, soloPratica
         ? 'Era práctica libre: el repaso sigue como estaba.'
         : 'Lo que has fallado vuelve pronto; lo que has acertado, más adelante.'),
-      el('div', { class: 'btn-row', style: 'justify-content:center' },
+      el('div', { class: 'btn-row' },
         el('a', { class: 'btn primary', href: '#/' }, 'Volver al inicio'),
         el('button', {
           type: 'button',

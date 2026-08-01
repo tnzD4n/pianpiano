@@ -24,19 +24,18 @@ export function render(root, ctx, opts = {}) {
     ? shuffle(srs.rebels(10))
     : shuffle(srs.dueItems()).slice(0, SESSION_SIZE);
 
-  root.append(el('p', { class: 'breadcrumb' },
-    el('a', { href: '#/' }, 'Inicio'),
+  root.append(el('p', { class: 'page-eyebrow' },
     soloRibelli
-      ? [' › ', el('a', { href: '#/rebeldes' }, 'Palabras rebeldes'), ' › Repaso']
-      : ' › Repaso'));
+      ? [el('a', { href: '#/rebeldes' }, 'palabras rebeldes'), ' · repaso']
+      : 'repaso'));
 
   /* Ripasso mirato senza niente da ripassare: si torna alla lista. */
   if (soloRibelli && queue.length === 0) {
-    root.append(el('section', { class: 'card empty-state' },
+    root.append(el('section', { class: 'empty-state' },
       el('p', { class: 'empty-mark', 'aria-hidden': 'true' }, '✓'),
       el('h1', null, 'Nada que insistir'),
       el('p', { class: 'empty-lead' }, 'Ahora mismo no hay ninguna palabra que se te resista.'),
-      el('div', { class: 'btn-row', style: 'justify-content:center' },
+      el('div', { class: 'btn-row' },
         el('a', { class: 'btn primary', href: '#/repaso' }, 'Repaso normal'))));
     return;
   }
@@ -48,7 +47,7 @@ export function render(root, ctx, opts = {}) {
     const inCorso = pool.length > 0;
     const prossima = inCorso ? nextDueLabel(pool) : null;
 
-    root.append(el('section', { class: 'card empty-state' },
+    root.append(el('section', { class: 'empty-state' },
       el('p', { class: 'empty-mark', 'aria-hidden': 'true' }, inCorso ? '✓' : '◌'),
       el('h1', null, inCorso ? 'Nada pendiente' : 'El repaso está esperando'),
       el('p', { class: 'empty-lead' }, inCorso
@@ -60,18 +59,19 @@ export function render(root, ctx, opts = {}) {
           prossima ? ` Lo siguiente vuelve ${prossima}.` : '')
         : el('p', { class: 'small muted' },
           'Abre una lección: su vocabulario y sus frases entran aquí en cuanto la abres.'),
-      el('div', { class: 'btn-row', style: 'justify-content:center' },
+      el('div', { class: 'btn-row' },
         el('a', { class: 'btn primary', href: '#/' }, 'Volver al inicio'))));
     return;
   }
 
   store.touchStreak();
 
-  const heading = el('h1', null, soloRibelli ? 'Solo las rebeldes' : 'Repaso de hoy');
-  const progressText = el('p', { class: 'small muted' });
+  const heading = el('h1', { class: 'page-title' },
+    soloRibelli ? 'Solo las rebeldes' : 'Repaso de hoy');
   const progressBar = el('div', { class: 'progress' }, el('span', { style: 'width:0%' }));
+  const progressText = el('p', { class: 'small muted', style: 'margin:13px 0 26px' });
   const stage = el('div');
-  root.append(heading, progressText, progressBar, stage);
+  root.append(heading, progressBar, progressText, stage);
 
   let position = 0;
   let firstTry = 0;
@@ -118,11 +118,11 @@ export function render(root, ctx, opts = {}) {
     progressText.textContent = '';
     progressBar.firstChild.style.width = '100%';
     clear(stage);
-    stage.append(el('div', { class: 'card review-done' },
-      el('p', { class: 'big' }, 'Pian piano.'),
+    stage.append(el('div', { class: 'review-done' },
+      el('p', { class: 'big', lang: 'it' }, 'Pian piano.'),
       el('p', null, `Repaso terminado: ${firstTry} de ${queue.length} a la primera.`),
       el('p', { class: 'small muted' }, 'Lo que has fallado vuelve mañana; lo que has acertado, más adelante.'),
-      el('div', { class: 'btn-row', style: 'justify-content:center' },
+      el('div', { class: 'btn-row' },
         el('a', { class: 'btn primary', href: '#/' }, 'Volver al inicio'),
         srs.dueCount() > 0 ? el('button', {
           type: 'button',

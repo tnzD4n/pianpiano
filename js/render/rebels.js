@@ -13,23 +13,21 @@ const HOW_MANY = 10;
 
 export function render(root, ctx) {
   clear(root);
-  root.append(el('p', { class: 'breadcrumb' },
-    el('a', { href: '#/' }, 'Inicio'), ' › Palabras rebeldes'));
-
-  root.append(el('h1', null, 'Tus palabras rebeldes'));
+  root.append(el('p', { class: 'page-eyebrow' }, 'repaso'));
+  root.append(el('h1', { class: 'page-title' }, 'Tus palabras rebeldes'));
 
   /* --- Non ci sono ancora abbastanza dati --- */
   if (!srs.hasEnoughData()) {
     const fatti = srs.totalAttempts();
     const mancano = srs.REBELS_MIN_ATTEMPTS - fatti;
-    root.append(el('section', { class: 'card empty-state' },
+    root.append(el('section', { class: 'empty-state' },
       el('p', { class: 'empty-mark', 'aria-hidden': 'true' }, '◌'),
       el('p', { class: 'empty-lead' }, 'Todavía es pronto para esta lista.'),
       el('p', { class: 'small muted' },
         `Llevas ${fatti} ${fatti === 1 ? 'respuesta' : 'respuestas'} de repaso. `,
         `Con ${mancano} más ya se puede ver qué palabras se te resisten de verdad: `,
         'antes de eso, una lista de fallos sería casualidad, no un patrón.'),
-      el('div', { class: 'btn-row', style: 'justify-content:center' },
+      el('div', { class: 'btn-row' },
         el('a', { class: 'btn primary', href: '#/repaso' }, 'Ir al repaso'),
         el('a', { class: 'btn', href: '#/' }, 'Volver al inicio'))));
     return;
@@ -39,18 +37,18 @@ export function render(root, ctx) {
 
   /* --- Dati sufficienti, ma nessun errore: è una buona notizia --- */
   if (lista.length === 0) {
-    root.append(el('section', { class: 'card empty-state' },
+    root.append(el('section', { class: 'empty-state' },
       el('p', { class: 'empty-mark', 'aria-hidden': 'true' }, '✓'),
       el('p', { class: 'empty-lead' }, 'Ninguna palabra se te resiste.'),
       el('p', { class: 'small muted' },
         `Llevas ${srs.totalAttempts()} respuestas de repaso y ni un fallo pendiente. `,
         'Cuando falles alguna, aparecerá aquí para que puedas insistir solo en esa.'),
-      el('div', { class: 'btn-row', style: 'justify-content:center' },
+      el('div', { class: 'btn-row' },
         el('a', { class: 'btn primary', href: '#/repaso' }, 'Seguir repasando'))));
     return;
   }
 
-  root.append(el('p', { class: 'muted rebels-lead' },
+  root.append(el('p', { class: 'page-goal' },
     'Las que más se te resisten, de más a menos. ',
     'No es una regañina: es dónde conviene insistir.'));
 
@@ -81,14 +79,14 @@ export function render(root, ctx) {
 
   root.append(list);
 
-  root.append(el('div', { class: 'btn-row', style: 'margin-top:1.2rem' },
+  root.append(el('div', { class: 'btn-row', style: 'margin-top:42px' },
     el('a', {
       class: 'btn primary',
       href: '#/repaso/rebeldes'
     }, `Repasar solo estas ${lista.length}`),
     el('a', { class: 'btn', href: '#/repaso' }, 'Repaso normal')));
 
-  root.append(el('p', { class: 'small muted', style: 'margin-top:1rem' },
+  root.append(el('p', { class: 'small muted', style: 'margin-top:26px' },
     'El porcentaje cuenta todas las veces que ha salido en el repaso. ',
     'Una palabra sale de esta lista en cuanto empiezas a acertarla.'));
 }

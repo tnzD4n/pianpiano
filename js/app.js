@@ -3,7 +3,8 @@
      #/                  pagina iniziale
      #/modulo/m03        elenco delle lezioni di un modulo
      #/lezione/m03-l02   una lezione
-     #/repaso            sessione di ripasso                                  */
+     #/repaso            sessione di ripasso
+     #/ajustes           tema, dati e statistiche                             */
 
 import { el, clear } from './util.js';
 import * as store from './store.js';
@@ -16,8 +17,11 @@ import * as lessonView from './render/lesson.js';
 import * as reviewView from './render/review.js';
 import * as rebelsView from './render/rebels.js';
 import * as listenView from './render/listen.js';
+import * as settingsView from './render/ajustes.js';
 
 const main = document.getElementById('main');
+/* La testata non porta più il contatore: il ripasso in sospeso si dice a
+   parole nella pagina iniziale. L'elemento può non esserci. */
 const navDue = document.getElementById('nav-due');
 const BASE_TITLE = 'Pian piano · Italiano desde cero';
 
@@ -53,6 +57,7 @@ function prevLesson(id) {
 }
 
 function refreshBadge() {
+  if (!navDue) return;
   const due = srs.dueCount();
   navDue.textContent = String(due);
   navDue.hidden = due === 0;
@@ -68,13 +73,13 @@ function parseHash() {
   if (parts[0] === 'repaso') return { name: 'review', mode: parts[1] || null };
   if (parts[0] === 'rebeldes') return { name: 'rebels' };
   if (parts[0] === 'escucha') return { name: 'listen' };
+  if (parts[0] === 'ajustes') return { name: 'settings' };
   return { name: 'unknown' };
 }
 
 function markNav(name) {
   document.querySelectorAll('.site-nav a').forEach((link) => {
-    const target = link.dataset.nav;
-    const active = (name === 'home' && target === 'home') || (name === 'review' && target === 'review');
+    const active = link.dataset.nav === name;
     if (active) link.setAttribute('aria-current', 'page');
     else link.removeAttribute('aria-current');
   });
@@ -120,12 +125,17 @@ function route() {
     listenView.render(main, ctx);
     return;
   }
+  if (r.name === 'settings') {
+    document.title = `Ajustes · ${BASE_TITLE}`;
+    settingsView.render(main, ctx);
+    return;
+  }
   if (r.name === 'unknown') {
     document.title = BASE_TITLE;
     clear(main);
     // h1 e non h2: ogni pagina deve avere un titolo di primo livello,
     // anche quella di errore.
-    main.append(el('div', { class: 'card notice' },
+    main.append(el('div', { class: 'notice' },
       el('h1', null, 'Página no encontrada'),
       el('p', null, 'Esa dirección no existe. ', el('a', { href: '#/' }, 'Volver al inicio.'))));
     return;
@@ -145,8 +155,8 @@ async function boot() {
     course = await response.json();
   } catch (err) {
     clear(main);
-    main.append(el('div', { class: 'card notice' },
-      el('h2', null, 'No se ha podido cargar el curso'),
+    main.append(el('div', { class: 'notice' },
+      el('h1', null, 'No se ha podido cargar el curso'),
       el('p', null, 'Falta el archivo de datos o el servidor no responde. Vuelve a cargar la página.')));
     return;
   }
